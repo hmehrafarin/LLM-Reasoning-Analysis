@@ -1,0 +1,2669 @@
+[
+    {
+        "question": "Climate is generally described in terms of what?",
+        "answers": "(A) sand (B) occurs over a wide range (C) forests (D) Global warming (E) rapid changes occur (F) local weather conditions (G) measure of motion (H) city life",
+        "fact 2": "Fire behavior is driven by local weather conditions such as winds, temperature and moisture.",
+        "pred answer": "(B) humidity",
+        "true answer": "(F) local weather conditions"
+    },
+    {
+        "question": "What is changing globally?",
+        "answers": "(A) the number of countries (B) rapid growth (C) how they move (D) temperature and moisture (E) Differences in speed (F) net biomass (G) occurs over a wide range (H) Exposure to oxygen and water",
+        "fact 2": "Climate change is a global problem.",
+        "pred answer": "O",
+        "true answer": "(D) temperature and moisture"
+    },
+    {
+        "question": "What is described in terms of temperature and water in the air?",
+        "answers": "(A) storms (B) climate (C) mass (D) seasonal (E) winter (F) density (G) length (H) fluid",
+        "fact 2": "Clouds are made of moisture and the moisture is from the water evaporating.",
+        "pred answer": "O",
+        "true answer": "(B) climate"
+    },
+    {
+        "question": "What is generally described in terms of temperature and moisture?",
+        "answers": "(A) lamphreys (B) light (C) color (D) weather (E) Honey (F) ecosystems (G) Mohs (H) flavor",
+        "fact 2": "Climate refers to weather over a long period of time.",
+        "pred answer": "O",
+        "true answer": "(D) weather"
+    },
+    {
+        "question": "what is a simple mode of transportation?",
+        "answers": "(A) lamphreys (B) potassium (C) Being over land (D) chemical messengers (E) mammals (F) moving over land (G) With feedback loops (H) passenger cars",
+        "fact 2": "Passenger vehicles are the primary mode of transportation.",
+        "pred answer": "(F) moving over land",
+        "true answer": "(H) passenger cars"
+    },
+    {
+        "question": "What do most bigger cities require?",
+        "answers": "(A) fluoride (B) slides (C) vehicles (D) desire (E) specialized (F) backbones (G) tap water (H) religion",
+        "fact 2": "Most bigger cities require efficient and adequate public transport systems.",
+        "pred answer": "(G) tap water",
+        "true answer": "(C) vehicles"
+    },
+    {
+        "question": "Moving cars are used for what?",
+        "answers": "(A) their speed (B) transportation (C) feedback mechanisms (D) living in (E) extreme environments (F) arresting (G) safe operation (H) crashing",
+        "fact 2": "If in a moving car, pull over and stop as quickly as safety permits, but stay in the vehicle.",
+        "pred answer": "O",
+        "true answer": "(B) transportation"
+    },
+    {
+        "question": "A vehicle causes",
+        "answers": "(A) negative feedback (B) Major effects (C) dehydration (D) Communication (E) feedback (F) damaging (G) heating (H) air pollution",
+        "fact 2": "Transportation causes most of the air pollution in and around Vancouver.",
+        "pred answer": "(F) damaging",
+        "true answer": "(H) air pollution"
+    },
+    {
+        "question": "Collar cells have _ that trap the particles.",
+        "answers": "(A) flexible (B) keratin (C) protection (D) Vibrissae (E) flagella (F) cartilage (G) tissue (H) antigens",
+        "fact 2": "Some cells have tiny hair-like fibers that are called flagella.",
+        "pred answer": "O",
+        "true answer": "(E) flagella"
+    },
+    {
+        "question": "The interior chambers have tiny what that trap the particles",
+        "answers": "(A) stoma (B) filaments (C) hairs (D) RNA (E) a hosta (F) cells (G) cilia (H) osculum",
+        "fact 2": "Collar cells line the interior chambers.",
+        "pred answer": "(G) cilia",
+        "true answer": "(C) hairs"
+    },
+    {
+        "question": "what has tiny hairs that trap particles?",
+        "answers": "(A) sponges (B) molecules (C) oaks (D) lizards (E) protozoa (F) snakes (G) cilia (H) clouds",
+        "fact 2": "Collar cells are the work horses of the sponge.",
+        "pred answer": "(G) cilia",
+        "true answer": "(A) sponges"
+    },
+    {
+        "question": "what do sponges capture?",
+        "answers": "(A) water vapor (B) antigens (C) particles (D) light (E) magma (F) fish (G) jellyfish (H) coelenterates",
+        "fact 2": "Collar cells are the work horses of the sponge.",
+        "pred answer": "(A) water vapor",
+        "true answer": "(C) particles"
+    },
+    {
+        "question": "what are all aquatic?",
+        "answers": "(A) insects (B) lizards (C) weater (D) paramecium (E) jellyfish (F) angiosperm (G) humans (H) snakes",
+        "fact 2": "Cnidarians include jellyfish and anemones.",
+        "pred answer": "O",
+        "true answer": "(E) jellyfish"
+    },
+    {
+        "question": "what are jellyfish?",
+        "answers": "(A) aquatic (B) protozoa (C) land (D) air (E) underground (F) Porifera (G) vorticella (H) backbones",
+        "fact 2": "Cnidarians include jellyfish and anemones.",
+        "pred answer": "(F) Porifera",
+        "true answer": "(A) aquatic"
+    },
+    {
+        "question": "What kind of animal are jellyfish?",
+        "answers": "(A) protozoa (B) adult (C) paramecium (D) dry (E) land-based (F) Porifera (G) anemones (H) aquatic",
+        "fact 2": "Cnidarians include jellyfish and anemones.",
+        "pred answer": "(F) Porifera",
+        "true answer": "(H) aquatic"
+    },
+    {
+        "question": "What are aquatic?",
+        "answers": "(A) coelenterates (B) trees (C) lizards (D) angiosperm (E) holding nutrients (F) trees and flowers (G) the Sun (H) humans",
+        "fact 2": "Cnidarians are also called coelenterates.",
+        "pred answer": "O",
+        "true answer": "(A) coelenterates"
+    },
+    {
+        "question": "What do meteorologists study?",
+        "answers": "(A) Meatballs (B) amount of heat (C) Meteors (D) The weather. (E) related organisms (F) Music (G) air masses (H) Seisometers",
+        "fact 2": "Meteorologists try to predict the weather.",
+        "pred answer": "O",
+        "true answer": "(D) The weather."
+    },
+    {
+        "question": "what does being a meteorologist require?",
+        "answers": "(A) Warmer temperatures (B) homeostasis (C) calibrated (D) rain (E) precipitation (F) studying weather (G) meteors (H) Seisometers",
+        "fact 2": "Meteorologists try to predict the weather.",
+        "pred answer": "O",
+        "true answer": "(F) studying weather"
+    },
+    {
+        "question": "what does predicting weather require?",
+        "answers": "(A) calibrated (B) melanin content (C) meteorologists (D) density (E) communication (F) feedback (G) gamma rays (H) feedback mechanisms",
+        "fact 2": "Meteorologists are scientists who study the weather.",
+        "pred answer": "(B) barometers",
+        "true answer": "(C) meteorologists"
+    },
+    {
+        "question": "Astronomy can be used for what?",
+        "answers": "(A) Communication (B) safe operation (C) vision (D) homeostasis (E) gardening (F) cooking (G) navigation (H) architecture",
+        "fact 2": "Astronomy is the study of the planets, stars, and universe.",
+        "pred answer": "O",
+        "true answer": "(G) navigation"
+    },
+    {
+        "question": "knowledge of what can replace maps while traveling on or off road",
+        "answers": "(A) trucks (B) stars (C) vehicle (D) rocks (E) Speed (F) math (G) mechanics (H) safety",
+        "fact 2": "Maps and Navigation Good maps are essential to travelling, both on and off-road.",
+        "pred answer": "O",
+        "true answer": "(B) stars"
+    },
+    {
+        "question": "How can we overcome uncertainty when lost?",
+        "answers": "(A) feedback (B) Sleep (C) Navigate (D) vision (E) lamphreys (F) Wander (G) Pace (H) movement",
+        "fact 2": "Generally speaking, the star is a symbol of hope and guidance in the midst of uncertainty.",
+        "pred answer": "(H) movement",
+        "true answer": "(C) Navigate"
+    },
+    {
+        "question": "What can knowledge of the stars be used for?",
+        "answers": "(A) travel (B) art (C) as a base (D) safety (E) story telling (F) light source (G) vision (H) life",
+        "fact 2": "Navigation is a key element of space travel.",
+        "pred answer": "O",
+        "true answer": "(A) travel"
+    },
+    {
+        "question": "What can cause jackknifing and rollover in a vehicle?",
+        "answers": "(A) storms (B) slow motion (C) friction (D) vibration (E) earthquakes (F) emergency services (G) Thunderstorm (H) air bags",
+        "fact 2": "Fishtailing or severe braking at high speed can cause jackknifing and rollover.",
+        "pred answer": "(D) vibration",
+        "true answer": "(C) friction"
+    },
+    {
+        "question": "What produces brake dust?",
+        "answers": "(A) Filling a tire with air (B) uncontrollable burning (C) mild heating process (D) A rubber tire (E) microscopic organisms (F) collision of crustal plates (G) A parked car (H) Stopping a vehicle",
+        "fact 2": "Brake dust is produced during the friction of braking.",
+        "pred answer": "(D) A rubber tire",
+        "true answer": "(H) Stopping a vehicle"
+    },
+    {
+        "question": "What can be used to stop trucks?",
+        "answers": "(A) water (B) noise (C) friction (D) vibration (E) magic (F) fluid (G) fire (H) Chemicals",
+        "fact 2": "Brakes are applied to the rear wheels on No. 2 truck.",
+        "pred answer": "(F) fluid",
+        "true answer": "(C) friction"
+    },
+    {
+        "question": "what uses friction for stopping with brakes?",
+        "answers": "(A) humans (B) lynx (C) cars (D) oxygen (E) people (F) bumpers (G) coyotes (H) cows",
+        "fact 2": "Cars are vehicles and trucks are vehicles.",
+        "pred answer": "O",
+        "true answer": "(C) cars"
+    },
+    {
+        "question": "When do flowers appear",
+        "answers": "(A) Ages 0 to 3 (B) male gametes (C) ejaculate is carried (D) after a rain shower (E) in late winter (F) tissue made of chondrocytes (G) after the snow melts (H) coelenterates",
+        "fact 2": "Sporophytes appear early in the spring, as soon as the snow melts.",
+        "pred answer": "(D) after a rain shower",
+        "true answer": "(G) after the snow melts"
+    },
+    {
+        "question": "What forms on the plant with stoma?",
+        "answers": "(A) keratin (B) hairs (C) flowers (D) amebiasis (E) Porifera (F) lamphreys (G) flagella (H) protozoa",
+        "fact 2": "Sporophyte possesses stoma.",
+        "pred answer": "(H) protozoa",
+        "true answer": "(C) flowers"
+    },
+    {
+        "question": "what trait is hair color?",
+        "answers": "(A) tissue (B) cellular (C) keratin (D) weater (E) polygenic (F) hairs (G) brain (H) Type O",
+        "fact 2": "Human skin and hair color are polygenic traits.",
+        "pred answer": "(C) keratin",
+        "true answer": "(E) polygenic"
+    },
+    {
+        "question": "what is tourette syndrome?",
+        "answers": "(A) malaria (B) cancer (C) trait (D) fever (E) cell (F) antigen (G) virus (H) Type O",
+        "fact 2": "Tourette syndrome a polygenic disorder .",
+        "pred answer": "O",
+        "true answer": "(C) trait"
+    },
+    {
+        "question": "What is controlled by two more more genes?",
+        "answers": "(A) lizards (B) keratin (C) Flowers (D) flagella (E) enzymes (F) skin color (G) wild canines (H) insects",
+        "fact 2": "Polygenic traits are controled by two or more genes.",
+        "pred answer": "(H) insects",
+        "true answer": "(F) skin color"
+    },
+    {
+        "question": "What is influenced by multiple genes?",
+        "answers": "(A) skin color (B) diphtheria (C) a hosta (D) Flowers (E) the environment (F) some anthozoans (G) ecosystems (H) Rolex",
+        "fact 2": "Rather, such complex characteristics are polygenic, i.e., they are influenced by multiple genes.",
+        "pred answer": "(F) some anthozoans",
+        "true answer": "(A) skin color"
+    },
+    {
+        "question": "What is another example of a polygenic trait?",
+        "answers": "(A) Type O (B) Cladistics (C) Rolex (D) Therapsids (E) pigment (F) amebiasis (G) Pelycosaur (H) orange",
+        "fact 2": "Pigment cells are what give color or tint to the skin.",
+        "pred answer": "(H) orange",
+        "true answer": "(E) pigment"
+    },
+    {
+        "question": "Phenotypic what of skin color varies over a wide range",
+        "answers": "(A) humans (B) percents (C) drastically (D) lizards (E) the environment (F) expression (G) percentages (H) calibrated",
+        "fact 2": "Phenotypic expression of polygenic traits varies over a wide range.",
+        "pred answer": "(E) the environment",
+        "true answer": "(F) expression"
+    },
+    {
+        "question": "What provides little care to their young?",
+        "answers": "(A) African elephants (B) human parents (C) jellyfish (D) wild canines (E) iguana parents (F) some anthozoans (G) orangutans (H) unicellular organisms",
+        "fact 2": "Iguanas are good reptiles for experienced reptile caretakers.",
+        "pred answer": "(C) jellyfish",
+        "true answer": "(E) iguana parents"
+    },
+    {
+        "question": "What parents abandon their eggs?",
+        "answers": "(A) lamphreys (B) platypus (C) deer (D) Unsafe (E) mammal (F) vorticella (G) reptile (H) jellyfish",
+        "fact 2": "After spawning, they abandon their eggs and provide no parental care.",
+        "pred answer": "(B) platypus",
+        "true answer": "(G) reptile"
+    },
+    {
+        "question": "Which animal provides little care to their young?",
+        "answers": "(A) canis lupus (B) some anthozoans (C) humans (D) wild canines (E) penguins (F) apes (G) other members (H) alligators",
+        "fact 2": "Alligators and crocodiles are the largest living reptiles.",
+        "pred answer": "O",
+        "true answer": "(H) alligators"
+    },
+    {
+        "question": "What parents provide little if any care to their young?",
+        "answers": "(A) meerkats (B) humans (C) neonatal (D) Pelycosaur (E) cheetahs (F) backbones (G) lizards (H) orangutans",
+        "fact 2": "All lizards are reptiles.",
+        "pred answer": "O",
+        "true answer": "(G) lizards"
+    },
+    {
+        "question": "How do geciko parents care for their young?",
+        "answers": "(A) It's inherited from genes (B) Extensive bone growth (C) Ages 0 to 3 (D) Two or more sets of alleles (E) occurs over a wide range (F) protection (G) little if any care (H) avoiding injuries",
+        "fact 2": "Geckos are, in fact, reptiles.",
+        "pred answer": "(F) protection",
+        "true answer": "(G) little if any care"
+    },
+    {
+        "question": "Animals that are _ provide little if any care to their young.",
+        "answers": "(A) some anthozoans (B) cold blooded (C) melanin content (D) trucks and cars (E) Being over land (F) humans (G) damaging (H) polygenic",
+        "fact 2": "All reptiles are cold-blooded.",
+        "pred answer": "(B) cold-blooded",
+        "true answer": "(B) cold blooded"
+    },
+    {
+        "question": "Ground tissue makes up most of the interior of what?",
+        "answers": "(A) air (B) Earth (C) Sponge (D) oaks (E) bacteria (F) homes (G) rocks (H) stoma",
+        "fact 2": "Oaks are the most commonly attacked plants.",
+        "pred answer": "(B) Earth",
+        "true answer": "(D) oaks"
+    },
+    {
+        "question": "what does ground tissue make up most of the interiof of?",
+        "answers": "(A) ferns (B) Earth (C) corn (D) weater (E) matter (F) surface (G) Growth (H) cells",
+        "fact 2": "Ferns are one type of seedless plant.",
+        "pred answer": "(B) Earth",
+        "true answer": "(A) ferns"
+    },
+    {
+        "question": "What happens when oxygen in an open container evaporates?",
+        "answers": "(A) ejaculate is carried (B) oxygen compresses (C) rapid changes occur (D) oxygen spreads into the air (E) around 5 to 27 degrees Celsius (F) thermal expansion (G) oxygen dissolves (H) oxygen catches fire",
+        "fact 2": "Gas is usually oxygen.",
+        "pred answer": "(G) oxygen dissolves",
+        "true answer": "(D) oxygen spreads into the air"
+    },
+    {
+        "question": "What spreads into the air from a liquid stored in an open container?",
+        "answers": "(A) food (B) 17 (C) heat (D) gas (E) plasma (F) water (G) solids (H) rain",
+        "fact 2": "Evaporation is when a liquid turns into a gas.",
+        "pred answer": "(E) rain",
+        "true answer": "(D) gas"
+    },
+    {
+        "question": "what spreads out into the air when evaporating from an open container?",
+        "answers": "(A) hydrogen (B) gamma rays (C) Humidity (D) density (E) mercury (F) weathering (G) dandelions (H) fluoride",
+        "fact 2": "Similarly, hydrogen is an explosive gas.",
+        "pred answer": "(C) Humidity",
+        "true answer": "(A) hydrogen"
+    },
+    {
+        "question": "What can evaporate in an open container, spreading out into the air?",
+        "answers": "(A) trucks and cars (B) condensation (C) nothing (D) amount of heat (E) dandelions (F) heating (G) mercury (H) water vapor",
+        "fact 2": "Water vapor is a gas in the air.",
+        "pred answer": "(B) condensation",
+        "true answer": "(H) water vapor"
+    },
+    {
+        "question": "When gas is placed in an open box and it evaporates, what happens?",
+        "answers": "(A) gas spreads in the air (B) occurs over a wide range (C) around 5 to 27 degrees Celsius (D) Extremes of temperature (E) safe operation (F) saves lives (G) gas freezes (H) gas stays in the box",
+        "fact 2": "Kids lunch boxes are marvellous containers.",
+        "pred answer": "(C) around 5 to 27 degrees Celsius",
+        "true answer": "(A) gas spreads in the air"
+    },
+    {
+        "question": "carbon monoxide gas from a generator's exhaust has been what",
+        "answers": "(A) transportation (B) air pollution (C) projectiles (D) destroyed crops (E) destruction (F) evaporated (G) danger (H) Car accidents",
+        "fact 2": "Deadly carbon monoxide gas from the generator s exhaust can spread throughout enclosed spaces.",
+        "pred answer": "(B) air pollution",
+        "true answer": "(F) evaporated"
+    },
+    {
+        "question": "What are less flexible than shark skeletons but stronger",
+        "answers": "(A) holding nutrients (B) tissue paper (C) calibrated (D) plant stems (E) close relatives of coral (F) regular skeletons (G) clay (H) dermal & vascular tissue",
+        "fact 2": "Sharks have a cartilage skeleton.",
+        "pred answer": "O",
+        "true answer": "(F) regular skeletons"
+    },
+    {
+        "question": "What has a less flexible but stronger skeleton compared to sharks?",
+        "answers": "(A) fish (B) Mohs (C) Type O (D) bacteria (E) cartilage (F) viruses (G) adult (H) weater",
+        "fact 2": "Most fish have bony skeletons, but sharks have skeletons made of cartilage .",
+        "pred answer": "(E) cartilage",
+        "true answer": "(A) fish"
+    },
+    {
+        "question": "bone is stronger but less what than the material that covers it",
+        "answers": "(A) surface (B) weight (C) flexible (D) key element (E) damaging (F) viscous (G) fluid (H) money",
+        "fact 2": "Articular cartilage is the cartilage that covers the bone and the joint areas.",
+        "pred answer": "O",
+        "true answer": "(C) flexible"
+    },
+    {
+        "question": "What type of skeletons are less flexible than shark skeletons but stronger?",
+        "answers": "(A) ice (B) smooth (C) adult (D) Fish (E) bone (F) muscle (G) Type O (H) marine",
+        "fact 2": "Sharks have a cartilage skeleton.",
+        "pred answer": "O",
+        "true answer": "(E) bone"
+    },
+    {
+        "question": "What is a less flexible than a semi-translucent tissue?",
+        "answers": "(A) adult (B) silk (C) bone (D) stoma (E) bar (F) Mohs (G) weater (H) nodes",
+        "fact 2": "Grossly, cartilage is a semi-translucent tissue, firm, but more flexible than bone.",
+        "pred answer": "(B) silk",
+        "true answer": "(C) bone"
+    },
+    {
+        "question": "Bad weather decreases what aspect of driving?",
+        "answers": "(A) protection (B) experience driving (C) windshield wiper use (D) driver's knowledge (E) safe operation (F) key element (G) Differences in speed (H) air pollution",
+        "fact 2": "More visibility means safe operation.",
+        "pred answer": "O",
+        "true answer": "(E) safe operation"
+    },
+    {
+        "question": "Bad weather causes what sort of driving condition?",
+        "answers": "(A) whiplash (B) death (C) danger (D) Unsafe (E) damaging (F) it depends (G) safe (H) no effect",
+        "fact 2": "Good visibility is essential for safe driving.",
+        "pred answer": "O",
+        "true answer": "(D) Unsafe"
+    },
+    {
+        "question": "bad weather impairs",
+        "answers": "(A) trees and flowers (B) filter feeders (C) safe driving (D) the environment (E) propulsion (F) homeostasis (G) road bends (H) melanin amount",
+        "fact 2": "Good visibility is essential for safe driving.",
+        "pred answer": "O",
+        "true answer": "(C) safe driving"
+    },
+    {
+        "question": "polymers of various small chemically related molecules can squeeze through pores in the what?",
+        "answers": "(A) protein channel (B) transportation (C) nuclear membrane (D) interior chambers (E) nucleus (F) dermal & vascular tissue (G) cell division (H) Microscopic vessels.",
+        "fact 2": "Like proteins, DNA and RNA are polymers of various small chemically related molecules.",
+        "pred answer": "(E) nucleus",
+        "true answer": "(C) nuclear membrane"
+    },
+    {
+        "question": "RNA is a small molecule that can squeeze through pores in ",
+        "answers": "(A) dermal & vascular tissue (B) space between (C) eukaryotic cells (D) jellyfish (E) occurs over a wide range (F) saves lives (G) holding nutrients (H) Seconds and minutes",
+        "fact 2": "Cells with a nuclear membrane are called eukaryotic .",
+        "pred answer": "(B) eukaryotic",
+        "true answer": "(C) eukaryotic cells"
+    },
+    {
+        "question": "What molecule can fit through thickend, rounded slightly irregular pores?",
+        "answers": "(A) life (B) food (C) RNA (D) silk (E) CPU (F) bone (G) CIO (H) lynx",
+        "fact 2": "Nuclear membranes are thickened, rounded and slightly irregular.",
+        "pred answer": "(H) lynx",
+        "true answer": "(C) RNA"
+    },
+    {
+        "question": "What is the small molecule that can squeeze through the pores of a eukaryotic cell?",
+        "answers": "(A) RNA (B) corn (C) 17 (D) silk (E) size (F) CPU (G) 100 (H) CIO",
+        "fact 2": "Cells with a nuclear membrane are called eukaryotic .",
+        "pred answer": "(C) 17",
+        "true answer": "(A) RNA"
+    },
+    {
+        "question": "a toxin is used for defense by what?",
+        "answers": "(A) each species (B) related organisms (C) quail (D) prokaryotic cells (E) dogs (F) antigens (G) sea anemones (H) humans",
+        "fact 2": "Poison dart frogs are the source of a toxin used by natives on their poison darts.",
+        "pred answer": "(F) antigens",
+        "true answer": "(G) sea anemones"
+    },
+    {
+        "question": "What are venomous?",
+        "answers": "(A) alligators (B) lactobacillus (C) sea anemones (D) ducks (E) dogs (F) lamphreys (G) vertebrates (H) cats",
+        "fact 2": "Venomous creatures can often use their poison as a weapon.",
+        "pred answer": "O",
+        "true answer": "(C) sea anemones"
+    },
+    {
+        "question": "what are used for defense by close relatives of coral?",
+        "answers": "(A) chemical messengers (B) microscopic organisms (C) flagella (D) poisonous darts (E) Chemicals (F) coelenterates (G) antibodies (H) lamphreys",
+        "fact 2": "Sea anemones are close relatives of corals .",
+        "pred answer": "(F) coelenterates",
+        "true answer": "(D) poisonous darts"
+    },
+    {
+        "question": "what uses poisonous darts for defense?",
+        "answers": "(A) unicellular organisms (B) related organisms (C) feed on dead protists (D) single cell microorganisms (E) gila monsters (F) close relatives of coral (G) coelenterates (H) black widows",
+        "fact 2": "Sea anemones are close relatives of corals .",
+        "pred answer": "(E) gila monsters",
+        "true answer": "(F) close relatives of coral"
+    },
+    {
+        "question": "What are used as protection by sea anemones?",
+        "answers": "(A) lamphreys (B) poisonous darts (C) tubular organ (D) feed on dead protists (E) coelenterates (F) islets of Langerhans (G) related organisms (H) moisturize their skin",
+        "fact 2": "Protection at the gateway is the best defense.",
+        "pred answer": "(C) tubular organ",
+        "true answer": "(B) poisonous darts"
+    },
+    {
+        "question": "What are used for defense by Anthozoans?",
+        "answers": "(A) antigens (B) poisonous darts (C) unicellular organisms (D) Chemicals (E) paramecium (F) antibodies (G) hardened backbone (H) feed on dead protists",
+        "fact 2": "Anthozoans are the familiar anemones and corals.",
+        "pred answer": "(F) antibodies",
+        "true answer": "(B) poisonous darts"
+    },
+    {
+        "question": "what are used for defense by an organism related to jellyfish and coral",
+        "answers": "(A) poisonous darts (B) Chemicals (C) specialized (D) by parasitizing them (E) chondrocytes (F) flagella (G) Microscopic vessels. (H) a sponge",
+        "fact 2": "Sea anemones are related to jellyfish and coral.",
+        "pred answer": "(H) a sponge",
+        "true answer": "(A) poisonous darts"
+    },
+    {
+        "question": "What is contained in the fluid that leaks out of capillaries into spaces between cells?",
+        "answers": "(A) keratin (B) Urea (C) chondrocytes (D) Lymphocytes (E) Sulfur (F) drinking water (G) Aluminum (H) water vapor",
+        "fact 2": "Lymph vessels carry lymph, a colorless, watery fluid that contains lymphocytes.",
+        "pred answer": "(F) drinking water",
+        "true answer": "(D) Lymphocytes"
+    },
+    {
+        "question": "What do humans contain?",
+        "answers": "(A) magic (B) antimatter (C) fumes (D) grams (E) lymph (F) fever (G) Type O (H) claws",
+        "fact 2": "Humans are made up of trillions of cells.",
+        "pred answer": "O",
+        "true answer": "(E) lymph"
+    },
+    {
+        "question": "What leak fluid out of capillaries into spaces between cells?",
+        "answers": "(A) some anthozoans (B) swelling nodes (C) coelenterates (D) trucks and cars (E) black widows (F) unicellular organisms (G) Vibrissae (H) aquatic animals",
+        "fact 2": "Bacteria invade lymph nodes, which swell, creating the buboes.",
+        "pred answer": "(E) rain",
+        "true answer": "(B) swelling nodes"
+    },
+    {
+        "question": "What leaks out of blood vessels?",
+        "answers": "(A) allergen (B) water vapor (C) ribonucleic acid (D) antibodies (E) irritants (F) antigens (G) melanin content (H) Lymph fluid",
+        "fact 2": "Capillaries Capillaries are tiny, thin walled blood vessels.",
+        "pred answer": "(B) water vapor",
+        "true answer": "(H) Lymph fluid"
+    },
+    {
+        "question": "A fluid rich in protein leaks out of capillaries into spaces between what?",
+        "answers": "(A) Testes (B) several (C) blood (D) cells (E) matter (F) antigen (G) people (H) skin",
+        "fact 2": "Lymph fluid is rich in protein.",
+        "pred answer": "(C) blood",
+        "true answer": "(D) cells"
+    },
+    {
+        "question": "What is a fluid that leaks out of the connection of arteries to veins?",
+        "answers": "(A) Type O (B) gas (C) liquids (D) weater (E) oxygen (F) lymph (G) water (H) red",
+        "fact 2": "Capillaries connect arteries to veins .",
+        "pred answer": "(G) water",
+        "true answer": "(F) lymph"
+    },
+    {
+        "question": "Asthma attacks can be triggered by",
+        "answers": "(A) allergens (B) hormones (C) bad weather (D) Lymphocytes (E) rifles (F) wheezing (G) night sweats (H) estrogen",
+        "fact 2": "Asthma attacks are caused by allergies.",
+        "pred answer": "O",
+        "true answer": "(A) allergens"
+    },
+    {
+        "question": "What can cause anaphylaxis?",
+        "answers": "(A) hormones (B) skin color (C) lamphreys (D) estrogen (E) whiplash (F) fumes (G) antigen (H) heat",
+        "fact 2": "Many allergens can cause anaphylaxis.",
+        "pred answer": "O",
+        "true answer": "(G) antigen"
+    },
+    {
+        "question": "An allergen is a type of",
+        "answers": "(A) single cell microorganisms (B) occurs over a wide range (C) melanin content (D) protein foreign to the body. (E) specialized cells (F) a small molecule (G) inherited antigens + antibody (H) chemical messengers",
+        "fact 2": "Antigens are proteins foreign to the body.",
+        "pred answer": "O",
+        "true answer": "(D) protein foreign to the body."
+    },
+    {
+        "question": "Pasteurization reduces the amount of bacteria in what?",
+        "answers": "(A) single cell microorganisms (B) Something fish sticks are made from (C) single celled organisms (D) Something pudding is made from (E) Something steak is made from (F) microscopic organisms (G) Something wine is made from (H) in the small bowel",
+        "fact 2": "Milk products are made into ice cream, cheese cake, and puddings.",
+        "pred answer": "(F) microscopic organisms",
+        "true answer": "(D) Something pudding is made from"
+    },
+    {
+        "question": "who discovered how to remove the amount of bacteria in milk?",
+        "answers": "(A) organisms (B) Scientific research (C) Louis XIV (D) a producer (E) treatment (F) Einstein (G) oxidizers (H) a french scientist",
+        "fact 2": "Pasteurization was discovered by the French scientist, Louis Pasteur.",
+        "pred answer": "O",
+        "true answer": "(H) a french scientist"
+    },
+    {
+        "question": "pasteurization reduces the amount of bacteria in what?",
+        "answers": "(A) microbes and mussels (B) viruses (C) in the small bowel (D) single celled organisms (E) islet cells (F) weather (G) Lymph fluid (H) something cows produce",
+        "fact 2": "Cows produce milk.",
+        "pred answer": "(A) microbes and mussels",
+        "true answer": "(H) something cows produce"
+    },
+    {
+        "question": "Pasteurization of milk are reduces",
+        "answers": "(A) 70-75 degrees Fahrenheit (B) melanin content (C) holding nutrients (D) ribonucleic acid (E) prokaryotic cells (F) trucks and cars (G) saves lives (H) Slows down",
+        "fact 2": "Bacteria and blue-green bacteria are prokaryotic cells.",
+        "pred answer": "(A) 70-75 degrees Fahrenheit",
+        "true answer": "(E) prokaryotic cells"
+    },
+    {
+        "question": "What are faster during infancy than during puberty?",
+        "answers": "(A) unicellular organisms (B) several genes (C) changes in size (D) changes in speed (E) prokaryotic cells (F) changes in eating (G) changes in color (H) thermal expansion",
+        "fact 2": "Physiological stresses can relate to changes in growth size, for example.",
+        "pred answer": "(D) changes in speed",
+        "true answer": "(C) changes in size"
+    },
+    {
+        "question": "Growth is faster during the what period than it is during puberty?",
+        "answers": "(A) humans (B) 86400 (C) adulthood (D) Slows down (E) eight (F) angiosperm (G) neonatal (H) a producer",
+        "fact 2": "Patients frequently die in the neonatal period or in early infancy.",
+        "pred answer": "Sure, I'd be happy to help!",
+        "true answer": "(G) neonatal"
+    },
+    {
+        "question": "When is growth faster?",
+        "answers": "(A) adulthood (B) sponges (C) when breasts develop (D) 86400 (E) angiosperm (F) when menstruation stops (G) corn (H) infancy",
+        "fact 2": "Breasts develop during puberty .",
+        "pred answer": "(C) when breasts develop",
+        "true answer": "(H) infancy"
+    },
+    {
+        "question": "When is human growth fastest?",
+        "answers": "(A) the cervix (B) 22 months (C) 86400 (D) percents (E) life (F) infancy (G) adult (H) winter",
+        "fact 2": "Adolescence begins with puberty.",
+        "pred answer": "O",
+        "true answer": "(F) infancy"
+    },
+    {
+        "question": "How do we grade earthquakes",
+        "answers": "(A) Seisometers (B) Cladistics (C) feedback (D) Measuring the ground (E) Check out the sky (F) classified (G) Taking temperature (H) the Himalayas",
+        "fact 2": "Earthquakes are measured on a scale of 1 to 10.",
+        "pred answer": "O",
+        "true answer": "(A) Seisometers"
+    },
+    {
+        "question": "What do seismometers measure?",
+        "answers": "(A) Something caused by fault movement. (B) 70-75 degrees Fahrenheit (C) How fast a vehicle is going (D) Something caused by stupidity (E) antigens that cause allergy (F) Something caused by wind (G) Something caused by gravity (H) speed at which sound moves",
+        "fact 2": "Earthquakes are caused by fault movement.",
+        "pred answer": "O",
+        "true answer": "(A) Something caused by fault movement."
+    },
+    {
+        "question": "What can measure fault movements?",
+        "answers": "(A) Richter magnitude scale (B) an atmometer (C) a bolometer (D) some fish (E) a seismometer (F) Plate tectonics (G) tetraceratops (H) sound vibrations",
+        "fact 2": "Earthquakes are caused by fault movement.",
+        "pred answer": "O",
+        "true answer": "(E) a seismometer"
+    },
+    {
+        "question": "A seismometer measures what aspect of an earthquake?",
+        "answers": "(A) friction (B) shaking (C) pitches (D) waves (E) Fractions (F) visibility (G) heating (H) velocity",
+        "fact 2": "The magnitude of an earthquake is its strength, or the amount of shaking.",
+        "pred answer": "(D) waves",
+        "true answer": "(B) shaking"
+    },
+    {
+        "question": "what is a thermometer used for measuring?",
+        "answers": "(A) With feedback loops (B) blood pressure (C) rapid changes occur (D) barometric changes (E) volume (F) Low pressure (G) homeostasis (H) amount of heat",
+        "fact 2": "Temperature Temperature is an measurement of the amount of heat.",
+        "pred answer": "(E) By using a mercury",
+        "true answer": "(H) amount of heat"
+    },
+    {
+        "question": "What can be used to measure what it will be like out?",
+        "answers": "(A) Pasteurization (B) a cold environment (C) A Thermometer . (D) mild heating process (E) an infant's growth (F) heated by the sun (G) after the snow melts (H) A scale.",
+        "fact 2": "If the weather is warm, their temperature rises.",
+        "pred answer": "(C) A Thermometer",
+        "true answer": "(C) A Thermometer ."
+    },
+    {
+        "question": "What does a thermometer do with heat?",
+        "answers": "(A) evaporated (B) thermometer (C) decrease it (D) cools (E) protection (F) it increases (G) sterilized (H) Measures",
+        "fact 2": "Temperature is a measure of the amount of heat.",
+        "pred answer": "O",
+        "true answer": "(H) Measures"
+    },
+    {
+        "question": "What is a cause of air pollution?",
+        "answers": "(A) death (B) oxygen (C) oxidation (D) traveling (E) swimming (F) bacteria (G) Thunderstorms (H) rain",
+        "fact 2": "Vehicle emissions are a major cause of air pollution.",
+        "pred answer": "O",
+        "true answer": "(D) traveling"
+    },
+    {
+        "question": "What are trucks and cars used for?",
+        "answers": "(A) Pollution (B) Travel (C) food (D) damaging (E) Walking (F) safety (G) heating (H) Taking up space",
+        "fact 2": "Trucks and cars are vehicles.",
+        "pred answer": "O",
+        "true answer": "(B) Travel"
+    },
+    {
+        "question": "What are trucks used for?",
+        "answers": "(A) photosynthesis (B) space flight (C) distance (D) treatment (E) a source of fuel (F) travel (G) safety (H) weight",
+        "fact 2": "Cars are vehicles and trucks are vehicles.",
+        "pred answer": "O",
+        "true answer": "(F) travel"
+    },
+    {
+        "question": "When going from one place to another, what can be use to help one travel?",
+        "answers": "(A) car (B) fish (C) bird feathers (D) food (E) clouds (F) RNA (G) dog (H) silk",
+        "fact 2": "Trucks and cars are vehicles.",
+        "pred answer": "(E) clouds",
+        "true answer": "(A) car"
+    },
+    {
+        "question": "What's a way to travel that lets you see vast areas of land below you?",
+        "answers": "(A) Being over land (B) A yellow submarine (C) moving over land (D) A bicycle (E) weater (F) mountains (G) A tour bus (H) An airplane.",
+        "fact 2": "An airplane is a vehicle that is capable of leaving the ground and flying through the air.",
+        "pred answer": "(H) An airplane",
+        "true answer": "(H) An airplane."
+    },
+    {
+        "question": "If weather is stormy then there is a chance of what?",
+        "answers": "(A) negative feedback (B) destroyed lakes (C) destroyed crops (D) serious drought (E) snow, ice, and rock (F) air pollution (G) empty lakes (H) amount of heat",
+        "fact 2": "For example, in the sentence The rain destroyed the crops , The rain is the subject.",
+        "pred answer": "(E) snow, ice, and rock",
+        "true answer": "(C) destroyed crops"
+    },
+    {
+        "question": "What does stormy weather helps plants do?",
+        "answers": "(A) life (B) wither (C) freeze (D) move (E) rain (F) grow (G) burn (H) learn",
+        "fact 2": "Rain is a wonderful thing, it helps plants grow.",
+        "pred answer": "(E) rain",
+        "true answer": "(F) grow"
+    },
+    {
+        "question": "what does summer bring?",
+        "answers": "(A) winter (B) estrogen (C) magma (D) Growth (E) a hosta (F) Climate (G) Chemicals (H) storms",
+        "fact 2": "Unsettled, stormy weather with frequent rain is common, even during the summer.",
+        "pred answer": "(D) Growth",
+        "true answer": "(H) storms"
+    },
+    {
+        "question": "If the state of the atmosphere is what then there is a greater chance of rain?",
+        "answers": "(A) calm (B) sunny (C) damaging (D) seasonal (E) clear (F) danger (G) wind (H) stormy",
+        "fact 2": "Weather is the state of the atmosphere at any particular moment in time.",
+        "pred answer": "O",
+        "true answer": "(H) stormy"
+    },
+    {
+        "question": "If weather is stormy then there is a greater chance of",
+        "answers": "(A) friction (B) erosion (C) whiplash (D) Pacific (E) damaging (F) winter (G) vehicle (H) navigation",
+        "fact 2": "Erosion is loss of soil caused by rain and wind.",
+        "pred answer": "(E) damaging",
+        "true answer": "(B) erosion"
+    },
+    {
+        "question": "if weather is stormy then there is a greater chance of reduced what",
+        "answers": "(A) miles per hour (B) air pollution (C) precipitation (D) male gametes (E) transportation (F) rainfall (G) visibility (H) intensity",
+        "fact 2": "Rain Rain reduces visibility and makes pavement dangerous.",
+        "pred answer": "(F) rainfall",
+        "true answer": "(G) visibility"
+    },
+    {
+        "question": "An example of protozoa that make humans sick is",
+        "answers": "(A) Pelycosaur (B) coliform (C) Type O (D) Worms (E) cnidarians (F) hagfish (G) malaria (H) Therapsids",
+        "fact 2": "Malaria parasites are transmitted by mosquitos.",
+        "pred answer": "O",
+        "true answer": "(G) malaria"
+    },
+    {
+        "question": "what do compasses use to point with?",
+        "answers": "(A) the sun (B) radiation (C) poles (D) landmarks (E) eight (F) MPH (G) humidity (H) compass",
+        "fact 2": "Compasses point to the Magnetic Poles.",
+        "pred answer": "O",
+        "true answer": "(C) poles"
+    },
+    {
+        "question": "What is used to point to the magnetic poles?",
+        "answers": "(A) It's inherited from genes (B) Poles (C) 70-75 degrees Fahrenheit (D) Chemicals (E) Natural magnetism (F) Pole dancers (G) 295 degrees Kelvin (H) Photos of the north pole",
+        "fact 2": "Compasses point to the Magnetic Poles.",
+        "pred answer": "(B) Poles",
+        "true answer": "(E) Natural magnetism"
+    },
+    {
+        "question": "What is titanium?",
+        "answers": "(A) a metal (B) protection (C) solid (D) iron oxide (E) biological element (F) SI units (G) a non metal (H) cartilage",
+        "fact 2": "Titanium is a lustrous white metallic element.",
+        "pred answer": "O",
+        "true answer": "(A) a metal"
+    },
+    {
+        "question": "Where, on the periodic table, is the element type that is less common?",
+        "answers": "(A) third page (B) hydrogen (C) weater (D) Elemental (E) top level of pyramid (F) not included (G) right corner (H) mineral",
+        "fact 2": "Nonmetals are the 17 elements in the upper right hand corner of the periodic table.",
+        "pred answer": "(B) hydrogen",
+        "true answer": "(G) right corner"
+    },
+    {
+        "question": "Knowing who has compatible blood is important for what?",
+        "answers": "(A) financial reasons (B) protection (C) medical reasons (D) communication (E) fetal development (F) therapy reasons (G) Prevent injuries (H) private reasons",
+        "fact 2": "If there was a serious emergency, the team knows who has compatible blood types.",
+        "pred answer": "(E) fetal development",
+        "true answer": "(C) medical reasons"
+    },
+    {
+        "question": "Blood type is necessary for some:",
+        "answers": "(A) Charlie Chaplin (B) humans (C) saves lives (D) vampires (E) animals (F) tissue (G) treatment (H) Ages 0 to 3",
+        "fact 2": "Treatment Treatment of cirrhosis is medical.",
+        "pred answer": "O",
+        "true answer": "(G) treatment"
+    },
+    {
+        "question": "What would be important to know for medical reasons",
+        "answers": "(A) You are under 6' tall (B) measure of motion (C) You have brown eyes (D) You are type O (E) tooth enamel (F) coliform (G) You have blond hair (H) a barometer",
+        "fact 2": "Each of the four blood types, O, A, B and AB play an important role in patient care.",
+        "pred answer": "(E) tooth enamel",
+        "true answer": "(D) You are type O"
+    },
+    {
+        "question": "What is inherited?",
+        "answers": "(A) Lymphocytes (B) Favorite color (C) vision (D) Skin color (E) diphtheria (F) fever (G) Skin length (H) Bone color",
+        "fact 2": "Some traits are inherited.",
+        "pred answer": "O",
+        "true answer": "(D) Skin color"
+    },
+    {
+        "question": "what is the result of the interaction of several genes?",
+        "answers": "(A) canis lupus (B) skin color (C) hunger (D) weathering (E) death (F) Rolex (G) Major effects (H) diphtheria",
+        "fact 2": "Polygenic traits are the result of the interaction of several genes.",
+        "pred answer": "(G) Major effects",
+        "true answer": "(B) skin color"
+    },
+    {
+        "question": "What determines skin color?",
+        "answers": "(A) Preference (B) Two or more sets of alleles (C) specialized cells (D) single cell microorganisms (E) Location of birth (F) antigens that cause allergy (G) Only one allele (H) tissue made of chondrocytes",
+        "fact 2": "Polygenic inheritance occurs when one trait is governed by two or more sets of alleles.",
+        "pred answer": "O",
+        "true answer": "(B) Two or more sets of alleles"
+    },
+    {
+        "question": "What is based on a polygenic trait?",
+        "answers": "(A) coliform (B) Scientific research (C) name (D) weight (E) melanin content (F) angiosperm (G) changes in size (H) gas",
+        "fact 2": "Melanin is responsible for skin color.",
+        "pred answer": "O",
+        "true answer": "(E) melanin content"
+    },
+    {
+        "question": "What is inherited?",
+        "answers": "(A) fever (B) dirt (C) sense (D) enzymes (E) Lymphocytes (F) Skin color (G) layers (H) diphtheria",
+        "fact 2": "Some traits are inherited.",
+        "pred answer": "O",
+        "true answer": "(F) Skin color"
+    },
+    {
+        "question": "what is the result of the interaction of several genes?",
+        "answers": "(A) Major effects (B) respiration (C) Rolex (D) density (E) diphtheria (F) canis lupus (G) skin color (H) digestion",
+        "fact 2": "Polygenic traits are the result of the interaction of several genes.",
+        "pred answer": "(H) digestion",
+        "true answer": "(G) skin color"
+    },
+    {
+        "question": "What trait is inherited?",
+        "answers": "(A) intelligence (B) weight (C) vision (D) keratin (E) humans (F) canis lupus (G) strength (H) tooth enamel",
+        "fact 2": "Chapter 5 discusses polygenic inheritance and intelligence.",
+        "pred answer": "O",
+        "true answer": "(A) intelligence"
+    },
+    {
+        "question": "What leads to population growth?",
+        "answers": "(A) antigens (B) infertility (C) pigmentation (D) isolation (E) antibodies (F) miscarriage (G) several genes (H) Pregnancy",
+        "fact 2": "Births are the main component of population growth.",
+        "pred answer": "O",
+        "true answer": "(H) Pregnancy"
+    },
+    {
+        "question": "Embryonic development is also known as",
+        "answers": "(A) pregnancy (B) Type O (C) fertilization (D) neonatal (E) cells (F) infancy (G) puberty (H) adolescence",
+        "fact 2": "Human Embryonic Development Follows human development from fertilization through birth.",
+        "pred answer": "(C) fertilization",
+        "true answer": "(A) pregnancy"
+    },
+    {
+        "question": "What does fertilization result in?",
+        "answers": "(A) abortion (B) plant (C) Major effects (D) fallopian tubes (E) blossoms (F) puberty (G) nectar (H) pregnancy",
+        "fact 2": "An offspring is defined as something, or someone that comes into existence as a result of pregnancy.",
+        "pred answer": "(E) blossoms",
+        "true answer": "(H) pregnancy"
+    },
+    {
+        "question": "Carrying offspring to full term is from when?",
+        "answers": "(A) fertilization until birth (B) childhood to adulthood (C) after the snow melts (D) last stage before adulthood (E) Male gametes. (F) sexually maturity (G) embryo to zygote (H) infancy to death",
+        "fact 2": "Infertility is also the inability to carry a pregnancy to full term.",
+        "pred answer": "(F) sexually maturity",
+        "true answer": "(A) fertilization until birth"
+    },
+    {
+        "question": "What is gestation?",
+        "answers": "(A) three stages after birth (B) period after birth (C) giving birth (D) birth control (E) last stage before adulthood (F) an aborted pregnancy (G) sexually maturity (H) carrying offspring to birth",
+        "fact 2": "Pregnancy is another word for gestation.",
+        "pred answer": "(C) giving birth",
+        "true answer": "(H) carrying offspring to birth"
+    },
+    {
+        "question": "What can be formed in a mountain?",
+        "answers": "(A) rain (B) solid (C) valleys (D) lowlands (E) pitches (F) backbones (G) boulder (H) as a base",
+        "fact 2": "Alpine glaciers form in the mountains.",
+        "pred answer": "O",
+        "true answer": "(G) boulder"
+    },
+    {
+        "question": "Some pelycosaurs gave rise to reptile ancestral to",
+        "answers": "(A) lamphreys (B) angiosperm (C) mammals (D) paramecium (E) animals (F) protozoa (G) arachnids (H) backbones",
+        "fact 2": "Therapsids are reptiles ancestral to mammals.",
+        "pred answer": "O",
+        "true answer": "(C) mammals"
+    },
+    {
+        "question": "wolves warn other wolves by using different what?",
+        "answers": "(A) backbones (B) parties (C) hormones (D) colors (E) expression (F) antigens (G) several (H) pitches",
+        "fact 2": "Wolves communicate with each other using the different pitches of their howl.",
+        "pred answer": "(F) antigens",
+        "true answer": "(H) pitches"
+    },
+    {
+        "question": "what howls?",
+        "answers": "(A) cats (B) vertebrates (C) h2o (D) Therapsids (E) sound vibrations (F) One can hear (G) insects (H) canis lupus",
+        "fact 2": "Canis lupus is the same species that includes grey wolves.",
+        "pred answer": "(E) sound vibrations",
+        "true answer": "(H) canis lupus"
+    },
+    {
+        "question": "What uses howling to warn others?",
+        "answers": "(A) alligators (B) each species (C) fish (D) catfish (E) animals (F) gila monsters (G) humans (H) wild canines",
+        "fact 2": "Wolves are distinguished from other wild canines by their size.",
+        "pred answer": "O",
+        "true answer": "(H) wild canines"
+    },
+    {
+        "question": "howling is used to warn other what kind of animals ",
+        "answers": "(A) ecosystem (B) animals (C) humans (D) weather (E) travel (F) sound (G) social (H) people",
+        "fact 2": "Like people, wolves are social.",
+        "pred answer": "O",
+        "true answer": "(G) social"
+    },
+    {
+        "question": "What is used to remove roughness?",
+        "answers": "(A) cartilage (B) keratin (C) hard tissue (D) sandpaper (E) scales (F) ice (G) lamphreys (H) fluid",
+        "fact 2": "Pavement smoothness is a lack of roughness.",
+        "pred answer": "O",
+        "true answer": "(D) sandpaper"
+    },
+    {
+        "question": "What can be used to smooth tables?",
+        "answers": "(A) backbones (B) keratin (C) sandpaper (D) sand dollar (E) lamphreys (F) wax paper (G) sponges (H) aluminum foil",
+        "fact 2": "For the casual look, try using a wooden picnic table.",
+        "pred answer": "(G) sponges",
+        "true answer": "(C) sandpaper"
+    },
+    {
+        "question": "what removes paint?",
+        "answers": "(A) sandpaper (B) air pollution (C) heating (D) oil (E) cells (F) trucks (G) treatment (H) magma",
+        "fact 2": "To remove paint, use sandpaper.",
+        "pred answer": "O",
+        "true answer": "(A) sandpaper"
+    },
+    {
+        "question": "What can be used to smooth a table?",
+        "answers": "(A) Wax paper (B) Sponge (C) lamphreys (D) Tissue (E) Sandpaper (F) scratching it (G) keratin (H) tiny hairs",
+        "fact 2": "All objects, even wooden tables, are made up of molecules which vibrate to create their mass.",
+        "pred answer": "(H) tiny hairs",
+        "true answer": "(E) Sandpaper"
+    },
+    {
+        "question": "A push forward is used for what by a spacecraft?",
+        "answers": "(A) beeping (B) Navigate (C) flying (D) distance (E) sitting (F) reversing (G) travel (H) safety",
+        "fact 2": "Propulsion means to push forward or drive an object forward.",
+        "pred answer": "(B) Navigate",
+        "true answer": "(C) flying"
+    },
+    {
+        "question": "Propulsion is used for what?",
+        "answers": "(A) flying satellites (B) fertilization (C) safe driving (D) heated by the sun (E) stargazing (F) making bread (G) Communication (H) taking a nap",
+        "fact 2": "Earth-orbiting spacecraft are called satellites.",
+        "pred answer": "(G) Communication",
+        "true answer": "(A) flying satellites"
+    },
+    {
+        "question": "What is thrusting energy good for?",
+        "answers": "(A) strength (B) fish (C) Moving really slowly (D) ecosystem (E) counterop (F) Flying (G) cows (H) Sleeping",
+        "fact 2": "And thrust is generated by the propulsion system of the aircraft.",
+        "pred answer": "O",
+        "true answer": "(F) Flying"
+    },
+    {
+        "question": "what uses propulsion for flying?",
+        "answers": "(A) mammals (B) kites (C) jellyfish (D) vertebrates (E) angiosperm (F) Apollo 13 (G) chickens (H) cars",
+        "fact 2": "Apollo 13 spacecraft is launched.",
+        "pred answer": "O",
+        "true answer": "(F) Apollo 13"
+    },
+    {
+        "question": "what is saturated fat at room temperature?",
+        "answers": "(A) solid (B) cats (C) cows (D) steak (E) gas (F) liquid (G) Protein (H) unsaturated",
+        "fact 2": "Butter contains saturated fats.",
+        "pred answer": "(F) liquid",
+        "true answer": "(A) solid"
+    },
+    {
+        "question": "What is a fat that is composed of closely packed molecules at room temperature?",
+        "answers": "(A) potassium (B) steak (C) fat (D) keratin (E) butter (F) liquids (G) Mohs (H) Protein",
+        "fact 2": "Solids are composed of closely packed molecules.",
+        "pred answer": "(C) fat",
+        "true answer": "(E) butter"
+    },
+    {
+        "question": "What is one function of the gallbladder?",
+        "answers": "(A) procreation (B) help balance a body (C) holding nutrients (D) keep spine straight (E) last stage before adulthood (F) keep skin moisturized (G) tubular organ (H) reduce acidity of food",
+        "fact 2": "After a meal, the gallbladder releases the bile through a passageway called the bile duct.",
+        "pred answer": "(C) holding nutrients",
+        "true answer": "(H) reduce acidity of food"
+    },
+    {
+        "question": "Fluid that reduces the acidity of food is stored in",
+        "answers": "(A) the throat (B) Microscopic vessels. (C) the rectum (D) the gallbladder (E) chondrocytes (F) the small intestine (G) holding nutrients (H) intestinal",
+        "fact 2": "Bile, a fluid made by the liver, is stored in the gallbladder.",
+        "pred answer": "(F) the small intestine",
+        "true answer": "(D) the gallbladder"
+    },
+    {
+        "question": "What reduces the acidity of food entering from the highly acidic stomach?",
+        "answers": "(A) ibuprofen (B) oxidizers (C) water (D) sunlight (E) melanin content (F) the gallbladder (G) ice (H) ribonucleic acid",
+        "fact 2": "Bile exits gallbladder by common bile duct.",
+        "pred answer": "(C) water",
+        "true answer": "(F) the gallbladder"
+    },
+    {
+        "question": "what organ helps reduce the acidity of food?",
+        "answers": "(A) saliva (B) enzymes (C) mucus (D) peptic acid (E) osculum (F) lungs (G) liver (H) skin",
+        "fact 2": "Bile, produced by the liver, helps fat digestion and absorption.",
+        "pred answer": "O",
+        "true answer": "(G) liver"
+    },
+    {
+        "question": "What helps digest fats?",
+        "answers": "(A) Slows down (B) protein (C) stomach acidity (D) intestinal (E) chondrocytes (F) some prokaryotes (G) water (H) air",
+        "fact 2": "Bile acid is used by the body to digest fats.",
+        "pred answer": "O",
+        "true answer": "(C) stomach acidity"
+    },
+    {
+        "question": "what helps reduce acidity of food entering from the stomach?",
+        "answers": "(A) cilia (B) fumes (C) kinase (D) liver (E) mucus (F) enzymes (G) insulin (H) herbs",
+        "fact 2": "Bile from the liver contains bile salts and many organic substances but no enzymes.",
+        "pred answer": "(E) mucus",
+        "true answer": "(D) liver"
+    },
+    {
+        "question": "What are regulated by feedback mechanisms in the body?",
+        "answers": "(A) Engine mechanisms. (B) 70-75 degrees Fahrenheit (C) some drugs (D) prokaryotic cells (E) State regulators. (F) Chemical messengers. (G) Feedback polls. (H) Pasteurization",
+        "fact 2": "Hormones are chemical messengers in the body.",
+        "pred answer": "(F) Chemical messengers",
+        "true answer": "(F) Chemical messengers."
+    },
+    {
+        "question": "What regulates chemical messengers in the body?",
+        "answers": "(A) several genes (B) wooden mechanisms (C) antigens that cause allergy (D) feedback mechanisms (E) Lymphocytes (F) mechanical mechanisms (G) electronic mechanisms (H) Two or more sets of alleles",
+        "fact 2": "Hormones are chemical messengers in the body.",
+        "pred answer": "O",
+        "true answer": "(D) feedback mechanisms"
+    },
+    {
+        "question": "most what are regulated by necessarily controlling uncertainty?",
+        "answers": "(A) hormones (B) antigens (C) stoma (D) cars (E) animals (F) motorcycles (G) navigation (H) safe driving",
+        "fact 2": "Feedback mechanisms are necessary to control uncertainty.",
+        "pred answer": "O",
+        "true answer": "(A) hormones"
+    },
+    {
+        "question": "What does homeostatis regulate?",
+        "answers": "(A) hormones (B) Protein (C) chondrocytes (D) enzymes (E) antigens (F) prokaryotes (G) pigmentation (H) expression",
+        "fact 2": "Homeostasis involves negative feedback mechanisms.",
+        "pred answer": "O",
+        "true answer": "(A) hormones"
+    },
+    {
+        "question": "What is needed for humans to grow and live?",
+        "answers": "(A) amount of heat (B) recreation (C) antibodies (D) destruction (E) melanin amount (F) grapes (G) melanin content (H) Small intestine",
+        "fact 2": "Nutrients are elements needed for growth in all living plants and animals.",
+        "pred answer": "O",
+        "true answer": "(H) Small intestine"
+    },
+    {
+        "question": "What is one thing that is absorbed in the GI tract?",
+        "answers": "(A) Lymph fluid (B) keratin (C) thoughts (D) antigens (E) Lymphocytes (F) magnesium (G) oxygen (H) neurons",
+        "fact 2": "Gastrointestinal GI dysfunction can inhibit Mg absorption from the small intestine.",
+        "pred answer": "(E) Lymphocytes",
+        "true answer": "(F) magnesium"
+    },
+    {
+        "question": "The actions of the small intestion can be inhibited by:",
+        "answers": "(A) several (B) some drugs (C) air pollution (D) melanin content (E) ibuprofen (F) the environment (G) enzymes (H) amount of heat",
+        "fact 2": "Dozens of drugs inhibit nutrient absorption or deplete nutrients.",
+        "pred answer": "(G) enzymes",
+        "true answer": "(B) some drugs"
+    },
+    {
+        "question": "Absorption of minerals occurs mainly where?",
+        "answers": "(A) unicellular organisms (B) trees and flowers (C) the Himalayas (D) small intestine (E) the environment (F) flagella (G) after the snow melts (H) Microscopic vessels.",
+        "fact 2": "Food and minerals are both nutrients.",
+        "pred answer": "(A) through their roots",
+        "true answer": "(D) small intestine"
+    },
+    {
+        "question": "Where does absorption of fat and protein mainly occur?",
+        "answers": "(A) after the snow melts (B) movement (C) Extensive bone growth (D) transportation (E) vitamin content (F) The Alps (G) intestinal (H) small intestine",
+        "fact 2": "Fat, like protein, is a nutrient.",
+        "pred answer": "O",
+        "true answer": "(H) small intestine"
+    },
+    {
+        "question": "Where does absorption of nutrients occur?",
+        "answers": "(A) the Atlantic (B) in the beehive (C) prokaryotic cells (D) interior chambers (E) In a tubular organ (F) tissue made of chondrocytes (G) occurs over a wide range (H) trucks and cars",
+        "fact 2": "Small Intestine Structurally, the small intestine is a tubular organ.",
+        "pred answer": "O",
+        "true answer": "(E) In a tubular organ"
+    },
+    {
+        "question": "How many sperm are deposited during sexual intercourse?",
+        "answers": "(A) millions (B) percents (C) hundreds (D) several (E) percentages (F) thousands (G) dozens (H) eight",
+        "fact 2": "During intercourse several hundred million sperm are released inside the vagina.",
+        "pred answer": "The answer to the last question is thousands, not hundreds of millions, because the fact states \"several hundred million sperm are released inside the vagina,\" which is a smaller number than hundreds of millions.",
+        "true answer": "(A) millions"
+    },
+    {
+        "question": "Something that is deposited in the vagina during sexual intercourse is made where?",
+        "answers": "(A) tissue (B) breasts (C) cilia (D) fluid (E) secreting (F) flagellum (G) Testes (H) Ovaries",
+        "fact 2": "Male sperm are made in a man's testes.",
+        "pred answer": "(H) Ovaries",
+        "true answer": "(G) Testes"
+    },
+    {
+        "question": "Lightning can be bad for what?",
+        "answers": "(A) the environment (B) rainstorms (C) destruction (D) visibility (E) thunder (F) the sun (G) The weather. (H) transportation",
+        "fact 2": "Forest fires are bad for the environment.",
+        "pred answer": "(B) rainstorms",
+        "true answer": "(A) the environment"
+    },
+    {
+        "question": "What can destroy towns?",
+        "answers": "(A) Lightning (B) erosion (C) libraries (D) trucks (E) An airplane. (F) planes (G) priests (H) Car accidents",
+        "fact 2": "Until the town was destroyed by the forest fire.",
+        "pred answer": "(H) Car accidents",
+        "true answer": "(A) Lightning"
+    },
+    {
+        "question": "What can cause a wildfire?",
+        "answers": "(A) rain (B) snow (C) destruction (D) moon (E) heating (F) bad weather (G) road bends (H) lightning",
+        "fact 2": "Forest fires are examples of wildfires.",
+        "pred answer": "O",
+        "true answer": "(H) lightning"
+    },
+    {
+        "question": "What can cause fire in forests?",
+        "answers": "(A) Chemicals (B) a metal (C) wildfire (D) Type O (E) acids (F) heat (G) storms (H) oaks",
+        "fact 2": "Summer storms kick up huge clouds of dust and lightning ignites brush fires.",
+        "pred answer": "(D) cumulonimbus",
+        "true answer": "(G) storms"
+    },
+    {
+        "question": "What about hearing changes depending on the material passed through?",
+        "answers": "(A) feedback mechanisms (B) animals with backbone (C) antigens that cause allergy (D) It's inherited from genes (E) the speed of hearing (F) Exposure to oxygen and water (G) melanin content (H) it increases",
+        "fact 2": "Hearing is the act of perceiving sound.",
+        "pred answer": "(F) Exposure to oxygen and water",
+        "true answer": "(E) the speed of hearing"
+    },
+    {
+        "question": "the type of material through which sound passes changes the what?",
+        "answers": "(A) vibrating mass (B) occurs over a wide range (C) passage of time (D) relationship (E) rapid changes occur (F) 70-75 degrees Fahrenheit (G) sound vibrations (H) sound of silence",
+        "fact 2": "Sound vibrations travel at different speeds through different materials.",
+        "pred answer": "O",
+        "true answer": "(G) sound vibrations"
+    },
+    {
+        "question": "The type of material through which mechanical waves pass through changes what?",
+        "answers": "(A) trucks and cars (B) melanin content (C) their color (D) their flavor (E) travel (F) amount of heat (G) their beams (H) their speed",
+        "fact 2": "Sound Sound waves are mechanical waves.",
+        "pred answer": "(G) their beams",
+        "true answer": "(H) their speed"
+    },
+    {
+        "question": "what moves through different materials at different rates",
+        "answers": "(A) silk (B) Speed (C) food (D) corn (E) weater (F) colors (G) sound (H) metal",
+        "fact 2": "Sound vibrations travel at different speeds through different materials.",
+        "pred answer": "O",
+        "true answer": "(G) sound"
+    },
+    {
+        "question": "what passes through materials at different speeds?",
+        "answers": "(A) waves (B) vehicle (C) flying (D) animals (E) mercury (F) trucks (G) silk (H) Mohs",
+        "fact 2": "Sound, a type of energy, is produced by vibrations and travels in waves.",
+        "pred answer": "O",
+        "true answer": "(A) waves"
+    },
+    {
+        "question": "where are islet cells location?",
+        "answers": "(A) interior chambers (B) more specialized (C) fluid connective tissue (D) antigens that cause allergy (E) where insulin is secreted (F) building blocks of organisms (G) close relatives of coral (H) in the vagina",
+        "fact 2": "Islet cells are located in the pancreas.",
+        "pred answer": "O",
+        "true answer": "(E) where insulin is secreted"
+    },
+    {
+        "question": "what eats krill and plankton",
+        "answers": "(A) sponges (B) Therapsids (C) aquatic (D) humans (E) h2o (F) protozoa (G) plants (H) food",
+        "fact 2": "Diet Filter feeders, they eat krill and plankton.",
+        "pred answer": "(F) protozoa",
+        "true answer": "(A) sponges"
+    },
+    {
+        "question": "Sponges trap and filter out their what as the water passes by.",
+        "answers": "(A) gemmules (B) snails (C) mucus (D) Worms (E) matter (F) eggs (G) food (H) marine",
+        "fact 2": "Clams are filter feeders and thus trap and filter out their food as the water passes by.",
+        "pred answer": "(E) matter",
+        "true answer": "(G) food"
+    },
+    {
+        "question": "What do sponges clean?",
+        "answers": "(A) reefs (B) trees (C) aquatic (D) matter (E) dirt (F) retina (G) snails (H) water",
+        "fact 2": "Since mussels are filter-feeders, they clean water as they feed.",
+        "pred answer": "(E) dirt",
+        "true answer": "(H) water"
+    },
+    {
+        "question": "What eats in a similar way to a baleen whale?",
+        "answers": "(A) paramecium (B) a sponge (C) prokaryotes (D) angiosperm (E) animals (F) weater (G) a producer (H) lynx",
+        "fact 2": "Baleen whales are filter feeders.",
+        "pred answer": "O",
+        "true answer": "(B) a sponge"
+    },
+    {
+        "question": "what exists between dogs and humans?",
+        "answers": "(A) mutualism (B) gravity (C) communication (D) antigens (E) several genes (F) space between (G) electrons (H) german shepherd",
+        "fact 2": "Dogs and humans are symbiotic species.",
+        "pred answer": "O",
+        "true answer": "(A) mutualism"
+    },
+    {
+        "question": "Domestication of what is an example of Mutualism",
+        "answers": "(A) minerals (B) farms (C) homes (D) lamphreys (E) trees (F) angiosperm (G) mammals (H) animals",
+        "fact 2": "Domestication of animals is an example of a symbiotic relationship.",
+        "pred answer": "O",
+        "true answer": "(H) animals"
+    },
+    {
+        "question": "a symbiotic relationship is an association between two different species which benefits what?",
+        "answers": "(A) no species (B) humans (C) sponges (D) trees and flowers (E) prokaryotic cells (F) extinct species (G) Flowers (H) each species",
+        "fact 2": "Mutualism is an association between two different species which benefits each species.",
+        "pred answer": "O",
+        "true answer": "(H) each species"
+    },
+    {
+        "question": "what both benefit from mutualism?",
+        "answers": "(A) melanin amount (B) some anthozoans (C) coral and alga (D) communication (E) unicellular organisms (F) trees and flowers (G) prokaryotic cells (H) jellyfish",
+        "fact 2": "Coral and alga have a symbiotic relationship.",
+        "pred answer": "O",
+        "true answer": "(C) coral and alga"
+    },
+    {
+        "question": "What is something that adds complexity to species interactions?",
+        "answers": "(A) sea anemones (B) vibration (C) animals (D) pigmentation (E) anemones (F) several genes (G) mutualism (H) sponges",
+        "fact 2": "Symbiotic relationships are common and add to the complexity of species interactions.",
+        "pred answer": "O",
+        "true answer": "(G) mutualism"
+    },
+    {
+        "question": "cucumbers and what possess a mutualism in which both species benefit?",
+        "answers": "(A) marine (B) trees (C) food (D) ferns (E) corn (F) lynx (G) plant (H) weater",
+        "fact 2": "Another symbiotic relationship is found with cucumbers and corn.",
+        "pred answer": "(D) ferns",
+        "true answer": "(E) corn"
+    },
+    {
+        "question": "The last stage of life before adulthood begins with",
+        "answers": "(A) 22 months (B) prenatal (C) infancy (D) late childhood (E) angiosperm (F) Pregnancy (G) hormones (H) puberty",
+        "fact 2": "Adolescence begins with puberty.",
+        "pred answer": "O",
+        "true answer": "(H) puberty"
+    },
+    {
+        "question": "What is a pivotal later stage of human development?",
+        "answers": "(A) It's inherited from genes (B) Extensive bone growth (C) period after birth (D) during puberty (E) specialized cells (F) fetal development (G) where insulin is secreted (H) last stage before adulthood",
+        "fact 2": "Adolescence is a pivotal stage of human development.",
+        "pred answer": "(D) during puberty",
+        "true answer": "(H) last stage before adulthood"
+    },
+    {
+        "question": "Adolescence is a what before adulthood?",
+        "answers": "(A) crazy time (B) drastically (C) Unsafe (D) trait (E) 86400 (F) expression (G) permanent (H) Slows down",
+        "fact 2": "Adolescence is a fascinating and crazy time of life.",
+        "pred answer": "(B) drastically",
+        "true answer": "(A) crazy time"
+    },
+    {
+        "question": "what can classification be based on?",
+        "answers": "(A) trees and flowers (B) revolutions (C) evolutionary past of organisms (D) antigens that cause allergy (E) Amount of melanin (F) humans (G) the strength and magnitude of an earthquake (H) h2o",
+        "fact 2": "Classification can be based on phylogeny.",
+        "pred answer": "O",
+        "true answer": "(C) evolutionary past of organisms"
+    },
+    {
+        "question": "Phylogeny is the history and organic diversity of what?",
+        "answers": "(A) unicellular organisms (B) unrelated organisms (C) evolved areas (D) unrelated events (E) one-celled animals (F) trees and flowers (G) related organisms (H) ecosystems",
+        "fact 2": "Much of evolutionary biology involves the history of organic diversity.",
+        "pred answer": "(F) trees and flowers",
+        "true answer": "(G) related organisms"
+    },
+    {
+        "question": "What is poorly understood for metazoas?",
+        "answers": "(A) habitat (B) antigens that cause allergy (C) intervertebrate (D) evolutionary history (E) protein foreign to the body. (F) nucleotides composing polymers (G) melanin content (H) vertebrate",
+        "fact 2": "Metazoan phylogeny Phylogeny of phyla is poorly understood.",
+        "pred answer": "(H) vertebrate",
+        "true answer": "(D) evolutionary history"
+    },
+    {
+        "question": "What is a phyla?",
+        "answers": "(A) most diverse organism group (B) single cell microorganisms (C) microscopic organisms (D) some prokaryotes (E) unicellular organisms (F) aquatic organisms (G) single celled organisms (H) a group of related organisms",
+        "fact 2": "Metazoan phylogeny Phylogeny of phyla is poorly understood.",
+        "pred answer": "(A) most diverse organism group",
+        "true answer": "(H) a group of related organisms"
+    },
+    {
+        "question": "What device gives similar information to a speedometer?",
+        "answers": "(A) tire size (B) Seisometers (C) radar gun (D) calibrated (E) fuel gauge (F) odometer (G) lamphreys (H) weater",
+        "fact 2": "Vehicle speed is checked by radar.",
+        "pred answer": "Odometer",
+        "true answer": "(C) radar gun"
+    },
+    {
+        "question": "Which tool can help a driver prevent accidents?",
+        "answers": "(A) speedometer (B) lamphreys (C) gas meter (D) safe driving (E) weater (F) safe operation (G) the cervix (H) potassium",
+        "fact 2": "Excessive speed is a factor in many accidents.",
+        "pred answer": "(D) safe driving",
+        "true answer": "(A) speedometer"
+    },
+    {
+        "question": "Seals live where?",
+        "answers": "(A) islets of Langerhans (B) on the ocean floor (C) aquatic animals (D) in outer space (E) holding nutrients (F) unicellular organisms (G) a cold environment (H) the desert",
+        "fact 2": "Polar bears primarily eat seals.",
+        "pred answer": "(B) on the ocean floor",
+        "true answer": "(G) a cold environment"
+    },
+    {
+        "question": "Why do polar bears have two layers of fur?",
+        "answers": "(A) 70-75 degrees Fahrenheit (B) Prevent injuries (C) To survive in their environment (D) Amount of melanin (E) To stay cold (F) Ultraviolet shielding (G) protective plates (H) To help them swim faster",
+        "fact 2": "Polar bears have two layers of fur for further protection from the cold.",
+        "pred answer": "(E) To stay cold",
+        "true answer": "(C) To survive in their environment"
+    },
+    {
+        "question": "Polar bears require what environment?",
+        "answers": "(A) tropical (B) Climate (C) aquatic (D) forested (E) jungle (F) skin (G) food (H) winter",
+        "fact 2": "Cold weather, it is winter and it is snowing.",
+        "pred answer": "O",
+        "true answer": "(H) winter"
+    },
+    {
+        "question": "A hurricane loses heat and moisture as what part of it decreases?",
+        "answers": "(A) color (B) rain (C) flagella (D) shape (E) Low pressure (F) strength (G) rainfall (H) sound",
+        "fact 2": "When a hurricane hits land, it loses heat and moisture and weakens.",
+        "pred answer": "(E) Low pressure",
+        "true answer": "(F) strength"
+    },
+    {
+        "question": "What makes a hurricane weaker?",
+        "answers": "(A) Stronger winds (B) rapid changes occur (C) Tornadoes (D) Differences in speed (E) amount of heat (F) Being over land (G) chemical messengers (H) Warm water",
+        "fact 2": "Hurricanes grow strength from warm waters.",
+        "pred answer": "(H) Warm water",
+        "true answer": "(F) Being over land"
+    },
+    {
+        "question": "When might a hurricane drop on the Saffir-Simpson scale?",
+        "answers": "(A) 70-75 degrees Fahrenheit (B) stormy weather (C) precipitation (D) 295 degrees Kelvin (E) moving over land (F) when it gains strength (G) when it gets named (H) strengthening",
+        "fact 2": "Hurricanes are divided into five categories of strength based on the Saffir-Simpson scale .",
+        "pred answer": "(F) when it gains strength",
+        "true answer": "(E) moving over land"
+    },
+    {
+        "question": "what decreases in strength as the move over land?",
+        "answers": "(A) clouds (B) trucks and cars (C) soil (D) single cell microorganisms (E) 70-75 degrees Fahrenheit (F) detritus and detrital organism (G) extremely dangerous storms (H) weathering",
+        "fact 2": "Hurricanes are extremely dangerous storms.",
+        "pred answer": "O",
+        "true answer": "(G) extremely dangerous storms"
+    },
+    {
+        "question": "What happens when a hurricane formed in warm tropical thunder reach ground? ",
+        "answers": "(A) increase acelleration (B) amount of heat (C) divide and intensify (D) Extremes of temperature (E) decrease strength (F) sound vibrations (G) gas spreads in the air (H) occurs over a wide range",
+        "fact 2": "Hurricanes form over the warm tropical water in ocean and die down when they move over land.",
+        "pred answer": "(C) divide and intensify",
+        "true answer": "(E) decrease strength"
+    },
+    {
+        "question": "what decreases in strength when it moves over land?",
+        "answers": "(A) rapid changes occur (B) 70-75 degrees Fahrenheit (C) tropical cyclone (D) black widows (E) snow, ice, and rock (F) amount of heat (G) melanin amount (H) trucks and cars",
+        "fact 2": "Hurricanes A hurricane is a type of tropical cyclone.",
+        "pred answer": "(E) snow, ice, and rock",
+        "true answer": "(C) tropical cyclone"
+    },
+    {
+        "question": "A visco-elastic substance in the body is",
+        "answers": "(A) fluid (B) blood (C) fat (D) osculum (E) finger nails (F) smooth (G) bone (H) teeth",
+        "fact 2": "Connective tissue is classed as visco-elastic.",
+        "pred answer": "O",
+        "true answer": "(B) blood"
+    },
+    {
+        "question": "What transports oxygen to the brain?",
+        "answers": "(A) microscopic organisms (B) some prokaryotes (C) feedback mechanisms (D) chemical messengers (E) animals with backbone (F) aquatic organisms (G) a fluid connective tissue (H) prokaryotic cells",
+        "fact 2": "Blood carries oxygen to the brain.",
+        "pred answer": "(E) animals with backbone",
+        "true answer": "(G) a fluid connective tissue"
+    },
+    {
+        "question": "What is true of blood cancers?",
+        "answers": "(A) They are rare. (B) several (C) Pasteurization (D) melanin content (E) calibrated (F) percentages (G) polygenic (H) melanin amount",
+        "fact 2": "Connective tissue cancers are rare.",
+        "pred answer": "O",
+        "true answer": "(A) They are rare."
+    },
+    {
+        "question": "What is magnetism used for?",
+        "answers": "(A) navigating oceans (B) safe driving (C) capture prey (D) chemical messengers (E) Communication (F) safe operation (G) visibility (H) 70-75 degrees Fahrenheit",
+        "fact 2": "Magnetism is that thing that happens with magnets and compasses and the earth.",
+        "pred answer": "(E) Communication",
+        "true answer": "(A) navigating oceans"
+    },
+    {
+        "question": "what are used for steering?",
+        "answers": "(A) brakes (B) SI units (C) tiny hairs (D) lamphreys (E) compass (F) the cervix (G) cilia (H) feedback",
+        "fact 2": "Large ocean-going vessels use a gyrocompass as their steering compass.",
+        "pred answer": "(G) cilia",
+        "true answer": "(E) compass"
+    },
+    {
+        "question": "what increases moisture?",
+        "answers": "(A) density (B) the sun (C) wind (D) rain (E) Honey (F) 17 (G) droughts (H) Type O",
+        "fact 2": "Rain is liquid precipitation.",
+        "pred answer": "O",
+        "true answer": "(D) rain"
+    },
+    {
+        "question": "What increases with altitude?",
+        "answers": "(A) moisture (B) elephants (C) worms (D) fever (E) heat (F) Gravity (G) water vapor (H) earthquakes",
+        "fact 2": "Local precipitation increases sharply with altitude.",
+        "pred answer": "O",
+        "true answer": "(A) moisture"
+    },
+    {
+        "question": "What does rain increase?",
+        "answers": "(A) percentages (B) intensity (C) sun (D) snow (E) percents (F) moisture (G) aridness (H) velocity",
+        "fact 2": "Rain is liquid precipitation.",
+        "pred answer": "O",
+        "true answer": "(F) moisture"
+    },
+    {
+        "question": "What increases moisture?",
+        "answers": "(A) winter (B) dust (C) 17 (D) rain (E) wind (F) Honey (G) thunder (H) drought",
+        "fact 2": "Rain is liquid precipitation.",
+        "pred answer": "O",
+        "true answer": "(D) rain"
+    },
+    {
+        "question": "What increases moisture?",
+        "answers": "(A) desertification (B) Type O (C) rain (D) dehydration (E) wind (F) drought (G) 17 (H) Honey",
+        "fact 2": "Rain is liquid precipitation.",
+        "pred answer": "O",
+        "true answer": "(C) rain"
+    },
+    {
+        "question": "what does a web capture?",
+        "answers": "(A) Sperm (B) nectar (C) bears (D) water (E) adult (F) Honey (G) food (H) hairs",
+        "fact 2": "Crab spiders spin no webs.",
+        "pred answer": "(D) water",
+        "true answer": "(G) food"
+    },
+    {
+        "question": "what do spiders catch?",
+        "answers": "(A) insects (B) hairs (C) rain (D) lions (E) protozoa (F) tiny hairs (G) lamphreys (H) cnidarians",
+        "fact 2": "Web spinning spiders spin webs to catch insects.",
+        "pred answer": "(F) tiny hairs",
+        "true answer": "(A) insects"
+    },
+    {
+        "question": "Webs are built to capture food by what legged creatures?",
+        "answers": "(A) six (B) nine (C) animals (D) Worms (E) four (F) adult (G) eight (H) lynx",
+        "fact 2": "Spider Spiders have eight legs.",
+        "pred answer": "(H) lynx",
+        "true answer": "(G) eight"
+    },
+    {
+        "question": "a spider uses traps to capture what",
+        "answers": "(A) larvae (B) Worms (C) water (D) Testes (E) food (F) Honey (G) light (H) cilia",
+        "fact 2": "Spider webs are interesting traps.",
+        "pred answer": "(C) water",
+        "true answer": "(E) food"
+    },
+    {
+        "question": "A cobweb is used to capture what?",
+        "answers": "(A) RNA (B) cats (C) fish (D) food (E) dust (F) hair (G) waves (H) rain",
+        "fact 2": "Cobweb spiders construct webs in corners and areas of little traffic such as basements.",
+        "pred answer": "(E) dust",
+        "true answer": "(D) food"
+    },
+    {
+        "question": "What captures food with a web?",
+        "answers": "(A) clown fish (B) lizards (C) cnidarians (D) each species (E) monkeys (F) sponges (G) arachnids (H) dandelions",
+        "fact 2": "Spiders are the largest group of arachnids.",
+        "pred answer": "(F) sponges",
+        "true answer": "(G) arachnids"
+    },
+    {
+        "question": "Protozoa can be identified by how they what?",
+        "answers": "(A) frog (B) RNA (C) Type O (D) grow (E) sing (F) size (G) move (H) algae",
+        "fact 2": "For ease of identification, cotton seedlings are classified into the following three categories.",
+        "pred answer": "O",
+        "true answer": "(G) move"
+    },
+    {
+        "question": "What can be classified on the basis of how they move?",
+        "answers": "(A) each species (B) aquatic organisms (C) reptiles ancestral to mammals (D) single celled organisms (E) microbes and mussels (F) trailers and boats (G) How fast a vehicle is going (H) melanin content",
+        "fact 2": "Paramecium are protozoa, single celled animals.",
+        "pred answer": "(D) protozoa",
+        "true answer": "(D) single celled organisms"
+    },
+    {
+        "question": "How can animals like cyptosporidium be classified?",
+        "answers": "(A) prokaryotic cells (B) holding nutrients (C) Laboratory (D) how they move (E) eukaryotic cells (F) coelenterates (G) melanin content (H) angiosperm",
+        "fact 2": "Cryptosporidium parvum is the hardest protozoa to kill.",
+        "pred answer": "(E) eukaryotic cells",
+        "true answer": "(D) how they move"
+    },
+    {
+        "question": "Ciliates can be classified on the basis of how they what?",
+        "answers": "(A) shells (B) marine (C) smooth (D) hairs (E) tissue (F) cells (G) move (H) snails",
+        "fact 2": "Ciliates are ciliated protozoa.",
+        "pred answer": "(D) hairs",
+        "true answer": "(G) move"
+    },
+    {
+        "question": "What do flowers contain?",
+        "answers": "(A) cells (B) melanin (C) skin (D) keratin (E) tiny hairs (F) flagella (G) epidermis (H) pigments",
+        "fact 2": "Chromoplasts are found in many flower petals and fruits.",
+        "pred answer": "O",
+        "true answer": "(H) pigments"
+    },
+    {
+        "question": "chromoplasts make and do what to the same thing that gives color to paint?",
+        "answers": "(A) store (B) cells (C) blow up (D) orange (E) plant (F) paint (G) Flowers (H) discard",
+        "fact 2": "Pigments Pigments give color to paint.",
+        "pred answer": "(D) orange",
+        "true answer": "(A) store"
+    },
+    {
+        "question": "What are substances that absorb visible light?",
+        "answers": "(A) chromatic (B) chromoplasts (C) trucks and cars (D) sea anemones (E) chromatin (F) chromatid (G) black widows (H) prokaryotic cells",
+        "fact 2": "Photosynthesis Pigments Pigments are substances that absorb visible light.",
+        "pred answer": "(E) chromatin",
+        "true answer": "(B) chromoplasts"
+    },
+    {
+        "question": "what are chromoplasts?",
+        "answers": "(A) marine (B) cilia (C) Testes (D) orange (E) weater (F) hued (G) Type O (H) cells",
+        "fact 2": "Chromoplasts are red, yellow or orange in hue due to the cartenoid pigments they contain.",
+        "pred answer": "(D) orange",
+        "true answer": "(F) hued"
+    },
+    {
+        "question": "Where is nectar changed to honey?",
+        "answers": "(A) water (B) male gametes (C) flowers (D) in the beehive (E) tree (F) nest (G) blossoms (H) snow, ice, and rock",
+        "fact 2": "Bees change nectar in the beehive.",
+        "pred answer": "O",
+        "true answer": "(D) in the beehive"
+    },
+    {
+        "question": "What do bees create from what they gather from flowers?",
+        "answers": "(A) Nests (B) silk (C) enzymes (D) RNA (E) herbs (F) Water (G) a hosta (H) Honey",
+        "fact 2": "Bees move from flower to flower, gathering nectar.",
+        "pred answer": "O",
+        "true answer": "(H) Honey"
+    },
+    {
+        "question": "One type of animal that produce a lot of thick, slimy mucus is _.",
+        "answers": "(A) lizards (B) Arachnids (C) Bees (D) Beetles (E) aquatic (F) sponges (G) Jawless fish (H) angiosperm",
+        "fact 2": "Today, jawless fish include the lampreys and hagfishes.",
+        "pred answer": "(H) angiosperm",
+        "true answer": "(G) Jawless fish"
+    },
+    {
+        "question": "what environments contain thick, slimy mucus?",
+        "answers": "(A) Pacific (B) sponges (C) the moon (D) marine (E) outer space (F) Porifera (G) cows (H) gravity",
+        "fact 2": "Hagfishes are entirely marine, very slimy, and feed on carrion and injured fishes.",
+        "pred answer": "(B) sponges",
+        "true answer": "(D) marine"
+    },
+    {
+        "question": "What animals are noted for secreting large amounts of thick, slimy mucus?",
+        "answers": "(A) close relatives of coral (B) angiosperm (C) some prokaryotes (D) phlegm (E) some jawless fish (F) Jabba the Hutt (G) arachnids (H) holding nutrients",
+        "fact 2": "Today, jawless fish include the lampreys and hagfishes.",
+        "pred answer": "(D) phlegm",
+        "true answer": "(E) some jawless fish"
+    },
+    {
+        "question": "Creatures that have no internal hard tissues at all are noted for what-ing large amounts of thick,?",
+        "answers": "(A) space between (B) protection (C) secreting (D) coarse grit (E) dandelions (F) sponges (G) tiny hairs (H) Therapsids",
+        "fact 2": "Hagfish and lampreys have no internal hard tissues at all.",
+        "pred answer": "(F) sponges",
+        "true answer": "(C) secreting"
+    },
+    {
+        "question": "What formed the Himalayas?",
+        "answers": "(A) erosion (B) tornadoes (C) flooding (D) earthquakes (E) hurricanes (F) amount of heat (G) precipitation (H) permeable walls",
+        "fact 2": "For big mountain background, check out the Himalayas .",
+        "pred answer": "(G) precipitation",
+        "true answer": "(D) earthquakes"
+    },
+    {
+        "question": "What is caused by moving plates?",
+        "answers": "(A) dust clouds (B) danger (C) friction (D) wind storms (E) precipitation (F) air pollution (G) mountains (H) hurricanes",
+        "fact 2": "Earthquakes Earthquakes are the results of moving plates.",
+        "pred answer": "(E) precipitation",
+        "true answer": "(G) mountains"
+    },
+    {
+        "question": "What can cause uplifting to occur",
+        "answers": "(A) sound vibrations (B) oil drilling (C) it increases (D) Earthquakes (E) deposits (F) erosion (G) mud slides (H) hurricanes",
+        "fact 2": "Many mountains are formed through uplifting.",
+        "pred answer": "(G) mountains",
+        "true answer": "(D) Earthquakes"
+    },
+    {
+        "question": "what are found in the small intestine?",
+        "answers": "(A) antigens (B) stomach (C) coliform (D) respiration (E) fats (F) food (G) enzymes (H) urine",
+        "fact 2": "Enzymes are chemicals involved in digestion.",
+        "pred answer": "O",
+        "true answer": "(G) enzymes"
+    },
+    {
+        "question": "A patient with celiac disease will likely have reduced ",
+        "answers": "(A) chemical digestion (B) speed of movements (C) nose piercings (D) expression (E) Lymphocytes (F) psoriasis (G) intelligence (H) White blood cells",
+        "fact 2": "Celiac disease damages the small intestine and interferes with nutrient absorption.",
+        "pred answer": "(E) Lymphocytes",
+        "true answer": "(A) chemical digestion"
+    },
+    {
+        "question": "what involved in digestion occur mainly in the small intestine?",
+        "answers": "(A) corn (B) nutrients (C) cells (D) foods (E) fish (F) enzymes (G) fats (H) vorticella",
+        "fact 2": "Enzymes are chemicals involved in digestion.",
+        "pred answer": "O",
+        "true answer": "(F) enzymes"
+    },
+    {
+        "question": "What aids chemical digestion?",
+        "answers": "(A) amount of heat (B) dandelions (C) several genes (D) flagella (E) lactobacillus (F) a hosta (G) melanin content (H) holding nutrients",
+        "fact 2": "Lactobacillus is present in the small intestine.",
+        "pred answer": "O",
+        "true answer": "(E) lactobacillus"
+    },
+    {
+        "question": "Where are enzymes located?",
+        "answers": "(A) in the small intestine (B) occurs over a wide range (C) Microscopic vessels. (D) tissue made of chondrocytes (E) chondrocytes (F) holding nutrients (G) snow, ice, and rock (H) To survive in their environment",
+        "fact 2": "Enzymes are chemicals involved in digestion.",
+        "pred answer": "O",
+        "true answer": "(A) in the small intestine"
+    },
+    {
+        "question": "Complex chemicals break down into simple ones mainly in the _.",
+        "answers": "(A) mild heating process (B) Seconds and minutes (C) unicellular organisms (D) tropical cyclone (E) angiosperm (F) small intestine (G) Laboratory (H) paramecium",
+        "fact 2": "Chemical digestion breaks complex chemicals into simple ones.",
+        "pred answer": "(B) minutes",
+        "true answer": "(F) small intestine"
+    },
+    {
+        "question": "What computer component can you use to measure time?",
+        "answers": "(A) size (B) wind (C) Mohs (D) Mouse (E) heat (F) CPU (G) Seconds (H) Hard drive",
+        "fact 2": "CPU time is measured in seconds.",
+        "pred answer": "(G) Seconds",
+        "true answer": "(F) CPU"
+    },
+    {
+        "question": "What is used to measure a period?",
+        "answers": "(A) percents (B) seconds (C) rainfall (D) lamphreys (E) feet (F) pounds (G) distance (H) meters",
+        "fact 2": "An accounting period is simply a period of time.",
+        "pred answer": "O",
+        "true answer": "(B) seconds"
+    },
+    {
+        "question": "seconds can be used to measure",
+        "answers": "(A) shaking (B) Seconds (C) Speed (D) matter (E) wind (F) rain (G) fields (H) Pupils",
+        "fact 2": "Speed is measured by the distance covered divided by the elapsed time.",
+        "pred answer": "(B) Seconds",
+        "true answer": "(C) Speed"
+    },
+    {
+        "question": "What does a dog use the stiff hairs on his face for?",
+        "answers": "(A) movement (B) how they move (C) expression (D) visibility (E) For emotion. (F) For feeling. (G) For styling. (H) For hearing.",
+        "fact 2": "Whiskers Whiskers are the stiff hairs on the dog's face.",
+        "pred answer": "(E) For emotion.",
+        "true answer": "(F) For feeling."
+    },
+    {
+        "question": "What can cats use special long hairs to do?",
+        "answers": "(A) Reproduce (B) Growth (C) Detect ghosts (D) damage (E) Eat (F) learn (G) Feel (H) grow",
+        "fact 2": "All cats are animals.",
+        "pred answer": "O",
+        "true answer": "(G) Feel"
+    },
+    {
+        "question": "What do cats have body parts for?",
+        "answers": "(A) bone (B) antigens (C) flight (D) magic (E) feeling (F) tissue (G) adult (H) telekinesis",
+        "fact 2": "Another name for it is cat's whiskers.",
+        "pred answer": "O",
+        "true answer": "(E) feeling"
+    },
+    {
+        "question": "what uses whiskers for feeling?",
+        "answers": "(A) adult (B) jellyfish (C) cats (D) babies (E) cows (F) bacteria (G) humans (H) weather",
+        "fact 2": "All cats are animals.",
+        "pred answer": "O",
+        "true answer": "(C) cats"
+    },
+    {
+        "question": "What can be used to measure seconds?",
+        "answers": "(A) Watch (B) seconds (C) fluid (D) Ruler (E) goggles (F) glasses (G) Drill (H) Scale",
+        "fact 2": "Times are measured in seconds.",
+        "pred answer": "O",
+        "true answer": "(A) Watch"
+    },
+    {
+        "question": "what is used for measuring time?",
+        "answers": "(A) speed (B) compass (C) beakers (D) Rolex (E) yard stick (F) 86400 (G) glasses (H) thermometer",
+        "fact 2": "Today's Rolex is tomorrow's cheap gold watch.",
+        "pred answer": "(F) 86400",
+        "true answer": "(D) Rolex"
+    },
+    {
+        "question": "What can a watch be used for?",
+        "answers": "(A) safe operation (B) an infant's growth (C) hearing (D) water (E) help other species benefit (F) local weather conditions (G) studying weather (H) Scientific research",
+        "fact 2": "Time management is the science of how to use the hours in a day more efficiently.",
+        "pred answer": "(F) local weather conditions",
+        "true answer": "(H) Scientific research"
+    },
+    {
+        "question": "a surface that is not what is likely to be covered with something that eats and digests foods?",
+        "answers": "(A) cartilage (B) plastic (C) dirty (D) sterilized (E) a hosta (F) covered in bacteria (G) Unsafe (H) tooth enamel",
+        "fact 2": "Bacteria eat and bacteria digest foods.",
+        "pred answer": "(F) covered in bacteria",
+        "true answer": "(D) sterilized"
+    },
+    {
+        "question": "Any surface that has not been sterilized is likely to be covered with:",
+        "answers": "(A) sticky stuff (B) dead snail shells (C) single cell microorganisms (D) large creatures (E) microbes and mussels (F) nutritious fluid (G) 70-75 degrees Fahrenheit (H) water",
+        "fact 2": "Bacteria are single cell microorganism.",
+        "pred answer": "(E) microbes and mussels",
+        "true answer": "(C) single cell microorganisms"
+    },
+    {
+        "question": "what is likely to be covered with bacteria if it has not been sterilized?",
+        "answers": "(A) counterop (B) Therapsids (C) dandelions (D) clouds (E) Lymph fluid (F) sea anemones (G) ferns (H) density",
+        "fact 2": "All countertop surfaces are natural stone.",
+        "pred answer": "(A) countertop",
+        "true answer": "(A) counterop"
+    },
+    {
+        "question": "Any area that has not been what is likely to be covered with bacteria?",
+        "answers": "(A) antigens that cause allergy (B) bleached with teeth (C) 70-75 degrees Fahrenheit (D) scrubbed with bleach (E) on a plant possessing stoma (F) extreme environments (G) washed with rags (H) scrubbed with sand",
+        "fact 2": "Every surface was scrubbed with bleach.",
+        "pred answer": "(H) scrubbed with sand",
+        "true answer": "(D) scrubbed with bleach"
+    },
+    {
+        "question": "What can sterilant be used for?",
+        "answers": "(A) transportation (B) Warmer temperatures (C) trailers and boats (D) curing them (E) trees and flowers (F) Transporting humans (G) measuring device (H) clean a table",
+        "fact 2": "Potent liquid sterilant kills AIDS and other viruses on surfaces.",
+        "pred answer": "(D) curing them",
+        "true answer": "(H) clean a table"
+    },
+    {
+        "question": "What does fluoride do?",
+        "answers": "(A) reduce acidity of food (B) stop mouth pain (C) Extensive bone growth (D) make tooth enamel grow (E) protect eyes in the lab (F) It's inherited from genes (G) gas spreads in the air (H) decrease the destruction of tooth enamel",
+        "fact 2": "Tooth decay is a destruction of the tooth enamel.",
+        "pred answer": "(D) make tooth enamel grow",
+        "true answer": "(H) decrease the destruction of tooth enamel"
+    },
+    {
+        "question": "What is essential for development of nerve cells?",
+        "answers": "(A) vibration (B) steel (C) Extensive bone growth (D) One can hear (E) stress (F) melanin content (G) sound vibrations (H) differentiation",
+        "fact 2": "Nerve cells are large, complicated, highly specialized cells.",
+        "pred answer": "(G) sound vibrations",
+        "true answer": "(H) differentiation"
+    },
+    {
+        "question": "memory cells and effector cells are what compared to T helper cells",
+        "answers": "(A) dermal & vascular tissue (B) antibodies (C) fetal development (D) antigens (E) occurs over a wide range (F) prokaryotic cells (G) unicellular organisms (H) more specialized",
+        "fact 2": "T helper cells differentiate to Memory cells and effector cells.",
+        "pred answer": "(E) occurs over a wide range",
+        "true answer": "(H) more specialized"
+    },
+    {
+        "question": "what are sharks?",
+        "answers": "(A) vertebrates (B) bears (C) cold blooded (D) reptile (E) whales (F) their young (G) coelenterates (H) saves lives",
+        "fact 2": "Hagfish and sharks are both isosmotic with their saline environments.",
+        "pred answer": "(G) coelenterates",
+        "true answer": "(A) vertebrates"
+    },
+    {
+        "question": "Forefathers of what kind of fish are thought to be the earliest vertebrates?",
+        "answers": "(A) hagfish (B) Pelycosaur (C) fish (D) angiosperm (E) adult (F) Therapsids (G) marine (H) aquatic",
+        "fact 2": "Property of ancestors and forefathers can only be legally inherited by sons.",
+        "pred answer": "(C) fish",
+        "true answer": "(A) hagfish"
+    },
+    {
+        "question": "What do most fish not have to deal with?",
+        "answers": "(A) hardened backbone (B) death (C) Exposure to oxygen and water (D) vertebrae or backbone (E) disasters (F) Extremes of temperature (G) krill and plankton (H) predators",
+        "fact 2": "Fish Fish are the ultimate aquatic organism.",
+        "pred answer": "(C) Exposure to oxygen and water",
+        "true answer": "(F) Extremes of temperature"
+    },
+    {
+        "question": "What generally don't have to deal with extremes of temperature or moisture?",
+        "answers": "(A) Sponge (B) ferns (C) penguins (D) polar bears (E) fish (F) snails (G) cilia (H) fat",
+        "fact 2": "Fish Fish are the ultimate aquatic organism.",
+        "pred answer": "(H) fat",
+        "true answer": "(E) fish"
+    },
+    {
+        "question": "Most what do not have to deal with extremes of temperature or moisture?",
+        "answers": "(A) cilia (B) fish (C) snails (D) marine (E) humans (F) camels (G) ferns (H) lizards",
+        "fact 2": "Effects on Aquatic Organisms Triallate is highly toxic to fish and other aquatic organisms.",
+        "pred answer": "(G) ferns",
+        "true answer": "(B) fish"
+    },
+    {
+        "question": "What do most fish not have to deal with?",
+        "answers": "(A) negative feedback (B) feedback mechanisms (C) Exposure to oxygen and water (D) the environment (E) Temperature extremes (F) protein foreign to the body. (G) antigens that cause allergy (H) Warmer temperatures",
+        "fact 2": "Fish and other aquatic creatures are no exception.",
+        "pred answer": "(C) Exposure to oxygen and water",
+        "true answer": "(E) Temperature extremes"
+    },
+    {
+        "question": "Most what o not have to deal with extremes of temperature or moisture?",
+        "answers": "(A) boys (B) snails (C) cilia (D) ferns (E) apples (F) cells (G) fish (H) fat",
+        "fact 2": "Fish Fish are the ultimate aquatic organism.",
+        "pred answer": "(H) fat",
+        "true answer": "(G) fish"
+    },
+    {
+        "question": "Most _ do not have to deal with extremes of temperature or moisture.",
+        "answers": "(A) matter (B) move (C) snails (D) tissue (E) weater (F) winter (G) fish (H) life",
+        "fact 2": "Fish Fish are the ultimate aquatic organism.",
+        "pred answer": "(H) life",
+        "true answer": "(G) fish"
+    },
+    {
+        "question": "What kind of creatures don't usually have to deal with extreme temperatures or wetness?",
+        "answers": "(A) ecosystems (B) one-celled animals (C) unicellular organisms (D) dandelions (E) close relatives of coral (F) angiosperm (G) alligators (H) aquatic organisms",
+        "fact 2": "Wetting provides moisture to make brine.",
+        "pred answer": "(B) one-celled animals",
+        "true answer": "(H) aquatic organisms"
+    },
+    {
+        "question": "When iron oxidizes, that metal becomes orange where?",
+        "answers": "(A) indoors (B) road bends (C) Elemental (D) a producer (E) outdoors (F) surface (G) warmer air (H) inside",
+        "fact 2": "When iron oxidizes, it rusts.",
+        "pred answer": "(E) outdoors",
+        "true answer": "(F) surface"
+    },
+    {
+        "question": "Moisture can turn metal what color",
+        "answers": "(A) orange (B) damaging (C) solid (D) erosion (E) smooth (F) nectarine (G) mineral (H) Unsafe",
+        "fact 2": "Moisture is the main cause of rust.",
+        "pred answer": "(D) erosion",
+        "true answer": "(A) orange"
+    },
+    {
+        "question": "What happens on the surface when iron rusts?",
+        "answers": "(A) it becomes orange (B) it grows (C) Extremes of temperature (D) gas spreads in the air (E) it flies (F) destruction (G) 295 degrees Kelvin (H) it explodes",
+        "fact 2": "Chemically, iron is an active metal.",
+        "pred answer": "(G) 295 degrees Kelvin",
+        "true answer": "(A) it becomes orange"
+    },
+    {
+        "question": "When iron rusts, it becomes what on the surface?",
+        "answers": "(A) osculum (B) a metal (C) black (D) pink (E) Elemental (F) invisible (G) hued (H) orange",
+        "fact 2": "Chemically, iron is an active metal.",
+        "pred answer": "(C) black",
+        "true answer": "(H) orange"
+    },
+    {
+        "question": "When steel rusts it becomes",
+        "answers": "(A) blue (B) Mohs (C) Unsafe (D) solid (E) orange (F) damaging (G) rainbow (H) pink",
+        "fact 2": "Steel is the most useful of metals.",
+        "pred answer": "(D) solid",
+        "true answer": "(E) orange"
+    },
+    {
+        "question": "Cast-iron and steel surfaces are susceptible to becoming what on the surface?",
+        "answers": "(A) hardness (B) solid (C) irritants (D) acids (E) orange (F) heat (G) Unsafe (H) damaging",
+        "fact 2": "Cast-iron and steel surfaces are susceptible to corrosion in the form of rust.",
+        "pred answer": "(D) acids",
+        "true answer": "(E) orange"
+    },
+    {
+        "question": "What is processed when it reaches the brain?",
+        "answers": "(A) microwaves (B) food (C) antigen (D) noise (E) RNA (F) radiation (G) xrays (H) insulin",
+        "fact 2": "Nevertheless, the sharpest sounds are perceived in the brain.",
+        "pred answer": "(E) RNA",
+        "true answer": "(D) noise"
+    },
+    {
+        "question": "When vibrations reach the ear, what can be heard?",
+        "answers": "(A) insects (B) silence (C) shaking (D) danger (E) loneliness (F) Yes (G) quiet (H) music",
+        "fact 2": "Music is basically sound produced by vibrations.",
+        "pred answer": "O",
+        "true answer": "(H) music"
+    },
+    {
+        "question": "Placing a mineral on the Mohs scale requires ",
+        "answers": "(A) strength (B) magnesium (C) as a base (D) transportation (E) scratching it (F) classified (G) periodic table (H) photographing it",
+        "fact 2": "For ranking the hardness of minerals, the Mohs scale is generally used.",
+        "pred answer": "O",
+        "true answer": "(E) scratching it"
+    },
+    {
+        "question": "What must be done to classify minerals?",
+        "answers": "(A) wash them (B) Phylogeny (C) bury them (D) scratch them (E) treatment (F) Cladistics (G) periodic table (H) throw them",
+        "fact 2": "Minerals are classified by their hardness.",
+        "pred answer": "O",
+        "true answer": "(D) scratch them"
+    },
+    {
+        "question": "What can you scratch to measure?",
+        "answers": "(A) stoma (B) bone (C) yardsticks (D) diamonds (E) rulers (F) distance (G) hairs (H) measuring tape",
+        "fact 2": "Diamonds are so hard because of the shape of a diamond's structure.",
+        "pred answer": "(E) rulers",
+        "true answer": "(D) diamonds"
+    },
+    {
+        "question": "what needs to be scratched to measure hardness?",
+        "answers": "(A) nails (B) stoma (C) air (D) h2o (E) oaks (F) poles (G) weater (H) gems",
+        "fact 2": "Most gem stones are hard minerals.",
+        "pred answer": "O",
+        "true answer": "(H) gems"
+    },
+    {
+        "question": "Measuring the hardness of calcite requires what?",
+        "answers": "(A) melting those materials (B) hardened backbone (C) amount of heat (D) 70-75 degrees Fahrenheit (E) cutting those materials (F) scratching yourself (G) thermal expansion (H) scratching those materials",
+        "fact 2": "Calcite is a very common mineral.",
+        "pred answer": "(D) 70-75 degrees Fahrenheit",
+        "true answer": "(H) scratching those materials"
+    },
+    {
+        "question": "Measuring the what of minerals requires chipping those materials?",
+        "answers": "(A) deposits (B) potassium (C) size (D) weight (E) hardness (F) shape (G) key element (H) strength",
+        "fact 2": "Although a diamond is the hardest substance known to man, it can be chipped or scratched.",
+        "pred answer": "(C) diamond",
+        "true answer": "(E) hardness"
+    },
+    {
+        "question": "What is necessary to measure the hardness of materials?",
+        "answers": "(A) treatment (B) tapping (C) rubbing (D) tasting (E) lamphreys (F) scratching (G) strength (H) potassium",
+        "fact 2": "Travel is required as necessary.",
+        "pred answer": "(B) file",
+        "true answer": "(F) scratching"
+    },
+    {
+        "question": "Measuring hardness of minerals requires a harder what?",
+        "answers": "(A) calcium (B) as a base (C) cartilage (D) mineral (E) stoma (F) osculum (G) the same (H) weater",
+        "fact 2": "Harder minerals can scratch softer minerals.",
+        "pred answer": "O",
+        "true answer": "(D) mineral"
+    },
+    {
+        "question": "What is done to a mineral to determine its place on the Moh's scale?",
+        "answers": "(A) scratch (B) keratin (C) Laboratory (D) classified (E) treatment (F) surveyor (G) percents (H) as a base",
+        "fact 2": "Moh's scale is used to describe a mineral's hardness.",
+        "pred answer": "O",
+        "true answer": "(A) scratch"
+    },
+    {
+        "question": "What are used to take infrared pictures from space?",
+        "answers": "(A) cameras (B) Chemicals (C) waves (D) light (E) weater (F) microscopes (G) telescopes (H) satellites",
+        "fact 2": "Images include satellite and infrared pictures.",
+        "pred answer": "(G) telescopes",
+        "true answer": "(H) satellites"
+    },
+    {
+        "question": "what are satellites used to take pictures of?",
+        "answers": "(A) people (B) Earth (C) animals (D) humans (E) underground (F) small animals (G) trees (H) cell phones",
+        "fact 2": "Images of Earth taken from space.",
+        "pred answer": "O",
+        "true answer": "(B) Earth"
+    },
+    {
+        "question": "What helps prevent injuries to children in cars?",
+        "answers": "(A) seat belts (B) melanin content (C) magnesium (D) melanin amount (E) Radio (F) legroom (G) roof storage (H) Chemicals",
+        "fact 2": "Children are passengers too.",
+        "pred answer": "O",
+        "true answer": "(A) seat belts"
+    },
+    {
+        "question": "What can help prevent death?",
+        "answers": "(A) hormones (B) Backseat driving (C) Seat belts (D) homeostasis (E) melanin content (F) Distracted driving (G) antibodies (H) Careless driving",
+        "fact 2": "Car accidents are a leading cause of death for children today.",
+        "pred answer": "O",
+        "true answer": "(C) Seat belts"
+    },
+    {
+        "question": "Seat belts are used for what in during crashes for passengers?",
+        "answers": "(A) filing lawsuits (B) creating injuries (C) medical reasons (D) safe driving (E) getting arrested (F) safe operation (G) avoiding injuries (H) how they move",
+        "fact 2": "Many injuries in crashes are caused by unbelted passengers colliding with other people in the car.",
+        "pred answer": "(C) medical reasons",
+        "true answer": "(G) avoiding injuries"
+    },
+    {
+        "question": "What do seat belts and helmets do?",
+        "answers": "(A) destroy (B) change an ecosystem (C) safe driving (D) protect passengers (E) only discomfort people (F) hurt people (G) oxygen spreads into the air (H) safe operation",
+        "fact 2": "Helmets prevent injuries and death.",
+        "pred answer": "O",
+        "true answer": "(D) protect passengers"
+    },
+    {
+        "question": "When does a seatbelt come in handy?",
+        "answers": "(A) horse accident (B) motorcycle accident (C) Being over land (D) car accident (E) 295 degrees Kelvin (F) visibility (G) winter (H) a cold environment",
+        "fact 2": "An injury is caused by an accident.",
+        "pred answer": "O",
+        "true answer": "(D) car accident"
+    },
+    {
+        "question": "What can car crashes do to passengers?",
+        "answers": "(A) Injure them (B) Make them secure (C) clog airways (D) Unsafe (E) dehydration (F) Car accidents (G) Show them the way (H) Make cars better",
+        "fact 2": "Seat Belts Seat belts provide primary protection in all types of crashes.",
+        "pred answer": "(B) Make them secure",
+        "true answer": "(A) Injure them"
+    },
+    {
+        "question": "What can seat belts help avoid?",
+        "answers": "(A) clog airways (B) passengers (C) damaging (D) whiplash (E) dehydration (F) vibration (G) driving (H) allergen",
+        "fact 2": "Whiplash injuries are soft tissue injuries.",
+        "pred answer": "O",
+        "true answer": "(D) whiplash"
+    },
+    {
+        "question": "What do Waldron buckles with lead in cars do?",
+        "answers": "(A) decrease strength (B) damaging (C) how they move (D) change an ecosystem (E) Prevent injuries (F) safe driving (G) safe operation (H) negative feedback",
+        "fact 2": "Waldron buckles with lead foil made up the seat belts.",
+        "pred answer": "(F) safe driving",
+        "true answer": "(E) Prevent injuries"
+    },
+    {
+        "question": "What changes forests?",
+        "answers": "(A) small breezes (B) movement (C) wildfire (D) it increases (E) feedback (F) light rain (G) homeostasis (H) road bends",
+        "fact 2": "Fire is a natural part forest ecosystems.",
+        "pred answer": "(F) light rain",
+        "true answer": "(C) wildfire"
+    },
+    {
+        "question": "Forest fires change what drastically?",
+        "answers": "(A) danger (B) ecosystems (C) movement (D) water (E) destruction (F) road bends (G) fire (H) thunder",
+        "fact 2": "Forest fires are examples of wildfires.",
+        "pred answer": "O",
+        "true answer": "(B) ecosystems"
+    },
+    {
+        "question": "What often can drastically change a biome?",
+        "answers": "(A) wildfire (B) destruction (C) infection (D) winter (E) movement (F) malaria (G) sea anemones (H) the Arctic",
+        "fact 2": "Biomes are global ecosystems.",
+        "pred answer": "O",
+        "true answer": "(A) wildfire"
+    },
+    {
+        "question": "The West experiences drastic changes to its what",
+        "answers": "(A) interior (B) backbones (C) homeostasis (D) tissue (E) moving plates (F) communication (G) ecosystem (H) Phylogeny",
+        "fact 2": "Wildfires scorch the West.",
+        "pred answer": "(E) moving plates",
+        "true answer": "(G) ecosystem"
+    },
+    {
+        "question": "When people look around everyday, they require what?",
+        "answers": "(A) heat (B) paranoia (C) pigment (D) music (E) light (F) hue (G) water (H) friends",
+        "fact 2": "When people look around everyday, they see color.",
+        "pred answer": "O",
+        "true answer": "(E) light"
+    },
+    {
+        "question": "What is the same as seeing?",
+        "answers": "(A) taste (B) vision (C) SI units (D) movement (E) cilia (F) distal (G) Watch (H) Type O",
+        "fact 2": "Light is essential to vision.",
+        "pred answer": "O",
+        "true answer": "(B) vision"
+    },
+    {
+        "question": "What do eyes require?",
+        "answers": "(A) a form of oxygen (B) Light shining into it (C) Exposure to oxygen and water (D) A dark environment (E) Contact lenses (F) melanin amount (G) tissue made of chondrocytes (H) Glasses",
+        "fact 2": "Sight is the mere ability to see, and the eye's responses to light shining into it.",
+        "pred answer": "(C) Exposure to oxygen and water",
+        "true answer": "(B) Light shining into it"
+    },
+    {
+        "question": "What requires light?",
+        "answers": "(A) bats (B) rocks (C) orange (D) homes (E) eyes (F) lynx (G) cats (H) deep-sea dwellers",
+        "fact 2": "Humans see with our eyes.",
+        "pred answer": "O",
+        "true answer": "(E) eyes"
+    },
+    {
+        "question": "What is required for vision?",
+        "answers": "(A) light (B) goggles (C) food (D) smell (E) hormones (F) Protein (G) color (H) hue",
+        "fact 2": "Vision is our ability to see.",
+        "pred answer": "O",
+        "true answer": "(A) light"
+    },
+    {
+        "question": "What does seeing require?",
+        "answers": "(A) cilia (B) osculum (C) seconds (D) goggles (E) distance (F) Pupils (G) intensity (H) glasses",
+        "fact 2": "Light comes through the pupil.",
+        "pred answer": "O",
+        "true answer": "(F) Pupils"
+    },
+    {
+        "question": "how many cm in a meter?",
+        "answers": "(A) feet (B) 16 (C) 17 (D) 100 (E) hole (F) inches (G) bar (H) weight",
+        "fact 2": "Meter stick is 100 cm.",
+        "pred answer": "O",
+        "true answer": "(D) 100"
+    },
+    {
+        "question": "A 100 cm stick is used to measure what?",
+        "answers": "(A) friction (B) distance (C) sub-atomic distance (D) visibility (E) asynchronous distance (F) strength (G) rainfall (H) vibration",
+        "fact 2": "Meter stick is 100 cm.",
+        "pred answer": "(G) rainfall",
+        "true answer": "(B) distance"
+    },
+    {
+        "question": "a meter stick is used to measure what between things?",
+        "answers": "(A) volume (B) space (C) seconds (D) speed (E) light (F) weight (G) MPH (H) time",
+        "fact 2": "Space is a distance between.",
+        "pred answer": "O",
+        "true answer": "(B) space"
+    },
+    {
+        "question": "What can be used to measure feet?",
+        "answers": "(A) lamphreys (B) a graduated cylinder (C) a metal (D) nutritious fluid (E) a barometer (F) a microscope (G) a meter stick (H) snow, ice, and rock",
+        "fact 2": "All distances are in feet.",
+        "pred answer": "(B) a graduated cylinder",
+        "true answer": "(G) a meter stick"
+    },
+    {
+        "question": "what has a loss of the natural component in the atmosphere done?",
+        "answers": "(A) rapid changes occur (B) regulated temperature (C) occurs over a wide range (D) hydrogen expansion (E) created hole over Antarctica (F) when it passes over a continent (G) a surface not sterilized (H) weathering",
+        "fact 2": "Ozone Ozone is a natural component of the atmosphere.",
+        "pred answer": "(H) weathering",
+        "true answer": "(E) created hole over Antarctica"
+    },
+    {
+        "question": "a loss of what has created a hole over Antarctica?",
+        "answers": "(A) eruptive products (B) detritus and detrital organism (C) clouds (D) krill and plankton (E) h2o (F) single cell microorganisms (G) natural atmosphere component (H) gravity",
+        "fact 2": "Ozone Ozone is a natural component of the atmosphere.",
+        "pred answer": "(E) H2O",
+        "true answer": "(G) natural atmosphere component"
+    },
+    {
+        "question": "Why has the risk of developing skin cancer increased for those living near Antarctica?",
+        "answers": "(A) 70-75 degrees Fahrenheit (B) higher ultraviolet  radiation (C) Exposure to oxygen and water (D) tanning machines closed (E) more infectious tourists (F) Being over land (G) more shiny polar bears (H) a surface not sterilized",
+        "fact 2": "Ozone depletion allows more ultraviolet radiation, which causes skin cancer.",
+        "pred answer": "(B) higher ultraviolet radiation",
+        "true answer": "(B) higher ultraviolet  radiation"
+    },
+    {
+        "question": "What has been lost that created a hole over the south pole?",
+        "answers": "(A) calcium (B) gas (C) ozone (D) smoke (E) water (F) oxygen (G) fluid (H) erosion",
+        "fact 2": "An annual ozone hole over Antarctica has been observed since the 1980s.",
+        "pred answer": "(E) water",
+        "true answer": "(C) ozone"
+    },
+    {
+        "question": "what can occur in areas with high mountains with well-rounded peaks",
+        "answers": "(A) melanin amount (B) deserts (C) jungles (D) earthquakes (E) coral (F) permeable walls (G) air pollution (H) male gametes",
+        "fact 2": "Many earthquakes occur when the earth's crustal plates grind and shift along one another.",
+        "pred answer": "O",
+        "true answer": "(D) earthquakes"
+    },
+    {
+        "question": "Plate tectonics can form high mountains with what?",
+        "answers": "(A) changes in size (B) feedback mechanisms (C) well-rounded peaks (D) moving over land (E) rapid changes occur (F) permeable walls (G) occurs over a wide range (H) plasma and formed elements",
+        "fact 2": "Plate tectonics is the gradual movement of crustal plates on the surface of the earth.",
+        "pred answer": "(H) plasma and formed elements",
+        "true answer": "(C) well-rounded peaks"
+    },
+    {
+        "question": "earthquakes form in the same way as what",
+        "answers": "(A) trucks and cars (B) feedback mechanisms (C) road bends (D) pitches (E) rapid changes occur (F) high mountains (G) changes in size (H) measure of motion",
+        "fact 2": "Another phenomena associated with collision and subduction of the plates is earthquakes .",
+        "pred answer": "(E) the ground trem",
+        "true answer": "(F) high mountains"
+    },
+    {
+        "question": "What are volcanoes most likely to be found near?",
+        "answers": "(A) islets of Langerhans (B) points north (C) amount of heat (D) heated by the sun (E) interior chambers (F) High Mountains (G) deposits (H) very complex",
+        "fact 2": "On Earth, volcanoes are found mainly along the colliding boundaries of great crustal plates.",
+        "pred answer": "(F) beads",
+        "true answer": "(F) High Mountains"
+    },
+    {
+        "question": "Babies do what most during their rapid growth period?",
+        "answers": "(A) birth (B) move (C) run (D) fight (E) puberty (F) play (G) learn (H) shaking",
+        "fact 2": "During infancy, babies learn whether to trust the world.",
+        "pred answer": "(F) play",
+        "true answer": "(G) learn"
+    },
+    {
+        "question": "When does learning begin?",
+        "answers": "(A) west of Africa (B) translation (C) after birth (D) in the beehive (E) Synchronous (F) road bends (G) in adulthood (H) the Himalayas",
+        "fact 2": "Learning begins in infancy.",
+        "pred answer": "O",
+        "true answer": "(C) after birth"
+    },
+    {
+        "question": "What is the period of most rapidly getting bigger after birth?",
+        "answers": "(A) 86400 (B) infancy (C) adult (D) a hosta (E) pregnancy (F) adulthood (G) eight (H) angiosperm",
+        "fact 2": "Development means to get better, growth means to get bigger.",
+        "pred answer": "O",
+        "true answer": "(B) infancy"
+    },
+    {
+        "question": "The first year is the period of what?",
+        "answers": "(A) communication (B) blossoms (C) rapid growth (D) Flowers (E) flower secretion (F) Prehistoric (G) Mesozoic (H) melanin content",
+        "fact 2": "Infants are birth to one year.",
+        "pred answer": "(D) Flowers",
+        "true answer": "(C) rapid growth"
+    },
+    {
+        "question": "What does high nutrition fuel?",
+        "answers": "(A) something cows produce (B) undergrowth (C) saves lives (D) holding nutrients (E) can be organic (F) obesity (G) Transporting humans (H) an infant's growth",
+        "fact 2": "Infants, children, and teens have relatively high nutrition needs to fuel their rapid growth.",
+        "pred answer": "(E) can be organic",
+        "true answer": "(H) an infant's growth"
+    },
+    {
+        "question": "What is the period of most rapid growth after being born?",
+        "answers": "(A) puberty (B) toddler years (C) pregnancy (D) adult (E) senior age (F) eight (G) teenage years (H) infancy",
+        "fact 2": "When a person is born, a birth certificate is written up to record their birth.",
+        "pred answer": "O",
+        "true answer": "(H) infancy"
+    },
+    {
+        "question": "what begins in the period of most rapid growth after birth",
+        "answers": "(A) pregnancy (B) prokaryotic cells (C) Flowers (D) facial hair (E) Communication (F) flagella (G) trees and flowers (H) hair loss",
+        "fact 2": "Communication begins in infancy.",
+        "pred answer": "(F) flagella",
+        "true answer": "(E) Communication"
+    },
+    {
+        "question": "What is the period of most rapid advancement?",
+        "answers": "(A) infancy (B) navigation (C) The Alps (D) medicine (E) astronomy (F) protozoa (G) puberty (H) 86400",
+        "fact 2": "Rapid growth means rapid advancement.",
+        "pred answer": "(H) 86400",
+        "true answer": "(A) infancy"
+    },
+    {
+        "question": "What do digestive enzymes make easier to chew?",
+        "answers": "(A) water (B) food (C) 86400 (D) sunlight (E) herbs (F) weater (G) saliva (H) fat",
+        "fact 2": "Besides, saliva contains digestive enzymes .",
+        "pred answer": "(G) saliva",
+        "true answer": "(B) food"
+    },
+    {
+        "question": "What makes food easier to chew?",
+        "answers": "(A) kinase (B) heat (C) corn (D) lamphreys (E) keratin (F) Protein (G) liquids (H) cilia",
+        "fact 2": "Saliva contributes more than 70 percent of the liquid in the rumen.",
+        "pred answer": "(F) Protein",
+        "true answer": "(G) liquids"
+    },
+    {
+        "question": "What does cow milk have that makes it nutritious?",
+        "answers": "(A) antigens (B) Chocolate (C) grams (D) as a base (E) Beef (F) Bacteria (G) enzymes (H) Vitamin D",
+        "fact 2": "Fluid milk is fortified with vitamin D and rich in calcium.",
+        "pred answer": "(G) enzymes",
+        "true answer": "(H) Vitamin D"
+    },
+    {
+        "question": "What do parents do after giving birth to their offspring?",
+        "answers": "(A) weater (B) movement (C) throw them (D) distract them (E) give them away (F) moving over land (G) flying (H) nurture them",
+        "fact 2": "Parents take care of children.",
+        "pred answer": "O",
+        "true answer": "(H) nurture them"
+    },
+    {
+        "question": "what have a period of parental care of their offspring?",
+        "answers": "(A) weater (B) fungus (C) babies (D) Porifera (E) bacteria (F) jellyfish (G) molecules (H) humans",
+        "fact 2": "Human birth is the rarest of all births.",
+        "pred answer": "(C) babies",
+        "true answer": "(H) humans"
+    },
+    {
+        "question": "what might be followed by a period of parental care of the offspring?",
+        "answers": "(A) child being born (B) tropical cyclone (C) dermal & vascular tissue (D) In an apiary (E) Pasteurization (F) after the snow melts (G) changes in size (H) in the beehive",
+        "fact 2": "Each birth is as unique as the child that is born.",
+        "pred answer": "(H) in the beehive",
+        "true answer": "(A) child being born"
+    },
+    {
+        "question": "Where do lancelet larvae live?",
+        "answers": "(A) a hosta (B) water (C) oaks (D) weater (E) Flowers (F) precipitation (G) fields (H) clouds",
+        "fact 2": "Once the water flows, dive in and swim through.",
+        "pred answer": "(F) precipitation",
+        "true answer": "(B) water"
+    },
+    {
+        "question": "how do small fishlike animals with tapered bodies get around?",
+        "answers": "(A) free-swimming (B) moving over land (C) heated by the sun (D) transportation (E) flying (F) gills (G) walking (H) melanin content",
+        "fact 2": "Lancelets are small fishlike animals with tapered bodies.",
+        "pred answer": "(F) gills",
+        "true answer": "(A) free-swimming"
+    },
+    {
+        "question": "_ usually ends when humans become sexually mature.",
+        "answers": "(A) winter (B) Cell division (C) pregnancy (D) Growth (E) Education (F) flagellum (G) fever (H) 22 months",
+        "fact 2": "Growth usually ceases with puberty.",
+        "pred answer": "(H) 22 months",
+        "true answer": "(D) Growth"
+    },
+    {
+        "question": "When do adolescents experience their highest nutritional demand since infancy?",
+        "answers": "(A) carrying offspring to birth (B) occurs over a wide range (C) it increases (D) It's inherited from genes (E) Before sexual maturity (F) 70-75 degrees Fahrenheit (G) dermal & vascular tissue (H) Two or more sets of alleles",
+        "fact 2": "Before puberty, adolescents experience their highest nutritional demand since infancy.",
+        "pred answer": "(C) it increases",
+        "true answer": "(E) Before sexual maturity"
+    },
+    {
+        "question": "What can be used to show decimal fractions?",
+        "answers": "(A) heating (B) expression (C) Cladistics (D) feedback mechanisms (E) as a base (F) With feedback loops (G) lamphreys (H) Circle graphs",
+        "fact 2": "Percents are decimal fractions.",
+        "pred answer": "(C) circle graph",
+        "true answer": "(H) Circle graphs"
+    },
+    {
+        "question": "What can pie charts be used to display?",
+        "answers": "(A) percents (B) Cladistics (C) film reels (D) antigens (E) Phylogeny (F) venn diagrams (G) several (H) chemistry",
+        "fact 2": "Description Makes a circle graph, also known as a pie chart, of data in a list.",
+        "pred answer": "(E) Phylogeny",
+        "true answer": "(A) percents"
+    },
+    {
+        "question": "a circle graph can be used to display what?",
+        "answers": "(A) moving plates (B) shapes (C) relationship (D) Chemicals (E) sizes (F) colors (G) fractions (H) several genes",
+        "fact 2": "All percents can be written as fractions.",
+        "pred answer": "(B) circle graph",
+        "true answer": "(G) fractions"
+    },
+    {
+        "question": "what can a circle graph be used to display?",
+        "answers": "(A) Major effects (B) antigens (C) as a base (D) light (E) fractions (F) clouds (G) h2o (H) several genes",
+        "fact 2": "All percents can be written as fractions.",
+        "pred answer": "(H) several genes",
+        "true answer": "(E) fractions"
+    },
+    {
+        "question": "What can a circle graph be used for?",
+        "answers": "(A) to show cause and effect (B) homeostasis (C) safe operation (D) feedback (E) feedback mechanisms (F) safe driving (G) to show patterns (H) to show percents",
+        "fact 2": "Display screen shows it all.",
+        "pred answer": "O",
+        "true answer": "(H) to show percents"
+    },
+    {
+        "question": "What can magnets be used to do?",
+        "answers": "(A) capture prey (B) moving over land (C) feedback mechanisms (D) Destroy magnets (E) reproduce (F) help other species benefit (G) Direct a play (H) Determine direction",
+        "fact 2": "Magnets are used in compasses.",
+        "pred answer": "(G) Direct a play",
+        "true answer": "(H) Determine direction"
+    },
+    {
+        "question": "what is satellite technology used for predicting?",
+        "answers": "(A) Seconds and minutes (B) the strength and magnitude of an earthquake (C) what it's like outside each day (D) 70-75 degrees Fahrenheit (E) rapid changes occur (F) Dead-ends and false starts. (G) snow, ice, and rock (H) around 5 to 27 degrees Celsius",
+        "fact 2": "Weather is what it's like outside each day.",
+        "pred answer": "(E) rapid changes occur",
+        "true answer": "(C) what it's like outside each day"
+    },
+    {
+        "question": "What do meteorologists use to detect tornadoes?",
+        "answers": "(A) Otoacoustic (B) precipitation (C) Chemicals (D) antigens (E) Satellites (F) Thunderstorm (G) sound (H) backbones",
+        "fact 2": "Today, technology has helped meteorologists to detect tornadoes.",
+        "pred answer": "(F) Thunderstorm",
+        "true answer": "(E) Satellites"
+    },
+    {
+        "question": "What does a barometer determine?",
+        "answers": "(A) 295 degrees Kelvin (B) precipitation (C) liquid pressure (D) visibility (E) water pressure (F) melanin content (G) melanin amount (H) weight of air",
+        "fact 2": "Air pressure is a measure of the weight of the air.",
+        "pred answer": "O",
+        "true answer": "(H) weight of air"
+    },
+    {
+        "question": "A barometer is used to measure what aspect of the air?",
+        "answers": "(A) stoma (B) weight (C) friction (D) magnitude (E) pitches (F) fluid (G) Humidity (H) distance",
+        "fact 2": "Air pressure is a measure of the weight of the air.",
+        "pred answer": "O",
+        "true answer": "(B) weight"
+    },
+    {
+        "question": "A barometer is used to measure what?",
+        "answers": "(A) 295 degrees Kelvin (B) snow, ice, and rock (C) visibility (D) rainfall (E) safe operation (F) rain weather (G) climate (H) weight of air",
+        "fact 2": "Air pressure is a measure of the weight of the air.",
+        "pred answer": "O",
+        "true answer": "(H) weight of air"
+    },
+    {
+        "question": "what are safety goggles used to protect during experiments?",
+        "answers": "(A) Vibrissae (B) eight (C) weater (D) lamphreys (E) retina (F) h2o (G) hands (H) beakers",
+        "fact 2": "Inside the eye, at the back, is the retina.",
+        "pred answer": "(H) beakers",
+        "true answer": "(E) retina"
+    },
+    {
+        "question": "What are safety goggles used for?",
+        "answers": "(A) Stopping a vehicle (B) Transporting humans (C) protect eyes in the lab (D) safe driving (E) protect feet in the lab (F) protect arms in the lab (G) protect hair in the lab (H) transportation",
+        "fact 2": "Lab experiments are group projects.",
+        "pred answer": "O",
+        "true answer": "(C) protect eyes in the lab"
+    },
+    {
+        "question": "Sensory organs can be protected by what kind of goggles during experiments?",
+        "answers": "(A) broken (B) eyes (C) lensless (D) imaginary (E) Mohs (F) Vibrissae (G) safety (H) skin",
+        "fact 2": "Eyes Eyes Eyes are probably the most important symbolic sensory organ.",
+        "pred answer": "(G) safety goggles",
+        "true answer": "(G) safety"
+    },
+    {
+        "question": "What is often mandatory in the lab?",
+        "answers": "(A) healthy lunch (B) Exposure to oxygen and water (C) fertilization (D) Extensive bone growth (E) Pasteurization (F) protection for the eyes (G) antigens that cause allergy (H) blood filtering procedure",
+        "fact 2": "Safety goggles are mandatory in the laboratory.",
+        "pred answer": "(E) Pasteurization",
+        "true answer": "(F) protection for the eyes"
+    },
+    {
+        "question": "What are safety goggles used for protecting the eyes from?",
+        "answers": "(A) tears (B) Extremes of temperature (C) 70-75 degrees Fahrenheit (D) thick, slimy mucus (E) Dangerous things (F) Helpful things (G) Forest fire (H) blinking",
+        "fact 2": "Sometimes science experiments can be dangerous.",
+        "pred answer": "O",
+        "true answer": "(E) Dangerous things"
+    },
+    {
+        "question": "What group contains animals that include jellyfish and corals?",
+        "answers": "(A) sea anemones (B) plants (C) Vibrissae (D) corals (E) coelenterates (F) sponges (G) holding nutrients (H) prokaryotic cells",
+        "fact 2": "Cnidarians are also called coelenterates.",
+        "pred answer": "O",
+        "true answer": "(E) coelenterates"
+    },
+    {
+        "question": "Jellyfish and corals have no what?",
+        "answers": "(A) underwater life (B) movement (C) flagellum or tiny hairs (D) bodies (E) last stage before adulthood (F) antigens that cause allergy (G) vertebrae or backbone (H) nuclear membrane",
+        "fact 2": "Invertebrates have no vertebrae or backbone.",
+        "pred answer": "(C) flagellum or tiny hairs",
+        "true answer": "(G) vertebrae or backbone"
+    },
+    {
+        "question": "what are without backbones?",
+        "answers": "(A) humans (B) spine (C) angiosperm (D) gila monsters (E) cnidarians (F) fish (G) wild canines (H) coliform",
+        "fact 2": "Invertebrates are animals without backbones.",
+        "pred answer": "(C) angiosperm",
+        "true answer": "(E) cnidarians"
+    },
+    {
+        "question": "An anemometer is used to estimate damage caused by what?",
+        "answers": "(A) fires (B) hail (C) planes (D) wind (E) winter (F) car (G) snow (H) rain",
+        "fact 2": "Wind speed and severity of tornadoes is estimated by the damage caused.",
+        "pred answer": "O",
+        "true answer": "(D) wind"
+    },
+    {
+        "question": "The force of the wind can be used to measure its what",
+        "answers": "(A) shaking (B) speed (C) inches (D) pitches (E) humidity (F) bar (G) weight (H) rain probability",
+        "fact 2": "An anemometer is a device that measures the force of the wind.",
+        "pred answer": "O",
+        "true answer": "(B) speed"
+    },
+    {
+        "question": "Where is the device to measure wind placed?",
+        "answers": "(A) At the top of a station (B) Being over land (C) local weather conditions (D) Underwater (E) Inside a tree (F) points north (G) Inside a station (H) when it passes over a continent",
+        "fact 2": "An anemometer and vane are at the top of the station.",
+        "pred answer": "(G) Inside a station",
+        "true answer": "(A) At the top of a station"
+    },
+    {
+        "question": "What is bacteria?",
+        "answers": "(A) building blocks of organisms (B) related organisms (C) single cell microorganisms (D) occurs over a wide range (E) antigens that cause allergy (F) smallest organism group (G) most similar group (H) most diverse organism group",
+        "fact 2": "Earth is a world of water.",
+        "pred answer": "(C) single cell microorganisms",
+        "true answer": "(H) most diverse organism group"
+    },
+    {
+        "question": "Hermits crabs live in the shells of dead what?",
+        "answers": "(A) sponges (B) armour (C) fossils (D) tortoise (E) snails (F) a hosta (G) carapace (H) protozoa",
+        "fact 2": "Students live at home or in group homes.",
+        "pred answer": "(G) carapace",
+        "true answer": "(E) snails"
+    },
+    {
+        "question": "What do hermit crabs use as homes?",
+        "answers": "(A) snails (B) tissue (C) fossils (D) sponges (E) Porifera (F) food (G) reefs (H) a hosta",
+        "fact 2": "Hermit crabs find shells.",
+        "pred answer": "(H) a hosta",
+        "true answer": "(A) snails"
+    },
+    {
+        "question": "Hermit crabs are scavengers for what?",
+        "answers": "(A) their young (B) antigens (C) capture prey (D) male gametes (E) dead snails (F) how they move (G) nutritious fluid (H) the environment",
+        "fact 2": "Hermit crabs live in shells and are scavengers.",
+        "pred answer": "O",
+        "true answer": "(E) dead snails"
+    },
+    {
+        "question": "some aerosols can decrease temperatures by blocking what",
+        "answers": "(A) clouds (B) heat (C) matter (D) the wind (E) rainfall (F) visibility (G) the sun (H) pressure",
+        "fact 2": "Examples of such aerosols include dust, volcanic ash, and smoke.",
+        "pred answer": "O",
+        "true answer": "(G) the sun"
+    },
+    {
+        "question": "What blocks the sun?",
+        "answers": "(A) earthquakes (B) snow, ice, and rock (C) satellites (D) coral and alga (E) trucks and cars (F) eruptive products (G) dandelions (H) water",
+        "fact 2": "Eruptive products of Hawaiian volcanoes span a wide range of temperatures.",
+        "pred answer": "(B) snow, ice, and rock",
+        "true answer": "(F) eruptive products"
+    },
+    {
+        "question": "What in the atmosphere increases clouds which block the sun?",
+        "answers": "(A) negative feedback (B) winds (C) litter (D) volcanic ash (E) melanin content (F) melanin amount (G) oxidizers (H) trees and flowers",
+        "fact 2": "With increasing cloud blocking the sun, temperatures drop considerably.",
+        "pred answer": "(A) UV light",
+        "true answer": "(D) volcanic ash"
+    },
+    {
+        "question": "Fine, dusty particles in the atmosphere decreases the temperature by blocking what?",
+        "answers": "(A) the rain (B) the clouds (C) danger (D) visibility (E) wind (F) rainfall (G) the sun (H) the moon",
+        "fact 2": "Most volcanic ash consists of fine, dusty particles.",
+        "pred answer": "(B) the clouds",
+        "true answer": "(G) the sun"
+    },
+    {
+        "question": "What can volcanic ash in the atmosphere do to natural ecosystems?",
+        "answers": "(A) Create wealth (B) negative feedback (C) rapid changes occur (D) Major effects (E) erosion (F) No effect (G) Forest fire (H) Start engines",
+        "fact 2": "Small temperature variations can have major effects on natural ecosystems.",
+        "pred answer": "(C) rapid changes occur",
+        "true answer": "(D) Major effects"
+    },
+    {
+        "question": "What decreases the temperature by blocking the Sun?",
+        "answers": "(A) cilia (B) the Sun (C) the wind (D) haze (E) ice (F) fat (G) rain (H) acids",
+        "fact 2": "Supersaturation is inferred to be a common state for atmospheric haze particles.",
+        "pred answer": "(B) water droplets",
+        "true answer": "(D) haze"
+    },
+    {
+        "question": "What are particular problems for aircraft in the atmosphere?",
+        "answers": "(A) transportation (B) clog airways (C) extremely low humidity (D) volcanic clouds (E) feedback mechanisms (F) negative feedback (G) gas spreads in the air (H) very complex",
+        "fact 2": "Ash clouds are a particular problem for aircraft.",
+        "pred answer": "O",
+        "true answer": "(D) volcanic clouds"
+    },
+    {
+        "question": "Which of the following can lower the temperature of the Earth?",
+        "answers": "(A) flying satellites (B) feedback mechanisms (C) trucks and cars (D) the richter scale (E) cone volcanoes (F) very complex (G) magnesium (H) moving plates",
+        "fact 2": "Cone volcanoes are associated with thick lava and much ash.",
+        "pred answer": "(B) feedback mechanisms",
+        "true answer": "(E) cone volcanoes"
+    },
+    {
+        "question": "what can block the sun?",
+        "answers": "(A) iron oxide (B) volcanoes (C) spacecraft (D) lamphreys (E) a hosta (F) satellites (G) tetraceratops (H) black widows",
+        "fact 2": "Or a veil of tiny particles from a volcanic eruption can block the sun.",
+        "pred answer": "(A) iron oxide",
+        "true answer": "(B) volcanoes"
+    },
+    {
+        "question": "Black sand can do what to the sun?",
+        "answers": "(A) protection (B) heating (C) destruction (D) saves lives (E) Injure them (F) damaging (G) block out (H) danger",
+        "fact 2": "Black sand is volcanic ash.",
+        "pred answer": "(G) volcanic ash",
+        "true answer": "(G) block out"
+    },
+    {
+        "question": "What will detect fault movements?",
+        "answers": "(A) seismograph (B) neurones (C) barometer (D) jellyfish (E) specialized (F) thermometer (G) sound vibrations (H) graduated cylinder",
+        "fact 2": "Earthquakes are caused by fault movement.",
+        "pred answer": "O",
+        "true answer": "(A) seismograph"
+    },
+    {
+        "question": "What does a sponge's specialized cell do when it picks up planktonic food?",
+        "answers": "(A) Starts to digest (B) transportation (C) capture prey (D) Reproduces (E) a producer (F) saves lives (G) Dies (H) occurs over a wide range",
+        "fact 2": "Special cells called collar cells pick up the planktonic food and start the digestive process.",
+        "pred answer": "(C) capture prey",
+        "true answer": "(A) Starts to digest"
+    },
+    {
+        "question": "what are used for curing people when they are sick?",
+        "answers": "(A) cells (B) herbs (C) poison (D) pushups (E) sponges (F) bacteria (G) calcium (H) apples",
+        "fact 2": "Herbs are medicines and aids.",
+        "pred answer": "(E) sponges",
+        "true answer": "(B) herbs"
+    },
+    {
+        "question": "What can cure people when they are sick?",
+        "answers": "(A) food (B) RNA (C) drugs (D) DNA (E) dehydration (F) poison (G) insulin (H) viruses",
+        "fact 2": "Drugs are small medicine.",
+        "pred answer": "(E) dehydration",
+        "true answer": "(C) drugs"
+    },
+    {
+        "question": "What is used for getting people better?",
+        "answers": "(A) genes (B) cells (C) medicine (D) hormones (E) Vitamin D (F) oxygen (G) feedback (H) blood",
+        "fact 2": "People get sick but they get better.",
+        "pred answer": "(F) oxygen",
+        "true answer": "(C) medicine"
+    },
+    {
+        "question": "what does a sick child need?",
+        "answers": "(A) homes (B) bacteria (C) magma (D) people (E) soil (F) liver (G) light (H) food",
+        "fact 2": "When a child is hungry or sick, food and medicine are needed.",
+        "pred answer": "O",
+        "true answer": "(H) food"
+    },
+    {
+        "question": "Many what substances are powerful cures for people when they are sick",
+        "answers": "(A) gas (B) lymph (C) sweet (D) plant (E) food (F) animals (G) marine (H) nectar",
+        "fact 2": "Botanical Medicine Many plant substances are powerful medicines.",
+        "pred answer": "(G) marine",
+        "true answer": "(D) plant"
+    },
+    {
+        "question": "Medicine is used for doing what to babies when they are sick?",
+        "answers": "(A) Antibiotics (B) killing them (C) sterilized (D) harming them (E) poisoning them (F) Pasteurization (G) some drugs (H) curing them",
+        "fact 2": "Babies are the MOST inquisitive of people.",
+        "pred answer": "(F) Pasteurization",
+        "true answer": "(H) curing them"
+    },
+    {
+        "question": "Medicine can cure humans when they are",
+        "answers": "(A) adult (B) healthy (C) fit (D) Type O (E) tired (F) Worms (G) sick (H) Unsafe",
+        "fact 2": "All people belong to the human family.",
+        "pred answer": "O",
+        "true answer": "(G) sick"
+    },
+    {
+        "question": "What can medicine prevent?",
+        "answers": "(A) wealth (B) sunlight (C) birth (D) ADHD (E) dying (F) Natural disaster (G) haze (H) danger",
+        "fact 2": "People get sick and die.",
+        "pred answer": "O",
+        "true answer": "(E) dying"
+    },
+    {
+        "question": "What forming over the ends of fingers prevents injury?",
+        "answers": "(A) tissue (B) keratin (C) hairs (D) needles (E) shells (F) bone (G) Cartilage (H) tiny hairs",
+        "fact 2": "Fingernails are also made of keratin.",
+        "pred answer": "(H) tiny hairs",
+        "true answer": "(B) keratin"
+    },
+    {
+        "question": "What do fingers have over the ends that become more brittle with age?",
+        "answers": "(A) tiny hairs (B) far fewer in number (C) protective plates (D) Major effects (E) It's inherited from genes (F) protection (G) changes in size (H) several genes",
+        "fact 2": "Fingernails become more brittle with age.",
+        "pred answer": "(H) several genes",
+        "true answer": "(C) protective plates"
+    },
+    {
+        "question": "What is a stopwatch used for?",
+        "answers": "(A) punctuality (B) safe operation (C) dreaming (D) safe driving (E) tithing (F) humans (G) as a base (H) destruction",
+        "fact 2": "Timing is the essence of punctuality.",
+        "pred answer": "O",
+        "true answer": "(A) punctuality"
+    },
+    {
+        "question": "What may be treated with a procedure to filter the blood?",
+        "answers": "(A) melanin content (B) bacterial infections (C) Car accidents (D) dust (E) saves lives (F) headaches (G) a small scrape (H) kidney failure",
+        "fact 2": "Dialysis is a procedure to filter the blood.",
+        "pred answer": "O",
+        "true answer": "(H) kidney failure"
+    },
+    {
+        "question": "What may be treated with a procedure to filter the blood?",
+        "answers": "(A) saves lives (B) Car accidents (C) kidney failure (D) headaches (E) melanin content (F) herpes (G) unicellular organisms (H) gastroenteritis",
+        "fact 2": "Dialysis is a procedure to filter the blood.",
+        "pred answer": "(G) unicellular organisms",
+        "true answer": "(C) kidney failure"
+    },
+    {
+        "question": "Kidney failure may be treated by the mechanical process of cleaning the what?",
+        "answers": "(A) lymph (B) blood (C) cells (D) fluid (E) surface (F) damage (G) bone (H) liquids",
+        "fact 2": "Dialysis is the mechanical process of cleaning the blood.",
+        "pred answer": "O",
+        "true answer": "(B) blood"
+    },
+    {
+        "question": "What can dialysis be used to treat?",
+        "answers": "(A) the pancreas (B) Lymph fluid (C) non-bacterial prokaryotes (D) bacterial infections (E) saves lives (F) unicellular organisms (G) one effect of diabetes (H) antigens that cause allergy",
+        "fact 2": "Diabetic kidney disease, kidney failure and other diabetes related kidney problems.",
+        "pred answer": "(E) saves lives",
+        "true answer": "(G) one effect of diabetes"
+    }
+]
