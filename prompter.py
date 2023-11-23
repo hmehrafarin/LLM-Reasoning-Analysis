@@ -25,7 +25,9 @@ class Prompter(object):
         fact_1: Union[None, str] = None,
         fact_2: Union[None, str] = None,
         deduction: Union[None, str] = None,
+        answer: Union[None, str] = None,
         ) -> str:
+    
         # returns the full prompt from instruction and optional input
         # if a label (=response, =output) is provided, it's also appended.
         if deduction is None and all([fact_1, fact_2]):
@@ -40,6 +42,12 @@ class Prompter(object):
                                                            fact_1=fact_1,
                                                            fact_2=fact_2,
                                                            deduction=deduction)
+        
+        elif fact_1 is None and fact_2 is None and deduction is None and answer is not None:  
+            print("here")  
+            context = self.template["context_template"].format(question=question,
+                                                           answers=answers,
+                                                           answer=answer)
             
         elif not [fact_1, fact_2, deduction]:
             context = self.template["context_template"].format(question=question,
@@ -55,6 +63,7 @@ class Prompter(object):
             context = self.template["context_template"].format(question=question,
                                                                answers=answers,
                                                                fact_2=fact_2)
+        
             
             
         res = self.template["prompt"]
