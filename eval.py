@@ -4,7 +4,7 @@ from statistics import mean
 
 # bertscore = load("bertscore")
 
-df = pd.read_json('Generated Response/generated_response-full (random facts).json')
+df = pd.read_json('generated_response-full (F1F2A keyword ablation).json')
 # df_2 = pd.read_json('Generated Response/generated_response_QA.json')
 
 count = 0
