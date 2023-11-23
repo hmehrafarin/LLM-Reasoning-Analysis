@@ -47,15 +47,27 @@ def match_answer_with_facts(fact1, fact2, answers):
     input_string1 = fact1.translate(str.maketrans('', '', string.punctuation.replace('-', '')))
     input_string2 = fact2.translate(str.maketrans('', '', string.punctuation.replace('-', '')))
     for token2 in answers_list:
-        if token2 + ' ' in input_string1:
-            input_string1 = input_string1.replace(token2 + ' ', '')
+        if token2.lower() + ' ' in input_string1.lower():
+            try:
+                input_string1 = input_string1.replace(token2 + ' ', '')
+            except:
+                input_string1 = input_string1.replace(token2.lower() + ' ', '')
             print(input_string1.replace(token2 + ' ', ''))
-        elif token2 in input_string1:
-            input_string1 = input_string1.replace(token2, '')
-        if token2 + ' ' in input_string2:
-            input_string2 = input_string2.replace(token2 + ' ', '')
-        elif token2 in input_string2:
-            input_string2 = input_string2.replace(token2, '')
+        elif token2.lower() in input_string1.lower():
+            try:
+                input_string1 = input_string1.replace(token2, '')
+            except:
+                input_string1 = input_string1.replace(token2.lower(), '')
+        if token2.lower() + ' ' in input_string2.lower():
+            try:
+                input_string2 = input_string2.replace(token2 + ' ', '')
+            except:
+                input_string2 = input_string2.replace(token2.lower() + ' ', '')
+        elif token2.lower() in input_string2.lower():
+            try:
+                input_string2 = input_string2.replace(token2, '')
+            except:
+                input_string2 = input_string2.replace(token2.lower(), '')
     return input_string1, input_string2
 
 
