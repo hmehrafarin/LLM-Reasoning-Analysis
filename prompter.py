@@ -44,7 +44,6 @@ class Prompter(object):
                                                            deduction=deduction)
         
         elif fact_1 is None and fact_2 is None and deduction is None and answer is not None:  
-            print("here")  
             context = self.template["context_template"].format(question=question,
                                                            answers=answers,
                                                            answer=answer)
