@@ -6,7 +6,7 @@ import sys
 import os
 import torch
 import pandas as pd
-import prompter
+from Utilities import prompter
 import numpy as np
 import torch
 import random
