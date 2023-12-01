@@ -5,3 +5,4 @@ test.py
 unmatched_with_QA.json
 __pycache__/prompter.cpython-310.pyc
 __pycache__/prompter.cpython-310.pyc
+generate_copy.py

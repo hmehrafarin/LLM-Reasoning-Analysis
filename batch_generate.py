@@ -200,6 +200,7 @@ def main(
                 df_entry.get(arg.replace('_', ' ')) for arg in current_args}
         
         input_prompt = prompt.generate_prompt(**args)
+        print(input_prompt)
 
         input_batch.append(input_prompt)
         count+=1
