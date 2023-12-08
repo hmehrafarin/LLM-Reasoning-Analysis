@@ -4,9 +4,7 @@ from statistics import mean
 
 # bertscore = load("bertscore")
 
-df = pd.read_json('generated_response-full (1 tokens ablated question).json')
-# df_2 = pd.read_json('Generated Response/generated_response_QA.json')
-
+df = pd.read_json('generated_response_QAF (fact 1 only).json')
 count = 0
 num_nulls = 0
 tp = 0
@@ -20,6 +18,7 @@ for i in range(len(df)):
     # generated_deductions.append(df.iloc[i]['generated deduced'])
     # actual_deductions.append(df.iloc[i]['actual deduced'])
     # Accuracy
+    df.iloc[i]['pred answer'] = df.iloc[i]['pred answer'].rstrip()
     if df.iloc[i]['pred answer'] == "O":
         num_nulls += 1
     if df.iloc[i]['true answer'].lower() == df.iloc[i]['pred answer'].lower() or df.iloc[i]['true answer'].lower()[3:] == df.iloc[i]['pred answer'].lower()[3:]:

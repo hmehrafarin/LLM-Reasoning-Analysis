@@ -93,7 +93,6 @@ def main(
         include_question_ablation: bool = False,
         ablate_matching_words_with_answers: bool = False,
         random_fact_generator: bool = False,
-        frequency_ablation: Union[None, str] = None,
         output_file_name: str = "generated_response.json",
         temperature: float = 0.7,
         top_p: float = 0.75, 
@@ -143,6 +142,8 @@ def main(
     if ablate_connecting_F1F2 or ablate_connecting_F1Q or ablate_connecting_F2Q:
         result_dict['ablated tokens'] = []
     
+    print(result_dict)
+    
     input_batch = []
 
     count = 0
@@ -186,11 +187,13 @@ def main(
 
         # Additional data collation
         for key in result_dict:
-            if 'ablated tokens' in key:
+            if 'ablated tokens' in key or 'generated deduced' in key or 'pred answer' in key:
                 continue
-            if df_entry.get(key) is None:
-                continue
-            value = df_entry['deducted fact'] if key == 'actual deduced' else df_entry.get(key.replace('_', ' '))
+            if key == 'true answer':
+                value = df_entry['answer']
+            else:
+                value = df_entry['deducted fact'] if key == 'actual deduced' else df_entry.get(key.replace('_', ' '))
+                
             result_dict[key].append(value)
         
         current_args = template_args_results.get(prompt_template)[0]
@@ -200,7 +203,6 @@ def main(
                 df_entry.get(arg.replace('_', ' ')) for arg in current_args}
         
         input_prompt = prompt.generate_prompt(**args)
-        print(input_prompt)
 
         input_batch.append(input_prompt)
         count+=1
