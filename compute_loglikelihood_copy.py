@@ -38,7 +38,8 @@ def custom_set_seed(seed):
 
 def split_choices(text):
     text = re.findall(r'\([A-Z]\) [^()]*', text)
-    answer_list = [answer.rstrip() for answer in text]
+    # answer_list = [answer.rstrip() for answer in text]
+    answer_list = ["(A)", "(B)", "(C)", "(D)", "(E)", "(F)", "(G)", "(H)"]
     return answer_list
 
 def main(
@@ -99,6 +100,7 @@ def main(
         result_dict['question'].append(df_entry['question'])
         result_dict['answers'].append(df_entry['answers'])
         answer = df_entry['answer']
+        # print(extracted_choice)
 
         whole_input_prompt = prompt.generate_prompt(question=df_entry['question'],
                                answers=df_entry['answers'],
@@ -130,8 +132,8 @@ def main(
 
         greedy_tokens = torch.argmax(answer_probs, dim=-1)
         max_equal = (greedy_tokens == answer_enc[0]).all()
-        gold_indices = answer_probs[sequence_positions, answer_enc[0]]
 
+        gold_indices = answer_probs[sequence_positions, answer_enc[0]]
         average_prob = torch.sum(gold_indices).item()
         # token_probs = answer_probs[sequence_positions, token_indices]
 
