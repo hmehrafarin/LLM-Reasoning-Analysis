@@ -1,4 +1,4 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, set_seed
+from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, set_seed, AutoModelForSeq2SeqLM
 import pdb
 import fire
 import sys
@@ -10,7 +10,7 @@ import torch
 
 from typing import Union
 
-CACHE_DIR="/mnt/scratch/users/hm2066/models/huggingface/"
+
 
 function_args = {
     ''
@@ -51,13 +51,15 @@ def process_batch(
         input_batch, 
         result_dict,
         tokenizer,
-        model, 
+        model,
+        base_model, 
         prompt, 
         generation_config, 
         max_new_tokens
 ):
     
     inputs = tokenizer(input_batch, padding=True, return_tensors='pt').to(device)
+    print(len(inputs['input_ids'][0]))
     input_batch = []
     with torch.no_grad():
         generation_output = model.generate(
@@ -65,9 +67,11 @@ def process_batch(
             generation_config=generation_config,
             max_new_tokens=max_new_tokens,
         )
-    output = tokenizer.batch_decode(generation_output)
+    output = tokenizer.batch_decode(generation_output) if base_model.split('/')[0] == 'meta-llama' else \
+        tokenizer.batch_decode(generation_output, skip_special_tokens=True)
     for response in output:
         result = prompt.get_response(response)
+        print(result)
         if result_dict.get('generated deduced') is not None:
             result_dict['generated deduced'].append(result.split("Deduce:")[-1].strip().split('\nAnswer:')[0])
         try:
@@ -81,6 +85,7 @@ def main(
         load_8bit: bool = True,
         random_seed: int = 42,
         prompt_template: str = "",
+        data_path: str = "eval_data.json",
         shuffle_fact1: bool = False,
         shuffle_fact2: bool = False,
         ablate_tokens_fact1: bool = False,
@@ -99,9 +104,12 @@ def main(
         top_k: int = 40,
         num_beams: int = 4,
         max_new_tokens: int = 128,
+        batch_size: int = 3,
+        cache_dir: str = "/mnt/scratch/users/hm2066/models/huggingface/",
 ):
     
-    
+    CACHE_DIR=cache_dir
+
     utilities.custom_set_seed(random_seed)
     set_seed(random_seed)
 
@@ -112,7 +120,7 @@ def main(
 
     tokenizer = AutoTokenizer.from_pretrained(base_model)
 
-    if device == "cuda":
+    if device == "cuda" and base_model.split('/')[0] == 'meta-llama':
         model = AutoModelForCausalLM.from_pretrained(
             base_model,
             load_in_8bit=load_8bit,
@@ -121,15 +129,26 @@ def main(
             cache_dir=CACHE_DIR
             )
 
-    model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
-    model.config.bos_token_id = 1
-    model.config.eos_token_id = 2
+        model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
+        model.config.bos_token_id = 1
+        model.config.eos_token_id = 2
+
+    elif device == "cuda" and 't5' in base_model:
+
+        # tokenizer = AutoTokenizer.from_pretrained(base_model, model_max_length=1024)
+        model = AutoModelForSeq2SeqLM.from_pretrained(
+            base_model,
+            load_in_8bit=load_8bit,
+            torch_dtype=torch.float16,
+            device_map="auto",
+            cache_dir=CACHE_DIR
+            )
 
     model.eval()
     if torch.__version__ >= "2" and sys.platform != "win32":
         model = torch.compile(model)
 
-    df = pd.read_json('eval_data.json')
+    df = pd.read_json(data_path)
 
     prompt = prompter.Prompter(prompt_template)
 
@@ -206,12 +225,12 @@ def main(
 
         input_batch.append(input_prompt)
         count+=1
-        if count == 3:
-            input_batch = process_batch(input_batch, result_dict, tokenizer, model, prompt, generation_config, max_new_tokens)
+        if count == batch_size:
+            input_batch = process_batch(input_batch, result_dict, tokenizer, model, base_model, prompt, generation_config, max_new_tokens)
             count = 0
 
     if count != 0:
-        process_batch(input_batch, result_dict, tokenizer, model, prompt, generation_config, max_new_tokens)
+        process_batch(input_batch, result_dict, tokenizer, model, base_model ,prompt, generation_config, max_new_tokens)
 
     result_df = pd.DataFrame(result_dict)
 
