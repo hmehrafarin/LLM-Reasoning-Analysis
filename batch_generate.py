@@ -1,5 +1,18 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, set_seed, AutoModelForSeq2SeqLM
-import pdb
+import transformers
+
+from transformers import (
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    GenerationConfig,
+    AutoModelForSeq2SeqLM,
+    set_seed, 
+    )
+
+from transformers.models.auto.modeling_auto import (
+    MODEL_FOR_CAUSAL_LM_MAPPING_NAMES, 
+    MODEL_FOR_SEQ_TO_SEQ_CAUSAL_LM_MAPPING_NAMES,
+)
+
 import fire
 import sys
 import os
@@ -8,13 +21,6 @@ import pandas as pd
 from Utilities import prompter, utilities
 import torch
 
-from typing import Union
-
-
-
-function_args = {
-    ''
-}
 
 template_args_results = {
     'QASC_Final-Answer_QA (step-by-step)': (['question', 'answers'],
@@ -52,7 +58,7 @@ def process_batch(
         result_dict,
         tokenizer,
         model,
-        base_model, 
+        model_type, 
         prompt, 
         generation_config, 
         max_new_tokens
@@ -67,7 +73,7 @@ def process_batch(
             generation_config=generation_config,
             max_new_tokens=max_new_tokens,
         )
-    output = tokenizer.batch_decode(generation_output) if base_model.split('/')[0] == 'meta-llama' else \
+    output = tokenizer.batch_decode(generation_output) if model_type == AutoModelForCausalLM else \
         tokenizer.batch_decode(generation_output, skip_special_tokens=True)
     for response in output:
         result = prompt.get_response(response)
@@ -100,7 +106,7 @@ def main(
         random_fact_generator: bool = False,
         output_file_name: str = "generated_response.json",
         temperature: float = 0.7,
-        top_p: float = 0.75, 
+        top_p: float = 0.75,
         top_k: int = 40,
         num_beams: int = 4,
         max_new_tokens: int = 128,
@@ -120,7 +126,11 @@ def main(
 
     tokenizer = AutoTokenizer.from_pretrained(base_model)
 
-    if device == "cuda" and base_model.split('/')[0] == 'meta-llama':
+    config = transformers.AutoConfig.from_pretrained(base_model, cache_dir=CACHE_DIR) # type: ignore
+
+    AUTO_MODEL_CLASS = AutoModelForCausalLM if getattr(config, "model_type") in MODEL_FOR_CAUSAL_LM_MAPPING_NAMES else AutoModelForSeq2SeqLM
+
+    if AUTO_MODEL_CLASS == AutoModelForCausalLM:
         model = AutoModelForCausalLM.from_pretrained(
             base_model,
             load_in_8bit=load_8bit,
@@ -133,7 +143,7 @@ def main(
         model.config.bos_token_id = 1
         model.config.eos_token_id = 2
 
-    elif device == "cuda" and 't5' in base_model:
+    elif AUTO_MODEL_CLASS == AutoModelForSeq2SeqLM:
 
         # tokenizer = AutoTokenizer.from_pretrained(base_model, model_max_length=1024)
         model = AutoModelForSeq2SeqLM.from_pretrained(
@@ -143,6 +153,7 @@ def main(
             device_map="auto",
             cache_dir=CACHE_DIR
             )
+
 
     model.eval()
     if torch.__version__ >= "2" and sys.platform != "win32":
@@ -226,7 +237,7 @@ def main(
         input_batch.append(input_prompt)
         count+=1
         if count == batch_size:
-            input_batch = process_batch(input_batch, result_dict, tokenizer, model, base_model, prompt, generation_config, max_new_tokens)
+            input_batch = process_batch(input_batch, result_dict, tokenizer, model, AUTO_MODEL_CLASS, prompt, generation_config, max_new_tokens)
             count = 0
 
     if count != 0:
