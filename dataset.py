@@ -1,10 +1,9 @@
 import pandas as pd
 import json
 
-json_file = open("QASC_Dataset/dev.json", "r")
+json_file = open("QASC_Dataset/train.json", "r")
 
-data = {"question": [], "answers": [], "fact 1": [], "fact 2": [], "composed fact": [],
-        "deducted fact": [], "answer": []}
+data = {"question": [], "answers": [], "fact 1": [], "fact 2": [], "deducted fact": [], "answer": []}
 
 def decapitalize_first_letter(s, upper_rest = False):
   return ''.join([s[:1].lower(), (s[1:].upper() if upper_rest else s[1:])]) 
@@ -41,8 +40,8 @@ for line in json_file:
     data['answers'].append(answer_template)
     data['fact 1'].append(jsonified_line['fact1'])
     data['fact 2'].append(jsonified_line['fact2'])
-    data['composed fact'].append(composed_fact_template)
-    data['deducted fact'].append(deducted_fact_template)
+    # data['composed fact'].append(composed_fact_template)
+    data['deducted fact'].append(formatted_combined_fact)
     data['answer'].append(final_answer_template)
     
 df = pd.DataFrame(data)

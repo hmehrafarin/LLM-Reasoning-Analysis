@@ -4,7 +4,7 @@ from statistics import mean
 
 # bertscore = load("bertscore")
 
-df = pd.read_json('generated_response-full (shuffled both facts).json')
+df = pd.read_json('generated_response-full-(F1F2A keyword ablation)-t5.json')
 count = 0
 num_nulls = 0
 tp = 0
@@ -21,9 +21,12 @@ for i in range(len(df)):
     df.iloc[i]['pred answer'] = df.iloc[i]['pred answer'].rstrip()
     if df.iloc[i]['pred answer'] == "O":
         num_nulls += 1
-    if df.iloc[i]['true answer'].lower() == df.iloc[i]['pred answer'].lower() or df.iloc[i]['true answer'].lower()[3:] == df.iloc[i]['pred answer'].lower()[3:]:
+    # if df.iloc[i]['true answer'].lower() == df.iloc[i]['pred answer'].lower() or df.iloc[i]['true answer'].lower()[3:] == df.iloc[i]['pred answer'].lower()[3:]:
+    #     tp += 1
+    #     tp_df.append(df.iloc[i])
+    if df.iloc[i]['true answer'].lower() == df.iloc[i]['pred answer'].lower() or df.iloc[i]['true answer'].lower()[:3] == df.iloc[i]['pred answer'].lower()[:3]:
         tp += 1
-        tp_df.append(df.iloc[i])
+        tp_df.append(df.iloc[i])        
     else:
         new_df.append(df.iloc[i])
 
