@@ -25,7 +25,6 @@ class Prompter(object):
         fact_1: Union[None, str] = None,
         fact_2: Union[None, str] = None,
         deduction: Union[None, str] = None,
-        answer: Union[None, str] = None,
         label: Union[None, dict] = None,
         ) -> str:
     
@@ -66,7 +65,8 @@ class Prompter(object):
         if label:
             label = self.template["steps_template"].format(**label)
             res = f"{res}{label}"
-            
+            return res, label
+
         if self._verbose:
             print(res)
         return res
