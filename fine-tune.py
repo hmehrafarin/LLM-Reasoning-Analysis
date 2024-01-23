@@ -20,32 +20,38 @@ from peft import (
     prepare_model_for_int8_training,
     set_peft_model_state_dict,
 )
-from transformers import LlamaForCausalLM, LlamaTokenizer
+
+from transformers.models.auto.modeling_auto import (
+    MODEL_FOR_CAUSAL_LM_MAPPING_NAMES, 
+    MODEL_FOR_SEQ_TO_SEQ_CAUSAL_LM_MAPPING_NAMES,
+)
+
+from transformers import (
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    AutoModelForSeq2SeqLM,
+)
 
 from Utilities import prompter, utilities
 
 
 template_args_results = {
-    'QASC_Final-Answer_QA (step-by-step)': (['question', 'answers'],
-                                            ['question', 'answers', 'generated deduced', 'actual deduced', 'pred answer', 'true answer']),
     'QASC_Final-Answer_QA': (['question', 'answers'], 
-                             ['question', 'answers', 'pred answer', 'true answer']),
+                             ['answer']),
     'QASC_Final-Answer_QAF': (['question', 'answers', 'fact_1', 'fact_2'], 
-                              ['question', 'answers', 'fact 1', 'fact 2', 'pred answer', 'true answer']),
+                              ['answer']),
     'QASC_Final-Answer_QAF (fact 1 only)': (['question', 'answers', 'fact_1'], 
-                                            ['question', 'answers', 'fact 1', 'pred answer', 'true answer']),
+                                            ['answer']),
     'QASC_Final-Answer_QAF (fact 2 only)': (['question', 'answers', 'fact_2'], 
-                                            ['question', 'answers', 'fact 2', 'pred answer', 'true answer']),
-    'QASC_Final-Answer_QAFD': (['question', 'answers', 'fact_1', 'fact_2', 'deduction'], 
-                               ['question', 'answers', 'fact 1', 'fact 2', 'actual deduced', 'pred answer', 'true answer']),
+                                            ['answer']),
     'QASC-Full': (['question', 'answers', 'fact_1', 'fact_2'], 
-                  ['question', 'answers', 'fact 1', 'fact 2', 'actual deduced', 'generated deduced', 'pred answer', 'true answer']),
+                  ['deduce', 'answer']),
 }
 
 def train(
     # model/data params
     base_model: str = "",  # the only required argument
-    data_path: str = "yahma/alpaca-cleaned",
+    data_path: str = "train_data",
     output_dir: str = "./lora-qasc-llama-13b",
     # training hyperparams
     batch_size: int = 128,
@@ -54,14 +60,16 @@ def train(
     learning_rate: float = 3e-4,
     cutoff_len: int = 256,
     val_set_size: int = 2000,
+    warmup_steps: int = 100,
     # lora hyperparams
     lora_r: int = 8,
     lora_alpha: int = 16,
     lora_dropout: float = 0.05,
-    lora_target_modules: List[str] = [
-        "q_proj",
-        "v_proj",
-    ],
+    # lora_target_modules: List[str] = [
+    #     "q_proj",
+    #     "v_proj",
+    # ],
+    lora_target_modules: List[str] = ["q", "v"],
     # llm hyperparams
     train_on_inputs: bool = True,  # if False, masks out inputs in loss
     add_eos_token: bool = False,
@@ -85,11 +93,12 @@ def train(
     wandb_watch: str = "",  # options: false | gradients | all
     wandb_log_model: str = "",  # options: false | true
     resume_from_checkpoint: str = None,  # either training checkpoint or final adapter
-    prompt_template: str = "QASC-Full",  # The prompt template to use, will default to alpaca.
+    prompt_template: str = "QASC-Full-Train",  # The prompt template to use, will default to alpaca.
     cache_dir: str = "/mnt/scratch/users/hm2066/models/huggingface/",
 ):
     
     CACHE_DIR=cache_dir
+    print(lora_target_modules)
 
     assert (
         base_model
@@ -117,20 +126,37 @@ def train(
     if len(wandb_log_model) > 0:
         os.environ["WANDB_LOG_MODEL"] = wandb_log_model
 
-    model = LlamaForCausalLM.from_pretrained(
-        base_model,
-        load_in_8bit=True,
-        torch_dtype=torch.float16,
-        device_map=device_map,
-        cache_dir=CACHE_DIR,
-    )
+    config = transformers.AutoConfig.from_pretrained(base_model, cache_dir=CACHE_DIR) # type: ignore
 
-    tokenizer = LlamaTokenizer.from_pretrained(base_model)
+    AUTO_MODEL_CLASS = AutoModelForCausalLM if getattr(config, "model_type") in MODEL_FOR_CAUSAL_LM_MAPPING_NAMES else AutoModelForSeq2SeqLM
 
-    tokenizer.pad_token_id = (
-        0  # unk. we want this to be different from the eos token
-    )
+
+
+    tokenizer = AutoTokenizer.from_pretrained(base_model)
     tokenizer.padding_side = "left"  # Allow batched inference
+
+    if AUTO_MODEL_CLASS == AutoModelForCausalLM:
+        model = AutoModelForCausalLM.from_pretrained(
+            base_model,
+            load_in_8bit=True,
+            torch_dtype=torch.float16,
+            device_map=device_map,
+            cache_dir=CACHE_DIR,
+        )
+
+        tokenizer.pad_token_id = (
+            0  # unk. we want this to be different from the eos token
+        )
+
+    elif AUTO_MODEL_CLASS == AutoModelForSeq2SeqLM:
+        model = AutoModelForSeq2SeqLM.from_pretrained(
+            base_model,
+            load_in_8bit=True,
+            torch_dtype=torch.float16,
+            device_map=device_map,
+            cache_dir=CACHE_DIR,
+        )
+
 
     def tokenize(prompt, add_eos_token=True):
         result = tokenizer(
@@ -156,20 +182,23 @@ def train(
 
         current_args = template_args_results.get(prompt_template)[0]
 
-        args = {arg: data_point['deducted fact'] if arg == 'deduction' else 
+        context_args = {arg: data_point['deducted fact'] if arg == 'deduction' else 
                 data_point.get(arg.replace('_', ' ')) for arg in current_args}
         
-        input_prompt = prompt.generate_prompt(**args)
-        full_prompt = prompter.generate_prompt(
-            data_point["instruction"],
-            data_point["input"],
-            data_point["output"],
-        )
+        current_label_args = template_args_results.get(prompt_template)[1]
+
+        label_args = {arg: data_point['deducted fact'] if arg == 'deduce' else 
+                data_point.get(arg) for arg in current_label_args}
+        
+        all_args = {}
+        all_args.update(context_args)
+        all_args['label'] = label_args 
+        
+        full_prompt = prompt.generate_prompt(**all_args)
+        print(full_prompt)
         tokenized_full_prompt = tokenize(full_prompt)
         if not train_on_inputs:
-            user_prompt = prompter.generate_prompt(
-                data_point["instruction"], data_point["input"]
-            )
+            user_prompt = prompter.generate_prompt(**context_args)
             tokenized_user_prompt = tokenize(
                 user_prompt, add_eos_token=add_eos_token
             )
@@ -250,7 +279,7 @@ def train(
         args=transformers.TrainingArguments(
             per_device_train_batch_size=micro_batch_size,
             gradient_accumulation_steps=gradient_accumulation_steps,
-            warmup_steps=100,
+            warmup_steps=warmup_steps,
             num_train_epochs=num_epochs,
             learning_rate=learning_rate,
             fp16=True,
