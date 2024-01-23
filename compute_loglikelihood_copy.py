@@ -38,8 +38,7 @@ def custom_set_seed(seed):
 
 def split_choices(text):
     text = re.findall(r'\([A-Z]\) [^()]*', text)
-    # answer_list = [answer.rstrip() for answer in text]
-    answer_list = ["(A)", "(B)", "(C)", "(D)", "(E)", "(F)", "(G)", "(H)"]
+    answer_list = [answer.rstrip() for answer in text]
     return answer_list
 
 def main(
@@ -84,6 +83,8 @@ def main(
             device_map="auto",
             cache_dir=CACHE_DIR
             )
+        
+        tokenizer.bos_token_id = 0
 
     model.eval()
     torch.compile(model)
@@ -100,31 +101,38 @@ def main(
         result_dict['question'].append(df_entry['question'])
         result_dict['answers'].append(df_entry['answers'])
         answer = df_entry['answer']
-        # print(extracted_choice)
 
-        whole_input_prompt = prompt.generate_prompt(question=df_entry['question'],
+        whole_input_prompt, label = prompt.generate_prompt(question=df_entry['question'],
                                answers=df_entry['answers'],
                                label={"answer": answer}
                            )
-        
-        context_prompt = whole_input_prompt[:-len(answer)]
+        # create the context prompt
+        context_prompt = whole_input_prompt[:-len("\nAnswer: {}.format(answer)")]
 
+        # encode the whole input prompt and the context prompt and the answer
         whole_input_enc = tokenizer(whole_input_prompt, return_tensors='pt').to(device)
-        context_enc = tokenizer(context_prompt, return_tensors='pt', add_special_tokens=False).to(device)
-
+        context_enc = tokenizer(context_prompt, return_tensors='pt', add_special_tokens=add_special_tokens).to(device)
         answer_enc = tokenizer(answer, add_special_tokens=add_special_tokens, return_tensors='pt').to(device)['input_ids']
-
-        sequence_positions = torch.arange(len(answer_enc)).to(device)
 
         # Index the probs tensor with the token indices
 
         with torch.no_grad():
             if AUTO_MODEL_CLASS == AutoModelForCausalLM:
+                # pass the whole input (context + continuation) through the model
                 output = model(whole_input_enc['input_ids'], return_dict=True)
             elif AUTO_MODEL_CLASS == AutoModelForSeq2SeqLM:
+                # pass the context through the model and the continuation as the label
+                answer_enc = tokenizer(label, add_special_tokens=False, return_tensors='pt').to(device)['input_ids']
+                # add bos token to the label
+                # answer_enc = torch.cat((torch.tensor([[tokenizer.bos_token_id]]).to(device), answer_enc), dim=1)  
                 output = model(context_enc['input_ids'], labels=answer_enc, attention_mask=context_enc['attention_mask'], return_dict=True)
 
+        # create the token indices of the sequence we want to calculate the loglikelihood of   
+        sequence_positions = torch.arange(len(answer_enc)).to(device)
+
+        # pass the logits through a log softmax to get the log probabilities
         probs = F.log_softmax(output.logits, dim=-1)
+
         if AUTO_MODEL_CLASS == AutoModelForCausalLM:
             answer_probs = probs[0][len(whole_input_enc['input_ids'][0])-len(answer_enc[0]) - 1: len(whole_input_enc['input_ids'][0]) - 1]
         elif AUTO_MODEL_CLASS == AutoModelForSeq2SeqLM:
@@ -140,7 +148,6 @@ def main(
         # average_log_prob = torch.mean(torch.log(token_probs))
 
         result_dict['probability'].append((average_prob, max_equal.item()))
-        # break
     
     print("done!")
     result_df = pd.DataFrame(result_dict)
@@ -150,3 +157,5 @@ def main(
         
 if __name__ == "__main__":
     fire.Fire(main)
+
+
