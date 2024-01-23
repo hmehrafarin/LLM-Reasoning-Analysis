@@ -1,0 +1,30 @@
+[
+    {
+        "question": "Who was president of the United States in the year that Citibank was founded?",
+        "fact 1": "Citibank was founded in 1812.",
+        "fact 2": "The President of the United States in 1812 was James Madison.",
+        "deducted fact": "The President of the United States was James Madison when Citibank was founded.",
+        "answer": "james madison"
+    },
+    {
+        "question": "What rocket was the first spacecraft that ever approached Uranus launched on?",
+        "fact 1": "The first spacecraft to approach Uranus was Voyager 2.",
+        "fact 2": "Voyager 2 was launched aboard a Titan IIIE/Centaur rocket.",
+        "deducted fact": "The first spacecraft to approach Uranus was launched aboard a Titan IIIE/Centaur rocket.",
+        "answer": "Titan IIIE"
+    },
+    {
+        "question": "In what year was the company that was founded as Sound of Music added to the S&P 500?",
+        "fact 1": "The company originally known as Sound of Music is now called Best Buy.",
+        "fact 2": " Best Buy was added to the S&P 500 in the year 1999.",
+        "deducted fact": "The company originally known as Sound of Music was added to the S&P 500 in the year 1999.",
+        "answer": "1999"
+    },
+    {
+        "question": "In what year was the company that was founded as Sound of Music added to the S&P 500?",
+        "fact 1": "The company originally known as Sound of Music is now called Best Buy.",
+        "fact 2": " Best Buy was added to the S&P 500 in the year 1999.",
+        "deducted fact": "The company originally known as Sound of Music was added to the S&P 500 in the year 1999.",
+        "answer": "1999"
+    },
+]
