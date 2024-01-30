@@ -21,7 +21,7 @@ class Prompter(object):
     def generate_prompt(
         self,
         question: str,
-        answers: str,
+        answers: Union[None, str] = None,
         fact_1: Union[None, str] = None,
         fact_2: Union[None, str] = None,
         deduction: Union[None, str] = None,
@@ -30,7 +30,14 @@ class Prompter(object):
     
         # returns the full prompt from instruction and optional input
         # if a label (=response, =output) is provided, it's also appended.
+
         if deduction is None and all([fact_1, fact_2]):
+            # Bamboogle prompt handling
+            if answers is None:
+                context = self.template["context_template"].format(question=question,
+                                                               fact_1=fact_1,
+                                                               fact_2=fact_2)
+                
             context = self.template["context_template"].format(question=question,
                                                            answers=answers,
                                                            fact_1=fact_1,
