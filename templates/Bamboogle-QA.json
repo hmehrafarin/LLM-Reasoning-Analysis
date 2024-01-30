@@ -1,0 +1,6 @@
+{
+    "prompt": "Follow the demonstrations below to answer the given question. Please do not add anything extra other than the sample outputs shown.\nContext:\nQuestion: Who was president of the United States in the year that Citibank was founded?\nSteps:\nAnswer: James Madison\n######\nContext:\nQuestion: What rocket was the first spacecraft that ever approached Uranus launched on?\nSteps:\nAnswer: Titan IIIE\n######\nContext:\nQuestion: In what year was the company that was founded as Sound of Music added to the S&P 500?\nSteps:\nAnswer: 1999\n######\nContext:\n",
+    "context_template": "Question: {question}\nSteps:",
+    "steps_template": "\nAnswer: {answer}",
+    "response_split": "Steps:"
+}
