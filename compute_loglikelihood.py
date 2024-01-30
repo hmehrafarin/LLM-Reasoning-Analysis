@@ -1,5 +1,16 @@
 import transformers
-from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, set_seed
+from transformers import (
+    AutoModelForCausalLM, 
+    AutoTokenizer,
+    AutoModelForSeq2SeqLM, 
+    set_seed
+)
+
+from transformers.models.auto.modeling_auto import (
+    MODEL_FOR_CAUSAL_LM_MAPPING_NAMES, 
+    MODEL_FOR_SEQ_TO_SEQ_CAUSAL_LM_MAPPING_NAMES,
+)
+
 import pdb
 import fire
 import sys
@@ -35,6 +46,8 @@ def main(
         load_8bit: bool = True,
         random_seed: int = 42,
         prompt_template: str = "",
+        data: str = "data/eval_data.json",
+        output_path: str = ""
 ):
 
     custom_set_seed(random_seed)
@@ -44,9 +57,14 @@ def main(
     assert (
         base_model
     )
+    config = transformers.AutoConfig.from_pretrained(base_model, cache_dir=CACHE_DIR) # type: ignore
+
+    AUTO_MODEL_CLASS = AutoModelForCausalLM if getattr(config, "model_type") in MODEL_FOR_CAUSAL_LM_MAPPING_NAMES else AutoModelForSeq2SeqLM
+
+    add_special_tokens = True if AUTO_MODEL_CLASS == AutoModelForSeq2SeqLM else False
 
     tokenizer = AutoTokenizer.from_pretrained(base_model)
-    if device == "cuda":
+    if AUTO_MODEL_CLASS == AutoModelForCausalLM:
         model = AutoModelForCausalLM.from_pretrained(
             base_model,
             load_in_8bit=load_8bit,
@@ -54,15 +72,26 @@ def main(
             device_map="auto",
             cache_dir=CACHE_DIR
             )
-
-    model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
-    model.config.bos_token_id = 1
-    model.config.eos_token_id = 2
+        
+        model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
+        model.config.bos_token_id = 1
+        model.config.eos_token_id = 2
+        
+    elif AUTO_MODEL_CLASS == AutoModelForSeq2SeqLM:
+        model = AutoModelForSeq2SeqLM.from_pretrained(
+            base_model,
+            load_in_8bit=load_8bit,
+            torch_dtype=torch.float16,
+            device_map="auto",
+            cache_dir=CACHE_DIR
+            )
+        
+        tokenizer.bos_token_id = 0
 
     model.eval()
     torch.compile(model)
 
-    df = pd.read_json('eval_data.json')
+    df = pd.read_json(data)
 
     prompt = prompter.Prompter(prompt_template)
     result_dict = {"question": [],
@@ -73,48 +102,62 @@ def main(
         df_entry = df.iloc[i]
         result_dict['question'].append(df_entry['question'])
         result_dict['answers'].append(df_entry['answers'])
-        answer_list = split_choices(df_entry['answers'])
+        answer = df_entry['answer']
 
-        avg_prob_per_answer = {}
-        for answer in answer_list:
-            tokenized_answer = tokenizer.tokenize(answer)
-            answer_indices = torch.tensor(tokenizer.convert_tokens_to_ids(tokenized_answer)).to(device)
-            sequence_positions = torch.arange(len(answer_indices)).to(device)
+        whole_input_prompt, label = prompt.generate_prompt(question=df_entry['question'],
+                               answers=df_entry['answers'],
+                               label={"answer": answer}
+                           )
+        # create the context prompt
+        context_prompt = whole_input_prompt[:-len("\nAnswer: {}.format(answer)")]
 
+        # encode the whole input prompt and the context prompt and the answer
+        whole_input_enc = tokenizer(whole_input_prompt, return_tensors='pt').to(device)
+        context_enc = tokenizer(context_prompt, return_tensors='pt', add_special_tokens=add_special_tokens).to(device)
+        answer_enc = tokenizer(answer, add_special_tokens=add_special_tokens, return_tensors='pt').to(device)['input_ids']
 
-            input_prompt = prompt.generate_prompt(question=df_entry['question'],
-                                   answers=df_entry['answers'],
-                                   answer=answer,
-                               )
+        # Index the probs tensor with the token indices
 
-            # Index the probs tensor with the token indices
+        with torch.no_grad():
+            if AUTO_MODEL_CLASS == AutoModelForCausalLM:
+                # pass the whole input (context + continuation) through the model
+                output = model(whole_input_enc['input_ids'], return_dict=True)
+            elif AUTO_MODEL_CLASS == AutoModelForSeq2SeqLM:
+                # pass the context through the model and the continuation as the label
+                answer_enc = tokenizer(label, add_special_tokens=False, return_tensors='pt').to(device)['input_ids']
+                # add bos token to the label
+                # answer_enc = torch.cat((torch.tensor([[tokenizer.bos_token_id]]).to(device), answer_enc), dim=1)  
+                output = model(context_enc['input_ids'], labels=answer_enc, attention_mask=context_enc['attention_mask'], return_dict=True)
 
-            
-            inputs = tokenizer(input_prompt, return_tensors='pt').to(device)
+        # create the token indices of the sequence we want to calculate the loglikelihood of   
+        sequence_positions = torch.arange(len(answer_enc)).to(device)
 
-            with torch.no_grad():
-                output = model(inputs['input_ids'], labels=inputs['input_ids'], return_dict=True)
+        # pass the logits through a log softmax to get the log probabilities
+        probs = F.log_softmax(output.logits, dim=-1)
 
-            probs = F.log_softmax(output.logits, dim=-1)
-            answer_probs = probs[0][-len(answer_indices):]
+        if AUTO_MODEL_CLASS == AutoModelForCausalLM:
+            answer_probs = probs[0][len(whole_input_enc['input_ids'][0])-len(answer_enc[0]) - 1: len(whole_input_enc['input_ids'][0]) - 1]
+        elif AUTO_MODEL_CLASS == AutoModelForSeq2SeqLM:
+            answer_probs = probs[0]
 
-            gold_indices = answer_probs[sequence_positions, answer_indices]
+        greedy_tokens = torch.argmax(answer_probs, dim=-1)
+        max_equal = (greedy_tokens == answer_enc[0]).all()
 
-            average_prob = torch.sum(gold_indices).item()
-            print(average_prob)
-            # token_probs = answer_probs[sequence_positions, token_indices]
+        gold_indices = answer_probs[sequence_positions, answer_enc[0]]
+        average_prob = torch.mean(gold_indices).item()
+        # token_probs = answer_probs[sequence_positions, token_indices]
 
-            # average_log_prob = torch.mean(torch.log(token_probs))
-            # print(average_log_prob.item())
+        # average_log_prob = torch.mean(torch.log(token_probs))
 
-            avg_prob_per_answer[answer] = average_prob
-
-        result_dict['probability'].append(avg_prob_per_answer)
-
+        result_dict['probability'].append((average_prob, max_equal.item()))
+    
+    print("done!")
     result_df = pd.DataFrame(result_dict)
 
-    # result_df.to_json("QA (logits-avg).json", orient ='records')
+    result_df.to_json(output_path, orient ='records')
 
         
 if __name__ == "__main__":
     fire.Fire(main)
+
+
