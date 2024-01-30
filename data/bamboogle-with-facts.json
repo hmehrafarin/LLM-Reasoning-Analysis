@@ -32,7 +32,7 @@
         "fact 1": "The 1964 Prince William Sound in Alaska is recognized as the second most powerful earthquake ever recorded.",
         "fact 2": "The estimated death toll of the 1964 Prince William Sound Earthquake is 131 people.",
         "deducted fact": "131 people died in the second most powerful earthquake ever recorded.",
-        "answer": "131"
+        "answer": "131 people"
     },
     {
         "question": "Can people who have celiac eat camel meat?",
@@ -72,9 +72,9 @@
     {
         "question": "Who built the fastest air-breathing manned aircraft?",
         "fact 1": "The Lockheed SR-71 Blackbird holds the record for the fastest air-breathing manned aircraft.",
-        "fact 2": "The SR-71 Blackbirdwas built by Lockheed's Skunk Works division.",
+        "fact 2": "The SR-71 Blackbird was built by Lockheed's Skunk Works division.",
         "deducted fact": "The fastest air-breathing manned aircraft is built by Lockheed's Skunk Works division.",
-        "answer": "Lockheed Coorporation"
+        "answer": "Lockheed's Skunk Works division"
     },
     {
         "question": "When was the author of The Population Bomb born?",
@@ -88,7 +88,7 @@
         "fact 1": "The author of 'Annabel Lee' is Edgar Allan Poe.",
         "fact 2": "Edgar Allan Poe enlisted in the United States Army on May 26, 1827, under the name \"Edgar A. Perry.\"",
         "deducted fact": "The author of Annabel Lee enlisted in the army on May 26, 1827.",
-        "answer": "1827"
+        "answer": "May 26, 1827"
     },
     {
         "question": "What was the religion of the inventor of the Polio vaccine?",
@@ -270,7 +270,7 @@
         "fact 1": "The 1991 eruption of Mount Pinatubo in the Philippines is considered the second largest volcanic eruption of the 20th century.",
         "fact 2": "The eruption of Mount Pinatubo in 1991 resulted in a death toll of 847 people.",
         "deducted fact": "The death toll of the second largest volcanic eruption in the 20th century was 847 people.",
-        "answer": "847"
+        "answer": "847 people"
     },
     {
         "question": "What was the death toll of the most intense Atlantic hurricane?",
@@ -340,7 +340,7 @@
         "fact 1": "The Danyang–Kunshan Grand Bridge in China is the longest bridge in the world.",
         "fact 2": "The Danyang–Kunshan Grand Bridge was opened on June 30, 2011.",
         "deducted fact": "The longest bridge in the world was opened on June 30, 2011.",
-        "answer": "30 June 2011"
+        "answer": "June 30, 2011"
     },
     {
         "question": "Which company was responsible for the largest pharmaceutical settlement?",
@@ -403,14 +403,14 @@
         "fact 1": "The second largest island in the world is New Guinea.",
         "fact 2": "The highest point on New Guinea is Puncak Jaya, which has an elevation of 4,884 meters (16,024 feet).",
         "deducted fact": "The highest elevation (in meters) of the second largest island in the world is 4,884 meters.",
-        "answer": "4,884 m"
+        "answer": "4,884 meters"
     },
     {
         "question": "What is the length of the second deepest river in the world?",
         "fact 1": "The second deepest river in the world is the Yangtze River.",
         "fact 2": "The Yangtze River is approximately 6,300 kilometers (3,915 miles) long.",
         "deducted fact": "The second deepest river in the world is approximately 6,300 kilometers long.",
-        "answer": "6,300 km"
+        "answer": "6,300 kilometers"
     },
     {
         "question": "In what country is the third largest stadium in the world?",
