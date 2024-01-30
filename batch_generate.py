@@ -23,8 +23,14 @@ import torch
 
 
 template_args_results = {
-    'QASC_Final-Answer_QA (step-by-step)': (['question', 'answers'],
-                                            ['question', 'answers', 'generated deduced', 'actual deduced', 'pred answer', 'true answer']),
+    'Bamboogle-QA': (['question'],
+                       ['question', 'pred answer', 'true answer']),
+    'Bamboogle-Full': (['question', 'fact_1', 'fact_2'],
+                       ['question', 'fact 1', 'fact 2', 'actual deduced', 'generated deduced', 'pred answer', 'true answer']),
+    'QASC_QA (step-by-step + facts & deductions)': (['question', 'answers'],
+                                                    ['question', 'answers', 'generated deduced', 'actual deduced', 'pred answer', 'true answer']),
+    'QASC_QA (step-by-step)': (['question', 'answers'],
+                               ['question', 'answers', 'generated deduced', 'actual deduced', 'pred answer', 'true answer']),
     'QASC_Final-Answer_QA': (['question', 'answers'], 
                              ['question', 'answers', 'pred answer', 'true answer']),
     'QASC_Final-Answer_QAF': (['question', 'answers', 'fact_1', 'fact_2'], 
@@ -91,7 +97,7 @@ def main(
         load_8bit: bool = True,
         random_seed: int = 42,
         prompt_template: str = "",
-        data_path: str = "eval_data.json",
+        data_path: str = "data/eval_data.json",
         shuffle_fact1: bool = False,
         shuffle_fact2: bool = False,
         ablate_tokens_fact1: bool = False,
