@@ -42,27 +42,20 @@ def match_answer_with_facts(fact1, fact2, answers):
 
 def ablate_connecting_words(input_string1, input_string2, out_dict):
     stemmer = PorterStemmer()
-    # print(input_string1, input_string2)
+
     input_string1, input_string2 = input_string1.translate(str.maketrans('', '', string.punctuation)), \
                                    input_string2.translate(str.maketrans('', '', string.punctuation))
     listed_string1, listed_string2 = input_string1.split(" "), input_string2.split(" ")
     listed_string1_copy, listed_string2_copy = listed_string1[:], listed_string2[:]
     
-    # print(listed_string1_copy, listed_string2_copy)
     list_of_ablted_words = []
     for token in listed_string1_copy:
         for token2 in listed_string2_copy:
             if stemmer.stem(token.lower()) == stemmer.stem(token2.lower()):
-                # print(token)
-                # print(stemmer.stem(token), stemmer.stem(token2))
                 if token in listed_string1:
-                        # print("###########")
-                        # print("Token 1: {}".format(token))
                         listed_string1.remove(token)
                         list_of_ablted_words.append(token) if token not in list_of_ablted_words else None
                 if token2 in listed_string2:
-                        # print("###########")
-                        # print("Token 2: {}".format(token2))
                         listed_string2.remove(token2)
 
     input_string1, input_string2 = " ".join(listed_string1), " ".join(listed_string2)
@@ -71,8 +64,6 @@ def ablate_connecting_words(input_string1, input_string2, out_dict):
     if list_of_ablted_words == []:
         list_of_ablted_words.append("None")
     out_dict['ablated tokens'].append(list_of_ablted_words)
-
-    print("{} +++++ {}".format(input_string1, input_string2))
 
     return input_string1, input_string2
 
