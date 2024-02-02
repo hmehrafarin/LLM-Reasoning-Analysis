@@ -1,0 +1,1708 @@
+[
+    {
+        "question": "Who was the first African American mayor of the most populous city in the United States?",
+        "fact 1": "most populous in United States is",
+        "fact 2": "first African American mayor of was David Dinkins",
+        "actual deduced": "David Dinkins was the first African American mayor of the most populous city in the United States.",
+        "generated deduced": "David Dinkins was the first African American mayor of New York City. Answer: David Dinkins",
+        "pred answer": "David Dinkins",
+        "true answer": "David Dinkins",
+        "ablated tokens": [
+            "the",
+            "city",
+            "New",
+            "York",
+            "City"
+        ]
+    },
+    {
+        "question": "When did the last king from Britain's House of Hanover die?",
+        "fact 1": "The last from the House of Hanover was",
+        "fact 2": "died on June 20 1837",
+        "actual deduced": "The last king from the House of Hanover died on June 20, 1837.",
+        "generated deduced": "The last king from Britain's House of Hanover died on June 20 1837. Answer: June 20 1837",
+        "pred answer": "June 20 1837",
+        "true answer": "June 20, 1837",
+        "ablated tokens": [
+            "king",
+            "King",
+            "William",
+            "IV"
+        ]
+    },
+    {
+        "question": "When did the president who set the precedent of a two term limit enter office?",
+        "fact 1": "is who established precedent a twoterm limit for US",
+        "fact 2": "entered office as United States on April 30 1789",
+        "actual deduced": "The president who established the precedent of a two-term limit for U.S. presidents entered office on April 30, 1789.",
+        "generated deduced": "The president who set the precedent of a two term limit entered office on April 30 1789. Answer: April 30 1789",
+        "pred answer": "April 30 1789",
+        "true answer": "April 30, 1789",
+        "ablated tokens": [
+            "George",
+            "Washington",
+            "the",
+            "president",
+            "of",
+            "presidents"
+        ]
+    },
+    {
+        "question": "When did the president who set the precedent of a two term limit leave office?",
+        "fact 1": "is of a for US",
+        "fact 2": "left office on March 4 1797",
+        "actual deduced": "The president who established the precedent of a two-term limit for U.S. presidents left office on March 4, 1797.",
+        "generated deduced": "The president who set the precedent of a two term limit left office on March 4 1797. Answer: March 4 1797",
+        "pred answer": "March 4 1797",
+        "true answer": "March 4, 1797",
+        "ablated tokens": [
+            "George",
+            "Washington",
+            "the",
+            "president",
+            "who",
+            "established",
+            "precedent",
+            "twoterm",
+            "limit",
+            "presidents"
+        ]
+    },
+    {
+        "question": "How many people died in the second most powerful earthquake ever recorded?",
+        "fact 1": "in Alaska recognized as second most powerful ever recorded",
+        "fact 2": "estimated death toll of 131 people",
+        "actual deduced": "131 people died in the second most powerful earthquake ever recorded.",
+        "generated deduced": "The second most powerful earthquake ever recorded had an estimated death toll of 131 people. Answer: 131 people",
+        "pred answer": "131 people",
+        "true answer": "131",
+        "ablated tokens": [
+            "The",
+            "1964",
+            "Prince",
+            "William",
+            "Sound",
+            "is",
+            "the",
+            "earthquake"
+        ]
+    },
+    {
+        "question": "Can people who have celiac eat camel meat?",
+        "fact 1": "Celiac disease a condition where an individuals immune system reacts to gluten a protein found in wheat barley and rye",
+        "fact 2": "Camel meat like all meats naturally glutenfree",
+        "actual deduced": "People who have celiac can eat camel meat.",
+        "generated deduced": "People who have celiac can eat camel meat because it is naturally glutenfree. Answer: yes",
+        "pred answer": "yes",
+        "true answer": "yes",
+        "ablated tokens": [
+            "is"
+        ]
+    },
+    {
+        "question": "What was the final book written by the author of On the Origin of Species?",
+        "fact 1": "author On Origin Species is Charles",
+        "fact 2": "last book completed was Formation Vegetable Mould through Action Worms published in 1881",
+        "actual deduced": "The last book Charles Darwin completed was \"The Formation of Vegetable Mould through the Action of Worms.\"",
+        "generated deduced": "Formation Vegetable Mould through Action Worms was the final book written by the author of On the Origin of Species. Answer: Formation Vegetable Mould through Action Worms",
+        "pred answer": "Formation Vegetable Mould through Action Worms",
+        "true answer": "The Formation of Vegetable Mould Through the Action of Worms",
+        "ablated tokens": [
+            "The",
+            "of",
+            "the",
+            "Darwin"
+        ]
+    },
+    {
+        "question": "When was the company that built the first steam locomotive to carry passengers on a public rail line founded?",
+        "fact 1": "The is Locomotive Works which built the Locomotion No 1 This locomotive was used on the Stockton Darlington Railway the first public rail line to use steam locomotives",
+        "fact 2": "founded his initially named Robert in 1823",
+        "actual deduced": "The company that built the first steam locomotive to carry passengers on a public rail line was founded in 1823.",
+        "generated deduced": "The company that built the first steam locomotive to carry passengers on a public rail line was founded in 1823. Answer: 1823",
+        "pred answer": "1823",
+        "true answer": "1823",
+        "ablated tokens": [
+            "company",
+            "George",
+            "Stephensons",
+            "and"
+        ]
+    },
+    {
+        "question": "Which Theranos whistleblower is not related to a senior American government official?",
+        "fact 1": "key whistleblowers in Theranos scandal were and Erica Cheung",
+        "fact 2": "is grandson of George a former US Secretary of State",
+        "actual deduced": "Erica Cheung is not related to a senior American government official.",
+        "generated deduced": "Erica Cheung is not related to a senior American government official. Answer: Erica Cheung",
+        "pred answer": "Erica Cheung",
+        "true answer": "Erica Cheung",
+        "ablated tokens": [
+            "The",
+            "the",
+            "Tyler",
+            "Shultz"
+        ]
+    },
+    {
+        "question": "What is the fastest air-breathing manned aircraft mostly made out of?",
+        "fact 1": "Lockheed holds record for fastest airbreathing manned aircraft",
+        "fact 2": "airframe is predominantly made out of titanium",
+        "actual deduced": "The fastest air-breathing manned aircraft is mostly made out of titanium.",
+        "generated deduced": "The fastest air-breathing manned aircraft is mostly made out of titanium. Answer: titanium",
+        "pred answer": "titanium",
+        "true answer": "Titanium",
+        "ablated tokens": [
+            "The",
+            "SR71",
+            "Blackbird",
+            "the"
+        ]
+    },
+    {
+        "question": "Who built the fastest air-breathing manned aircraft?",
+        "fact 1": "holds record for fastest airbreathing manned aircraft",
+        "fact 2": "was built by Skunk Works division",
+        "actual deduced": "The fastest air-breathing manned aircraft is built by Lockheed's Skunk Works division.",
+        "generated deduced": "The fastest air-breathing manned aircraft was built by Skunk Works division. Answer: Skunk Works division",
+        "pred answer": "Skunk Works division",
+        "true answer": "Lockheed's Skunk Works division",
+        "ablated tokens": [
+            "The",
+            "Lockheed",
+            "SR71",
+            "Blackbird",
+            "the"
+        ]
+    },
+    {
+        "question": "When was the author of The Population Bomb born?",
+        "fact 1": "the author of The Population Bomb",
+        "fact 2": "born on May 29 1932",
+        "actual deduced": "TThe author of 'The Population Bomb' was born on May 29, 1932.",
+        "generated deduced": "The author of The Population Bomb was born on May 29 1932. Answer: May 29 1932",
+        "pred answer": "May 29 1932",
+        "true answer": "May 29, 1932",
+        "ablated tokens": [
+            "Paul",
+            "R",
+            "Ehrlich",
+            "was"
+        ]
+    },
+    {
+        "question": "When did the author of Annabel Lee enlist in the army?",
+        "fact 1": "author of Annabel Lee is",
+        "fact 2": "enlisted in United States Army on May 26 1827 under name A Perry",
+        "actual deduced": "The author of Annabel Lee enlisted in the army on May 26, 1827.",
+        "generated deduced": "The author of Annabel Lee enlisted in the army on May 26 1827 under name A Perry. Answer: May 26 1827",
+        "pred answer": "May 26 1827",
+        "true answer": "May 26, 1827",
+        "ablated tokens": [
+            "The",
+            "Edgar",
+            "Allan",
+            "Poe"
+        ]
+    },
+    {
+        "question": "What was the religion of the inventor of the Polio vaccine?",
+        "fact 1": "The inventor of the Polio vaccine is",
+        "fact 2": "was Jewish",
+        "actual deduced": "The inventor of the Polio vaccine was Jewish.",
+        "generated deduced": "The inventor of the Polio vaccine was Jewish. Answer: Jewish",
+        "pred answer": "Jewish",
+        "true answer": "Jewish",
+        "ablated tokens": [
+            "Jonas",
+            "Salk"
+        ]
+    },
+    {
+        "question": "Who was the second wife of the founder of CNN?",
+        "fact 1": "is the founder of CNN",
+        "fact 2": "second wife was Jane Shirley Smith",
+        "actual deduced": "The second wife of the founder of CNN was Jane Shirley Smith.",
+        "generated deduced": "Jane Shirley Smith was the second wife of the founder of CNN. Answer: Jane Shirley Smith",
+        "pred answer": "Jane Shirley Smith",
+        "true answer": "Jane Shirley Smith",
+        "ablated tokens": [
+            "Ted",
+            "Turner"
+        ]
+    },
+    {
+        "question": "When did the first prime minister of the Russian Empire come into office?",
+        "fact 1": "The first person to hold a position equivalent to a Prime Minister of the Russian Empire was",
+        "fact 2": "came into office on November 6 1905",
+        "actual deduced": "The first prime minister of the Russian Empire came into office on November 6, 1905.",
+        "generated deduced": "The first prime minister of the Russian Empire came into office on November 6 1905. Answer: November 6 1905",
+        "pred answer": "November 6 1905",
+        "true answer": "November 6, 1905",
+        "ablated tokens": [
+            "Sergei",
+            "Witte"
+        ]
+    },
+    {
+        "question": "What is the primary male hormone derived from?",
+        "fact 1": "The primary male hormone",
+        "fact 2": "primarily derived from cholesterol",
+        "actual deduced": "The primary male hormone is primarily derived from cholesterol.",
+        "generated deduced": "The primary male hormone is derived from cholesterol. Answer: cholesterol",
+        "pred answer": "cholesterol",
+        "true answer": "Cholesterol",
+        "ablated tokens": [
+            "is",
+            "testosterone"
+        ]
+    },
+    {
+        "question": "The Filipino statesman who established the government-in-exile during the outbreak of World War II was also the mayor of what city?",
+        "fact 1": "The Filipino statesman who established the governmentinexile during World War II was",
+        "fact 2": "is also mayor of City",
+        "actual deduced": "The Filipino statesman who established the government-in-exile during World War II was also the mayor of Quezon City.",
+        "generated deduced": "The Filipino statesman who established the governmentinexile during World War II was also the mayor of City. Answer: City",
+        "pred answer": "City",
+        "true answer": "Quezon City",
+        "ablated tokens": [
+            "Manuel",
+            "L",
+            "Quezon"
+        ]
+    },
+    {
+        "question": "Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+        "fact 1": "The person who shared the Nobel Prize Physics 1954 with Max is",
+        "fact 2": "was Oranienburg Germany",
+        "actual deduced": "The person who shared the Nobel Prize in Physics in 1954 with Max Born was born in Oranienburg, Germany.",
+        "generated deduced": "Max Born was born in Oranienburg Germany. Answer: Oranienburg Germany",
+        "pred answer": "Oranienburg Germany",
+        "true answer": "Oranienburg, Germany",
+        "ablated tokens": [
+            "in",
+            "Born",
+            "Walther",
+            "Bothe"
+        ]
+    },
+    {
+        "question": "When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+        "fact 1": "The person who shared the Nobel Prize Physics 1954 with Max is",
+        "fact 2": "was January 8 1891",
+        "actual deduced": "The person who shared the Nobel Prize in Physics in 1954 with Max Born was born on January 8, 1891.",
+        "generated deduced": "Born was January 8 1891. Answer: January 8 1891",
+        "pred answer": "January 8 1891",
+        "true answer": "January 8, 1891",
+        "ablated tokens": [
+            "in",
+            "Born",
+            "Walther",
+            "Bothe"
+        ]
+    },
+    {
+        "question": "What was the founding date of the university in which Plotonium was discovered?",
+        "fact 1": "Plutonium discovered at",
+        "fact 2": "founded on March 23 1868",
+        "actual deduced": "The founding date of the university in which Plutonium was discovered was March 23, 1868.",
+        "generated deduced": "Plutonium was discovered at the University of California, Berkeley, which was founded on March 23, 1868. Answer: March 23 1868",
+        "pred answer": "March 23 1868",
+        "true answer": "March 23, 1868",
+        "ablated tokens": [
+            "was",
+            "the",
+            "University",
+            "of",
+            "California",
+            "Berkeley"
+        ]
+    },
+    {
+        "question": "The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?",
+        "fact 1": "Great Sphinx Giza primarily made out",
+        "fact 2": "mainly composed mineral calcite calcium carbonate",
+        "actual deduced": "The material out of which the Great Sphinx of Giza is made of is mainly composed of the mineral calcite.",
+        "generated deduced": "The Great Sphinx of Giza is made of calcite calcium carbonate. Answer: calcite calcium carbonate",
+        "pred answer": "calcite calcium carbonate",
+        "true answer": "Calcite",
+        "ablated tokens": [
+            "The",
+            "of",
+            "is",
+            "limestone"
+        ]
+    },
+    {
+        "question": "The husband of Lady Godiva was Earl of which Anglic kingdom?",
+        "fact 1": "Lady Godiva married to",
+        "fact 2": "the Earl of Mercia",
+        "actual deduced": "The husband of Lady Godiva was Earl of Mercia.",
+        "generated deduced": "The husband of Lady Godiva was Earl of Mercia, an Anglic kingdom. Answer: Mercia",
+        "pred answer": "Mercia",
+        "true answer": "Mercia",
+        "ablated tokens": [
+            "was",
+            "Leofric"
+        ]
+    },
+    {
+        "question": "The machine used to extract honey from honeycombs uses which physical force?",
+        "fact 1": "machine commonly for extracting from honeycombs is",
+        "fact 2": "operates physical force of centrifugal force",
+        "actual deduced": "The machine used to extract honey from honeycombs uses centrifugal force.",
+        "generated deduced": "centrifugal force is used by the machine commonly for extracting honey from honeycombs. Answer: centrifugal force",
+        "pred answer": "centrifugal force",
+        "true answer": "Centrifugal force",
+        "ablated tokens": [
+            "The",
+            "used",
+            "honey",
+            "a",
+            "extractor"
+        ]
+    },
+    {
+        "question": "What is the third letter of the top level domain of the military?",
+        "fact 1": "toplevel for US military",
+        "fact 2": "third letter in l",
+        "actual deduced": "The third letter of the top level domain of the military is 'l'.",
+        "generated deduced": "The third letter of the top level domain of the military is l. Answer: l",
+        "pred answer": "l",
+        "true answer": "'l'",
+        "ablated tokens": [
+            "The",
+            "domain",
+            "the",
+            "is",
+            "mil"
+        ]
+    },
+    {
+        "question": "The main actor of Indiana Jones is a licensed what?",
+        "fact 1": "The main actor who played Indiana Jones",
+        "fact 2": "a licensed pilot",
+        "actual deduced": "The main actor of Indiana Jones is a licensed pilot.",
+        "generated deduced": "The main actor of Indiana Jones is a licensed pilot. Answer: pilot",
+        "pred answer": "pilot",
+        "true answer": "Pilot",
+        "ablated tokens": [
+            "is",
+            "Harrison",
+            "Ford"
+        ]
+    },
+    {
+        "question": "When was the person after which the Hubble Space Telescope is named after born?",
+        "fact 1": "The Space Telescope is named after astronomer",
+        "fact 2": "was born on November 20 1889",
+        "actual deduced": "The person after which the Hubble Space Telescope is named after was born on November 20, 1889.",
+        "generated deduced": "The person after which the Hubble Space Telescope is named after was born on November 20 1889. Answer: November 20 1889",
+        "pred answer": "November 20 1889",
+        "true answer": "November 20, 1889",
+        "ablated tokens": [
+            "Hubble",
+            "Edwin"
+        ]
+    },
+    {
+        "question": "When did the person who gave the Checkers speech die?",
+        "fact 1": "The Checkers speech was given by",
+        "fact 2": "died on April 22 1994",
+        "actual deduced": "The person who gave the Checkers speech died on April 22, 1994.",
+        "generated deduced": "The person who gave the Checkers speech died on April 22 1994. Answer: April 22 1994",
+        "pred answer": "April 22 1994",
+        "true answer": "April 22, 1994",
+        "ablated tokens": [
+            "Richard",
+            "Nixon"
+        ]
+    },
+    {
+        "question": "When was the philosopher that formulated the hard problem of consciousness born?",
+        "fact 1": "The philosopher known for formulating the hard problem of consciousness is",
+        "fact 2": "was born on April 20 1966",
+        "actual deduced": "The philosopher known for formulating the hard problem of consciousness was born on April 20, 1966.",
+        "generated deduced": "The philosopher that formulated the hard problem of consciousness was born on April 20 1966. Answer: April 20 1966",
+        "pred answer": "April 20 1966",
+        "true answer": "April 20, 1966",
+        "ablated tokens": [
+            "David",
+            "Chalmers"
+        ]
+    },
+    {
+        "question": "What is the capital of the second largest state in the US by area?",
+        "fact 1": "second largest state in US by area",
+        "fact 2": "capital of Austin",
+        "actual deduced": "The capital of the second largest state in the US by area is Austin.",
+        "generated deduced": "Austin is the capital of the second largest state in the US by area. Answer: Austin",
+        "pred answer": "Austin",
+        "true answer": "Austin",
+        "ablated tokens": [
+            "The",
+            "the",
+            "is",
+            "Texas"
+        ]
+    },
+    {
+        "question": "What is the maximum airspeed (in km\/h) of the third fastest bird?",
+        "fact 1": "third fastest bird in terms is generally considered to be",
+        "fact 2": "can reach maximum around 320 kmh",
+        "actual deduced": "The maximum airspeed (in km\/h) of the third fastest bird is 320 km\/h.",
+        "generated deduced": "The third fastest bird in terms can reach maximum around 320 kmh. Answer: 320 kmh",
+        "pred answer": "320 kmh",
+        "true answer": "320 km\/h",
+        "ablated tokens": [
+            "The",
+            "of",
+            "airspeed",
+            "the",
+            "Golden",
+            "Eagle"
+        ]
+    },
+    {
+        "question": "Who founded the city where the founder of geometry lived?",
+        "fact 1": "founder of geometry is often considered to be Euclid who lived in",
+        "fact 2": "was founded by Alexander Great",
+        "actual deduced": "The city where the founder of geometry lived was founded by Alexander the Great.",
+        "generated deduced": "Alexander Great founded the city where the founder of geometry lived. Answer: Alexander Great",
+        "pred answer": "Alexander Great",
+        "true answer": "Alexander the Great",
+        "ablated tokens": [
+            "The",
+            "Alexandria"
+        ]
+    },
+    {
+        "question": "What is the capital of the country where yoga originated?",
+        "fact 1": "Yoga originated in",
+        "fact 2": "The capital of is New Delhi",
+        "actual deduced": "The capital of the country where yoga originated is New Delhi.",
+        "generated deduced": "The capital of the country where yoga originated is New Delhi. Answer: New Delhi",
+        "pred answer": "New Delhi",
+        "true answer": "New Delhi",
+        "ablated tokens": [
+            "India"
+        ]
+    },
+    {
+        "question": "The fourth largest city in Germany was originally called what?",
+        "fact 1": "The fourth largest city Germany is",
+        "fact 2": "was originally known as Colonia Claudia Ara Agrippinensium CCAA Roman times",
+        "actual deduced": "The fourth largest city in Germany was originally called Colonia Claudia Ara Agrippinensium (CCAA).",
+        "generated deduced": "The fourth largest city in Germany was originally known as Colonia Claudia Ara Agrippinensium CCAA Roman times. Answer: Colonia Claudia Ara Agrippinensium CCAA",
+        "pred answer": "Colonia Claudia Ara Agrippinensium CCAA",
+        "true answer": "Colonia Claudia Ara Agrippinensium",
+        "ablated tokens": [
+            "in",
+            "Cologne"
+        ]
+    },
+    {
+        "question": "When did Nirvana's second most selling studio album come out?",
+        "fact 1": "Nirvanas second most selling studio album is generally considered to be",
+        "fact 2": "was released on September 21 1993",
+        "actual deduced": "Nirvana's second most selling studio album came out on September 21, 1993.",
+        "generated deduced": "Nirvana's second most selling studio album was released on September 21 1993. Answer: September 21 1993",
+        "pred answer": "September 21 1993",
+        "true answer": "September 21, 1993",
+        "ablated tokens": [
+            "In",
+            "Utero"
+        ]
+    },
+    {
+        "question": "What was the job of the father of the founder of psychoanalysis?",
+        "fact 1": "The founder of psychoanalysis is",
+        "fact 2": "father Jacob was a wool merchant",
+        "actual deduced": "The job of the father of the founder of psychoanalysis was a wool merchant.",
+        "generated deduced": "The father of the founder of psychoanalysis was a wool merchant. Answer: Jacob",
+        "pred answer": "Jacob",
+        "true answer": "Wool merchant",
+        "ablated tokens": [
+            "Sigmund",
+            "Freud"
+        ]
+    },
+    {
+        "question": "How much protein in four boiled egg yolks?",
+        "fact 1": "A single boiled contains about 27 grams",
+        "fact 2": "To find the content in four you would multiply the content one by four",
+        "actual deduced": "There are 10.8 grams of protein in four boiled egg yolks.",
+        "generated deduced": "Four boiled egg yolks contains 27 x 4 = 108 grams of protein. Answer: 108 ######",
+        "pred answer": "108 ######",
+        "true answer": "10.8",
+        "ablated tokens": [
+            "egg",
+            "yolk",
+            "of",
+            "protein"
+        ]
+    },
+    {
+        "question": "What is the political party of the American president who entered into the Paris agreement?",
+        "fact 1": "American president who entered into Paris Agreement was",
+        "fact 2": "is a member of Democratic Party",
+        "actual deduced": "The political party of the American president who entered into the Paris agreement is the Democratic Party.",
+        "generated deduced": "The American president who entered into the Paris Agreement was a member of the Democratic Party. Answer: Democratic Party",
+        "pred answer": "Democratic Party",
+        "true answer": "Democratic Party",
+        "ablated tokens": [
+            "The",
+            "the",
+            "Barack",
+            "Obama"
+        ]
+    },
+    {
+        "question": "What was the death toll of the second largest volcanic eruption in the 20th century?",
+        "fact 1": "Philippines is considered second largest volcanic 20th century",
+        "fact 2": "resulted a death toll 847 people",
+        "actual deduced": "The death toll of the second largest volcanic eruption in the 20th century was 847 people.",
+        "generated deduced": "The death toll of the second largest volcanic eruption in the 20th century was 847 people. Answer: 847 people",
+        "pred answer": "847 people",
+        "true answer": "847",
+        "ablated tokens": [
+            "The",
+            "1991",
+            "eruption",
+            "of",
+            "Mount",
+            "Pinatubo",
+            "in",
+            "the"
+        ]
+    },
+    {
+        "question": "What was the death toll of the most intense Atlantic hurricane?",
+        "fact 1": "most intense Atlantic by pressure is 2005",
+        "fact 2": "resulted various estimates of death toll with numbers generally reported to be around 52 deaths",
+        "actual deduced": "The death toll of the most intense Atlantic hurricane was 52 people.",
+        "generated deduced": "The death toll of the most intense Atlantic hurricane was around 52 deaths. Answer: 52 deaths",
+        "pred answer": "52 deaths",
+        "true answer": "52",
+        "ablated tokens": [
+            "The",
+            "hurricane",
+            "Hurricane",
+            "Wilma",
+            "in"
+        ]
+    },
+    {
+        "question": "Who was the head of NASA during Apollo 11?",
+        "fact 1": "occurred in July",
+        "fact 2": "head of NASA during was Thomas O Paine serving as acting administrator from 1968 to and then as administrator from to 1970",
+        "actual deduced": "Thomas O. Paine was the head of NASA during the Apollo 11 mission.",
+        "generated deduced": "Thomas O Paine was the head of NASA during Apollo 11 which occurred in July. Answer: Thomas O Paine",
+        "pred answer": "Thomas O Paine",
+        "true answer": "Thomas O. Paine",
+        "ablated tokens": [
+            "The",
+            "Apollo",
+            "11",
+            "mission",
+            "1969"
+        ]
+    },
+    {
+        "question": "Who is the father of the father of George Washington?",
+        "fact 1": " ",
+        "fact 2": "The of and therefore the grandfather of Lawrence",
+        "actual deduced": "The father of the father of George Washington was Lawrence Washington.",
+        "generated deduced": "Lawrence is the grandfather of George Washington. Answer: Lawrence",
+        "pred answer": "Lawrence",
+        "true answer": "Lawrence Washington",
+        "ablated tokens": [
+            "George",
+            "Washingtons",
+            "father",
+            "was",
+            "Augustine",
+            "Washington"
+        ]
+    },
+    {
+        "question": "Who is the mother of the father of George Washington?",
+        "fact 1": "father",
+        "fact 2": "The mother of and therefore paternal grandmother Mildred Gale",
+        "actual deduced": "Mildred Gale is the mother of the father of George Washington.",
+        "generated deduced": "Mildred Gale is the mother of the father of George Washington. Answer: Mildred Gale",
+        "pred answer": "Mildred Gale",
+        "true answer": "Mildred Gale",
+        "ablated tokens": [
+            "George",
+            "Washingtons",
+            "was",
+            "Augustine",
+            "Washington"
+        ]
+    },
+    {
+        "question": "Who is the father of the father of Barack Obama?",
+        "fact 1": " ",
+        "fact 2": "The of and therefore paternal grandfather Hussein Onyango",
+        "actual deduced": "Hussein Onyango Obama is the father of the father of Barack Obama.",
+        "generated deduced": "Barack Obama's father is Hussein Onyango. Answer: Hussein Onyango",
+        "pred answer": "Hussein Onyango",
+        "true answer": "Hussein Onyango Obama",
+        "ablated tokens": [
+            "Barack",
+            "Obamas",
+            "father",
+            "was",
+            "Obama",
+            "Sr"
+        ]
+    },
+    {
+        "question": "Who is the mother of the father of Barack Obama?",
+        "fact 1": "father",
+        "fact 2": "The mother of and therefore paternal grandmother Habiba Akumu Nyanjoga",
+        "actual deduced": "Habiba Akumu Nyanjoga is the mother of the father of Barack Obama.",
+        "generated deduced": "Barack Obama's paternal grandmother is Habiba Akumu Nyanjoga. Answer: Habiba Akumu Nyanjoga",
+        "pred answer": "Habiba Akumu Nyanjoga",
+        "true answer": "Habiba Akumu Nyanjoga",
+        "ablated tokens": [
+            "Barack",
+            "Obamas",
+            "was",
+            "Obama",
+            "Sr"
+        ]
+    },
+    {
+        "question": "Who was mayor of New York City when Fiorello H. La Guardia was born?",
+        "fact 1": "Fiorello H La Guardia born on December 11",
+        "fact 2": "The Mayor of New York City in William R Grace who served from 1881 to in his first term",
+        "actual deduced": "William R. Grace was mayor of New York City when Fiorello H. La Guardia was born.",
+        "generated deduced": "Fiorello H. La Guardia was born on December 11 during William R. Grace's first term as mayor of New York City. Answer: William R. Grace",
+        "pred answer": "William R. Grace",
+        "true answer": "William R. Grace",
+        "ablated tokens": [
+            "was",
+            "1882"
+        ]
+    },
+    {
+        "question": "Who was president of the U.S. when superconductivity was discovered?",
+        "fact 1": "Superconductivity discovered by Heike Kamerlingh Onnes",
+        "fact 2": "The President of the United States William Howard Taft who served from 1909 to 1913",
+        "actual deduced": "William Howard Taft was president of the U.S. when superconductivity was discovered.",
+        "generated deduced": "Superconductivity was discovered by Heike Kamerlingh Onnes in 1913. William Howard Taft served from 1909 to 1913. Answer: William Howard Taft",
+        "pred answer": "William Howard Taft",
+        "true answer": "William Howard Taft",
+        "ablated tokens": [
+            "was",
+            "in",
+            "1911"
+        ]
+    },
+    {
+        "question": "When was the first location of the world's largest coffeehouse chain opened?",
+        "fact 1": "worlds largest coffeehouse chain is",
+        "fact 2": "first store was opened on March 30 1971",
+        "actual deduced": "The first location of the world's largest coffeehouse chain was opened on March 30, 1971.",
+        "generated deduced": "The world's largest coffeehouse chain was opened on March 30 1971. Answer: March 30 1971",
+        "pred answer": "March 30 1971",
+        "true answer": "March 30, 1971",
+        "ablated tokens": [
+            "The",
+            "Starbucks"
+        ]
+    },
+    {
+        "question": "When was the longest bridge in the world opened?",
+        "fact 1": "in China is longest in world",
+        "fact 2": "was opened on June 30 2011",
+        "actual deduced": "The longest bridge in the world was opened on June 30, 2011.",
+        "generated deduced": "The longest bridge in the world was opened on June 30 2011. Answer: June 30 2011",
+        "pred answer": "June 30 2011",
+        "true answer": "June 30, 2011",
+        "ablated tokens": [
+            "The",
+            "Danyang\u2013Kunshan",
+            "Grand",
+            "Bridge",
+            "the",
+            "bridge"
+        ]
+    },
+    {
+        "question": "Which company was responsible for the largest pharmaceutical settlement?",
+        "fact 1": "largest pharmaceutical settlement involved",
+        "fact 2": "settled for 3 billion in 2012 primarily due to promotion of drugs for unapproved uses and failure to report safety data",
+        "actual deduced": "GlaxoSmithKline was responsible for the largest pharmaceutical settlement.",
+        "generated deduced": "the largest pharmaceutical settlement involved settled for 3 billion in 2012 primarily due to promotion of drugs for unapproved uses and failure to report safety data Answer: settled for 3 billion in 2012 primarily due to promotion of drugs for unapproved uses and failure to report safety data",
+        "pred answer": "settled for 3 billion in 2012 primarily due to promotion of drugs for unapproved uses and failure to report safety data",
+        "true answer": "GlaxoSmithKline",
+        "ablated tokens": [
+            "The",
+            "GlaxoSmithKline"
+        ]
+    },
+    {
+        "question": "In what year was the tallest self-supporting tower completed?",
+        "fact 1": "tallest selfsupporting tower is Japan",
+        "fact 2": "was completed 2011",
+        "actual deduced": "The tallest self-supporting tower was completed in 2011.",
+        "generated deduced": "The tallest self-supporting tower was completed in 2011. Answer: 2011",
+        "pred answer": "2011",
+        "true answer": "2011",
+        "ablated tokens": [
+            "The",
+            "the",
+            "Tokyo",
+            "Skytree",
+            "in"
+        ]
+    },
+    {
+        "question": "In what year was the current tallest wooden lattice tower completed?",
+        "fact 1": "current tallest wooden lattice is Poland",
+        "fact 2": "was completed 1935",
+        "actual deduced": "The current tallest wooden lattice tower was completed in 1935.",
+        "generated deduced": "The current tallest wooden lattice tower was completed in 1935. Answer: 1935",
+        "pred answer": "1935",
+        "true answer": "1935",
+        "ablated tokens": [
+            "The",
+            "tower",
+            "the",
+            "Gliwice",
+            "Radio",
+            "Tower",
+            "in"
+        ]
+    },
+    {
+        "question": "In what country is the second tallest statue in the world?",
+        "fact 1": "second tallest world",
+        "fact 2": "located China",
+        "actual deduced": "The second tallest statue in the world is located in China.",
+        "generated deduced": "The second tallest statue in the world is located in China. Answer: China",
+        "pred answer": "China",
+        "true answer": "China",
+        "ablated tokens": [
+            "The",
+            "statue",
+            "in",
+            "the",
+            "is",
+            "Spring",
+            "Temple",
+            "Budha"
+        ]
+    },
+    {
+        "question": "When was the tallest ferris wheel in the world completed?",
+        "fact 1": "tallest Ferris wheel world is also known as Eye",
+        "fact 2": "was officially opened to public October 2021",
+        "actual deduced": "The tallest ferris wheel in the world was completed in 2021.",
+        "generated deduced": "The tallest Ferris wheel in the world was completed in October 2021. Answer: October 2021",
+        "pred answer": "October 2021",
+        "true answer": "2021",
+        "ablated tokens": [
+            "The",
+            "in",
+            "the",
+            "Ain",
+            "Dubai"
+        ]
+    },
+    {
+        "question": "In what country is the world largest desalination plant?",
+        "fact 1": "worlds largest",
+        "fact 2": "located in Saudi Arabia",
+        "actual deduced": "The world largest desalination plant is located in Saudi Arabia.",
+        "generated deduced": "The world's largest desalination plant is located in Saudi Arabia. Answer: Saudi Arabia",
+        "pred answer": "Saudi Arabia",
+        "true answer": "Saudia Arabia",
+        "ablated tokens": [
+            "The",
+            "desalination",
+            "plant",
+            "is",
+            "the",
+            "Ras",
+            "Al",
+            "Khair",
+            "Desalination",
+            "Plant"
+        ]
+    },
+    {
+        "question": "The third largest river (by discharge) in the world is in what countries?",
+        "fact 1": "third largest in world by discharge is",
+        "fact 2": "flows through India and Bangladesh",
+        "actual deduced": "The third largest river (by discharge) in the world is in India and Bangladesh.",
+        "generated deduced": "The third largest river (by discharge) in the world is in India and Bangladesh. Answer: India and Bangladesh",
+        "pred answer": "India and Bangladesh",
+        "true answer": "India and Bangladesh",
+        "ablated tokens": [
+            "The",
+            "river",
+            "the",
+            "Ganges",
+            "River"
+        ]
+    },
+    {
+        "question": "What is the highest elevation (in meters) of the second largest island in the world?",
+        "fact 1": "second largest island in world",
+        "fact 2": "highest point on Puncak Jaya which has an elevation of 4884 meters",
+        "actual deduced": "The highest elevation (in meters) of the second largest island in the world is 4,884 meters.",
+        "generated deduced": "The highest elevation of the second largest island in the world is 4884 meters. Answer: 4884 meters",
+        "pred answer": "4884 meters",
+        "true answer": "4,884 meters",
+        "ablated tokens": [
+            "The",
+            "the",
+            "is",
+            "New",
+            "Guinea"
+        ]
+    },
+    {
+        "question": "What is the length of the second deepest river in the world?",
+        "fact 1": "second deepest in world",
+        "fact 2": "approximately 6300 kilometers long",
+        "actual deduced": "The second deepest river in the world is approximately 6,300 kilometers long.",
+        "generated deduced": "The second deepest river in the world is approximately 6300 kilometers long. Answer: 6300 kilometers",
+        "pred answer": "6300 kilometers",
+        "true answer": "6,300 kilometers",
+        "ablated tokens": [
+            "The",
+            "river",
+            "the",
+            "is",
+            "Yangtze",
+            "River"
+        ]
+    },
+    {
+        "question": "In what country is the third largest stadium in the world?",
+        "fact 1": "third largest world",
+        "fact 2": "located United States",
+        "actual deduced": "The third largest stadium is in the United States.",
+        "generated deduced": "The third largest stadium in the world is located in the United States. Answer: United States",
+        "pred answer": "United States",
+        "true answer": "United States",
+        "ablated tokens": [
+            "The",
+            "stadium",
+            "in",
+            "the",
+            "is",
+            "Michigan",
+            "Stadium"
+        ]
+    },
+    {
+        "question": "Who is the largest aircraft carrier in the world is named after?",
+        "fact 1": "largest aircraft carrier in world",
+        "fact 2": "named after 38th President of United States",
+        "actual deduced": "The largest aircraft carrier in the world is named after Gerald R. Ford.",
+        "generated deduced": "The largest aircraft carrier in the world is named after the 38th President of the United States. Answer: Ronald Reagan",
+        "pred answer": "Ronald Reagan",
+        "true answer": "Gerald R. Ford",
+        "ablated tokens": [
+            "the",
+            "is",
+            "USS",
+            "Gerald",
+            "R",
+            "Ford"
+        ]
+    },
+    {
+        "question": "In what year was the country that is the third largest exporter of coffee founded?",
+        "fact 1": "is the third largest exporter of coffee in the world",
+        "fact 2": "was founded on July 20 1810",
+        "actual deduced": "The third largest exporter of coffee in the world was founded in 1810.",
+        "generated deduced": "The country that is the third largest exporter of coffee in the world was founded on July 20 1810. Answer: 1810",
+        "pred answer": "1810",
+        "true answer": "1810",
+        "ablated tokens": [
+            "Columbia"
+        ]
+    },
+    {
+        "question": "Who was the commander for the space mission that had the first spacewalk?",
+        "fact 1": "extravehicular activity performed Soviet space",
+        "fact 2": "commander of which occurred Pavel Belyayev",
+        "actual deduced": "The commander for the space mission that had the first spacewalk was Pavel Belyayev.",
+        "generated deduced": "Pavel Belyayev was the commander for the space mission that had the first spacewalk. Answer: Pavel Belyayev",
+        "pred answer": "Pavel Belyayev",
+        "true answer": "Pavel Belyayev",
+        "ablated tokens": [
+            "The",
+            "first",
+            "spacewalk",
+            "was",
+            "during",
+            "the",
+            "mission",
+            "Voskhod",
+            "2"
+        ]
+    },
+    {
+        "question": "Who is the predecessor of the longest-reigning British monarch?",
+        "fact 1": "As my last update longestreigning British monarch is",
+        "fact 2": "predecessor was her father King George VI",
+        "actual deduced": "The predecessor of the longest-reigning British monarch is King George VI.",
+        "generated deduced": "The predecessor of the longest-reigning British monarch is her father King George VI. Answer: King George VI",
+        "pred answer": "King George VI",
+        "true answer": "King George VI",
+        "ablated tokens": [
+            "of",
+            "the",
+            "Queen",
+            "Elizabeth",
+            "II"
+        ]
+    },
+    {
+        "question": "In 2016, who was the host of the longest running talk show?",
+        "fact 1": "As longestrunning talk",
+        "fact 2": "In host Jimmy Fallon",
+        "actual deduced": "In 2016, the host of the longset running talk show was Jimmy Fallon.",
+        "generated deduced": "Jimmy Fallon was the host of the longest running talk show in 2016. Answer: Jimmy Fallon",
+        "pred answer": "Jimmy Fallon",
+        "true answer": "Jimmy Fallon",
+        "ablated tokens": [
+            "of",
+            "2016",
+            "the",
+            "show",
+            "was",
+            "The",
+            "Tonight",
+            "Show"
+        ]
+    },
+    {
+        "question": "In 2016, who was the host of the longest running American game show?",
+        "fact 1": "As one longestrunning American game shows",
+        "fact 2": "In host Drew Carey",
+        "actual deduced": "In 2016, the host of the longest running American game show was Drew Carey.",
+        "generated deduced": "In 2016 Drew Carey was the host of the longest running American game show. Answer: Drew Carey",
+        "pred answer": "Drew Carey",
+        "true answer": "Drew Carey",
+        "ablated tokens": [
+            "of",
+            "2016",
+            "the",
+            "was",
+            "The",
+            "Price",
+            "is",
+            "Right"
+        ]
+    },
+    {
+        "question": "Who wrote the novel on which the longest running show in Broadway history is based on?",
+        "fact 1": "longest running show in Broadway history",
+        "fact 2": "based on a novel same name written by Gaston Leroux",
+        "actual deduced": "Gaston Leroux wrote the novel on which the longest running show in Broadway history is based on.",
+        "generated deduced": "Gaston Leroux wrote the novel on which the longest running show in Broadway history is based on. Answer: Gaston Leroux",
+        "pred answer": "Gaston Leroux",
+        "true answer": "Gaston Leroux",
+        "ablated tokens": [
+            "The",
+            "is",
+            "Phantom",
+            "of",
+            "the",
+            "Opera"
+        ]
+    },
+    {
+        "question": "In what country was the only cruise line that flies the American flag incorporated in?",
+        "fact 1": "The only authorized to fly the American flag Pride of America",
+        "fact 2": "incorporated in Bermuda",
+        "actual deduced": "The only cruise line that flies the American flag is incorporated in Bermuda.",
+        "generated deduced": "The only cruise line that flies the American flag was incorporated in Bermuda. Answer: Bermuda",
+        "pred answer": "Bermuda",
+        "true answer": "Bermuda",
+        "ablated tokens": [
+            "cruise",
+            "line",
+            "is",
+            "Norwegian",
+            "Cruise",
+            "Line",
+            "Holdings",
+            "Ltds"
+        ]
+    },
+    {
+        "question": "In what year did work begin on the second longest road tunnel in the world?",
+        "fact 1": "The second longest road the world is the Japan",
+        "fact 2": "Construction work on began 1992",
+        "actual deduced": "Construction work on the second longest road tunnel began in 1992.",
+        "generated deduced": "The second longest road tunnel in the world began work in 1992. Answer: 1992",
+        "pred answer": "1992",
+        "true answer": "1992",
+        "ablated tokens": [
+            "tunnel",
+            "in",
+            "Yamate",
+            "Tunnel"
+        ]
+    },
+    {
+        "question": "What is the official color of the third oldest surviving university?",
+        "fact 1": "third oldest surviving established in 1209",
+        "fact 2": "official color Blue a light shade blue",
+        "actual deduced": "The official color of the third oldest surviving university is Cambridge Blue.",
+        "generated deduced": "The third oldest surviving university is Blue a light shade blue. Answer: Blue a light shade blue",
+        "pred answer": "Blue a light shade blue",
+        "true answer": "Cambridge Blue",
+        "ablated tokens": [
+            "The",
+            "university",
+            "is",
+            "the",
+            "University",
+            "of",
+            "Cambridge"
+        ]
+    },
+    {
+        "question": "Who succeeded the longest reigning Roman emperor?",
+        "fact 1": "longest reigning Roman emperor who reigned from 27 BC to AD 14",
+        "fact 2": "successor of Tiberius",
+        "actual deduced": "The successor of the longest reigning Roman emperor was Tiberius.",
+        "generated deduced": "Tiberius",
+        "pred answer": "Deduce: Tiberius",
+        "true answer": "Tiberius",
+        "ablated tokens": [
+            "The",
+            "was",
+            "Augustus"
+        ]
+    },
+    {
+        "question": "Who preceded the Roman emperor that declared war on the sea?",
+        "fact 1": "Roman emperor who famously declared war on sea",
+        "fact 2": "predecessor of Tiberius",
+        "actual deduced": "Tiberius preceded the Roman emperor that declared war on the sea.",
+        "generated deduced": "Tiberius preceded the Roman emperor that declared war on sea. Answer: Tiberius",
+        "pred answer": "Tiberius",
+        "true answer": "Tiberius",
+        "ablated tokens": [
+            "The",
+            "the",
+            "was",
+            "Caligula"
+        ]
+    },
+    {
+        "question": "Who produced the longest running video game franchise?",
+        "fact 1": "longest running video game franchise is",
+        "fact 2": "was produced by MECC",
+        "actual deduced": "MECC produced the longest running video game franchise.",
+        "generated deduced": "MECC produced the longest running video game franchise. Answer: MECC",
+        "pred answer": "MECC",
+        "true answer": "MECC",
+        "ablated tokens": [
+            "The",
+            "Oregon",
+            "Trail"
+        ]
+    },
+    {
+        "question": "Who was the father of the father of psychoanalysis?",
+        "fact 1": "The of psychoanalysis is",
+        "fact 2": "was Jacob",
+        "actual deduced": "The father of the father of psychoanalysis was Jacob Freud.",
+        "generated deduced": "Jacob was the father of the father of psychoanalysis. Answer: Jacob",
+        "pred answer": "Jacob",
+        "true answer": "Jacob Freud",
+        "ablated tokens": [
+            "father",
+            "Sigmund",
+            "Freud"
+        ]
+    },
+    {
+        "question": "Who was the father of the father of empiricism?",
+        "fact 1": "The of empiricism is Francis",
+        "fact 2": "Francais was Nicholas",
+        "actual deduced": "The father of the father of empiricism was Sir Nicholas Bacon.",
+        "generated deduced": "Nicholas was the father of Francis, the father of empiricism. Answer: Nicholas",
+        "pred answer": "Nicholas",
+        "true answer": "Sir Nicholas Bacon",
+        "ablated tokens": [
+            "father",
+            "Sir",
+            "Bacon"
+        ]
+    },
+    {
+        "question": "Who is the father of the father of observational astronomy?",
+        "fact 1": "The of observational astronomy is often considered to be",
+        "fact 2": " was Vincenzo",
+        "actual deduced": "The father of the father of observational astronomy is Vincenzo Galilei.",
+        "generated deduced": "Vincenzo is the father of the father of observational astronomy. Answer: Vincenzo",
+        "pred answer": "Vincenzo",
+        "true answer": "Vincenzo Galilei",
+        "ablated tokens": [
+            "father",
+            "Galileo",
+            "Galilei"
+        ]
+    },
+    {
+        "question": "Who is the father of the father of modern Hebrew?",
+        "fact 1": "is often recognized as modern Hebrew",
+        "fact 2": "was Yehuda Leib Perlman",
+        "actual deduced": "The father of the father of modern Hebrew was Yehuda Leib Perlman.",
+        "generated deduced": "The father of the father of modern Hebrew was Yehuda Leib Perlman. Answer: Yehuda Leib Perlman",
+        "pred answer": "Yehuda Leib Perlman",
+        "true answer": "Yehuda Leib Perlman",
+        "ablated tokens": [
+            "Eliezer",
+            "BenYehuda",
+            "the",
+            "father",
+            "of"
+        ]
+    },
+    {
+        "question": "Who is the father of the father of modern experimental psychology?",
+        "fact 1": "is often regarded as modern experimental psychology",
+        "fact 2": "was Maximilian",
+        "actual deduced": "The father of the father of modern experimental psychology was Maximilian Wundt.",
+        "generated deduced": "The father of the father of modern experimental psychology was Maximilian. Answer: Maximilian",
+        "pred answer": "Maximilian",
+        "true answer": "Maximilian Wundt",
+        "ablated tokens": [
+            "Wilhelm",
+            "Wundt",
+            "the",
+            "father",
+            "of"
+        ]
+    },
+    {
+        "question": "Who is the father of the father of the hydrogen bomb?",
+        "fact 1": "The title of the hydrogen bomb is often attributed to",
+        "fact 2": "was Max",
+        "actual deduced": "The father of the father of the hydrogen bomb was Max Teller.",
+        "generated deduced": "Max is the father of the father of the hydrogen bomb. Answer: Max",
+        "pred answer": "Max",
+        "true answer": "Max Teller",
+        "ablated tokens": [
+            "father",
+            "Edward",
+            "Teller"
+        ]
+    },
+    {
+        "question": "Who was the father of the father of computer science?",
+        "fact 1": "is widely recognized as the of computer science",
+        "fact 2": "was Julius Mathison",
+        "actual deduced": "The father of the father of computer science was Julius Mathison Turing.",
+        "generated deduced": "The father of the father of computer science was Julius Mathison. Answer: Julius Mathison",
+        "pred answer": "Julius Mathison",
+        "true answer": "Julius Mathison Turing",
+        "ablated tokens": [
+            "Alan",
+            "Turing",
+            "father"
+        ]
+    },
+    {
+        "question": "Who was the father of the father of behaviorism?",
+        "fact 1": "The of behaviorism is often considered to be",
+        "fact 2": "was Pickens Butler",
+        "actual deduced": "The father of the father of behaviorism was Pickens Butler Watson.",
+        "generated deduced": "The father of Pickens Butler was the father of the father of behaviorism. Answer: Pickens Butler",
+        "pred answer": "Pickens Butler",
+        "true answer": "Pickens Butler Watson",
+        "ablated tokens": [
+            "father",
+            "John",
+            "B",
+            "Watson"
+        ]
+    },
+    {
+        "question": "Who was the father of the founder of modern human anatomy?",
+        "fact 1": "is often credited as the founder of modern human anatomy",
+        "fact 2": "father was Andries van Wesel",
+        "actual deduced": "The father of the father of modern human anatomy was Andries van Wesel.",
+        "generated deduced": "Andries van Wesel was the father of the founder of modern human anatomy. Answer: Andries van Wesel",
+        "pred answer": "Andries van Wesel",
+        "true answer": "Andries van Wesel",
+        "ablated tokens": [
+            "Andreas",
+            "Vesalius"
+        ]
+    },
+    {
+        "question": "What was the father of the last surviving Canadian father of Confederation?",
+        "fact 1": "The last surviving of Canadian Confederation",
+        "fact 2": "Sr",
+        "actual deduced": "The father of the last surviving Canadian father of Confederation was Charles Tupper Sr..",
+        "generated deduced": "Sr was the father of the last surviving Canadian father of Confederation. Answer: Sr",
+        "pred answer": "Sr",
+        "true answer": "Charles Tupper Sr.",
+        "ablated tokens": [
+            "Father",
+            "was",
+            "Sir",
+            "Charles",
+            "Tupper"
+        ]
+    },
+    {
+        "question": "When was the person who said \u201cNow, I am become Death, the destroyer of worlds.\u201d born?",
+        "fact 1": "The quote Now I am become Death the destroyer of worlds is attributed to",
+        "fact 2": "was born on April 22 1904",
+        "actual deduced": "The person who said \"Now, I am become Death, the destroyer of worlds\" was born on April 22, 1904.",
+        "generated deduced": "The person who said Now I am become Death the destroyer of worlds was born on April 22 1904. Answer: April 22 1904",
+        "pred answer": "April 22 1904",
+        "true answer": "April 22, 1904",
+        "ablated tokens": [
+            "J",
+            "Robert",
+            "Oppenheimer"
+        ]
+    },
+    {
+        "question": "Who was the father of the father of information theory?",
+        "fact 1": "The of information theory is",
+        "fact 2": "was Sr",
+        "actual deduced": "The father of the father of information theory was Claude Sr..",
+        "generated deduced": "Sr was the father of the father of information theory. Answer: Sr",
+        "pred answer": "Sr",
+        "true answer": "Claude Sr.",
+        "ablated tokens": [
+            "father",
+            "Claude",
+            "Shannon"
+        ]
+    },
+    {
+        "question": "When was the person who delivered the \"Quit India\" speech born?",
+        "fact 1": "The Quit India speech delivered by",
+        "fact 2": "born on October 2 1869",
+        "actual deduced": "The person who delivered the 'Quit India' speech was born on October 2, 1869.",
+        "generated deduced": "The person who delivered the \"Quit India\" speech was born on October 2 1869. Answer: October 2 1869",
+        "pred answer": "October 2 1869",
+        "true answer": "October 2, 1869",
+        "ablated tokens": [
+            "was",
+            "Mahatma",
+            "Gandhi"
+        ]
+    },
+    {
+        "question": "When did the president who warned about the military industrial complex die?",
+        "fact 1": "The president who warned about the militaryindustrial complex was",
+        "fact 2": "died on March 28 1969",
+        "actual deduced": "The president who warned about the military-industrial complex died on March 28, 1969.",
+        "generated deduced": "The president who warned about the militaryindustrial complex died on March 28 1969. Answer: March 28 1969",
+        "pred answer": "March 28 1969",
+        "true answer": "March 28, 1969",
+        "ablated tokens": [
+            "Dwight",
+            "D",
+            "Eisenhower"
+        ]
+    },
+    {
+        "question": "When did the president who said Tear Down This Wall die?",
+        "fact 1": "The phrase Tear Down This Wall was famously said by President",
+        "fact 2": "died on June 5 2004",
+        "actual deduced": "The president who said Tear Down This Wall died on June 5, 2004.",
+        "generated deduced": "The president who said Tear Down This Wall died on June 5 2004. Answer: June 5 2004",
+        "pred answer": "June 5 2004",
+        "true answer": "June 5, 2004",
+        "ablated tokens": [
+            "Ronald",
+            "Reagan"
+        ]
+    },
+    {
+        "question": "What is the lowest elevation of the longest railway tunnel?",
+        "fact 1": "longest railway is in Switzerland",
+        "fact 2": "reaches its lowest elevation point at 312 meters",
+        "actual deduced": "The lowest elevation of the longest railway tunnel is 312 meters.",
+        "generated deduced": "The lowest elevation of the longest railway tunnel is 312 meters. Answer: 312 meters",
+        "pred answer": "312 meters",
+        "true answer": "312 meters",
+        "ablated tokens": [
+            "The",
+            "tunnel",
+            "the",
+            "Gotthard",
+            "Base",
+            "Tunnel"
+        ]
+    },
+    {
+        "question": "When did the person who said 'Cogito, ergo sum' die?",
+        "fact 1": "The phrase Cogito ergo sum was coined by",
+        "fact 2": "died on February 11 1650",
+        "actual deduced": "The person who said \"Cogito, ergo sum\" died on February 11, 1650.",
+        "generated deduced": "The person who said 'Cogito, ergo sum' died on February 11 1650. Answer: February 11 1650",
+        "pred answer": "February 11 1650",
+        "true answer": "February 11, 1650",
+        "ablated tokens": [
+            "Ren\u00e9",
+            "Descartes"
+        ]
+    },
+    {
+        "question": "When did the person who delivered the Gettysburg Address die?",
+        "fact 1": "The Gettysburg Address was delivered by",
+        "fact 2": "died on April 15 1865",
+        "actual deduced": "The person who delivered the Gettysburg Address died on April 15, 1865.",
+        "generated deduced": "The person who delivered the Gettysburg Address died on April 15 1865. Answer: April 15 1865",
+        "pred answer": "April 15 1865",
+        "true answer": "April 15, 1865",
+        "ablated tokens": [
+            "Abraham",
+            "Lincoln"
+        ]
+    },
+    {
+        "question": "Who was governor of Florida during Hurricane Irma?",
+        "fact 1": "struck in September 2017",
+        "fact 2": "The Governor of during was Rick Scott",
+        "actual deduced": "The governor of Florida during Hurricane Irma was Rick Scott.",
+        "generated deduced": "Hurricane Irma struck in September 2017 Rick Scott was governor of Florida during Hurricane Irma. Answer: Rick Scott",
+        "pred answer": "Rick Scott",
+        "true answer": "Rick Scott",
+        "ablated tokens": [
+            "Hurricane",
+            "Irma",
+            "Florida"
+        ]
+    },
+    {
+        "question": "For which club did the winner of the 2007 Ballon d'Or play for in 2012?",
+        "fact 1": "The winner of the 2007 Ballon dOr",
+        "fact 2": "In 2012 playing for Real Madrid",
+        "actual deduced": "The winner of the 2007 Ballon d'Or played for Real Madrid in 2012.",
+        "generated deduced": "The winner of the 2007 Ballon d'Or played for Real Madrid in 2012. Answer: Real Madrid",
+        "pred answer": "Real Madrid",
+        "true answer": "Real Madrid",
+        "ablated tokens": [
+            "was",
+            "Kak\u00e1"
+        ]
+    },
+    {
+        "question": "What's the capital city of the country that was the champion of the 2010 World Cup?",
+        "fact 1": "won 2010 FIFA World Cup",
+        "fact 2": "capital city of is Madrid",
+        "actual deduced": "The capital city of the country that was the champion of the 2010 World Cup is Madrid.",
+        "generated deduced": "The capital city of the country that was the champion of the 2010 World Cup is Madrid. Answer: Madrid",
+        "pred answer": "Madrid",
+        "true answer": "Madrid",
+        "ablated tokens": [
+            "Spain",
+            "the"
+        ]
+    },
+    {
+        "question": "When was the anime studio that made Sword Art Online founded?",
+        "fact 1": "Sword Art Online produced by the anime studio",
+        "fact 2": "founded in May 9 2005",
+        "actual deduced": "The anime studio that made Sword Art Online was founded in May 9, 2005.",
+        "generated deduced": "The anime studio that made Sword Art Online was founded in May 9 2005. Answer: May 9 2005",
+        "pred answer": "May 9 2005",
+        "true answer": "May 9, 2005",
+        "ablated tokens": [
+            "was",
+            "A1",
+            "Pictures"
+        ]
+    },
+    {
+        "question": "Who was the first king of the longest Chinese dynasty?",
+        "fact 1": "is often considered longest Chinese",
+        "fact 2": "first king of was King Wu of",
+        "actual deduced": "The first king of the longest Chinese dynasty was King Wu of Zhou.",
+        "generated deduced": "The first king of the longest Chinese dynasty was King Wu of. Answer: King Wu of",
+        "pred answer": "King Wu of",
+        "true answer": "King Wu of Zhou",
+        "ablated tokens": [
+            "The",
+            "Zhou",
+            "Dynasty",
+            "the",
+            "dynasty"
+        ]
+    },
+    {
+        "question": "Who was the last emperor of the dynasty that succeeded the Song dynasty?",
+        "fact 1": "that succeeded Song in China",
+        "fact 2": "last emperor of Toghon Tem\u00fcr",
+        "actual deduced": "The last emperor of the dynasty that succeeded the Song dynasty was Toghon Tem\u00fcr.",
+        "generated deduced": "Toghon Tem\u00fcr was the last emperor of the dynasty that succeeded the Song dynasty. Answer: Toghon Tem\u00fcr",
+        "pred answer": "Toghon Tem\u00fcr",
+        "true answer": "Teghon Tem\u00fcr",
+        "ablated tokens": [
+            "The",
+            "dynasty",
+            "the",
+            "Dynasty",
+            "was",
+            "Yuan"
+        ]
+    },
+    {
+        "question": "What's the motto of the oldest California State university?",
+        "fact 1": "oldest California",
+        "fact 2": "motto of Powering Silicon Valley",
+        "actual deduced": "The motto of the oldest California State university is \"Powering Silicon Valley.\"",
+        "generated deduced": "Powering Silicon Valley is the motto of the oldest California State university. Answer: Powering Silicon Valley",
+        "pred answer": "Powering Silicon Valley",
+        "true answer": "Powering Silicon Valley",
+        "ablated tokens": [
+            "The",
+            "State",
+            "University",
+            "is",
+            "San",
+            "Jose"
+        ]
+    },
+    {
+        "question": "What's the capital of the state that the College of William & Mary is in?",
+        "fact 1": "College William  Mary located in Williamsburg",
+        "fact 2": "capital state Richmond",
+        "actual deduced": "The capital of the state that the College of William & Mary is in is Richmond.",
+        "generated deduced": "The College of William & Mary is located in Williamsburg, Richmond. Answer: Richmond",
+        "pred answer": "Richmond",
+        "true answer": "Richmond",
+        "ablated tokens": [
+            "The",
+            "of",
+            "is",
+            "Virginia"
+        ]
+    },
+    {
+        "question": "What's the capital of the state that Washington University in St. Louis is in?",
+        "fact 1": "Washington University in St Louis located in St Louis",
+        "fact 2": "The capital of the state of Jefferson City",
+        "actual deduced": "The capital of the state that Washington University in St. Louis is in is Jefferson City.",
+        "generated deduced": "Washington University in St Louis is in St Louis, Missouri. The capital of Missouri is Jefferson City. Answer: Jefferson City",
+        "pred answer": "Jefferson City",
+        "true answer": "Jefferson City",
+        "ablated tokens": [
+            "is",
+            "Missouri"
+        ]
+    },
+    {
+        "question": "What's the capital of the state that Harvard University is in?",
+        "fact 1": "Harvard University located in Cambridge",
+        "fact 2": "The capital of the state of Boston",
+        "actual deduced": "The capital of the state that Harvard University is in is Boston.",
+        "generated deduced": "Harvard University is located in Cambridge, Massachusetts. The capital of Massachusetts is Boston. Answer: Boston",
+        "pred answer": "Boston",
+        "true answer": "Boston",
+        "ablated tokens": [
+            "is",
+            "Massachusetts"
+        ]
+    },
+    {
+        "question": "What's the capital of the state that the Space Needle is at?",
+        "fact 1": "Space Needle located in Seattle",
+        "fact 2": "capital of state of Olympia",
+        "actual deduced": "The capital of the state that the Space Needle is at is Olympia.",
+        "generated deduced": "The Space Needle is located in Seattle, Washington. Olympia is the capital of Washington state. Answer: Olympia",
+        "pred answer": "Olympia",
+        "true answer": "Olympia",
+        "ablated tokens": [
+            "The",
+            "is",
+            "Washington"
+        ]
+    },
+    {
+        "question": "Which team won in women's volleyball in the most recent Summer Olympics that was held in London?",
+        "fact 1": "most recent held were",
+        "fact 2": "Brazilian womens volleyball team won gold medal",
+        "actual deduced": "The Brazilian women's volleyball team won in the most recent Summer Olympics that was held in London.",
+        "generated deduced": "The most recent Summer Olympics that were held in London were the Brazilian womens volleyball team won gold medal. Answer: Brazilian womens volleyball team",
+        "pred answer": "Brazilian womens volleyball team",
+        "true answer": "Brazil",
+        "ablated tokens": [
+            "The",
+            "Summer",
+            "Olympics",
+            "in",
+            "London",
+            "2012"
+        ]
+    },
+    {
+        "question": "What is the nickname of the easternmost U.S. state?",
+        "fact 1": "easternmost in United",
+        "fact 2": "commonly referred to as Pine Tree",
+        "actual deduced": "The nickname of the easternmost U.S. state is \"The Pine Tree State.\"",
+        "generated deduced": "The easternmost U.S. state is commonly referred to as Pine Tree. Answer: Pine Tree",
+        "pred answer": "Pine Tree",
+        "true answer": "The Pine Tree State",
+        "ablated tokens": [
+            "The",
+            "state",
+            "the",
+            "States",
+            "is",
+            "Maine"
+        ]
+    },
+    {
+        "question": "What is the nickname for the state that is the home to the \"Avocado Capital of the World\"",
+        "fact 1": "Fallbrook often referred to Avocado Capital of World",
+        "fact 2": "commonly known Golden State",
+        "actual deduced": "The nickname for the state that is the home to the \"Avocado Capital of the World\" is \"The Golden State.\"",
+        "generated deduced": "Fallbrook is located in California which is commonly known as the Golden State. Answer: California",
+        "pred answer": "California",
+        "true answer": "The Golden State",
+        "ablated tokens": [
+            "California",
+            "is",
+            "as",
+            "the"
+        ]
+    },
+    {
+        "question": "What rocket was used for the mission that landed the first humans on the moon?",
+        "fact 1": "that landed first humans on moon",
+        "fact 2": "rocket used for Saturn V",
+        "actual deduced": "The rocket used for the mission that landed the first humans on the moon was the Saturn V.",
+        "generated deduced": "Saturn V rocket was used for the mission that landed first humans on moon. Answer: Saturn V",
+        "pred answer": "Saturn V",
+        "true answer": "Saturn V",
+        "ablated tokens": [
+            "The",
+            "mission",
+            "the",
+            "was",
+            "Apollo",
+            "11"
+        ]
+    },
+    {
+        "question": "When did the war that Neil Armstrong served in end?",
+        "fact 1": "Neil Armstrong served as a naval aviator in",
+        "fact 2": "ended on July 27 1953 with signing of an armistice agreement",
+        "actual deduced": "The war that Neil Armstrong served in ended on July 27, 1953.",
+        "generated deduced": "Neil Armstrong served as a naval aviator in the Korean War which ended on July 27 1953 with signing of an armistice agreement. Answer: July 27 1953",
+        "pred answer": "July 27 1953",
+        "true answer": "July 27, 1953",
+        "ablated tokens": [
+            "the",
+            "Korean",
+            "War"
+        ]
+    },
+    {
+        "question": "What is the nickname for the state that Mount Rainier is located in?",
+        "fact 1": "Mount Rainier located in of",
+        "fact 2": "commonly known as Evergreen",
+        "actual deduced": "The nickname for the state that Mount Rainier is located in is \"The Evergreen State.\"",
+        "generated deduced": "Mount Rainier is located in Evergreen. Answer: Evergreen",
+        "pred answer": "Evergreen",
+        "true answer": "The Evergreen State",
+        "ablated tokens": [
+            "is",
+            "the",
+            "state",
+            "Washington"
+        ]
+    },
+    {
+        "question": "When was the composer of 'Carol of the Bells' born?",
+        "fact 1": "The composer of Carol of the Bells is",
+        "fact 2": "was born on December 13 1877",
+        "actual deduced": "The composer of 'Carol of the Bells' was born on December 13, 1877.",
+        "generated deduced": "The composer of Carol of the Bells was born on December 13 1877. Answer: December 13 1877",
+        "pred answer": "December 13 1877",
+        "true answer": "December 13, 1877",
+        "ablated tokens": [
+            "Mykola",
+            "Leontovych"
+        ]
+    },
+    {
+        "question": "Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?",
+        "fact 1": "the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013",
+        "fact 2": "father Conway",
+        "actual deduced": "The father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013 was Conway Berners-Lee.",
+        "generated deduced": "The scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013 has a father named Conway. Answer: Conway",
+        "pred answer": "Conway",
+        "true answer": "Conway Berners-Lee",
+        "ablated tokens": [
+            "Sir",
+            "Tim",
+            "BernersLee",
+            "was"
+        ]
+    },
+    {
+        "question": "Who was the mother of the emperor of Japan during World War I?",
+        "fact 1": "Japan during World War I Yoshihito",
+        "fact 2": "mother Yanagiwara Naruko",
+        "actual deduced": "The mother of the emperor of Japan during World War I was Yanagiwara Naruko.",
+        "generated deduced": "The mother of the emperor of Japan during World War I was Yanagiwara Naruko. Answer: Yanagiwara Naruko",
+        "pred answer": "Yanagiwara Naruko",
+        "true answer": "Yanagiwara Naruko",
+        "ablated tokens": [
+            "The",
+            "Emperor",
+            "of",
+            "was",
+            "Taish\u014d"
+        ]
+    },
+    {
+        "question": "Which element has an atomic number that is double that of hydrogen?",
+        "fact 1": "has",
+        "fact 2": "that is double that x 2 would be 2 which is the helium",
+        "actual deduced": "Helium has an atomic number that is double that of hydrogen.",
+        "generated deduced": "Helium has an atomic number that is double that of hydrogen. Answer: helium",
+        "pred answer": "helium",
+        "true answer": "Helium",
+        "ablated tokens": [
+            "Hydrogen",
+            "an",
+            "atomic",
+            "number",
+            "of",
+            "1"
+        ]
+    },
+    {
+        "question": "What was the motto of the Olympics that had Fuwa as the mascots?",
+        "fact 1": "Fuwa were mascots Summer",
+        "fact 2": "motto was One World One Dream",
+        "actual deduced": "The motto of the Olympics that had Fuwa as the mascots was \"One World, One Dream\".",
+        "generated deduced": "Fuwa were mascots at the Summer Olympics whose motto was One World One Dream. Answer: One World One Dream",
+        "pred answer": "One World One Dream",
+        "true answer": "One World, One Dream",
+        "ablated tokens": [
+            "the",
+            "of",
+            "2008",
+            "Beijing",
+            "Olympics"
+        ]
+    }
+]

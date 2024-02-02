@@ -23,10 +23,16 @@ import torch
 
 
 template_args_results = {
-    'Bamboogle-QA': (['question'],
-                       ['question', 'pred answer', 'true answer']),
     'Bamboogle-Full': (['question', 'fact_1', 'fact_2'],
                        ['question', 'fact 1', 'fact 2', 'actual deduced', 'generated deduced', 'pred answer', 'true answer']),
+    'Bamboogle-QA': (['question'],
+                     ['question', 'pred answer', 'true answer']),
+    'Bamboogle-QAF': (['question', 'fact_1', 'fact_2'],
+                      ['question', 'fact 1', 'fact 2', 'pred answer', 'true answer']),
+    'Bamboogle-QAF (fact 2 only)': (['question', 'fact_2'],
+                                    ['question', 'fact 2',' pred answer', 'true answer']),
+    'Bamboogle-QAF (fact 1 only)': (['question', 'fact_1'],
+                                    ['question', 'fact 1', 'pred answer', 'true answer']),
     'QASC_QA (step-by-step + facts & deductions)': (['question', 'answers'],
                                                     ['question', 'answers', 'generated deduced', 'actual deduced', 'pred answer', 'true answer']),
     'QASC_QA (step-by-step)': (['question', 'answers'],
@@ -71,7 +77,6 @@ def process_batch(
 ):
     
     inputs = tokenizer(input_batch, padding=True, return_tensors='pt').to(device)
-    print(len(inputs['input_ids'][0]))
     input_batch = []
     with torch.no_grad():
         generation_output = model.generate(
@@ -83,7 +88,7 @@ def process_batch(
         tokenizer.batch_decode(generation_output, skip_special_tokens=True)
     for response in output:
         result = prompt.get_response(response)
-        print(result)
+        # print(result)
         if result_dict.get('generated deduced') is not None:
             result_dict['generated deduced'].append(result.split("Deduce:")[-1].strip().split('\nAnswer:')[0])
         try:
@@ -178,7 +183,6 @@ def main(
     if ablate_connecting_F1F2 or ablate_connecting_F1Q or ablate_connecting_F2Q:
         result_dict['ablated tokens'] = []
     
-    print(result_dict)
     
     input_batch = []
 
@@ -189,6 +193,7 @@ def main(
         top_p=top_p,
         top_k=top_k,
         num_beams=num_beams,
+        do_sample=True,
     )
 
     for i in range(len(df)):
@@ -205,7 +210,8 @@ def main(
         
         for flag, (item1, item2) in zip(flags, actions):
             if flag:
-                df_entry[item1], df_entry[item2 if include_question_ablation or item2 == 'fact 2' else item1] = utilities.ablate_connecting_words(
+
+                df_entry[item1], df_entry[item2 if include_question_ablation or item2 == 'fact 2' else 'Not existing'] = utilities.ablate_connecting_words(
                     df_entry[item1], df_entry[item2], result_dict
                 )
 

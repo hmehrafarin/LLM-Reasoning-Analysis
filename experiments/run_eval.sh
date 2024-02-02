@@ -1,6 +1,6 @@
 #!/bin/bash
 
 python eval.py \
- --output_file 'generated_response_Bamboogle_QA_flan-t5.json' \
- --data_type 'Bamboogle' \
- --model_type 'flan-t5'
+ --output_file 'QASC-LLaMA-13b-Chat/generated_response-full (F2Q connecting words).json' \
+ --data_type 'QASC' \
+ --model_type 'llama'
