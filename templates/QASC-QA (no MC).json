@@ -1,0 +1,6 @@
+{
+    "prompt": "Follow the demonstrations below to answer the given question. Please do not add anything extra other than the sample outputs shown.\nContext:\nQuestion: What type of water formation is formed by clouds?\nSteps:\nAnswer: (F) beads\n######\nContext:\nQuestion: Where do beads of water come from?\nSteps:\nAnswer: (E) Vapor turning into a liquid\n######\nContext:\nQuestion: what kind of beads are formed from vapor condensing?\nSteps:\nAnswer: (C) H2O\n######\nContext:\n",
+    "context_template": "Question: {question}\nSteps:",
+    "steps_template": "\nAnswer: {answer}",
+    "response_split": "Steps:"
+}
