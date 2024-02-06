@@ -53,6 +53,10 @@ template_args_results = {
                   ['question', 'answers', 'fact 1', 'fact 2', 'actual deduced', 'pred answer', 'true answer']),
     'QASC-Full': (['question', 'answers', 'fact_1', 'fact_2'], 
                   ['question', 'answers', 'fact 1', 'fact 2', 'actual deduced', 'generated deduced', 'pred answer', 'true answer']),
+    'QASC-Full (no MC)': (['question', 'fact_1', 'fact_2'], 
+                          ['question' , 'fact 1', 'fact 2', 'actual deduced', 'generated deduced', 'pred answer', 'true answer']),
+    'QASC-QA (no MC)': (['question'], 
+                        ['question', 'answers', 'pred answer', 'true answer']),
 }
 
 default_dict = {
