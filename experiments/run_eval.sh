@@ -1,7 +1,7 @@
 #!/bin/bash
 
 python eval.py \
-    --output_file 'QASC-LLaMA-13b-Chat/QASC-Full (F1F2 connecting ablation).json' \
+    --output_file 'QASC-flan-T5-xxl/QASC-QAF.json' \
     --data_type 'QASC' \
-    --model_type 'llama' \
+    --model_type 'flan-t5' \
     --metric 'accuracy'

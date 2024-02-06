@@ -23,6 +23,8 @@ import torch
 
 
 template_args_results = {
+    'Bamboogle-Jibberish-Full': (['question', 'fact_1', 'fact_2'],
+                                 ['question', 'fact 1', 'fact 2', 'actual deduced', 'generated deduced', 'pred answer', 'true answer', 'jibberish answer']),
     'Bamboogle-Full': (['question', 'fact_1', 'fact_2'],
                        ['question', 'fact 1', 'fact 2', 'actual deduced', 'generated deduced', 'pred answer', 'true answer']),
     'Bamboogle-QA': (['question'],
