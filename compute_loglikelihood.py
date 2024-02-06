@@ -22,7 +22,6 @@ import numpy as np
 import torch
 import random
 import re
-from wordfreq import word_frequency
 import torch.nn.functional as F
 
 CACHE_DIR="/mnt/scratch/users/hm2066/models/huggingface/"
