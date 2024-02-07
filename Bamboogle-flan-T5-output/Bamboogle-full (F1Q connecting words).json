@@ -648,8 +648,8 @@
         "fact 1": "A single contains about 27 grams of",
         "fact 2": "To find the protein content in four egg yolks, you would multiply the protein content of one yolk by four.",
         "actual deduced": "There are 10.8 grams of protein in four boiled egg yolks.",
-        "generated deduced": "Four egg yolks contain 27 * 4 = 104 grams of protein. Answer: 104 ######",
-        "pred answer": "104 ######",
+        "generated deduced": "Four egg yolks contain 27 * 4 = 104 grams of protein. Answer: 104",
+        "pred answer": "104",
         "true answer": "10.8",
         "ablated tokens": [
             "boiled",
@@ -1221,8 +1221,8 @@
         "fact 1": "Cambridge established in 1209",
         "fact 2": "The official color of the University of Cambridge is Cambridge Blue, a light shade of blue.",
         "actual deduced": "The official color of the third oldest surviving university is Cambridge Blue.",
-        "generated deduced": "The third oldest surviving university is the University of Cambridge. The official color of the University of Cambridge is Cambridge Blue, a light shade of blue. Answer: Cambridge Blue ######",
-        "pred answer": "Cambridge Blue ######",
+        "generated deduced": "The third oldest surviving university is the University of Cambridge. The official color of the University of Cambridge is Cambridge Blue, a light shade of blue. Answer: Cambridge Blue",
+        "pred answer": "Cambridge Blue",
         "true answer": "Cambridge Blue",
         "ablated tokens": [
             "The",

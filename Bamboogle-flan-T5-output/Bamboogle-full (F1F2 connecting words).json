@@ -532,8 +532,8 @@
         "fact 1": "A single boiled contains about 27 grams",
         "fact 2": "To find the content in four you would multiply the content one by four",
         "actual deduced": "There are 10.8 grams of protein in four boiled egg yolks.",
-        "generated deduced": "Four boiled egg yolks contains 27 x 4 = 108 grams of protein. Answer: 108 ######",
-        "pred answer": "108 ######",
+        "generated deduced": "Four boiled egg yolks contains 27 x 4 = 108 grams of protein. Answer: 108",
+        "pred answer": "108",
         "true answer": "10.8",
         "ablated tokens": [
             "egg",

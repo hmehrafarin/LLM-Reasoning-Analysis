@@ -526,8 +526,8 @@
         "fact 1": "A single boiled egg yolk contains about 2.7 grams of protein.",
         "fact 2": "To find the content you would multiply the content of one by",
         "actual deduced": "There are 10.8 grams of protein in four boiled egg yolks.",
-        "generated deduced": "The content of four boiled egg yolks is 2.7 * 4 = 10.3 grams of protein. Answer: 10.3 ######",
-        "pred answer": "10.3 ######",
+        "generated deduced": "The content of four boiled egg yolks is 2.7 * 4 = 10.3 grams of protein. Answer: 10.3",
+        "pred answer": "10.3",
         "true answer": "10.8",
         "ablated tokens": [
             "protein",
@@ -558,8 +558,8 @@
         "fact 1": "The 1991 eruption of Mount Pinatubo in the Philippines is considered the second largest volcanic eruption of the 20th century.",
         "fact 2": "Mount Pinatubo 1991 resulted a 847 people",
         "actual deduced": "The death toll of the second largest volcanic eruption in the 20th century was 847 people.",
-        "generated deduced": "The second largest volcanic eruption in the 20th century resulted in 847 people. Answer: 847 ######",
-        "pred answer": "847 ######",
+        "generated deduced": "The second largest volcanic eruption in the 20th century resulted in 847 people. Answer: 847",
+        "pred answer": "847",
         "true answer": "847",
         "ablated tokens": [
             "The",
@@ -1039,8 +1039,8 @@
         "fact 1": "The third oldest surviving university is the University of Cambridge, established in 1209.",
         "fact 2": "Cambridge Cambridge Blue a light shade blue",
         "actual deduced": "The official color of the third oldest surviving university is Cambridge Blue.",
-        "generated deduced": "The official color of the third oldest surviving university is Cambridge Blue. Answer: Cambridge Blue ######",
-        "pred answer": "Cambridge Blue ######",
+        "generated deduced": "The official color of the third oldest surviving university is Cambridge Blue. Answer: Cambridge Blue",
+        "pred answer": "Cambridge Blue",
         "true answer": "Cambridge Blue",
         "ablated tokens": [
             "The",
@@ -1645,8 +1645,8 @@
         "fact 1": "Hydrogen has an atomic number of 1.",
         "fact 2": "1 x 2 would be 2 the helium",
         "actual deduced": "Helium has an atomic number that is double that of hydrogen.",
-        "generated deduced": "Helium has an atomic number of 2 because 1 x 2 = 2. Answer: Helium ######",
-        "pred answer": "Helium ######",
+        "generated deduced": "Helium has an atomic number of 2 because 1 x 2 = 2. Answer: Helium",
+        "pred answer": "Helium",
         "true answer": "Helium",
         "ablated tokens": [
             "An",
