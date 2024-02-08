@@ -1,7 +1,8 @@
 #!/bin/bash
 
 python eval.py \
-    --output_file 'QASC-LLaMA-7b-Chat/QASC-Full (F1Q connecting).json' \
-    --data_type 'QASC' \
+    --output_file 'Bamboogle-LLaMA-13b-chat-output/Bamboogle-jibberish-full (shuffled both facts).json' \
+    --data_type 'Bamboogle' \
     --model_type 'llama' \
-    --metric 'accuracy'
+    --metric 'rouge' \
+    --jibberish True

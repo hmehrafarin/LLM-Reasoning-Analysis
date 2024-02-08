@@ -1,1 +1,674 @@
-[{"question":"Who was the first African American mayor of the most populous city in the United States?","fact 1":"the most populous city in the United States is New York City.","pred answer":"1999","true answer":"David Dinkins"},{"question":"When did the last king from Britain's House of Hanover die?","fact 1":"The last king from the House of Hanover was King William IV.","pred answer":"1837","true answer":"June 20, 1837"},{"question":"When did the president who set the precedent of a two term limit enter office?","fact 1":"George Washington is the president who established the precedent of a two-term limit for U.S. presidents.","pred answer":"1789","true answer":"April 30, 1789"},{"question":"When did the president who set the precedent of a two term limit leave office?","fact 1":"George Washington is the president who established the precedent of a two-term limit for U.S. presidents.","pred answer":"1797","true answer":"March 4, 1797"},{"question":"How many people died in the second most powerful earthquake ever recorded?","fact 1":"The 1964 Prince William Sound in Alaska is recognized as the second most powerful earthquake ever recorded.","pred answer":"Jupiter","true answer":"131"},{"question":"Can people who have celiac eat camel meat?","fact 1":"Celiac disease is a condition where an individual's immune system reacts to gluten, a protein found in wheat, barley, and rye.","pred answer":"No","true answer":"yes"},{"question":"What was the final book written by the author of On the Origin of Species?","fact 1":"The author of 'On the Origin of Species' is Charles Darwin.","pred answer":"Jamestown","true answer":"The Formation of Vegetable Mould Through the Action of Worms"},{"question":"When was the company that built the first steam locomotive to carry passengers on a public rail line founded?","fact 1":"The company is George Stephenson's company, Stephenson's Locomotive Works, which built the Locomotion No. 1. This locomotive was used on the Stockton and Darlington Railway, the first public rail line to use steam locomotives.","pred answer":"1825","true answer":"1823"},{"question":"Which Theranos whistleblower is not related to a senior American government official?","fact 1":"The key whistleblowers in the Theranos scandal were Tyler Shultz and Erica Cheung","pred answer":"Tyler Shultz","true answer":"Erica Cheung"},{"question":"What is the fastest air-breathing manned aircraft mostly made out of?","fact 1":"The Lockheed SR-71 Blackbird holds the record for the fastest air-breathing manned aircraft.","pred answer":"Titanium","true answer":"Titanium"},{"question":"Who built the fastest air-breathing manned aircraft?","fact 1":"The Lockheed SR-71 Blackbird holds the record for the fastest air-breathing manned aircraft.","pred answer":"Vincent van Gogh","true answer":"Lockheed's Skunk Works division"},{"question":"When was the author of The Population Bomb born?","fact 1":"Paul R. Ehrlich was the author of 'The Population Bomb'.","pred answer":"Jamestown","true answer":"May 29, 1932"},{"question":"When did the author of Annabel Lee enlist in the army?","fact 1":"The author of 'Annabel Lee' is Edgar Allan Poe.","pred answer":"Vincent van Gogh","true answer":"May 26, 1827"},{"question":"What was the religion of the inventor of the Polio vaccine?","fact 1":"The inventor of the Polio vaccine is Jonas Salk.","pred answer":"Jewish","true answer":"Jewish"},{"question":"Who was the second wife of the founder of CNN?","fact 1":"Ted Turner is the founder of CNN.","pred answer":"Jane Fonda","true answer":"Jane Shirley Smith"},{"question":"When did the first prime minister of the Russian Empire come into office?","fact 1":"The first person to hold a position equivalent to a Prime Minister of the Russian Empire was Sergei Witte","pred answer":"1861","true answer":"November 6, 1905"},{"question":"What is the primary male hormone derived from?","fact 1":"The primary male hormone is testosterone.","pred answer":"Armillaria ostoyae","true answer":"Cholesterol"},{"question":"The Filipino statesman who established the government-in-exile during the outbreak of World War II was also the mayor of what city?","fact 1":"The Filipino statesman who established the government-in-exile during World War II was Manuel L. Quezon.","pred answer":"Manila","true answer":"Quezon City"},{"question":"Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?","fact 1":"The person who shared the Nobel Prize in Physics in 1954 with Max Born is Walther Bothe.","pred answer":"Hamburg, Germany","true answer":"Oranienburg, Germany"},{"question":"When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?","fact 1":"The person who shared the Nobel Prize in Physics in 1954 with Max Born is Walther Bothe.","pred answer":"1909","true answer":"January 8, 1891"},{"question":"What was the founding date of the university in which Plotonium was discovered?","fact 1":"Plutonium was discovered at the University of California, Berkeley.","pred answer":"Woodrow Wilson","true answer":"March 23, 1868"},{"question":"The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?","fact 1":"The Great Sphinx of Giza is primarily made out of limestone.","pred answer":"Limestone","true answer":"Calcite"},{"question":"The husband of Lady Godiva was Earl of which Anglic kingdom?","fact 1":"Lady Godiva was married to Leofric.","pred answer":"Jamestown","true answer":"Mercia"},{"question":"The machine used to extract honey from honeycombs uses which physical force?","fact 1":"The machine commonly used for extracting honey from honeycombs is a honey extractor.","pred answer":"Jupiter","true answer":"Centrifugal force"},{"question":"What is the third letter of the top level domain of the military?","fact 1":"The top-level domain for the U.S. military is \".mil.\"","pred answer":"M","true answer":"'l'"},{"question":"The main actor of Indiana Jones is a licensed what?","fact 1":"The main actor who played Indiana Jones is Harrison Ford.","pred answer":"Pilot","true answer":"Pilot"},{"question":"When was the person after which the Hubble Space Telescope is named after born?","fact 1":"The Hubble Space Telescope is named after astronomer Edwin Hubble.","pred answer":"1889","true answer":"November 20, 1889"},{"question":"When did the person who gave the Checkers speech die?","fact 1":"The Checkers speech was given by Richard Nixon.","pred answer":"James Madison.","true answer":"April 22, 1994"},{"question":"When was the philosopher that formulated the hard problem of consciousness born?","fact 1":"The philosopher known for formulating the hard problem of consciousness is David Chalmers.","pred answer":"1966","true answer":"April 20, 1966"},{"question":"What is the capital of the second largest state in the US by area?","fact 1":"The second largest state in the US by area is Texas.","pred answer":"Woodrow Wilson","true answer":"Austin"},{"question":"What is the maximum airspeed (in km\/h) of the third fastest bird?","fact 1":"The third fastest bird in terms of airspeed is generally considered to be the Golden Eagle.","pred answer":"322","true answer":"320 km\/h"},{"question":"Who founded the city where the founder of geometry lived?","fact 1":"The founder of geometry is often considered to be Euclid, who lived in Alexandria.","pred answer":"Woodrow Wilson","true answer":"Alexander the Great"},{"question":"What is the capital of the country where yoga originated?","fact 1":"Yoga originated in India.","pred answer":"New Delhi","true answer":"New Delhi"},{"question":"The fourth largest city in Germany was originally called what?","fact 1":"The fourth largest city in Germany is Cologne.","pred answer":"Jamestown","true answer":"Colonia Claudia Ara Agrippinensium"},{"question":"When did Nirvana's second most selling studio album come out?","fact 1":"Nirvana's second most selling studio album is generally considered to be \"In Utero.\"","pred answer":"1932","true answer":"September 21, 1993"},{"question":"What was the job of the father of the founder of psychoanalysis?","fact 1":"The founder of psychoanalysis is Sigmund Freud.","pred answer":"Jamestown","true answer":"Wool merchant"},{"question":"How much protein in four boiled egg yolks?","fact 1":"A single boiled egg yolk contains about 2.7 grams of protein.","pred answer":"10.8 grams","true answer":"10.8"},{"question":"What is the political party of the American president who entered into the Paris agreement?","fact 1":"The American president who entered into the Paris Agreement was Barack Obama.","pred answer":"Jefferson Davis","true answer":"Democratic Party"},{"question":"What was the death toll of the second largest volcanic eruption in the 20th century?","fact 1":"The 1991 eruption of Mount Pinatubo in the Philippines is considered the second largest volcanic eruption of the 20th century.","pred answer":"Titan","true answer":"847"},{"question":"What was the death toll of the most intense Atlantic hurricane?","fact 1":"The most intense Atlantic hurricane by pressure is Hurricane Wilma in 2005.","pred answer":"Woodrow Wilson","true answer":"52"},{"question":"Who was the head of NASA during Apollo 11?","fact 1":"The Apollo 11 mission occurred in July 1969.","pred answer":"Neil Armstrong","true answer":"Thomas O. Paine"},{"question":"Who is the father of the father of George Washington?","fact 1":"George Washington's father was Augustine Washington.","pred answer":"O","true answer":"Lawrence Washington"},{"question":"Who is the mother of the father of George Washington?","fact 1":"George Washington's father was Augustine Washington.","pred answer":"Mary Ball Washington","true answer":"Mildred Gale"},{"question":"Who is the father of the father of Barack Obama?","fact 1":"Barack Obama's father was Barack Obama Sr.","pred answer":"Barack Obama Sr.","true answer":"Hussein Onyango Obama"},{"question":"Who is the mother of the father of Barack Obama?","fact 1":"Barack Obama's father was Barack Obama Sr.","pred answer":"Colorado River","true answer":"Habiba Akumu Nyanjoga"},{"question":"Who was mayor of New York City when Fiorello H. La Guardia was born?","fact 1":"Fiorello H. La Guardia was born on December 11, 1882.","pred answer":"William R. Grace","true answer":"William R. Grace"},{"question":"Who was president of the U.S. when superconductivity was discovered?","fact 1":"Superconductivity was discovered by Heike Kamerlingh Onnes in 1911","pred answer":"William Howard Taft","true answer":"William Howard Taft"},{"question":"When was the first location of the world's largest coffeehouse chain opened?","fact 1":"The world's largest coffeehouse chain is Starbucks.","pred answer":"Jamestown","true answer":"March 30, 1971"},{"question":"When was the longest bridge in the world opened?","fact 1":"The Danyang\u2013Kunshan Grand Bridge in China is the longest bridge in the world.","pred answer":"2011","true answer":"June 30, 2011"},{"question":"Which company was responsible for the largest pharmaceutical settlement?","fact 1":"The largest pharmaceutical settlement involved GlaxoSmithKline.","pred answer":"GlaxoSmithKline","true answer":"GlaxoSmithKline"},{"question":"In what year was the tallest self-supporting tower completed?","fact 1":"The tallest self-supporting tower is the Tokyo Skytree in Japan.","pred answer":"2012","true answer":"2011"},{"question":"In what year was the current tallest wooden lattice tower completed?","fact 1":"The current tallest wooden lattice tower is the Gliwice Radio Tower in Poland.","pred answer":"James Madison.","true answer":"1935"},{"question":"In what country is the second tallest statue in the world?","fact 1":"The second tallest statue in the world is the Spring Temple Budha.","pred answer":"James Madison","true answer":"China"},{"question":"When was the tallest ferris wheel in the world completed?","fact 1":"The tallest Ferris wheel in the world is the Ain Dubai (also known as the Dubai Eye).","pred answer":"2020","true answer":"2021"},{"question":"In what country is the world largest desalination plant?","fact 1":"The world's largest desalination plant is the Ras Al Khair Desalination Plant.","pred answer":"Saudi Arabia","true answer":"Saudia Arabia"},{"question":"The third largest river (by discharge) in the world is in what countries?","fact 1":"The third largest river in the world by discharge is the Ganges River.","pred answer":"India and Bangladesh","true answer":"India and Bangladesh"},{"question":"What is the highest elevation (in meters) of the second largest island in the world?","fact 1":"The second largest island in the world is New Guinea.","pred answer":"Au","true answer":"4,884 meters"},{"question":"What is the length of the second deepest river in the world?","fact 1":"The second deepest river in the world is the Yangtze River.","pred answer":"Woodrow Wilson","true answer":"6,300 kilometers"},{"question":"In what country is the third largest stadium in the world?","fact 1":"The third largest stadium in the world is the Michigan Stadium.","pred answer":"United States","true answer":"United States"},{"question":"Who is the largest aircraft carrier in the world is named after?","fact 1":"the largest aircraft carrier in the world is the USS Gerald R. Ford.","pred answer":"Gerald R. Ford","true answer":"Gerald R. Ford"},{"question":"In what year was the country that is the third largest exporter of coffee founded?","fact 1":"Columbia is the third largest exporter of coffee in the world.","pred answer":"1810","true answer":"1810"},{"question":"Who was the commander for the space mission that had the first spacewalk?","fact 1":"The first spacewalk (extravehicular activity) was performed during the Soviet space mission Voskhod 2.","pred answer":"Alexei Leonov","true answer":"Pavel Belyayev"},{"question":"Who is the predecessor of the longest-reigning British monarch?","fact 1":"As of my last update, the longest-reigning British monarch is Queen Elizabeth II.","pred answer":"Oliver Cromwell","true answer":"King George VI"},{"question":"In 2016, who was the host of the longest running talk show?","fact 1":"As of 2016, the longest-running talk show was \"The Tonight Show..\"","pred answer":"Jimmy Fallon","true answer":"Jimmy Fallon"},{"question":"In 2016, who was the host of the longest running American game show?","fact 1":"As of 2016, one of the longest-running American game shows was \"The Price is Right.\"","pred answer":"Drew Carey","true answer":"Drew Carey"},{"question":"Who wrote the novel on which the longest running show in Broadway history is based on?","fact 1":"The longest running show in Broadway history is \"The Phantom of the Opera.\"","pred answer":"Andrew Lloyd Webber","true answer":"Gaston Leroux"},{"question":"In what country was the only cruise line that flies the American flag incorporated in?","fact 1":"The only cruise line authorized to fly the American flag is Norwegian Cruise Line Holdings Ltd.'s Pride of America.","pred answer":"Woodrow Wilson","true answer":"Bermuda"},{"question":"In what year did work begin on the second longest road tunnel in the world?","fact 1":"The second longest road tunnel in the world is the Yamate Tunnel in Japan.","pred answer":"Jamestown","true answer":"1992"},{"question":"What is the official color of the third oldest surviving university?","fact 1":"The third oldest surviving university is the University of Cambridge, established in 1209.","pred answer":"Orange","true answer":"Cambridge Blue"},{"question":"Who succeeded the longest reigning Roman emperor?","fact 1":"The longest reigning Roman emperor was Augustus, who reigned from 27 BC to AD 14.","pred answer":"Tiberius","true answer":"Tiberius"},{"question":"Who preceded the Roman emperor that declared war on the sea?","fact 1":"The Roman emperor who famously declared war on the sea was Caligula.","pred answer":"O","true answer":"Tiberius"},{"question":"Who produced the longest running video game franchise?","fact 1":"The longest running video game franchise is \"The Oregon Trail.\"","pred answer":"Amelia Earhart","true answer":"MECC"},{"question":"Who was the father of the father of psychoanalysis?","fact 1":"The father of psychoanalysis is Sigmund Freud.","pred answer":"Vincent van Gogh","true answer":"Jacob Freud"},{"question":"Who was the father of the father of empiricism?","fact 1":"The father of empiricism is Sir Francis Bacon.","pred answer":"William of Ockham","true answer":"Sir Nicholas Bacon"},{"question":"Who is the father of the father of observational astronomy?","fact 1":"The father of observational astronomy is often considered to be Galileo Galilei.","pred answer":"Leonardo da Vinci","true answer":"Vincenzo Galilei"},{"question":"Who is the father of the father of modern Hebrew?","fact 1":"Eliezer Ben-Yehuda is often recognized as the father of modern Hebrew.","pred answer":"Jamestown","true answer":"Yehuda Leib Perlman"},{"question":"Who is the father of the father of modern experimental psychology?","fact 1":"Wilhelm Wundt is often regarded as the father of modern experimental psychology.","pred answer":"Our answer is:","true answer":"Maximilian Wundt"},{"question":"Who is the father of the father of the hydrogen bomb?","fact 1":"The title \"father of the hydrogen bomb\" is often attributed to Edward Teller.","pred answer":"J. Robert Oppenheimer","true answer":"Max Teller"},{"question":"Who was the father of the father of computer science?","fact 1":"Alan Turing is widely recognized as the father of computer science.","pred answer":"Charles Babbage","true answer":"Julius Mathison Turing"},{"question":"Who was the father of the father of behaviorism?","fact 1":"The father of behaviorism is often considered to be John B. Watson.","pred answer":"William James","true answer":"Pickens Butler Watson"},{"question":"Who was the father of the founder of modern human anatomy?","fact 1":"Andreas Vesalius is often credited as the founder of modern human anatomy.","pred answer":"Johannes Vesalius","true answer":"Andries van Wesel"},{"question":"What was the father of the last surviving Canadian father of Confederation?","fact 1":"The last surviving Father of Canadian Confederation was Sir Charles Tupper.","pred answer":"O","true answer":"Charles Tupper Sr."},{"question":"When was the person who said \u201cNow, I am become Death, the destroyer of worlds.\u201d born?","fact 1":"The quote \"Now, I am become Death, the destroyer of worlds\" is attributed to J. Robert Oppenheimer.","pred answer":"1","true answer":"April 22, 1904"},{"question":"Who was the father of the father of information theory?","fact 1":"The father of information theory is Claude Shannon.","pred answer":"Jefferson Davis","true answer":"Claude Sr."},{"question":"When was the person who delivered the \"Quit India\" speech born?","fact 1":"The 'Quit India' speech was delivered by Mahatma Gandhi.","pred answer":"October 2, 1869","true answer":"October 2, 1869"},{"question":"When did the president who warned about the military industrial complex die?","fact 1":"The president who warned about the military-industrial complex was Dwight D. Eisenhower.","pred answer":"March 28, 1969","true answer":"March 28, 1969"},{"question":"When did the president who said Tear Down This Wall die?","fact 1":"The phrase \"Tear Down This Wall\" was famously said by President Ronald Reagan.","pred answer":"1994","true answer":"June 5, 2004"},{"question":"What is the lowest elevation of the longest railway tunnel?","fact 1":"The longest railway tunnel is the Gotthard Base Tunnel in Switzerland.","pred answer":"Amelia Earhart","true answer":"312 meters"},{"question":"When did the person who said 'Cogito, ergo sum' die?","fact 1":"The phrase \"Cogito, ergo sum\" was coined by Ren\u00e9 Descartes.","pred answer":"1650","true answer":"February 11, 1650"},{"question":"When did the person who delivered the Gettysburg Address die?","fact 1":"The Gettysburg Address was delivered by Abraham Lincoln.","pred answer":"April 15, 1865","true answer":"April 15, 1865"},{"question":"Who was governor of Florida during Hurricane Irma?","fact 1":"Hurricane Irma struck Florida in September 2017.","pred answer":"O Rick Scott","true answer":"Rick Scott"},{"question":"For which club did the winner of the 2007 Ballon d'Or play for in 2012?","fact 1":"The winner of the 2007 Ballon d'Or was Kak\u00e1.","pred answer":"Real Madrid","true answer":"Real Madrid"},{"question":"What's the capital city of the country that was the champion of the 2010 World Cup?","fact 1":"Spain won the 2010 FIFA World Cup.","pred answer":"Madrid","true answer":"Madrid"},{"question":"When was the anime studio that made Sword Art Online founded?","fact 1":"Sword Art Online was produced by the anime studio A-1 Pictures.","pred answer":"Woodrow Wilson","true answer":"May 9, 2005"},{"question":"Who was the first king of the longest Chinese dynasty?","fact 1":"The Zhou Dynasty is often considered the longest Chinese dynasty.","pred answer":"Jefferson Davis","true answer":"King Wu of Zhou"},{"question":"Who was the last emperor of the dynasty that succeeded the Song dynasty?","fact 1":"The dynasty that succeeded the Song Dynasty in China was the Yuan Dynasty.","pred answer":"Kublai Khan","true answer":"Teghon Tem\u00fcr"},{"question":"What's the motto of the oldest California State university?","fact 1":"The oldest California State University is San Jose State University.","pred answer":"Jamestown","true answer":"Powering Silicon Valley"},{"question":"What's the capital of the state that the College of William & Mary is in?","fact 1":"The College of William & Mary is located in Williamsburg, Virginia.","pred answer":"Richmond","true answer":"Richmond"},{"question":"What's the capital of the state that Washington University in St. Louis is in?","fact 1":"Washington University in St. Louis is located in St. Louis, Missouri.","pred answer":"Jefferson City","true answer":"Jefferson City"},{"question":"What's the capital of the state that Harvard University is in?","fact 1":"Harvard University is located in Cambridge, Massachusetts.","pred answer":"Boston","true answer":"Boston"},{"question":"What's the capital of the state that the Space Needle is at?","fact 1":"The Space Needle is located in Seattle, Washington.","pred answer":"Seattle","true answer":"Olympia"},{"question":"Which team won in women's volleyball in the most recent Summer Olympics that was held in London?","fact 1":"The most recent Summer Olympics held in London were in 2012.","pred answer":"United States","true answer":"Brazil"},{"question":"What is the nickname of the easternmost U.S. state?","fact 1":"The easternmost state in the United States is Maine.","pred answer":"O","true answer":"The Pine Tree State"},{"question":"What is the nickname for the state that is the home to the \"Avocado Capital of the World\"","fact 1":"Fallbrook, California, is often referred to as the \"Avocado Capital of the World.\"","pred answer":"The Golden State","true answer":"The Golden State"},{"question":"What rocket was used for the mission that landed the first humans on the moon?","fact 1":"The mission that landed the first humans on the moon was Apollo 11.","pred answer":"Saturn V","true answer":"Saturn V"},{"question":"When did the war that Neil Armstrong served in end?","fact 1":"Neil Armstrong served as a naval aviator in the Korean War.","pred answer":"1953","true answer":"July 27, 1953"},{"question":"What is the nickname for the state that Mount Rainier is located in?","fact 1":"Mount Rainier is located in the state of Washington.","pred answer":"O","true answer":"The Evergreen State"},{"question":"When was the composer of 'Carol of the Bells' born?","fact 1":"The composer of 'Carol of the Bells' is Mykola Leontovych.","pred answer":"1879","true answer":"December 13, 1877"},{"question":"Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?","fact 1":"Sir Tim Berners-Lee was the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013.","pred answer":"Sir Tim Berners-Lee's father is Sir Keith Berners-Lee.","true answer":"Conway Berners-Lee"},{"question":"Who was the mother of the emperor of Japan during World War I?","fact 1":"The Emperor of Japan during World War I was Emperor Taish\u014d (Yoshihito).","pred answer":"","true answer":"Yanagiwara Naruko"},{"question":"Which element has an atomic number that is double that of hydrogen?","fact 1":"Hydrogen has an atomic number of 1.","pred answer":"Jefferson Davis","true answer":"Helium"},{"question":"What was the motto of the Olympics that had Fuwa as the mascots?","fact 1":"Fuwa were the mascots of the 2008 Beijing Summer Olympics.","pred answer":"Jamestown","true answer":"One World, One Dream"}]
+[
+    {
+        "question": "Who was the first African American mayor of the most populous city in the United States?",
+        "fact 1": "the most populous city in the United States is New York City.",
+        "pred answer": "1999",
+        "true answer": "David Dinkins"
+    },
+    {
+        "question": "When did the last king from Britain's House of Hanover die?",
+        "fact 1": "The last king from the House of Hanover was King William IV.",
+        "pred answer": "1837",
+        "true answer": "June 20, 1837"
+    },
+    {
+        "question": "When did the president who set the precedent of a two term limit enter office?",
+        "fact 1": "George Washington is the president who established the precedent of a two-term limit for U.S. presidents.",
+        "pred answer": "1789",
+        "true answer": "April 30, 1789"
+    },
+    {
+        "question": "When did the president who set the precedent of a two term limit leave office?",
+        "fact 1": "George Washington is the president who established the precedent of a two-term limit for U.S. presidents.",
+        "pred answer": "1797",
+        "true answer": "March 4, 1797"
+    },
+    {
+        "question": "How many people died in the second most powerful earthquake ever recorded?",
+        "fact 1": "The 1964 Prince William Sound in Alaska is recognized as the second most powerful earthquake ever recorded.",
+        "pred answer": "Jupiter",
+        "true answer": "131"
+    },
+    {
+        "question": "Can people who have celiac eat camel meat?",
+        "fact 1": "Celiac disease is a condition where an individual's immune system reacts to gluten, a protein found in wheat, barley, and rye.",
+        "pred answer": "No",
+        "true answer": "yes"
+    },
+    {
+        "question": "What was the final book written by the author of On the Origin of Species?",
+        "fact 1": "The author of 'On the Origin of Species' is Charles Darwin.",
+        "pred answer": "Jamestown",
+        "true answer": "The Formation of Vegetable Mould Through the Action of Worms"
+    },
+    {
+        "question": "When was the company that built the first steam locomotive to carry passengers on a public rail line founded?",
+        "fact 1": "The company is George Stephenson's company, Stephenson's Locomotive Works, which built the Locomotion No. 1. This locomotive was used on the Stockton and Darlington Railway, the first public rail line to use steam locomotives.",
+        "pred answer": "1825",
+        "true answer": "1823"
+    },
+    {
+        "question": "Which Theranos whistleblower is not related to a senior American government official?",
+        "fact 1": "The key whistleblowers in the Theranos scandal were Tyler Shultz and Erica Cheung",
+        "pred answer": "Tyler Shultz",
+        "true answer": "Erica Cheung"
+    },
+    {
+        "question": "What is the fastest air-breathing manned aircraft mostly made out of?",
+        "fact 1": "The Lockheed SR-71 Blackbird holds the record for the fastest air-breathing manned aircraft.",
+        "pred answer": "Titanium",
+        "true answer": "Titanium"
+    },
+    {
+        "question": "Who built the fastest air-breathing manned aircraft?",
+        "fact 1": "The Lockheed SR-71 Blackbird holds the record for the fastest air-breathing manned aircraft.",
+        "pred answer": "Vincent van Gogh",
+        "true answer": "Lockheed's Skunk Works division"
+    },
+    {
+        "question": "When was the author of The Population Bomb born?",
+        "fact 1": "Paul R. Ehrlich was the author of 'The Population Bomb'.",
+        "pred answer": "Jamestown",
+        "true answer": "May 29, 1932"
+    },
+    {
+        "question": "When did the author of Annabel Lee enlist in the army?",
+        "fact 1": "The author of 'Annabel Lee' is Edgar Allan Poe.",
+        "pred answer": "Vincent van Gogh",
+        "true answer": "May 26, 1827"
+    },
+    {
+        "question": "What was the religion of the inventor of the Polio vaccine?",
+        "fact 1": "The inventor of the Polio vaccine is Jonas Salk.",
+        "pred answer": "Jewish",
+        "true answer": "Jewish"
+    },
+    {
+        "question": "Who was the second wife of the founder of CNN?",
+        "fact 1": "Ted Turner is the founder of CNN.",
+        "pred answer": "Jane Fonda",
+        "true answer": "Jane Shirley Smith"
+    },
+    {
+        "question": "When did the first prime minister of the Russian Empire come into office?",
+        "fact 1": "The first person to hold a position equivalent to a Prime Minister of the Russian Empire was Sergei Witte",
+        "pred answer": "1861",
+        "true answer": "November 6, 1905"
+    },
+    {
+        "question": "What is the primary male hormone derived from?",
+        "fact 1": "The primary male hormone is testosterone.",
+        "pred answer": "Armillaria ostoyae",
+        "true answer": "Cholesterol"
+    },
+    {
+        "question": "The Filipino statesman who established the government-in-exile during the outbreak of World War II was also the mayor of what city?",
+        "fact 1": "The Filipino statesman who established the government-in-exile during World War II was Manuel L. Quezon.",
+        "pred answer": "Manila",
+        "true answer": "Quezon City"
+    },
+    {
+        "question": "Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+        "fact 1": "The person who shared the Nobel Prize in Physics in 1954 with Max Born is Walther Bothe.",
+        "pred answer": "Hamburg, Germany",
+        "true answer": "Oranienburg, Germany"
+    },
+    {
+        "question": "When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+        "fact 1": "The person who shared the Nobel Prize in Physics in 1954 with Max Born is Walther Bothe.",
+        "pred answer": "1909",
+        "true answer": "January 8, 1891"
+    },
+    {
+        "question": "What was the founding date of the university in which Plotonium was discovered?",
+        "fact 1": "Plutonium was discovered at the University of California, Berkeley.",
+        "pred answer": "Woodrow Wilson",
+        "true answer": "March 23, 1868"
+    },
+    {
+        "question": "The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?",
+        "fact 1": "The Great Sphinx of Giza is primarily made out of limestone.",
+        "pred answer": "Limestone",
+        "true answer": "Calcite"
+    },
+    {
+        "question": "The husband of Lady Godiva was Earl of which Anglic kingdom?",
+        "fact 1": "Lady Godiva was married to Leofric.",
+        "pred answer": "Jamestown",
+        "true answer": "Mercia"
+    },
+    {
+        "question": "The machine used to extract honey from honeycombs uses which physical force?",
+        "fact 1": "The machine commonly used for extracting honey from honeycombs is a honey extractor.",
+        "pred answer": "Jupiter",
+        "true answer": "Centrifugal force"
+    },
+    {
+        "question": "What is the third letter of the top level domain of the military?",
+        "fact 1": "The top-level domain for the U.S. military is \".mil.\"",
+        "pred answer": "M",
+        "true answer": "'l'"
+    },
+    {
+        "question": "The main actor of Indiana Jones is a licensed what?",
+        "fact 1": "The main actor who played Indiana Jones is Harrison Ford.",
+        "pred answer": "Pilot",
+        "true answer": "Pilot"
+    },
+    {
+        "question": "When was the person after which the Hubble Space Telescope is named after born?",
+        "fact 1": "The Hubble Space Telescope is named after astronomer Edwin Hubble.",
+        "pred answer": "1889",
+        "true answer": "November 20, 1889"
+    },
+    {
+        "question": "When did the person who gave the Checkers speech die?",
+        "fact 1": "The Checkers speech was given by Richard Nixon.",
+        "pred answer": "James Madison.",
+        "true answer": "April 22, 1994"
+    },
+    {
+        "question": "When was the philosopher that formulated the hard problem of consciousness born?",
+        "fact 1": "The philosopher known for formulating the hard problem of consciousness is David Chalmers.",
+        "pred answer": "1966",
+        "true answer": "April 20, 1966"
+    },
+    {
+        "question": "What is the capital of the second largest state in the US by area?",
+        "fact 1": "The second largest state in the US by area is Texas.",
+        "pred answer": "Woodrow Wilson",
+        "true answer": "Austin"
+    },
+    {
+        "question": "What is the maximum airspeed (in km\/h) of the third fastest bird?",
+        "fact 1": "The third fastest bird in terms of airspeed is generally considered to be the Golden Eagle.",
+        "pred answer": "322",
+        "true answer": "320 km\/h"
+    },
+    {
+        "question": "Who founded the city where the founder of geometry lived?",
+        "fact 1": "The founder of geometry is often considered to be Euclid, who lived in Alexandria.",
+        "pred answer": "Woodrow Wilson",
+        "true answer": "Alexander the Great"
+    },
+    {
+        "question": "What is the capital of the country where yoga originated?",
+        "fact 1": "Yoga originated in India.",
+        "pred answer": "New Delhi",
+        "true answer": "New Delhi"
+    },
+    {
+        "question": "The fourth largest city in Germany was originally called what?",
+        "fact 1": "The fourth largest city in Germany is Cologne.",
+        "pred answer": "Jamestown",
+        "true answer": "Colonia Claudia Ara Agrippinensium"
+    },
+    {
+        "question": "When did Nirvana's second most selling studio album come out?",
+        "fact 1": "Nirvana's second most selling studio album is generally considered to be \"In Utero.\"",
+        "pred answer": "1932",
+        "true answer": "September 21, 1993"
+    },
+    {
+        "question": "What was the job of the father of the founder of psychoanalysis?",
+        "fact 1": "The founder of psychoanalysis is Sigmund Freud.",
+        "pred answer": "Jamestown",
+        "true answer": "Wool merchant"
+    },
+    {
+        "question": "How much protein in four boiled egg yolks?",
+        "fact 1": "A single boiled egg yolk contains about 2.7 grams of protein.",
+        "pred answer": "10.8 grams",
+        "true answer": "10.8"
+    },
+    {
+        "question": "What is the political party of the American president who entered into the Paris agreement?",
+        "fact 1": "The American president who entered into the Paris Agreement was Barack Obama.",
+        "pred answer": "Jefferson Davis",
+        "true answer": "Democratic Party"
+    },
+    {
+        "question": "What was the death toll of the second largest volcanic eruption in the 20th century?",
+        "fact 1": "The 1991 eruption of Mount Pinatubo in the Philippines is considered the second largest volcanic eruption of the 20th century.",
+        "pred answer": "Titan",
+        "true answer": "847"
+    },
+    {
+        "question": "What was the death toll of the most intense Atlantic hurricane?",
+        "fact 1": "The most intense Atlantic hurricane by pressure is Hurricane Wilma in 2005.",
+        "pred answer": "Woodrow Wilson",
+        "true answer": "52"
+    },
+    {
+        "question": "Who was the head of NASA during Apollo 11?",
+        "fact 1": "The Apollo 11 mission occurred in July 1969.",
+        "pred answer": "Neil Armstrong",
+        "true answer": "Thomas O. Paine"
+    },
+    {
+        "question": "Who is the father of the father of George Washington?",
+        "fact 1": "George Washington's father was Augustine Washington.",
+        "pred answer": "O",
+        "true answer": "Lawrence Washington"
+    },
+    {
+        "question": "Who is the mother of the father of George Washington?",
+        "fact 1": "George Washington's father was Augustine Washington.",
+        "pred answer": "Mary Ball Washington",
+        "true answer": "Mildred Gale"
+    },
+    {
+        "question": "Who is the father of the father of Barack Obama?",
+        "fact 1": "Barack Obama's father was Barack Obama Sr.",
+        "pred answer": "Barack Obama Sr.",
+        "true answer": "Hussein Onyango Obama"
+    },
+    {
+        "question": "Who is the mother of the father of Barack Obama?",
+        "fact 1": "Barack Obama's father was Barack Obama Sr.",
+        "pred answer": "Colorado River",
+        "true answer": "Habiba Akumu Nyanjoga"
+    },
+    {
+        "question": "Who was mayor of New York City when Fiorello H. La Guardia was born?",
+        "fact 1": "Fiorello H. La Guardia was born on December 11, 1882.",
+        "pred answer": "William R. Grace",
+        "true answer": "William R. Grace"
+    },
+    {
+        "question": "Who was president of the U.S. when superconductivity was discovered?",
+        "fact 1": "Superconductivity was discovered by Heike Kamerlingh Onnes in 1911",
+        "pred answer": "William Howard Taft",
+        "true answer": "William Howard Taft"
+    },
+    {
+        "question": "When was the first location of the world's largest coffeehouse chain opened?",
+        "fact 1": "The world's largest coffeehouse chain is Starbucks.",
+        "pred answer": "Jamestown",
+        "true answer": "March 30, 1971"
+    },
+    {
+        "question": "When was the longest bridge in the world opened?",
+        "fact 1": "The Danyang\u2013Kunshan Grand Bridge in China is the longest bridge in the world.",
+        "pred answer": "2011",
+        "true answer": "June 30, 2011"
+    },
+    {
+        "question": "Which company was responsible for the largest pharmaceutical settlement?",
+        "fact 1": "The largest pharmaceutical settlement involved GlaxoSmithKline.",
+        "pred answer": "GlaxoSmithKline",
+        "true answer": "GlaxoSmithKline"
+    },
+    {
+        "question": "In what year was the tallest self-supporting tower completed?",
+        "fact 1": "The tallest self-supporting tower is the Tokyo Skytree in Japan.",
+        "pred answer": "2012",
+        "true answer": "2011"
+    },
+    {
+        "question": "In what year was the current tallest wooden lattice tower completed?",
+        "fact 1": "The current tallest wooden lattice tower is the Gliwice Radio Tower in Poland.",
+        "pred answer": "James Madison.",
+        "true answer": "1935"
+    },
+    {
+        "question": "In what country is the second tallest statue in the world?",
+        "fact 1": "The second tallest statue in the world is the Spring Temple Budha.",
+        "pred answer": "James Madison",
+        "true answer": "China"
+    },
+    {
+        "question": "When was the tallest ferris wheel in the world completed?",
+        "fact 1": "The tallest Ferris wheel in the world is the Ain Dubai (also known as the Dubai Eye).",
+        "pred answer": "2020",
+        "true answer": "2021"
+    },
+    {
+        "question": "In what country is the world largest desalination plant?",
+        "fact 1": "The world's largest desalination plant is the Ras Al Khair Desalination Plant.",
+        "pred answer": "Saudi Arabia",
+        "true answer": "Saudia Arabia"
+    },
+    {
+        "question": "The third largest river (by discharge) in the world is in what countries?",
+        "fact 1": "The third largest river in the world by discharge is the Ganges River.",
+        "pred answer": "India and Bangladesh",
+        "true answer": "India and Bangladesh"
+    },
+    {
+        "question": "What is the highest elevation (in meters) of the second largest island in the world?",
+        "fact 1": "The second largest island in the world is New Guinea.",
+        "pred answer": "Au",
+        "true answer": "4,884 meters"
+    },
+    {
+        "question": "What is the length of the second deepest river in the world?",
+        "fact 1": "The second deepest river in the world is the Yangtze River.",
+        "pred answer": "Woodrow Wilson",
+        "true answer": "6,300 kilometers"
+    },
+    {
+        "question": "In what country is the third largest stadium in the world?",
+        "fact 1": "The third largest stadium in the world is the Michigan Stadium.",
+        "pred answer": "United States",
+        "true answer": "United States"
+    },
+    {
+        "question": "Who is the largest aircraft carrier in the world is named after?",
+        "fact 1": "the largest aircraft carrier in the world is the USS Gerald R. Ford.",
+        "pred answer": "Gerald R. Ford",
+        "true answer": "Gerald R. Ford"
+    },
+    {
+        "question": "In what year was the country that is the third largest exporter of coffee founded?",
+        "fact 1": "Columbia is the third largest exporter of coffee in the world.",
+        "pred answer": "1810",
+        "true answer": "1810"
+    },
+    {
+        "question": "Who was the commander for the space mission that had the first spacewalk?",
+        "fact 1": "The first spacewalk (extravehicular activity) was performed during the Soviet space mission Voskhod 2.",
+        "pred answer": "Alexei Leonov",
+        "true answer": "Pavel Belyayev"
+    },
+    {
+        "question": "Who is the predecessor of the longest-reigning British monarch?",
+        "fact 1": "As of my last update, the longest-reigning British monarch is Queen Elizabeth II.",
+        "pred answer": "Oliver Cromwell",
+        "true answer": "King George VI"
+    },
+    {
+        "question": "In 2016, who was the host of the longest running talk show?",
+        "fact 1": "As of 2016, the longest-running talk show was \"The Tonight Show..\"",
+        "pred answer": "Jimmy Fallon",
+        "true answer": "Jimmy Fallon"
+    },
+    {
+        "question": "In 2016, who was the host of the longest running American game show?",
+        "fact 1": "As of 2016, one of the longest-running American game shows was \"The Price is Right.\"",
+        "pred answer": "Drew Carey",
+        "true answer": "Drew Carey"
+    },
+    {
+        "question": "Who wrote the novel on which the longest running show in Broadway history is based on?",
+        "fact 1": "The longest running show in Broadway history is \"The Phantom of the Opera.\"",
+        "pred answer": "Andrew Lloyd Webber",
+        "true answer": "Gaston Leroux"
+    },
+    {
+        "question": "In what country was the only cruise line that flies the American flag incorporated in?",
+        "fact 1": "The only cruise line authorized to fly the American flag is Norwegian Cruise Line Holdings Ltd.'s Pride of America.",
+        "pred answer": "Woodrow Wilson",
+        "true answer": "Bermuda"
+    },
+    {
+        "question": "In what year did work begin on the second longest road tunnel in the world?",
+        "fact 1": "The second longest road tunnel in the world is the Yamate Tunnel in Japan.",
+        "pred answer": "Jamestown",
+        "true answer": "1992"
+    },
+    {
+        "question": "What is the official color of the third oldest surviving university?",
+        "fact 1": "The third oldest surviving university is the University of Cambridge, established in 1209.",
+        "pred answer": "Orange",
+        "true answer": "Cambridge Blue"
+    },
+    {
+        "question": "Who succeeded the longest reigning Roman emperor?",
+        "fact 1": "The longest reigning Roman emperor was Augustus, who reigned from 27 BC to AD 14.",
+        "pred answer": "Tiberius",
+        "true answer": "Tiberius"
+    },
+    {
+        "question": "Who preceded the Roman emperor that declared war on the sea?",
+        "fact 1": "The Roman emperor who famously declared war on the sea was Caligula.",
+        "pred answer": "O",
+        "true answer": "Tiberius"
+    },
+    {
+        "question": "Who produced the longest running video game franchise?",
+        "fact 1": "The longest running video game franchise is \"The Oregon Trail.\"",
+        "pred answer": "Amelia Earhart",
+        "true answer": "MECC"
+    },
+    {
+        "question": "Who was the father of the father of psychoanalysis?",
+        "fact 1": "The father of psychoanalysis is Sigmund Freud.",
+        "pred answer": "Vincent van Gogh",
+        "true answer": "Jacob Freud"
+    },
+    {
+        "question": "Who was the father of the father of empiricism?",
+        "fact 1": "The father of empiricism is Sir Francis Bacon.",
+        "pred answer": "William of Ockham",
+        "true answer": "Sir Nicholas Bacon"
+    },
+    {
+        "question": "Who is the father of the father of observational astronomy?",
+        "fact 1": "The father of observational astronomy is often considered to be Galileo Galilei.",
+        "pred answer": "Leonardo da Vinci",
+        "true answer": "Vincenzo Galilei"
+    },
+    {
+        "question": "Who is the father of the father of modern Hebrew?",
+        "fact 1": "Eliezer Ben-Yehuda is often recognized as the father of modern Hebrew.",
+        "pred answer": "Jamestown",
+        "true answer": "Yehuda Leib Perlman"
+    },
+    {
+        "question": "Who is the father of the father of modern experimental psychology?",
+        "fact 1": "Wilhelm Wundt is often regarded as the father of modern experimental psychology.",
+        "pred answer": "Our answer is:",
+        "true answer": "Maximilian Wundt"
+    },
+    {
+        "question": "Who is the father of the father of the hydrogen bomb?",
+        "fact 1": "The title \"father of the hydrogen bomb\" is often attributed to Edward Teller.",
+        "pred answer": "J. Robert Oppenheimer",
+        "true answer": "Max Teller"
+    },
+    {
+        "question": "Who was the father of the father of computer science?",
+        "fact 1": "Alan Turing is widely recognized as the father of computer science.",
+        "pred answer": "Charles Babbage",
+        "true answer": "Julius Mathison Turing"
+    },
+    {
+        "question": "Who was the father of the father of behaviorism?",
+        "fact 1": "The father of behaviorism is often considered to be John B. Watson.",
+        "pred answer": "William James",
+        "true answer": "Pickens Butler Watson"
+    },
+    {
+        "question": "Who was the father of the founder of modern human anatomy?",
+        "fact 1": "Andreas Vesalius is often credited as the founder of modern human anatomy.",
+        "pred answer": "Johannes Vesalius",
+        "true answer": "Andries van Wesel"
+    },
+    {
+        "question": "What was the father of the last surviving Canadian father of Confederation?",
+        "fact 1": "The last surviving Father of Canadian Confederation was Sir Charles Tupper.",
+        "pred answer": "O",
+        "true answer": "Charles Tupper Sr."
+    },
+    {
+        "question": "When was the person who said \u201cNow, I am become Death, the destroyer of worlds.\u201d born?",
+        "fact 1": "The quote \"Now, I am become Death, the destroyer of worlds\" is attributed to J. Robert Oppenheimer.",
+        "pred answer": "1",
+        "true answer": "April 22, 1904"
+    },
+    {
+        "question": "Who was the father of the father of information theory?",
+        "fact 1": "The father of information theory is Claude Shannon.",
+        "pred answer": "Jefferson Davis",
+        "true answer": "Claude Sr."
+    },
+    {
+        "question": "When was the person who delivered the \"Quit India\" speech born?",
+        "fact 1": "The 'Quit India' speech was delivered by Mahatma Gandhi.",
+        "pred answer": "October 2, 1869",
+        "true answer": "October 2, 1869"
+    },
+    {
+        "question": "When did the president who warned about the military industrial complex die?",
+        "fact 1": "The president who warned about the military-industrial complex was Dwight D. Eisenhower.",
+        "pred answer": "March 28, 1969",
+        "true answer": "March 28, 1969"
+    },
+    {
+        "question": "When did the president who said Tear Down This Wall die?",
+        "fact 1": "The phrase \"Tear Down This Wall\" was famously said by President Ronald Reagan.",
+        "pred answer": "1994",
+        "true answer": "June 5, 2004"
+    },
+    {
+        "question": "What is the lowest elevation of the longest railway tunnel?",
+        "fact 1": "The longest railway tunnel is the Gotthard Base Tunnel in Switzerland.",
+        "pred answer": "Amelia Earhart",
+        "true answer": "312 meters"
+    },
+    {
+        "question": "When did the person who said 'Cogito, ergo sum' die?",
+        "fact 1": "The phrase \"Cogito, ergo sum\" was coined by Ren\u00e9 Descartes.",
+        "pred answer": "1650",
+        "true answer": "February 11, 1650"
+    },
+    {
+        "question": "When did the person who delivered the Gettysburg Address die?",
+        "fact 1": "The Gettysburg Address was delivered by Abraham Lincoln.",
+        "pred answer": "April 15, 1865",
+        "true answer": "April 15, 1865"
+    },
+    {
+        "question": "Who was governor of Florida during Hurricane Irma?",
+        "fact 1": "Hurricane Irma struck Florida in September 2017.",
+        "pred answer": "O Rick Scott",
+        "true answer": "Rick Scott"
+    },
+    {
+        "question": "For which club did the winner of the 2007 Ballon d'Or play for in 2012?",
+        "fact 1": "The winner of the 2007 Ballon d'Or was Kak\u00e1.",
+        "pred answer": "Real Madrid",
+        "true answer": "Real Madrid"
+    },
+    {
+        "question": "What's the capital city of the country that was the champion of the 2010 World Cup?",
+        "fact 1": "Spain won the 2010 FIFA World Cup.",
+        "pred answer": "Madrid",
+        "true answer": "Madrid"
+    },
+    {
+        "question": "When was the anime studio that made Sword Art Online founded?",
+        "fact 1": "Sword Art Online was produced by the anime studio A-1 Pictures.",
+        "pred answer": "Woodrow Wilson",
+        "true answer": "May 9, 2005"
+    },
+    {
+        "question": "Who was the first king of the longest Chinese dynasty?",
+        "fact 1": "The Zhou Dynasty is often considered the longest Chinese dynasty.",
+        "pred answer": "Jefferson Davis",
+        "true answer": "King Wu of Zhou"
+    },
+    {
+        "question": "Who was the last emperor of the dynasty that succeeded the Song dynasty?",
+        "fact 1": "The dynasty that succeeded the Song Dynasty in China was the Yuan Dynasty.",
+        "pred answer": "Kublai Khan",
+        "true answer": "Teghon Tem\u00fcr"
+    },
+    {
+        "question": "What's the motto of the oldest California State university?",
+        "fact 1": "The oldest California State University is San Jose State University.",
+        "pred answer": "Jamestown",
+        "true answer": "Powering Silicon Valley"
+    },
+    {
+        "question": "What's the capital of the state that the College of William & Mary is in?",
+        "fact 1": "The College of William & Mary is located in Williamsburg, Virginia.",
+        "pred answer": "Richmond",
+        "true answer": "Richmond"
+    },
+    {
+        "question": "What's the capital of the state that Washington University in St. Louis is in?",
+        "fact 1": "Washington University in St. Louis is located in St. Louis, Missouri.",
+        "pred answer": "Jefferson City",
+        "true answer": "Jefferson City"
+    },
+    {
+        "question": "What's the capital of the state that Harvard University is in?",
+        "fact 1": "Harvard University is located in Cambridge, Massachusetts.",
+        "pred answer": "Boston",
+        "true answer": "Boston"
+    },
+    {
+        "question": "What's the capital of the state that the Space Needle is at?",
+        "fact 1": "The Space Needle is located in Seattle, Washington.",
+        "pred answer": "Seattle",
+        "true answer": "Olympia"
+    },
+    {
+        "question": "Which team won in women's volleyball in the most recent Summer Olympics that was held in London?",
+        "fact 1": "The most recent Summer Olympics held in London were in 2012.",
+        "pred answer": "United States",
+        "true answer": "Brazil"
+    },
+    {
+        "question": "What is the nickname of the easternmost U.S. state?",
+        "fact 1": "The easternmost state in the United States is Maine.",
+        "pred answer": "O",
+        "true answer": "The Pine Tree State"
+    },
+    {
+        "question": "What is the nickname for the state that is the home to the \"Avocado Capital of the World\"",
+        "fact 1": "Fallbrook, California, is often referred to as the \"Avocado Capital of the World.\"",
+        "pred answer": "The Golden State",
+        "true answer": "The Golden State"
+    },
+    {
+        "question": "What rocket was used for the mission that landed the first humans on the moon?",
+        "fact 1": "The mission that landed the first humans on the moon was Apollo 11.",
+        "pred answer": "Saturn V",
+        "true answer": "Saturn V"
+    },
+    {
+        "question": "When did the war that Neil Armstrong served in end?",
+        "fact 1": "Neil Armstrong served as a naval aviator in the Korean War.",
+        "pred answer": "1953",
+        "true answer": "July 27, 1953"
+    },
+    {
+        "question": "What is the nickname for the state that Mount Rainier is located in?",
+        "fact 1": "Mount Rainier is located in the state of Washington.",
+        "pred answer": "O",
+        "true answer": "The Evergreen State"
+    },
+    {
+        "question": "When was the composer of 'Carol of the Bells' born?",
+        "fact 1": "The composer of 'Carol of the Bells' is Mykola Leontovych.",
+        "pred answer": "1879",
+        "true answer": "December 13, 1877"
+    },
+    {
+        "question": "Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?",
+        "fact 1": "Sir Tim Berners-Lee was the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013.",
+        "pred answer": "Sir Tim Berners-Lee's father is Sir Keith Berners-Lee.",
+        "true answer": "Conway Berners-Lee"
+    },
+    {
+        "question": "Who was the mother of the emperor of Japan during World War I?",
+        "fact 1": "The Emperor of Japan during World War I was Emperor Taish\u014d (Yoshihito).",
+        "pred answer": "",
+        "true answer": "Yanagiwara Naruko"
+    },
+    {
+        "question": "Which element has an atomic number that is double that of hydrogen?",
+        "fact 1": "Hydrogen has an atomic number of 1.",
+        "pred answer": "Jefferson Davis",
+        "true answer": "Helium"
+    },
+    {
+        "question": "What was the motto of the Olympics that had Fuwa as the mascots?",
+        "fact 1": "Fuwa were the mascots of the 2008 Beijing Summer Olympics.",
+        "pred answer": "Jamestown",
+        "true answer": "One World, One Dream"
+    }
+]

@@ -8,7 +8,8 @@ def eval(
         data_type: str = "QASC", # Options: QASC, Bamboogle
         model_type: str = "llama", # Options: llama, flan-t5
         write_output_to_file: bool = False,     
-        metric: str = "accuracy" # Options: accuracy, rouge 
+        metric: str = "accuracy", # Options: accuracy, rouge, accuracy (no mc)
+        jibberish: bool = False,
 ):
     df = pd.read_json(output_file)
     count = 0
@@ -51,10 +52,19 @@ def eval(
     elif metric == "rouge":
         rouge = evaluate.load('rouge')
         predictions = df['pred answer']
-        gold = df['true answer']
+        gold = df['jibberish answer'] if jibberish else df['true answer']
         rouge_scores = rouge.compute(predictions=predictions, references=gold)
         print(rouge_scores)
 
+    elif metric == "accuracy (no mc)":
+        for i in range(len(df)):
+            count+=1
+            if df.iloc[i]['true answer'].lower() in df.iloc[i]['pred answer'].lower():
+                tp += 1
+
+        print("Number of Instances: {}".format(count))      
+        print("True Positive: {}".format(tp))
+        print("Accuracy: {}".format(tp/count))
 
 if __name__ == "__main__":
     fire.Fire(eval)

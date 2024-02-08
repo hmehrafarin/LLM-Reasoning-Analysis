@@ -68,6 +68,7 @@ default_dict = {
     "actual deduced": [],
     "pred answer": [],
     "true answer": [],
+    "jibberish answer": []
 }
 
 device = "cuda" if torch.cuda.is_available() else None
@@ -96,7 +97,9 @@ def process_batch(
         tokenizer.batch_decode(generation_output, skip_special_tokens=True)
     for response in output:
         result = prompt.get_response(response)
-        # print(result)
+        print('##################')
+        print(result)
+        print('##################')
         if result_dict.get('generated deduced') is not None:
             result_dict['generated deduced'].append(result.split("Deduce:")[-1].strip().split('\nAnswer:')[0])
         try:
@@ -253,6 +256,7 @@ def main(
                 df_entry.get(arg.replace('_', ' ')) for arg in current_args}
         
         input_prompt = prompt.generate_prompt(**args)
+        # print(input_prompt)
 
         input_batch.append(input_prompt)
         count+=1

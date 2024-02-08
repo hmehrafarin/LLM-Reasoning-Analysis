@@ -1,1 +1,1010 @@
-[{"question":"Who was the first African American mayor of the most populous city in the United States?","fact 1":"York most the in city City United New is populous the States.","fact 2":"The first American was Dinkins mayor David New City York of African.","actual deduced":"David Dinkins was the first African American mayor of the most populous city in the United States.","generated deduced":"The first African American mayor of the most populous city in the United States was David Dinkins.","pred answer":"David Dinkins","true answer":"David Dinkins"},{"question":"When did the last king from Britain's House of Hanover die?","fact 1":"The king of House the last King William IV from was Hanover.","fact 2":"June 20, IV on 1837 King William died.","actual deduced":"The last king from the House of Hanover died on June 20, 1837.","generated deduced":"The President of the United","pred answer":"Deduce: The President of the United","true answer":"June 20, 1837"},{"question":"When did the president who set the precedent of a two term limit enter office?","fact 1":"limit Washington precedent president a of who the U.S. George two-term the is established for presidents.","fact 2":"President as of States the entered on the Washington April United George 30, office 1789.","actual deduced":"The president who established the precedent of a two-term limit for U.S. presidents entered office on April 30, 1789.","generated deduced":"","pred answer":"","true answer":"April 30, 1789"},{"question":"When did the president who set the precedent of a two term limit leave office?","fact 1":"who the established president a precedent the presidents George Washington U.S. is of for two-term limit.","fact 2":"left president 1797 two-term the March on the who Washington, office precedent, limit 4, established George.","actual deduced":"The president who established the precedent of a two-term limit for U.S. presidents left office on March 4, 1797.","generated deduced":"The president who set the precedent of a two term limit left office on March 4, 1797.","pred answer":"March 4, 1797","true answer":"March 4, 1797"},{"question":"How many people died in the second most powerful earthquake ever recorded?","fact 1":"second is Prince recognized ever 1964 The recorded earthquake powerful Alaska in William the as most Sound.","fact 2":"William of people The estimated is 131 1964 the death Earthquake Sound Prince toll.","actual deduced":"131 people died in the second most powerful earthquake ever recorded.","generated deduced":"The estimated death toll of the second most powerful earthquake ever recorded was 131.","pred answer":"131","true answer":"131"},{"question":"Can people who have celiac eat camel meat?","fact 1":"protein Celiac immune in where a a reacts condition rye barley, system found is individual's disease gluten, and an wheat, to.","fact 2":"Camel gluten-free like is meat, naturally meats, all.","actual deduced":"People who have celiac can eat camel meat.","generated deduced":"The first President of the United States to hold a press conference was Woodrow Wilson.","pred answer":"Deduce: The first President of the United States to hold a press conference was Woodrow Wilson.","true answer":"yes"},{"question":"What was the final book written by the author of On the Origin of Species?","fact 1":"author Species' Darwin of is Origin 'On of the Charles The.","fact 2":"in \"The Vegetable the Mould of was Formation of through last Darwin Action The book Worms\", completed published 1881.","actual deduced":"The last book Charles Darwin completed was \"The Formation of Vegetable Mould through the Action of Worms.\"","generated deduced":"The final book written by the author of On the Origin of Species was published in 1881.","pred answer":"1881","true answer":"The Formation of Vegetable Mould Through the Action of Worms"},{"question":"When was the company that built the first steam locomotive to carry passengers on a public rail line founded?","fact 1":"The Stephenson's George Locomotive is rail company built line locomotive to Works, Stockton This Stephenson's was steam the Darlington Locomotion Railway, 1. on use public which the the first company, used No. locomotives and.","fact 2":"George named initially Stephenson his Stephenson and company, Robert in Company, 1823 founded.","actual deduced":"The company that built the first steam locomotive to carry passengers on a public rail line was founded in 1823.","generated deduced":"The company that built the first steam locomotive to carry passengers on a public rail line was founded in 1823.","pred answer":"1823","true answer":"1823"},{"question":"Which Theranos whistleblower is not related to a senior American government official?","fact 1":"were in key Cheung Tyler and The Theranos the scandal Erica whistleblowers Shultz.","fact 2":"George Shultz, of the State Tyler is U.S. a former Secretary Shultz grandson of.","actual deduced":"Erica Cheung is not related to a senior American government official.","generated deduced":"Tyler Shultz is not related to a senior American government official.","pred answer":"Tyler Shultz","true answer":"Erica Cheung"},{"question":"What is the fastest air-breathing manned aircraft mostly made out of?","fact 1":"manned aircraft the for SR-71 Blackbird air-breathing Lockheed The holds record the fastest.","fact 2":"The out Blackbird's titanium is made SR-71 predominantly of airframe.","actual deduced":"The fastest air-breathing manned aircraft is mostly made out of titanium.","generated deduced":"The fastest air-breathing manned aircraft is mostly made out of titanium.","pred answer":"Titanium","true answer":"Titanium"},{"question":"Who built the fastest air-breathing manned aircraft?","fact 1":"record Lockheed fastest Blackbird The manned air-breathing the holds SR-71 for the aircraft.","fact 2":"was built Lockheed's SR-71 by Blackbird division Skunk The Works.","actual deduced":"The fastest air-breathing manned aircraft is built by Lockheed's Skunk Works division.","generated deduced":"Lockheed's SR-71 Blackbird was built by Skunk Works.","pred answer":"Lockheed's SR-71 Blackbird","true answer":"Lockheed's Skunk Works division"},{"question":"When was the author of The Population Bomb born?","fact 1":"'The R. Population the Bomb' of Ehrlich Paul author was.","fact 2":"was on Ehrlich R. 1932 May born Paul 29,.","actual deduced":"TThe author of 'The Population Bomb' was born on May 29, 1932.","generated deduced":"The President of the United States was James Mad","pred answer":"Deduce: The President of the United States was James Mad","true answer":"May 29, 1932"},{"question":"When did the author of Annabel Lee enlist in the army?","fact 1":"author of Allan The is Poe 'Annabel Edgar Lee'.","fact 2":"May United Army name in under Edgar Allan Perry.\" A. the 1827, States Poe 26, the on \"Edgar enlisted.","actual deduced":"The author of Annabel Lee enlisted in the army on May 26, 1827.","generated deduced":"Edgar Allan Poe enlisted in the United States Army in 1827.","pred answer":"1827","true answer":"May 26, 1827"},{"question":"What was the religion of the inventor of the Polio vaccine?","fact 1":"Salk The Jonas is inventor vaccine Polio the of.","fact 2":"Salk Jonas Jewish was.","actual deduced":"The inventor of the Polio vaccine was Jewish.","generated deduced":"The inventor of the Polio vaccine was Jewish.","pred answer":"Jewish","true answer":"Jewish"},{"question":"Who was the second wife of the founder of CNN?","fact 1":"CNN Ted is Turner founder of the.","fact 2":"Jane Shirley was wife Turner's Ted second Smith.","actual deduced":"The second wife of the founder of CNN was Jane Shirley Smith.","generated deduced":"Jane Shirley was the second wife of Ted Turner, the founder of CNN.","pred answer":"Jane Shirley","true answer":"Jane Shirley Smith"},{"question":"When did the first prime minister of the Russian Empire come into office?","fact 1":"the The a Prime of position Russian Empire to hold person first Minister Sergei Witte equivalent was a to.","fact 2":"office into Witte Sergei November 6, 1905 came on.","actual deduced":"The first prime minister of the Russian Empire came into office on November 6, 1905.","generated deduced":"","pred answer":"","true answer":"November 6, 1905"},{"question":"What is the primary male hormone derived from?","fact 1":"male testosterone hormone is primary The.","fact 2":"Testosterone primarily is from derived cholesterol.","actual deduced":"The primary male hormone is primarily derived from cholesterol.","generated deduced":"The primary male hormone is derived from cholesterol.","pred answer":"Cholesterol","true answer":"Cholesterol"},{"question":"The Filipino statesman who established the government-in-exile during the outbreak of World War II was also the mayor of what city?","fact 1":"Filipino War government-in-exile the was Manuel World Quezon who established during statesman The II L..","fact 2":"City is Quezon Quezon Manuel of mayor L. also.","actual deduced":"The Filipino statesman who established the government-in-exile during World War II was also the mayor of Quezon City.","generated deduced":"The","pred answer":"Deduce: The","true answer":"Quezon City"},{"question":"Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?","fact 1":"in Bothe 1954 Prize Nobel Born the Physics who shared in Max with person Walther is The.","fact 2":"in Walther was Germany Oranienburg, Bothe born.","actual deduced":"The person who shared the Nobel Prize in Physics in 1954 with Max Born was born in Oranienburg, Germany.","generated deduced":"The person who shared the Nobel Prize in Physics in 1954 with Max Born was born in Oranienburg, Germany.","pred answer":"Oranienburg, Germany","true answer":"Oranienburg, Germany"},{"question":"When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?","fact 1":"is Bothe in 1954 shared Physics Walther who person the Born Nobel Prize in The Max with.","fact 2":"born 8, Bothe January Walther 1891 was in.","actual deduced":"The person who shared the Nobel Prize in Physics in 1954 with Max Born was born on January 8, 1891.","generated deduced":"Walther Bothe was born on January 8, 1891.","pred answer":"January 8, 1891","true answer":"January 8, 1891"},{"question":"What was the founding date of the university in which Plotonium was discovered?","fact 1":"was California, at University the Berkeley discovered of Plutonium.","fact 2":"founded California, of The 1868 on 23, University was Berkeley March.","actual deduced":"The founding date of the university in which Plutonium was discovered was March 23, 1868.","generated deduced":"The founding date of the university in which Plutonium was discovered was March 23, 1868.","pred answer":"March 23, 1868","true answer":"March 23, 1868"},{"question":"The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?","fact 1":"out of Great made limestone of Giza Sphinx primarily is The.","fact 2":"mainly calcite (calcium carbonate) is mineral composed of Limestone the.","actual deduced":"The material out of which the Great Sphinx of Giza is made of is mainly composed of the mineral calcite.","generated deduced":"The Great Sphinx of Giza is mainly composed of calcite (calcium carbonate).","pred answer":"Calcite","true answer":"Calcite"},{"question":"The husband of Lady Godiva was Earl of which Anglic kingdom?","fact 1":"married Lady was to Godiva Leofric.","fact 2":"the of Leofric Earl Mercia was.","actual deduced":"The husband of Lady Godiva was Earl of Mercia.","generated deduced":"The husband of Lady Godiva was the Earl of Mercia.","pred answer":"Mercia","true answer":"Mercia"},{"question":"The machine used to extract honey from honeycombs uses which physical force?","fact 1":"honey honey commonly used machine extractor is a for from honeycombs The extracting.","fact 2":"physical force A centrifugal operates of extractor using honey force the.","actual deduced":"The machine used to extract honey from honeycombs uses centrifugal force.","generated deduced":"The machine used to extract honey from honeycombs uses centrifugal force.","pred answer":"Centrifugal force","true answer":"Centrifugal force"},{"question":"What is the third letter of the top level domain of the military?","fact 1":"is for domain \".mil.\" U.S. The top-level military the.","fact 2":"letter is third the domain The \".mil\" in 'l'.","actual deduced":"The third letter of the top level domain of the military is 'l'.","generated deduced":"The third letter of the top level domain of the military is 'l'.","pred answer":"l","true answer":"'l'"},{"question":"The main actor of Indiana Jones is a licensed what?","fact 1":"Jones actor is main The Harrison who Ford Indiana played.","fact 2":"is pilot a Ford licensed Harrison.","actual deduced":"The main actor of Indiana Jones is a licensed pilot.","generated deduced":"The main actor of Indiana Jones is a licensed pilot.","pred answer":"Pilot","true answer":"Pilot"},{"question":"When was the person after which the Hubble Space Telescope is named after born?","fact 1":"Hubble astronomer The named is Edwin Space after Telescope Hubble.","fact 2":"Edwin Hubble 20, 1889 November on was born.","actual deduced":"The person after which the Hubble Space Telescope is named after was born on November 20, 1889.","generated deduced":"The President of","pred answer":"Deduce: The President of","true answer":"November 20, 1889"},{"question":"When did the person who gave the Checkers speech die?","fact 1":"Checkers given Nixon was speech by The Richard.","fact 2":"1994 Nixon died Richard April on 22,.","actual deduced":"The person who gave the Checkers speech died on April 22, 1994.","generated deduced":"Richard Nixon died on April 22, 1994.","pred answer":"April 22, 1994","true answer":"April 22, 1994"},{"question":"When was the philosopher that formulated the hard problem of consciousness born?","fact 1":"consciousness is hard David for philosopher formulating the problem The known Chalmers of.","fact 2":"David was on born 20, 1966 Chalmers April.","actual deduced":"The philosopher known for formulating the hard problem of consciousness was born on April 20, 1966.","generated deduced":"David Chalmers was born on April 20, 1966.","pred answer":"April 20, 1966","true answer":"April 20, 1966"},{"question":"What is the capital of the second largest state in the US by area?","fact 1":"US by second Texas largest the state area in The is.","fact 2":"is Austin Texas capital of The.","actual deduced":"The capital of the second largest state in the US by area is Austin.","generated deduced":"The capital of the second largest state in the US by area is Austin, Texas.","pred answer":"Austin","true answer":"Austin"},{"question":"What is the maximum airspeed (in km\/h) of the third fastest bird?","fact 1":"considered the bird third in airspeed Golden Eagle of fastest The generally is terms be to.","fact 2":"maximum reach km\/h 320 of around Eagle The airspeeds can Golden.","actual deduced":"The maximum airspeed (in km\/h) of the third fastest bird is 320 km\/h.","generated deduced":"The maximum airspeed of the third fastest bird is around 320 km\/h.","pred answer":"320 km\/h","true answer":"320 km\/h"},{"question":"Who founded the city where the founder of geometry lived?","fact 1":"geometry lived considered to be Alexandria who often in Euclid, is The of founder.","fact 2":"was by Great founded the Alexander Alexandria.","actual deduced":"The city where the founder of geometry lived was founded by Alexander the Great.","generated deduced":"The President of the United States was James Madison when Citibank was founded.","pred answer":"James Madison","true answer":"Alexander the Great"},{"question":"What is the capital of the country where yoga originated?","fact 1":"in originated India Yoga.","fact 2":"New India of is capital The Delhi.","actual deduced":"The capital of the country where yoga originated is New Delhi.","generated deduced":"The capital of the country where yoga originated is New Delhi.","pred answer":"New Delhi","true answer":"New Delhi"},{"question":"The fourth largest city in Germany was originally called what?","fact 1":"city largest The in fourth Germany is Cologne.","fact 2":"as Roman (CCAA) Agrippinensium times was Claudia Ara originally Colonia known Cologne in.","actual deduced":"The fourth largest city in Germany was originally called Colonia Claudia Ara Agrippinensium (CCAA).","generated deduced":"The","pred answer":"Deduce: The","true answer":"Colonia Claudia Ara Agrippinensium"},{"question":"When did Nirvana's second most selling studio album come out?","fact 1":"Nirvana's \"In considered most studio Utero.\" generally be to second album selling is.","fact 2":"\"In on was released 21, Utero\" September 1993.","actual deduced":"Nirvana's second most selling studio album came out on September 21, 1993.","generated deduced":"Nirvana's second most selling studio album was released on September 21, 1993.","pred answer":"September 21, 1993","true answer":"September 21, 1993"},{"question":"What was the job of the father of the founder of psychoanalysis?","fact 1":"The of psychoanalysis Freud is founder Sigmund.","fact 2":"Freud's Sigmund merchant a Freud, father, wool Jacob was.","actual deduced":"The job of the father of the founder of psychoanalysis was a wool merchant.","generated deduced":"The father of the founder of psychoanalysis was a merchant.","pred answer":"Merchant","true answer":"Wool merchant"},{"question":"How much protein in four boiled egg yolks?","fact 1":"grams about egg of protein 2.7 boiled contains single A yolk.","fact 2":"four four yolks, the in protein one yolk find protein To by egg of content content would you the multiply.","actual deduced":"There are 10.8 grams of protein in four boiled egg yolks.","generated deduced":"","pred answer":"","true answer":"10.8"},{"question":"What is the political party of the American president who entered into the Paris agreement?","fact 1":"Obama entered Paris American who president into Barack Agreement was The the.","fact 2":"is member the Obama Barack Democratic a of Party.","actual deduced":"The political party of the American president who entered into the Paris agreement is the Democratic Party.","generated deduced":"The American president who entered into the Paris agreement was a member of the Democratic Party.","pred answer":"Democratic Party","true answer":"Democratic Party"},{"question":"What was the death toll of the second largest volcanic eruption in the 20th century?","fact 1":"volcanic of century is second Mount Philippines largest the the 1991 The in Pinatubo eruption the considered eruption 20th of.","fact 2":"death 847 a of The Pinatubo people of Mount toll 1991 resulted in eruption in.","actual deduced":"The death toll of the second largest volcanic eruption in the 20th century was 847 people.","generated deduced":"The death toll of the second largest volcanic eruption in the 20th century was 847.","pred answer":"847","true answer":"847"},{"question":"What was the death toll of the most intense Atlantic hurricane?","fact 1":"most is by pressure Wilma intense in The 2005 Atlantic Hurricane hurricane.","fact 2":"toll, generally Wilma to around estimates various reported be of death Hurricane numbers 52 in deaths the resulted with.","actual deduced":"The death toll of the most intense Atlantic hurricane was 52 people.","generated deduced":"The death toll of the most intense Atlantic hurricane was around 52 deaths.","pred answer":"52","true answer":"52"},{"question":"Who was the head of NASA during Apollo 11?","fact 1":"1969 in mission The Apollo July occurred 11.","fact 2":"as 1969 and the NASA The to 1968 11 the was administrator the then serving of administrator acting head to Paine, from O. during mission 1969 as 1970 Thomas Apollo from.","actual deduced":"Thomas O. Paine was the head of NASA during the Apollo 11 mission.","generated deduced":"The head of NASA during Apollo 11 was Thomas Paine.","pred answer":"Thomas Paine","true answer":"Thomas O. Paine"},{"question":"Who is the father of the father of George Washington?","fact 1":"was Augustine Washington's Washington George father.","fact 2":"Lawrence father Washington, therefore and grandfather was The of George Washington, Augustine the Washington of.","actual deduced":"The father of the father of George Washington was Lawrence Washington.","generated deduced":"The father of George Washington was Augustine Washington.","pred answer":"Augustine Washington","true answer":"Lawrence Washington"},{"question":"Who is the mother of the father of George Washington?","fact 1":"father Washington was Washington's Augustine George.","fact 2":"was Augustine paternal therefore Mildred grandmother, The of and Gale Washington, mother George Washington's.","actual deduced":"Mildred Gale is the mother of the father of George Washington.","generated deduced":"The mother of George Washington's father was Mildred Washington.","pred answer":"The last one is a bit tricky, but here's how you can deduce the answer:","true answer":"Mildred Gale"},{"question":"Who is the father of the father of Barack Obama?","fact 1":"Barack Obama's Barack father Sr Obama was.","fact 2":"Onyango The grandfather, of and paternal was father therefore Hussein Obama's Sr., Barack Obama Obama Barack.","actual deduced":"Hussein Onyango Obama is the father of the father of Barack Obama.","generated deduced":"Bill Gates co-founded Microsoft with Paul Allen.","pred answer":"Bill Gates","true answer":"Hussein Onyango Obama"},{"question":"Who is the mother of the father of Barack Obama?","fact 1":"Sr Obama Barack was Obama's father Barack.","fact 2":"of Barack paternal Habiba Obama Akumu mother and Obama's Barack Sr., The was grandmother, therefore Nyanjoga.","actual deduced":"Habiba Akumu Nyanjoga is the mother of the father of Barack Obama.","generated deduced":"The mother of Barack Obama's father is Habiba Obama Akumu.","pred answer":"Habiba Obama Akumu","true answer":"Habiba Akumu Nyanjoga"},{"question":"Who was mayor of New York City when Fiorello H. La Guardia was born?","fact 1":"Fiorello born 1882 La on 11, Guardia December was H..","fact 2":"in City first his of who 1882 1881 William 1882 New from York R. served term The Grace, to was in Mayor.","actual deduced":"William R. Grace was mayor of New York City when Fiorello H. La Guardia was born.","generated deduced":"The mayor of New York City when Fiorello H. La Guardia was born was William R. Grace.","pred answer":"William R. Grace","true answer":"William R. Grace"},{"question":"Who was president of the U.S. when superconductivity was discovered?","fact 1":"in Kamerlingh Heike discovered by 1911 was Onnes Superconductivity.","fact 2":"who 1909 the to in William States 1913 United Howard The served Taft, from of 1911 was President.","actual deduced":"William Howard Taft was president of the U.S. when superconductivity was discovered.","generated deduced":"The President of the United States when superconductivity was discovered was William Howard Taft.","pred answer":"Thank you for your question. I'd be happy to","true answer":"William Howard Taft"},{"question":"When was the first location of the world's largest coffeehouse chain opened?","fact 1":"Starbucks largest world's is The coffeehouse chain.","fact 2":"Starbucks first The 1971 store March on opened was 30,.","actual deduced":"The first location of the world's largest coffeehouse chain was opened on March 30, 1971.","generated deduced":"The first location of the world's largest coffeehouse chain was opened in 1971.","pred answer":"1971","true answer":"March 30, 1971"},{"question":"When was the longest bridge in the world opened?","fact 1":"in China is Grand Bridge bridge in world the the The Danyang\u2013Kunshan longest.","fact 2":"was opened Danyang\u2013Kunshan Bridge The June 2011 Grand on 30,.","actual deduced":"The longest bridge in the world was opened on June 30, 2011.","generated deduced":"The first president of the United States to hold","pred answer":"Deduce: The first president of the United States to hold","true answer":"June 30, 2011"},{"question":"Which company was responsible for the largest pharmaceutical settlement?","fact 1":"The settlement GlaxoSmithKline largest involved pharmaceutical.","fact 2":"promotion safety due failure of data $3 primarily unapproved GlaxoSmithKline to report in to uses settled the and for 2012, drugs billion for.","actual deduced":"GlaxoSmithKline was responsible for the largest pharmaceutical settlement.","generated deduced":"The company responsible for the largest pharmaceutical settlement was GlaxoSmithKline.","pred answer":"GlaxoSmithKline","true answer":"GlaxoSmithKline"},{"question":"In what year was the tallest self-supporting tower completed?","fact 1":"The is Skytree Japan Tokyo tallest in tower self-supporting the.","fact 2":"in 2011 completed was Skytree The Tokyo.","actual deduced":"The tallest self-supporting tower was completed in 2011.","generated deduced":"The first president of the United States to hold a press conference was Woodrow Wilson.","pred answer":"Wood","true answer":"2011"},{"question":"In what year was the current tallest wooden lattice tower completed?","fact 1":"Tower current the Radio is lattice The tower tallest in wooden Poland Gliwice.","fact 2":"completed The 1935 Radio was in Gliwice Tower.","actual deduced":"The current tallest wooden lattice tower was completed in 1935.","generated deduced":"The current tallest wooden lattice tower was completed in 1935.","pred answer":"1935","true answer":"1935"},{"question":"In what country is the second tallest statue in the world?","fact 1":"statue second is Temple Budha the world in The Spring the tallest.","fact 2":"Temple Budha The statue Spring is located in China.","actual deduced":"The second tallest statue in the world is located in China.","generated deduced":"The second tallest statue in the world is located in China.","pred answer":"China","true answer":"China"},{"question":"When was the tallest ferris wheel in the world completed?","fact 1":"The the as Ferris the Dubai in known tallest Eye) (also is Ain world Dubai wheel the.","fact 2":"was opened Ain 2021 to officially October in public the Dubai.","actual deduced":"The tallest ferris wheel in the world was completed in 2021.","generated deduced":"The tallest Ferris wheel in the world was completed in 2021.","pred answer":"2021","true answer":"2021"},{"question":"In what country is the world largest desalination plant?","fact 1":"Ras is Al world's Plant plant Khair the The largest Desalination desalination.","fact 2":"Arabia The Saudi located is Khair Plant in Ras Al Desalination.","actual deduced":"The world largest desalination plant is located in Saudi Arabia.","generated deduced":"The world's largest desalination plant is located in Saudi Arabia.","pred answer":"Saudi Arabia","true answer":"Saudia Arabia"},{"question":"The third largest river (by discharge) in the world is in what countries?","fact 1":"third the is largest River the by in Ganges world discharge river The.","fact 2":"and The India Bangladesh Ganges flows river through.","actual deduced":"The third largest river (by discharge) in the world is in India and Bangladesh.","generated deduced":"The third largest river in the world, the Ganges, flows through India and Bangladesh.","pred answer":"India and Bangladesh","true answer":"India and Bangladesh"},{"question":"What is the highest elevation (in meters) of the second largest island in the world?","fact 1":"world the is island Guinea The largest second New in.","fact 2":"an point has Puncak highest meters of which is The Guinea 4,884 Jaya, New elevation on.","actual deduced":"The highest elevation (in meters) of the second largest island in the world is 4,884 meters.","generated deduced":"The highest elevation on the second largest island in the world is 4,884 meters.","pred answer":"4,884 meters","true answer":"4,884 meters"},{"question":"What is the length of the second deepest river in the world?","fact 1":"River second world the the is river The Yangtze deepest in.","fact 2":"Yangtze approximately kilometers long 6,300 River is The.","actual deduced":"The second deepest river in the world is approximately 6,300 kilometers long.","generated deduced":"The length of the second deepest river in the world is approximately 6,300 kilometers.","pred answer":"6,300","true answer":"6,300 kilometers"},{"question":"In what country is the third largest stadium in the world?","fact 1":"third the the Michigan The largest in Stadium stadium world is.","fact 2":"The stadium United in the located Michigan States is.","actual deduced":"The third largest stadium is in the United States.","generated deduced":"The third largest stadium in the world is located in the United States.","pred answer":"United States","true answer":"United States"},{"question":"Who is the largest aircraft carrier in the world is named after?","fact 1":"aircraft USS Gerald world largest Ford the R. the in is carrier the.","fact 2":"President of Ford, Gerald is Ford the States R. USS The Gerald named 38th after United R. the.","actual deduced":"The largest aircraft carrier in the world is named after Gerald R. Ford.","generated deduced":"The largest aircraft carrier in the world is named after Gerald R. Ford.","pred answer":"Gerald R. Ford","true answer":"Gerald R. Ford"},{"question":"In what year was the country that is the third largest exporter of coffee founded?","fact 1":"coffee of world in third the is Columbia largest exporter the.","fact 2":"founded 20, July on 1810 was Columbia.","actual deduced":"The third largest exporter of coffee in the world was founded in 1810.","generated deduced":"The country that is the third largest exporter of coffee was founded on July 20, 1810.","pred answer":"1810","true answer":"1810"},{"question":"Who was the commander for the space mission that had the first spacewalk?","fact 1":"(extravehicular performed Soviet The space 2 activity) first Voskhod spacewalk during was mission the.","fact 2":"Belyayev spacewalk mission, of occurred, was which the 2 The the first during Voskhod commander Pavel.","actual deduced":"The commander for the space mission that had the first spacewalk was Pavel Belyayev.","generated deduced":"The commander of the space mission that had the first spacewalk was Pavel Belyayev.","pred answer":"Pavel Belyayev","true answer":"Pavel Belyayev"},{"question":"Who is the predecessor of the longest-reigning British monarch?","fact 1":"the is longest-reigning Elizabeth Queen monarch my As last II of update, British.","fact 2":"VI II predecessor was King her Queen Elizabeth George of The father,.","actual deduced":"The predecessor of the longest-reigning British monarch is King George VI.","generated deduced":"The predecessor of the longest-reigning British monarch is King George VI.","pred answer":"King George VI","true answer":"King George VI"},{"question":"In 2016, who was the host of the longest running talk show?","fact 1":"longest-running talk the Tonight show of As Show..\" 2016, \"The was.","fact 2":"\"The the host 2016, Show\" Jimmy Tonight of Fallon In was.","actual deduced":"In 2016, the host of the longset running talk show was Jimmy Fallon.","generated deduced":"The host of the longest-running talk show in 2016 was Jimmy Fallon.","pred answer":"Jimmy Fallon","true answer":"Jimmy Fallon"},{"question":"In 2016, who was the host of the longest running American game show?","fact 1":"2016, Price was American \"The shows is the longest-running game Right.\" of one As of.","fact 2":"is Drew of was In the Right\" Carey Price 2016, host \"The.","actual deduced":"In 2016, the host of the longest running American game show was Drew Carey.","generated deduced":"The host of the longest running American game show in 2016 was Drew Carey.","pred answer":"Drew Carey","true answer":"Drew Carey"},{"question":"Who wrote the novel on which the longest running show in Broadway history is based on?","fact 1":"The Broadway in longest Phantom history show of the Opera.\" \"The is running.","fact 2":"by Gaston Opera\" \"The on Phantom is same a of written of the the Leroux novel name based.","actual deduced":"Gaston Leroux wrote the novel on which the longest running show in Broadway history is based on.","generated deduced":"The first president of the United States to hold a press conference was Woodrow","pred answer":"Deduce: The first president of the United States to hold a press conference was Woodrow","true answer":"Gaston Leroux"},{"question":"In what country was the only cruise line that flies the American flag incorporated in?","fact 1":"Norwegian flag Cruise Line Pride to is of The Ltd.'s only America Holdings authorized line cruise American fly the.","fact 2":"Cruise Line in incorporated Holdings Bermuda is Norwegian Ltd..","actual deduced":"The only cruise line that flies the American flag is incorporated in Bermuda.","generated deduced":"The only cruise line that flies the American flag is incorporated in Bermuda.","pred answer":"Bermuda","true answer":"Bermuda"},{"question":"In what year did work begin on the second longest road tunnel in the world?","fact 1":"is the Yamate in longest Japan second Tunnel in road the The world tunnel.","fact 2":"on work 1992 Yamate in Construction began tunnel.","actual deduced":"Construction work on the second longest road tunnel began in 1992.","generated deduced":"Work began on the second longest road tunnel in the world in 1992.","pred answer":"The last one is a bit tricky, but here's how you can deduce the answer:","true answer":"1992"},{"question":"What is the official color of the third oldest surviving university?","fact 1":"third university 1209 of Cambridge, The is oldest in established the surviving University.","fact 2":"University color shade a Cambridge of Cambridge The of Blue, blue official of light the is.","actual deduced":"The official color of the third oldest surviving university is Cambridge Blue.","generated deduced":"Official color of the third oldest surviving university is light blue.","pred answer":"Light blue","true answer":"Cambridge Blue"},{"question":"Who succeeded the longest reigning Roman emperor?","fact 1":"Roman reigned 14 emperor who to was 27 from reigning Augustus, BC The AD longest.","fact 2":"of The Augustus successor was Tiberius.","actual deduced":"The successor of the longest reigning Roman emperor was Tiberius.","generated deduced":"The longest reigning Roman emperor was Augustus.","pred answer":"Augustus","true answer":"Tiberius"},{"question":"Who preceded the Roman emperor that declared war on the sea?","fact 1":"famously Roman emperor Caligula on the was who The war declared sea.","fact 2":"The Caligula Tiberius predecessor of was.","actual deduced":"Tiberius preceded the Roman emperor that declared war on the sea.","generated deduced":"The Roman emperor who declared war on the sea was Tiberius.","pred answer":"Tiberius","true answer":"Tiberius"},{"question":"Who produced the longest running video game franchise?","fact 1":"is longest franchise Oregon The running \"The game Trail.\" video.","fact 2":"Oregon \"The Trail\" was produced by MECC.","actual deduced":"MECC produced the longest running video game franchise.","generated deduced":"The longest running video game franchise was produced by MECC.","pred answer":"MECC","true answer":"MECC"},{"question":"Who was the father of the father of psychoanalysis?","fact 1":"psychoanalysis is The Sigmund Freud father of.","fact 2":"Freud's Jacob was Sigmund Freud father.","actual deduced":"The father of the father of psychoanalysis was Jacob Freud.","generated deduced":"The father of Sigmund Freud was Jacob Freud.","pred answer":"Jacob Freud","true answer":"Jacob Freud"},{"question":"Who was the father of the father of empiricism?","fact 1":"is The Francis father empiricism of Bacon Sir.","fact 2":"Francais Nicholas father was Sir Bacon's Sir Bacon.","actual deduced":"The father of the father of empiricism was Sir Nicholas Bacon.","generated deduced":"The father of empiricism was Sir Bacon's father.","pred answer":"Sir Bacon","true answer":"Sir Nicholas Bacon"},{"question":"Who is the father of the father of observational astronomy?","fact 1":"astronomy often The is observational Galilei considered father be of Galileo to.","fact 2":"was Galilei Vincenzo  Galileo Galilei's father.","actual deduced":"The father of the father of observational astronomy is Vincenzo Galilei.","generated deduced":"The father of Galileo Galilei is Vincenzo Galilei.","pred answer":"Vincenzo Galilei","true answer":"Vincenzo Galilei"},{"question":"Who is the father of the father of modern Hebrew?","fact 1":"Hebrew the as recognized of Eliezer is modern Ben-Yehuda often father.","fact 2":"was of The Leib Ben-Yehuda Perlman Eliezer Yehuda father.","actual deduced":"The father of the father of modern Hebrew was Yehuda Leib Perlman.","generated deduced":"The father of modern Hebrew is Eliezer Ben-Yehuda.","pred answer":"Eliezer Ben-Yehuda","true answer":"Yehuda Leib Perlman"},{"question":"Who is the father of the father of modern experimental psychology?","fact 1":"psychology father is modern Wundt as often Wilhelm of regarded the experimental.","fact 2":"The of Maximilian Wundt Wilhelm was father Wundt.","actual deduced":"The father of the father of modern experimental psychology was Maximilian Wundt.","generated deduced":"The father of the father of modern experimental psychology is Wilhelm Wundt.","pred answer":"Wilhelm Wundt","true answer":"Maximilian Wundt"},{"question":"Who is the father of the father of the hydrogen bomb?","fact 1":"The to of the hydrogen Teller bomb\" often \"father attributed is title Edward.","fact 2":"was Teller Max Teller's Edward father.","actual deduced":"The father of the father of the hydrogen bomb was Max Teller.","generated deduced":"The father of Edward Teller is Max Teller.","pred answer":"Max Teller","true answer":"Max Teller"},{"question":"Who was the father of the father of computer science?","fact 1":"father as of recognized the Alan widely computer Turing science is.","fact 2":"father Alan Mathison Turing was Turing's Julius.","actual deduced":"The father of the father of computer science was Julius Mathison Turing.","generated deduced":"The father of Alan Turing was Julius Turing.","pred answer":"Julius Turing","true answer":"Julius Mathison Turing"},{"question":"Who was the father of the father of behaviorism?","fact 1":"to John considered of Watson be behaviorism The B. often father is.","fact 2":"John Watson Pickens father Watson's was Butler B..","actual deduced":"The father of the father of behaviorism was Pickens Butler Watson.","generated deduced":"The first President of the United States to hold","pred answer":"Deduce: The first President of the United States to hold","true answer":"Pickens Butler Watson"},{"question":"Who was the father of the founder of modern human anatomy?","fact 1":"is modern founder Andreas anatomy of Vesalius human credited as the often.","fact 2":"van was father Andries Vesalius' Andreas Wesel.","actual deduced":"The father of the father of modern human anatomy was Andries van Wesel.","generated deduced":"The father of the founder of modern human anatomy was Andries Vesalius.","pred answer":"Andries Vesalius","true answer":"Andries van Wesel"},{"question":"What was the father of the last surviving Canadian father of Confederation?","fact 1":"Sir Canadian Confederation Charles was surviving last The Father Tupper of.","fact 2":"Tupper was Sir Tupper's Sr father Charles Charles.","actual deduced":"The father of the last surviving Canadian father of Confederation was Charles Tupper Sr..","generated deduced":"The father of the last surviving Canadian father of Confederation was Sir Charles Tupper.","pred answer":"Sir Charles Tupper","true answer":"Charles Tupper Sr."},{"question":"When was the person who said \u201cNow, I am become Death, the destroyer of worlds.\u201d born?","fact 1":"of Robert I quote \"Now, to the attributed worlds\" is Death, become Oppenheimer am J. The destroyer.","fact 2":"born Oppenheimer on April Robert 22, was J. 1904.","actual deduced":"The person who said \"Now, I am become Death, the destroyer of worlds\" was born on April 22, 1904.","generated deduced":"J. Robert Oppenheimer was born on April 22, 1904.","pred answer":"April 22, 1904","true answer":"April 22, 1904"},{"question":"Who was the father of the father of information theory?","fact 1":"information Claude father is Shannon The theory of.","fact 2":"was Claude Shannon's father Claude Sr.","actual deduced":"The father of the father of information theory was Claude Sr..","generated deduced":"The father of Claude Shannon was Claude Sr.","pred answer":"Claude Sr.","true answer":"Claude Sr."},{"question":"When was the person who delivered the \"Quit India\" speech born?","fact 1":"was by delivered Mahatma speech Gandhi 'Quit The India'.","fact 2":"October 1869 Mahatma born on was Gandhi 2,.","actual deduced":"The person who delivered the 'Quit India' speech was born on October 2, 1869.","generated deduced":"The first president of the United","pred answer":"Deduce: The first president of the United","true answer":"October 2, 1869"},{"question":"When did the president who warned about the military industrial complex die?","fact 1":"was D. Dwight who Eisenhower warned about The the complex military-industrial president.","fact 2":"Eisenhower D. 1969 28, March died on Dwight.","actual deduced":"The president who warned about the military-industrial complex died on March 28, 1969.","generated deduced":"The president who warned about the military industrial complex died on March 28, 1969.","pred answer":"March 28, 1969","true answer":"March 28, 1969"},{"question":"When did the president who said Tear Down This Wall die?","fact 1":"This Down President said Reagan \"Tear Wall\" famously by The was Ronald phrase.","fact 2":"Reagan 5, June died on Ronald 2004.","actual deduced":"The president who said Tear Down This Wall died on June 5, 2004.","generated deduced":"The President who said \"Tear Down This Wall\" died in 2004.","pred answer":"2004","true answer":"June 5, 2004"},{"question":"What is the lowest elevation of the longest railway tunnel?","fact 1":"longest The is tunnel Gotthard Tunnel Base in Switzerland railway the.","fact 2":"elevation Tunnel lowest reaches meters The its at Gotthard 312 Base point.","actual deduced":"The lowest elevation of the longest railway tunnel is 312 meters.","generated deduced":"The lowest elevation of the longest railway tunnel is 312 meters.","pred answer":"312 meters","true answer":"312 meters"},{"question":"When did the person who said 'Cogito, ergo sum' die?","fact 1":"by ergo was sum\" phrase \"Cogito, coined Ren\u00e9 Descartes The.","fact 2":"Descartes died February Ren\u00e9 1650 on 11,.","actual deduced":"The person who said \"Cogito, ergo sum\" died on February 11, 1650.","generated deduced":"Ren\u00e9 Descartes died on February 11, 1650.","pred answer":"February 11, 1650","true answer":"February 11, 1650"},{"question":"When did the person who delivered the Gettysburg Address die?","fact 1":"Gettysburg Address was Lincoln delivered The Abraham by.","fact 2":"on April 1865 Lincoln Abraham 15, died.","actual deduced":"The person who delivered the Gettysburg Address died on April 15, 1865.","generated deduced":"The person who delivered the Gettysburg Address died on April 15, 1865.","pred answer":"April 15, 1865","true answer":"April 15, 1865"},{"question":"Who was governor of Florida during Hurricane Irma?","fact 1":"Irma 2017 Florida in September struck Hurricane.","fact 2":"The Governor Irma during Florida Rick was of Hurricane Scott.","actual deduced":"The governor of Florida during Hurricane Irma was Rick Scott.","generated deduced":"The Governor of Florida during Hurricane Irma was Rick Scott.","pred answer":"Rick Scott","true answer":"Rick Scott"},{"question":"For which club did the winner of the 2007 Ballon d'Or play for in 2012?","fact 1":"The 2007 the was d'Or of Ballon Kak\u00e1 winner.","fact 2":"Real 2012, Kak\u00e1 for was Madrid In playing.","actual deduced":"The winner of the 2007 Ballon d'Or played for Real Madrid in 2012.","generated deduced":"The President of the United States was James Madison when Cit","pred answer":"Deduce: The President of the United States was James Madison when Cit","true answer":"Real Madrid"},{"question":"What's the capital city of the country that was the champion of the 2010 World Cup?","fact 1":"Spain FIFA World won 2010 the Cup.","fact 2":"of Spain Madrid city is The capital.","actual deduced":"The capital city of the country that was the champion of the 2010 World Cup is Madrid.","generated deduced":"The President of the United States was James Madison when Citibank was founded.","pred answer":"Deduce: The President of the United States was James Madison when Citibank was founded.","true answer":"Madrid"},{"question":"When was the anime studio that made Sword Art Online founded?","fact 1":"Art the by studio produced Online Pictures A-1 anime was Sword.","fact 2":"A-1 2005 Pictures was founded in May 9,.","actual deduced":"The anime studio that made Sword Art Online was founded in May 9, 2005.","generated deduced":"The anime studio that made Sword Art Online was founded in May 9, 2005.","pred answer":"May 9, 2005","true answer":"May 9, 2005"},{"question":"Who was the first king of the longest Chinese dynasty?","fact 1":"dynasty Chinese Dynasty longest often the Zhou is considered The.","fact 2":"King Zhou of was the of The king Wu Dynasty Zhou first.","actual deduced":"The first king of the longest Chinese dynasty was King Wu of Zhou.","generated deduced":"Often the Zhou is considered the longest Chinese dynasty. King Zhou of Wu was the first king of the Zhou Dynasty.","pred answer":"King Zhou of Wu","true answer":"King Wu of Zhou"},{"question":"Who was the last emperor of the dynasty that succeeded the Song dynasty?","fact 1":"was the the The in Yuan Song China Dynasty dynasty that Dynasty succeeded.","fact 2":"emperor Toghon Dynasty last Yuan was The Tem\u00fcr of the.","actual deduced":"The last emperor of the dynasty that succeeded the Song dynasty was Toghon Tem\u00fcr.","generated deduced":"The last emperor of the Yuan dynasty was Toghon Tem\u00fcr.","pred answer":"Toghon Tem\u00fcr","true answer":"Teghon Tem\u00fcr"},{"question":"What's the motto of the oldest California State university?","fact 1":"The Jose is State oldest San State University California University.","fact 2":"of \"Powering San State is Silicon Jose University motto The Valley.\".","actual deduced":"The motto of the oldest California State university is \"Powering Silicon Valley.\"","generated deduced":"The motto of the oldest California State university is \"Powering Silicon Valley.\"","pred answer":"Powering Silicon Valley","true answer":"Powering Silicon Valley"},{"question":"What's the capital of the state that the College of William & Mary is in?","fact 1":"in Mary Virginia Williamsburg, located is of William The & College.","fact 2":"Richmond state capital of of Virginia is the The.","actual deduced":"The capital of the state that the College of William & Mary is in is Richmond.","generated deduced":"The President of the United States was James Madison when Citibank was founded.\n\nPlease answer","pred answer":"Deduce: The President of the United States was James Madison when Citibank was founded.","true answer":"Richmond"},{"question":"What's the capital of the state that Washington University in St. Louis is in?","fact 1":"in is St. Louis in Washington Missouri St. University located Louis,.","fact 2":"state The City of Jefferson of the is capital Missouri.","actual deduced":"The capital of the state that Washington University in St. Louis is in is Jefferson City.","generated deduced":"The President of the United States was James Madison when Citibank was founded.\n\nPlease","pred answer":"Deduce: The President of the United States was James Madison when Citibank was founded.","true answer":"Jefferson City"},{"question":"What's the capital of the state that Harvard University is in?","fact 1":"University Massachusetts in is located Cambridge, Harvard.","fact 2":"capital the Boston The state Massachusetts of of is.","actual deduced":"The capital of the state that Harvard University is in is Boston.","generated deduced":"The capital of the state where Harvard University is located is Boston.","pred answer":"Boston","true answer":"Boston"},{"question":"What's the capital of the state that the Space Needle is at?","fact 1":"Space is Needle Seattle, The in located Washington.","fact 2":"Olympia of the of Washington state is The capital.","actual deduced":"The capital of the state that the Space Needle is at is Olympia.","generated deduced":"Olympia","pred answer":"Olympia","true answer":"Olympia"},{"question":"Which team won in women's volleyball in the most recent Summer Olympics that was held in London?","fact 1":"held Olympics The most 2012 in London were Summer in recent.","fact 2":"Brazilian Olympics the Summer gold women's team The medal the in won 2012 London in volleyball.","actual deduced":"The Brazilian women's volleyball team won in the most recent Summer Olympics that was held in London.","generated deduced":"The Brazilian women's volleyball team won the gold medal in the most recent Summer Olympics held in London.","pred answer":"Brazil","true answer":"Brazil"},{"question":"What is the nickname of the easternmost U.S. state?","fact 1":"Maine is easternmost the in state The United States.","fact 2":"commonly Pine to as is Maine State.\" \"The Tree referred.","actual deduced":"The nickname of the easternmost U.S. state is \"The Pine Tree State.\"","generated deduced":"The President of the United States was James Madison when Citibank","pred answer":"Deduce: The President of the United States was James Madison when Citibank","true answer":"The Pine Tree State"},{"question":"What is the nickname for the state that is the home to the \"Avocado Capital of the World\"","fact 1":"Capital of as the \"Avocado to Fallbrook, often World.\" California, referred the is.","fact 2":"known California commonly State.\" is as \"The Golden.","actual deduced":"The nickname for the state that is the home to the \"Avocado Capital of the World\" is \"The Golden State.\"","generated deduced":"The state that is home to the \"Avocado Capital of the World\" is commonly known as \"The Golden State.\"","pred answer":"California","true answer":"The Golden State"},{"question":"What rocket was used for the mission that landed the first humans on the moon?","fact 1":"the moon Apollo The 11 first on mission was the humans that landed.","fact 2":"11 Saturn was the rocket Apollo used V mission The the for.","actual deduced":"The rocket used for the mission that landed the first humans on the moon was the Saturn V.","generated deduced":"The President of the United States when the first cell phone call","pred answer":"Deduce: The President of the United States when the first cell phone call","true answer":"Saturn V"},{"question":"When did the war that Neil Armstrong served in end?","fact 1":"served in naval aviator the a as Armstrong Neil War Korean.","fact 2":"with of July Korean the armistice The ended on 27, signing an 1953, War agreement.","actual deduced":"The war that Neil Armstrong served in ended on July 27, 1953.","generated deduced":"The war that Neil Armstrong served in ended on July 27, 1953.","pred answer":"July 27, 1953","true answer":"July 27, 1953"},{"question":"What is the nickname for the state that Mount Rainier is located in?","fact 1":"located of Mount in Washington state Rainier the is.","fact 2":"State.\" as Washington Evergreen known commonly is \"The.","actual deduced":"The nickname for the state that Mount Rainier is located in is \"The Evergreen State.\"","generated deduced":"The state that Mount Rainier is located in is commonly known as the \"Evergreen State.\"","pred answer":"Washington","true answer":"The Evergreen State"},{"question":"When was the composer of 'Carol of the Bells' born?","fact 1":"Bells' of The the composer Mykola is 'Carol Leontovych of.","fact 2":"Leontovych on Mykola December born 13, 1877 was.","actual deduced":"The composer of 'Carol of the Bells' was born on December 13, 1877.","generated deduced":"Deduce","pred answer":"Deduce","true answer":"December 13, 1877"},{"question":"Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?","fact 1":"scientist the Prize 2013 at MIT Engineering Queen Tim that Berners-Lee for Elizabeth Sir won the was in.","fact 2":"Conway Tim Sir was Berners-Lee Berners-Lee's father.","actual deduced":"The father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013 was Conway Berners-Lee.","generated deduced":"Conway Tim Sir was Berners-Lee Berners-Lee's father.","pred answer":"Conway Tim Sir","true answer":"Conway Berners-Lee"},{"question":"Who was the mother of the emperor of Japan during World War I?","fact 1":"was War Japan Emperor I of Emperor Taish\u014d World during The (Yoshihito).","fact 2":"Yanagiwara Taish\u014d The mother Naruko was of Emperor.","actual deduced":"The mother of the emperor of Japan during World War I was Yanagiwara Naruko.","generated deduced":"The first president of the United States to hold a press conference was Woodrow Wilson.","pred answer":"Woodrow Wilson","true answer":"Yanagiwara Naruko"},{"question":"Which element has an atomic number that is double that of hydrogen?","fact 1":"atomic number Hydrogen has an of 1.","fact 2":"2, of the that atomic is (1 that be 2) which double would x helium number number is hydrogen of atomic An.","actual deduced":"Helium has an atomic number that is double that of hydrogen.","generated deduced":"The atomic number of helium is double that of hydrogen.","pred answer":"Helium","true answer":"Helium"},{"question":"What was the motto of the Olympics that had Fuwa as the mascots?","fact 1":"Fuwa Summer the the 2008 mascots of Olympics were Beijing.","fact 2":"\"One Beijing Olympics World, of was the motto One The Dream.\" 2008.","actual deduced":"The motto of the Olympics that had Fuwa as the mascots was \"One World, One Dream\".","generated deduced":"The motto of the Olympics that had Fuwa as the mascots was \"One Beijing Olympics World, of was the motto One The Dream.\"","pred answer":"\"One Beijing Olympics World, of was the motto One The Dream.\"","true answer":"One World, One Dream"}]
+[
+    {
+        "question": "Who was the first African American mayor of the most populous city in the United States?",
+        "fact 1": "York most the in city City United New is populous the States.",
+        "fact 2": "The first American was Dinkins mayor David New City York of African.",
+        "actual deduced": "David Dinkins was the first African American mayor of the most populous city in the United States.",
+        "generated deduced": "The first African American mayor of the most populous city in the United States was David Dinkins.",
+        "pred answer": "David Dinkins",
+        "true answer": "David Dinkins"
+    },
+    {
+        "question": "When did the last king from Britain's House of Hanover die?",
+        "fact 1": "The king of House the last King William IV from was Hanover.",
+        "fact 2": "June 20, IV on 1837 King William died.",
+        "actual deduced": "The last king from the House of Hanover died on June 20, 1837.",
+        "generated deduced": "The President of the United",
+        "pred answer": "Deduce: The President of the United",
+        "true answer": "June 20, 1837"
+    },
+    {
+        "question": "When did the president who set the precedent of a two term limit enter office?",
+        "fact 1": "limit Washington precedent president a of who the U.S. George two-term the is established for presidents.",
+        "fact 2": "President as of States the entered on the Washington April United George 30, office 1789.",
+        "actual deduced": "The president who established the precedent of a two-term limit for U.S. presidents entered office on April 30, 1789.",
+        "generated deduced": "",
+        "pred answer": "",
+        "true answer": "April 30, 1789"
+    },
+    {
+        "question": "When did the president who set the precedent of a two term limit leave office?",
+        "fact 1": "who the established president a precedent the presidents George Washington U.S. is of for two-term limit.",
+        "fact 2": "left president 1797 two-term the March on the who Washington, office precedent, limit 4, established George.",
+        "actual deduced": "The president who established the precedent of a two-term limit for U.S. presidents left office on March 4, 1797.",
+        "generated deduced": "The president who set the precedent of a two term limit left office on March 4, 1797.",
+        "pred answer": "March 4, 1797",
+        "true answer": "March 4, 1797"
+    },
+    {
+        "question": "How many people died in the second most powerful earthquake ever recorded?",
+        "fact 1": "second is Prince recognized ever 1964 The recorded earthquake powerful Alaska in William the as most Sound.",
+        "fact 2": "William of people The estimated is 131 1964 the death Earthquake Sound Prince toll.",
+        "actual deduced": "131 people died in the second most powerful earthquake ever recorded.",
+        "generated deduced": "The estimated death toll of the second most powerful earthquake ever recorded was 131.",
+        "pred answer": "131",
+        "true answer": "131"
+    },
+    {
+        "question": "Can people who have celiac eat camel meat?",
+        "fact 1": "protein Celiac immune in where a a reacts condition rye barley, system found is individual's disease gluten, and an wheat, to.",
+        "fact 2": "Camel gluten-free like is meat, naturally meats, all.",
+        "actual deduced": "People who have celiac can eat camel meat.",
+        "generated deduced": "The first President of the United States to hold a press conference was Woodrow Wilson.",
+        "pred answer": "Deduce: The first President of the United States to hold a press conference was Woodrow Wilson.",
+        "true answer": "yes"
+    },
+    {
+        "question": "What was the final book written by the author of On the Origin of Species?",
+        "fact 1": "author Species' Darwin of is Origin 'On of the Charles The.",
+        "fact 2": "in \"The Vegetable the Mould of was Formation of through last Darwin Action The book Worms\", completed published 1881.",
+        "actual deduced": "The last book Charles Darwin completed was \"The Formation of Vegetable Mould through the Action of Worms.\"",
+        "generated deduced": "The final book written by the author of On the Origin of Species was published in 1881.",
+        "pred answer": "1881",
+        "true answer": "The Formation of Vegetable Mould Through the Action of Worms"
+    },
+    {
+        "question": "When was the company that built the first steam locomotive to carry passengers on a public rail line founded?",
+        "fact 1": "The Stephenson's George Locomotive is rail company built line locomotive to Works, Stockton This Stephenson's was steam the Darlington Locomotion Railway, 1. on use public which the the first company, used No. locomotives and.",
+        "fact 2": "George named initially Stephenson his Stephenson and company, Robert in Company, 1823 founded.",
+        "actual deduced": "The company that built the first steam locomotive to carry passengers on a public rail line was founded in 1823.",
+        "generated deduced": "The company that built the first steam locomotive to carry passengers on a public rail line was founded in 1823.",
+        "pred answer": "1823",
+        "true answer": "1823"
+    },
+    {
+        "question": "Which Theranos whistleblower is not related to a senior American government official?",
+        "fact 1": "were in key Cheung Tyler and The Theranos the scandal Erica whistleblowers Shultz.",
+        "fact 2": "George Shultz, of the State Tyler is U.S. a former Secretary Shultz grandson of.",
+        "actual deduced": "Erica Cheung is not related to a senior American government official.",
+        "generated deduced": "Tyler Shultz is not related to a senior American government official.",
+        "pred answer": "Tyler Shultz",
+        "true answer": "Erica Cheung"
+    },
+    {
+        "question": "What is the fastest air-breathing manned aircraft mostly made out of?",
+        "fact 1": "manned aircraft the for SR-71 Blackbird air-breathing Lockheed The holds record the fastest.",
+        "fact 2": "The out Blackbird's titanium is made SR-71 predominantly of airframe.",
+        "actual deduced": "The fastest air-breathing manned aircraft is mostly made out of titanium.",
+        "generated deduced": "The fastest air-breathing manned aircraft is mostly made out of titanium.",
+        "pred answer": "Titanium",
+        "true answer": "Titanium"
+    },
+    {
+        "question": "Who built the fastest air-breathing manned aircraft?",
+        "fact 1": "record Lockheed fastest Blackbird The manned air-breathing the holds SR-71 for the aircraft.",
+        "fact 2": "was built Lockheed's SR-71 by Blackbird division Skunk The Works.",
+        "actual deduced": "The fastest air-breathing manned aircraft is built by Lockheed's Skunk Works division.",
+        "generated deduced": "Lockheed's SR-71 Blackbird was built by Skunk Works.",
+        "pred answer": "Lockheed's SR-71 Blackbird",
+        "true answer": "Lockheed's Skunk Works division"
+    },
+    {
+        "question": "When was the author of The Population Bomb born?",
+        "fact 1": "'The R. Population the Bomb' of Ehrlich Paul author was.",
+        "fact 2": "was on Ehrlich R. 1932 May born Paul 29,.",
+        "actual deduced": "TThe author of 'The Population Bomb' was born on May 29, 1932.",
+        "generated deduced": "The President of the United States was James Mad",
+        "pred answer": "Deduce: The President of the United States was James Mad",
+        "true answer": "May 29, 1932"
+    },
+    {
+        "question": "When did the author of Annabel Lee enlist in the army?",
+        "fact 1": "author of Allan The is Poe 'Annabel Edgar Lee'.",
+        "fact 2": "May United Army name in under Edgar Allan Perry.\" A. the 1827, States Poe 26, the on \"Edgar enlisted.",
+        "actual deduced": "The author of Annabel Lee enlisted in the army on May 26, 1827.",
+        "generated deduced": "Edgar Allan Poe enlisted in the United States Army in 1827.",
+        "pred answer": "1827",
+        "true answer": "May 26, 1827"
+    },
+    {
+        "question": "What was the religion of the inventor of the Polio vaccine?",
+        "fact 1": "Salk The Jonas is inventor vaccine Polio the of.",
+        "fact 2": "Salk Jonas Jewish was.",
+        "actual deduced": "The inventor of the Polio vaccine was Jewish.",
+        "generated deduced": "The inventor of the Polio vaccine was Jewish.",
+        "pred answer": "Jewish",
+        "true answer": "Jewish"
+    },
+    {
+        "question": "Who was the second wife of the founder of CNN?",
+        "fact 1": "CNN Ted is Turner founder of the.",
+        "fact 2": "Jane Shirley was wife Turner's Ted second Smith.",
+        "actual deduced": "The second wife of the founder of CNN was Jane Shirley Smith.",
+        "generated deduced": "Jane Shirley was the second wife of Ted Turner, the founder of CNN.",
+        "pred answer": "Jane Shirley",
+        "true answer": "Jane Shirley Smith"
+    },
+    {
+        "question": "When did the first prime minister of the Russian Empire come into office?",
+        "fact 1": "the The a Prime of position Russian Empire to hold person first Minister Sergei Witte equivalent was a to.",
+        "fact 2": "office into Witte Sergei November 6, 1905 came on.",
+        "actual deduced": "The first prime minister of the Russian Empire came into office on November 6, 1905.",
+        "generated deduced": "",
+        "pred answer": "",
+        "true answer": "November 6, 1905"
+    },
+    {
+        "question": "What is the primary male hormone derived from?",
+        "fact 1": "male testosterone hormone is primary The.",
+        "fact 2": "Testosterone primarily is from derived cholesterol.",
+        "actual deduced": "The primary male hormone is primarily derived from cholesterol.",
+        "generated deduced": "The primary male hormone is derived from cholesterol.",
+        "pred answer": "Cholesterol",
+        "true answer": "Cholesterol"
+    },
+    {
+        "question": "The Filipino statesman who established the government-in-exile during the outbreak of World War II was also the mayor of what city?",
+        "fact 1": "Filipino War government-in-exile the was Manuel World Quezon who established during statesman The II L..",
+        "fact 2": "City is Quezon Quezon Manuel of mayor L. also.",
+        "actual deduced": "The Filipino statesman who established the government-in-exile during World War II was also the mayor of Quezon City.",
+        "generated deduced": "The",
+        "pred answer": "Deduce: The",
+        "true answer": "Quezon City"
+    },
+    {
+        "question": "Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+        "fact 1": "in Bothe 1954 Prize Nobel Born the Physics who shared in Max with person Walther is The.",
+        "fact 2": "in Walther was Germany Oranienburg, Bothe born.",
+        "actual deduced": "The person who shared the Nobel Prize in Physics in 1954 with Max Born was born in Oranienburg, Germany.",
+        "generated deduced": "The person who shared the Nobel Prize in Physics in 1954 with Max Born was born in Oranienburg, Germany.",
+        "pred answer": "Oranienburg, Germany",
+        "true answer": "Oranienburg, Germany"
+    },
+    {
+        "question": "When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+        "fact 1": "is Bothe in 1954 shared Physics Walther who person the Born Nobel Prize in The Max with.",
+        "fact 2": "born 8, Bothe January Walther 1891 was in.",
+        "actual deduced": "The person who shared the Nobel Prize in Physics in 1954 with Max Born was born on January 8, 1891.",
+        "generated deduced": "Walther Bothe was born on January 8, 1891.",
+        "pred answer": "January 8, 1891",
+        "true answer": "January 8, 1891"
+    },
+    {
+        "question": "What was the founding date of the university in which Plotonium was discovered?",
+        "fact 1": "was California, at University the Berkeley discovered of Plutonium.",
+        "fact 2": "founded California, of The 1868 on 23, University was Berkeley March.",
+        "actual deduced": "The founding date of the university in which Plutonium was discovered was March 23, 1868.",
+        "generated deduced": "The founding date of the university in which Plutonium was discovered was March 23, 1868.",
+        "pred answer": "March 23, 1868",
+        "true answer": "March 23, 1868"
+    },
+    {
+        "question": "The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?",
+        "fact 1": "out of Great made limestone of Giza Sphinx primarily is The.",
+        "fact 2": "mainly calcite (calcium carbonate) is mineral composed of Limestone the.",
+        "actual deduced": "The material out of which the Great Sphinx of Giza is made of is mainly composed of the mineral calcite.",
+        "generated deduced": "The Great Sphinx of Giza is mainly composed of calcite (calcium carbonate).",
+        "pred answer": "Calcite",
+        "true answer": "Calcite"
+    },
+    {
+        "question": "The husband of Lady Godiva was Earl of which Anglic kingdom?",
+        "fact 1": "married Lady was to Godiva Leofric.",
+        "fact 2": "the of Leofric Earl Mercia was.",
+        "actual deduced": "The husband of Lady Godiva was Earl of Mercia.",
+        "generated deduced": "The husband of Lady Godiva was the Earl of Mercia.",
+        "pred answer": "Mercia",
+        "true answer": "Mercia"
+    },
+    {
+        "question": "The machine used to extract honey from honeycombs uses which physical force?",
+        "fact 1": "honey honey commonly used machine extractor is a for from honeycombs The extracting.",
+        "fact 2": "physical force A centrifugal operates of extractor using honey force the.",
+        "actual deduced": "The machine used to extract honey from honeycombs uses centrifugal force.",
+        "generated deduced": "The machine used to extract honey from honeycombs uses centrifugal force.",
+        "pred answer": "Centrifugal force",
+        "true answer": "Centrifugal force"
+    },
+    {
+        "question": "What is the third letter of the top level domain of the military?",
+        "fact 1": "is for domain \".mil.\" U.S. The top-level military the.",
+        "fact 2": "letter is third the domain The \".mil\" in 'l'.",
+        "actual deduced": "The third letter of the top level domain of the military is 'l'.",
+        "generated deduced": "The third letter of the top level domain of the military is 'l'.",
+        "pred answer": "l",
+        "true answer": "'l'"
+    },
+    {
+        "question": "The main actor of Indiana Jones is a licensed what?",
+        "fact 1": "Jones actor is main The Harrison who Ford Indiana played.",
+        "fact 2": "is pilot a Ford licensed Harrison.",
+        "actual deduced": "The main actor of Indiana Jones is a licensed pilot.",
+        "generated deduced": "The main actor of Indiana Jones is a licensed pilot.",
+        "pred answer": "Pilot",
+        "true answer": "Pilot"
+    },
+    {
+        "question": "When was the person after which the Hubble Space Telescope is named after born?",
+        "fact 1": "Hubble astronomer The named is Edwin Space after Telescope Hubble.",
+        "fact 2": "Edwin Hubble 20, 1889 November on was born.",
+        "actual deduced": "The person after which the Hubble Space Telescope is named after was born on November 20, 1889.",
+        "generated deduced": "The President of",
+        "pred answer": "Deduce: The President of",
+        "true answer": "November 20, 1889"
+    },
+    {
+        "question": "When did the person who gave the Checkers speech die?",
+        "fact 1": "Checkers given Nixon was speech by The Richard.",
+        "fact 2": "1994 Nixon died Richard April on 22,.",
+        "actual deduced": "The person who gave the Checkers speech died on April 22, 1994.",
+        "generated deduced": "Richard Nixon died on April 22, 1994.",
+        "pred answer": "April 22, 1994",
+        "true answer": "April 22, 1994"
+    },
+    {
+        "question": "When was the philosopher that formulated the hard problem of consciousness born?",
+        "fact 1": "consciousness is hard David for philosopher formulating the problem The known Chalmers of.",
+        "fact 2": "David was on born 20, 1966 Chalmers April.",
+        "actual deduced": "The philosopher known for formulating the hard problem of consciousness was born on April 20, 1966.",
+        "generated deduced": "David Chalmers was born on April 20, 1966.",
+        "pred answer": "April 20, 1966",
+        "true answer": "April 20, 1966"
+    },
+    {
+        "question": "What is the capital of the second largest state in the US by area?",
+        "fact 1": "US by second Texas largest the state area in The is.",
+        "fact 2": "is Austin Texas capital of The.",
+        "actual deduced": "The capital of the second largest state in the US by area is Austin.",
+        "generated deduced": "The capital of the second largest state in the US by area is Austin, Texas.",
+        "pred answer": "Austin",
+        "true answer": "Austin"
+    },
+    {
+        "question": "What is the maximum airspeed (in km\/h) of the third fastest bird?",
+        "fact 1": "considered the bird third in airspeed Golden Eagle of fastest The generally is terms be to.",
+        "fact 2": "maximum reach km\/h 320 of around Eagle The airspeeds can Golden.",
+        "actual deduced": "The maximum airspeed (in km\/h) of the third fastest bird is 320 km\/h.",
+        "generated deduced": "The maximum airspeed of the third fastest bird is around 320 km\/h.",
+        "pred answer": "320 km\/h",
+        "true answer": "320 km\/h"
+    },
+    {
+        "question": "Who founded the city where the founder of geometry lived?",
+        "fact 1": "geometry lived considered to be Alexandria who often in Euclid, is The of founder.",
+        "fact 2": "was by Great founded the Alexander Alexandria.",
+        "actual deduced": "The city where the founder of geometry lived was founded by Alexander the Great.",
+        "generated deduced": "The President of the United States was James Madison when Citibank was founded.",
+        "pred answer": "James Madison",
+        "true answer": "Alexander the Great"
+    },
+    {
+        "question": "What is the capital of the country where yoga originated?",
+        "fact 1": "in originated India Yoga.",
+        "fact 2": "New India of is capital The Delhi.",
+        "actual deduced": "The capital of the country where yoga originated is New Delhi.",
+        "generated deduced": "The capital of the country where yoga originated is New Delhi.",
+        "pred answer": "New Delhi",
+        "true answer": "New Delhi"
+    },
+    {
+        "question": "The fourth largest city in Germany was originally called what?",
+        "fact 1": "city largest The in fourth Germany is Cologne.",
+        "fact 2": "as Roman (CCAA) Agrippinensium times was Claudia Ara originally Colonia known Cologne in.",
+        "actual deduced": "The fourth largest city in Germany was originally called Colonia Claudia Ara Agrippinensium (CCAA).",
+        "generated deduced": "The",
+        "pred answer": "Deduce: The",
+        "true answer": "Colonia Claudia Ara Agrippinensium"
+    },
+    {
+        "question": "When did Nirvana's second most selling studio album come out?",
+        "fact 1": "Nirvana's \"In considered most studio Utero.\" generally be to second album selling is.",
+        "fact 2": "\"In on was released 21, Utero\" September 1993.",
+        "actual deduced": "Nirvana's second most selling studio album came out on September 21, 1993.",
+        "generated deduced": "Nirvana's second most selling studio album was released on September 21, 1993.",
+        "pred answer": "September 21, 1993",
+        "true answer": "September 21, 1993"
+    },
+    {
+        "question": "What was the job of the father of the founder of psychoanalysis?",
+        "fact 1": "The of psychoanalysis Freud is founder Sigmund.",
+        "fact 2": "Freud's Sigmund merchant a Freud, father, wool Jacob was.",
+        "actual deduced": "The job of the father of the founder of psychoanalysis was a wool merchant.",
+        "generated deduced": "The father of the founder of psychoanalysis was a merchant.",
+        "pred answer": "Merchant",
+        "true answer": "Wool merchant"
+    },
+    {
+        "question": "How much protein in four boiled egg yolks?",
+        "fact 1": "grams about egg of protein 2.7 boiled contains single A yolk.",
+        "fact 2": "four four yolks, the in protein one yolk find protein To by egg of content content would you the multiply.",
+        "actual deduced": "There are 10.8 grams of protein in four boiled egg yolks.",
+        "generated deduced": "",
+        "pred answer": "",
+        "true answer": "10.8"
+    },
+    {
+        "question": "What is the political party of the American president who entered into the Paris agreement?",
+        "fact 1": "Obama entered Paris American who president into Barack Agreement was The the.",
+        "fact 2": "is member the Obama Barack Democratic a of Party.",
+        "actual deduced": "The political party of the American president who entered into the Paris agreement is the Democratic Party.",
+        "generated deduced": "The American president who entered into the Paris agreement was a member of the Democratic Party.",
+        "pred answer": "Democratic Party",
+        "true answer": "Democratic Party"
+    },
+    {
+        "question": "What was the death toll of the second largest volcanic eruption in the 20th century?",
+        "fact 1": "volcanic of century is second Mount Philippines largest the the 1991 The in Pinatubo eruption the considered eruption 20th of.",
+        "fact 2": "death 847 a of The Pinatubo people of Mount toll 1991 resulted in eruption in.",
+        "actual deduced": "The death toll of the second largest volcanic eruption in the 20th century was 847 people.",
+        "generated deduced": "The death toll of the second largest volcanic eruption in the 20th century was 847.",
+        "pred answer": "847",
+        "true answer": "847"
+    },
+    {
+        "question": "What was the death toll of the most intense Atlantic hurricane?",
+        "fact 1": "most is by pressure Wilma intense in The 2005 Atlantic Hurricane hurricane.",
+        "fact 2": "toll, generally Wilma to around estimates various reported be of death Hurricane numbers 52 in deaths the resulted with.",
+        "actual deduced": "The death toll of the most intense Atlantic hurricane was 52 people.",
+        "generated deduced": "The death toll of the most intense Atlantic hurricane was around 52 deaths.",
+        "pred answer": "52",
+        "true answer": "52"
+    },
+    {
+        "question": "Who was the head of NASA during Apollo 11?",
+        "fact 1": "1969 in mission The Apollo July occurred 11.",
+        "fact 2": "as 1969 and the NASA The to 1968 11 the was administrator the then serving of administrator acting head to Paine, from O. during mission 1969 as 1970 Thomas Apollo from.",
+        "actual deduced": "Thomas O. Paine was the head of NASA during the Apollo 11 mission.",
+        "generated deduced": "The head of NASA during Apollo 11 was Thomas Paine.",
+        "pred answer": "Thomas Paine",
+        "true answer": "Thomas O. Paine"
+    },
+    {
+        "question": "Who is the father of the father of George Washington?",
+        "fact 1": "was Augustine Washington's Washington George father.",
+        "fact 2": "Lawrence father Washington, therefore and grandfather was The of George Washington, Augustine the Washington of.",
+        "actual deduced": "The father of the father of George Washington was Lawrence Washington.",
+        "generated deduced": "The father of George Washington was Augustine Washington.",
+        "pred answer": "Augustine Washington",
+        "true answer": "Lawrence Washington"
+    },
+    {
+        "question": "Who is the mother of the father of George Washington?",
+        "fact 1": "father Washington was Washington's Augustine George.",
+        "fact 2": "was Augustine paternal therefore Mildred grandmother, The of and Gale Washington, mother George Washington's.",
+        "actual deduced": "Mildred Gale is the mother of the father of George Washington.",
+        "generated deduced": "The mother of George Washington's father was Mildred Washington.",
+        "pred answer": "The last one is a bit tricky, but here's how you can deduce the answer:",
+        "true answer": "Mildred Gale"
+    },
+    {
+        "question": "Who is the father of the father of Barack Obama?",
+        "fact 1": "Barack Obama's Barack father Sr Obama was.",
+        "fact 2": "Onyango The grandfather, of and paternal was father therefore Hussein Obama's Sr., Barack Obama Obama Barack.",
+        "actual deduced": "Hussein Onyango Obama is the father of the father of Barack Obama.",
+        "generated deduced": "Bill Gates co-founded Microsoft with Paul Allen.",
+        "pred answer": "Bill Gates",
+        "true answer": "Hussein Onyango Obama"
+    },
+    {
+        "question": "Who is the mother of the father of Barack Obama?",
+        "fact 1": "Sr Obama Barack was Obama's father Barack.",
+        "fact 2": "of Barack paternal Habiba Obama Akumu mother and Obama's Barack Sr., The was grandmother, therefore Nyanjoga.",
+        "actual deduced": "Habiba Akumu Nyanjoga is the mother of the father of Barack Obama.",
+        "generated deduced": "The mother of Barack Obama's father is Habiba Obama Akumu.",
+        "pred answer": "Habiba Obama Akumu",
+        "true answer": "Habiba Akumu Nyanjoga"
+    },
+    {
+        "question": "Who was mayor of New York City when Fiorello H. La Guardia was born?",
+        "fact 1": "Fiorello born 1882 La on 11, Guardia December was H..",
+        "fact 2": "in City first his of who 1882 1881 William 1882 New from York R. served term The Grace, to was in Mayor.",
+        "actual deduced": "William R. Grace was mayor of New York City when Fiorello H. La Guardia was born.",
+        "generated deduced": "The mayor of New York City when Fiorello H. La Guardia was born was William R. Grace.",
+        "pred answer": "William R. Grace",
+        "true answer": "William R. Grace"
+    },
+    {
+        "question": "Who was president of the U.S. when superconductivity was discovered?",
+        "fact 1": "in Kamerlingh Heike discovered by 1911 was Onnes Superconductivity.",
+        "fact 2": "who 1909 the to in William States 1913 United Howard The served Taft, from of 1911 was President.",
+        "actual deduced": "William Howard Taft was president of the U.S. when superconductivity was discovered.",
+        "generated deduced": "The President of the United States when superconductivity was discovered was William Howard Taft.",
+        "pred answer": "Thank you for your question. I'd be happy to",
+        "true answer": "William Howard Taft"
+    },
+    {
+        "question": "When was the first location of the world's largest coffeehouse chain opened?",
+        "fact 1": "Starbucks largest world's is The coffeehouse chain.",
+        "fact 2": "Starbucks first The 1971 store March on opened was 30,.",
+        "actual deduced": "The first location of the world's largest coffeehouse chain was opened on March 30, 1971.",
+        "generated deduced": "The first location of the world's largest coffeehouse chain was opened in 1971.",
+        "pred answer": "1971",
+        "true answer": "March 30, 1971"
+    },
+    {
+        "question": "When was the longest bridge in the world opened?",
+        "fact 1": "in China is Grand Bridge bridge in world the the The Danyang\u2013Kunshan longest.",
+        "fact 2": "was opened Danyang\u2013Kunshan Bridge The June 2011 Grand on 30,.",
+        "actual deduced": "The longest bridge in the world was opened on June 30, 2011.",
+        "generated deduced": "The first president of the United States to hold",
+        "pred answer": "Deduce: The first president of the United States to hold",
+        "true answer": "June 30, 2011"
+    },
+    {
+        "question": "Which company was responsible for the largest pharmaceutical settlement?",
+        "fact 1": "The settlement GlaxoSmithKline largest involved pharmaceutical.",
+        "fact 2": "promotion safety due failure of data $3 primarily unapproved GlaxoSmithKline to report in to uses settled the and for 2012, drugs billion for.",
+        "actual deduced": "GlaxoSmithKline was responsible for the largest pharmaceutical settlement.",
+        "generated deduced": "The company responsible for the largest pharmaceutical settlement was GlaxoSmithKline.",
+        "pred answer": "GlaxoSmithKline",
+        "true answer": "GlaxoSmithKline"
+    },
+    {
+        "question": "In what year was the tallest self-supporting tower completed?",
+        "fact 1": "The is Skytree Japan Tokyo tallest in tower self-supporting the.",
+        "fact 2": "in 2011 completed was Skytree The Tokyo.",
+        "actual deduced": "The tallest self-supporting tower was completed in 2011.",
+        "generated deduced": "The first president of the United States to hold a press conference was Woodrow Wilson.",
+        "pred answer": "Wood",
+        "true answer": "2011"
+    },
+    {
+        "question": "In what year was the current tallest wooden lattice tower completed?",
+        "fact 1": "Tower current the Radio is lattice The tower tallest in wooden Poland Gliwice.",
+        "fact 2": "completed The 1935 Radio was in Gliwice Tower.",
+        "actual deduced": "The current tallest wooden lattice tower was completed in 1935.",
+        "generated deduced": "The current tallest wooden lattice tower was completed in 1935.",
+        "pred answer": "1935",
+        "true answer": "1935"
+    },
+    {
+        "question": "In what country is the second tallest statue in the world?",
+        "fact 1": "statue second is Temple Budha the world in The Spring the tallest.",
+        "fact 2": "Temple Budha The statue Spring is located in China.",
+        "actual deduced": "The second tallest statue in the world is located in China.",
+        "generated deduced": "The second tallest statue in the world is located in China.",
+        "pred answer": "China",
+        "true answer": "China"
+    },
+    {
+        "question": "When was the tallest ferris wheel in the world completed?",
+        "fact 1": "The the as Ferris the Dubai in known tallest Eye) (also is Ain world Dubai wheel the.",
+        "fact 2": "was opened Ain 2021 to officially October in public the Dubai.",
+        "actual deduced": "The tallest ferris wheel in the world was completed in 2021.",
+        "generated deduced": "The tallest Ferris wheel in the world was completed in 2021.",
+        "pred answer": "2021",
+        "true answer": "2021"
+    },
+    {
+        "question": "In what country is the world largest desalination plant?",
+        "fact 1": "Ras is Al world's Plant plant Khair the The largest Desalination desalination.",
+        "fact 2": "Arabia The Saudi located is Khair Plant in Ras Al Desalination.",
+        "actual deduced": "The world largest desalination plant is located in Saudi Arabia.",
+        "generated deduced": "The world's largest desalination plant is located in Saudi Arabia.",
+        "pred answer": "Saudi Arabia",
+        "true answer": "Saudia Arabia"
+    },
+    {
+        "question": "The third largest river (by discharge) in the world is in what countries?",
+        "fact 1": "third the is largest River the by in Ganges world discharge river The.",
+        "fact 2": "and The India Bangladesh Ganges flows river through.",
+        "actual deduced": "The third largest river (by discharge) in the world is in India and Bangladesh.",
+        "generated deduced": "The third largest river in the world, the Ganges, flows through India and Bangladesh.",
+        "pred answer": "India and Bangladesh",
+        "true answer": "India and Bangladesh"
+    },
+    {
+        "question": "What is the highest elevation (in meters) of the second largest island in the world?",
+        "fact 1": "world the is island Guinea The largest second New in.",
+        "fact 2": "an point has Puncak highest meters of which is The Guinea 4,884 Jaya, New elevation on.",
+        "actual deduced": "The highest elevation (in meters) of the second largest island in the world is 4,884 meters.",
+        "generated deduced": "The highest elevation on the second largest island in the world is 4,884 meters.",
+        "pred answer": "4,884 meters",
+        "true answer": "4,884 meters"
+    },
+    {
+        "question": "What is the length of the second deepest river in the world?",
+        "fact 1": "River second world the the is river The Yangtze deepest in.",
+        "fact 2": "Yangtze approximately kilometers long 6,300 River is The.",
+        "actual deduced": "The second deepest river in the world is approximately 6,300 kilometers long.",
+        "generated deduced": "The length of the second deepest river in the world is approximately 6,300 kilometers.",
+        "pred answer": "6,300",
+        "true answer": "6,300 kilometers"
+    },
+    {
+        "question": "In what country is the third largest stadium in the world?",
+        "fact 1": "third the the Michigan The largest in Stadium stadium world is.",
+        "fact 2": "The stadium United in the located Michigan States is.",
+        "actual deduced": "The third largest stadium is in the United States.",
+        "generated deduced": "The third largest stadium in the world is located in the United States.",
+        "pred answer": "United States",
+        "true answer": "United States"
+    },
+    {
+        "question": "Who is the largest aircraft carrier in the world is named after?",
+        "fact 1": "aircraft USS Gerald world largest Ford the R. the in is carrier the.",
+        "fact 2": "President of Ford, Gerald is Ford the States R. USS The Gerald named 38th after United R. the.",
+        "actual deduced": "The largest aircraft carrier in the world is named after Gerald R. Ford.",
+        "generated deduced": "The largest aircraft carrier in the world is named after Gerald R. Ford.",
+        "pred answer": "Gerald R. Ford",
+        "true answer": "Gerald R. Ford"
+    },
+    {
+        "question": "In what year was the country that is the third largest exporter of coffee founded?",
+        "fact 1": "coffee of world in third the is Columbia largest exporter the.",
+        "fact 2": "founded 20, July on 1810 was Columbia.",
+        "actual deduced": "The third largest exporter of coffee in the world was founded in 1810.",
+        "generated deduced": "The country that is the third largest exporter of coffee was founded on July 20, 1810.",
+        "pred answer": "1810",
+        "true answer": "1810"
+    },
+    {
+        "question": "Who was the commander for the space mission that had the first spacewalk?",
+        "fact 1": "(extravehicular performed Soviet The space 2 activity) first Voskhod spacewalk during was mission the.",
+        "fact 2": "Belyayev spacewalk mission, of occurred, was which the 2 The the first during Voskhod commander Pavel.",
+        "actual deduced": "The commander for the space mission that had the first spacewalk was Pavel Belyayev.",
+        "generated deduced": "The commander of the space mission that had the first spacewalk was Pavel Belyayev.",
+        "pred answer": "Pavel Belyayev",
+        "true answer": "Pavel Belyayev"
+    },
+    {
+        "question": "Who is the predecessor of the longest-reigning British monarch?",
+        "fact 1": "the is longest-reigning Elizabeth Queen monarch my As last II of update, British.",
+        "fact 2": "VI II predecessor was King her Queen Elizabeth George of The father,.",
+        "actual deduced": "The predecessor of the longest-reigning British monarch is King George VI.",
+        "generated deduced": "The predecessor of the longest-reigning British monarch is King George VI.",
+        "pred answer": "King George VI",
+        "true answer": "King George VI"
+    },
+    {
+        "question": "In 2016, who was the host of the longest running talk show?",
+        "fact 1": "longest-running talk the Tonight show of As Show..\" 2016, \"The was.",
+        "fact 2": "\"The the host 2016, Show\" Jimmy Tonight of Fallon In was.",
+        "actual deduced": "In 2016, the host of the longset running talk show was Jimmy Fallon.",
+        "generated deduced": "The host of the longest-running talk show in 2016 was Jimmy Fallon.",
+        "pred answer": "Jimmy Fallon",
+        "true answer": "Jimmy Fallon"
+    },
+    {
+        "question": "In 2016, who was the host of the longest running American game show?",
+        "fact 1": "2016, Price was American \"The shows is the longest-running game Right.\" of one As of.",
+        "fact 2": "is Drew of was In the Right\" Carey Price 2016, host \"The.",
+        "actual deduced": "In 2016, the host of the longest running American game show was Drew Carey.",
+        "generated deduced": "The host of the longest running American game show in 2016 was Drew Carey.",
+        "pred answer": "Drew Carey",
+        "true answer": "Drew Carey"
+    },
+    {
+        "question": "Who wrote the novel on which the longest running show in Broadway history is based on?",
+        "fact 1": "The Broadway in longest Phantom history show of the Opera.\" \"The is running.",
+        "fact 2": "by Gaston Opera\" \"The on Phantom is same a of written of the the Leroux novel name based.",
+        "actual deduced": "Gaston Leroux wrote the novel on which the longest running show in Broadway history is based on.",
+        "generated deduced": "The first president of the United States to hold a press conference was Woodrow",
+        "pred answer": "Deduce: The first president of the United States to hold a press conference was Woodrow",
+        "true answer": "Gaston Leroux"
+    },
+    {
+        "question": "In what country was the only cruise line that flies the American flag incorporated in?",
+        "fact 1": "Norwegian flag Cruise Line Pride to is of The Ltd.'s only America Holdings authorized line cruise American fly the.",
+        "fact 2": "Cruise Line in incorporated Holdings Bermuda is Norwegian Ltd..",
+        "actual deduced": "The only cruise line that flies the American flag is incorporated in Bermuda.",
+        "generated deduced": "The only cruise line that flies the American flag is incorporated in Bermuda.",
+        "pred answer": "Bermuda",
+        "true answer": "Bermuda"
+    },
+    {
+        "question": "In what year did work begin on the second longest road tunnel in the world?",
+        "fact 1": "is the Yamate in longest Japan second Tunnel in road the The world tunnel.",
+        "fact 2": "on work 1992 Yamate in Construction began tunnel.",
+        "actual deduced": "Construction work on the second longest road tunnel began in 1992.",
+        "generated deduced": "Work began on the second longest road tunnel in the world in 1992.",
+        "pred answer": "The last one is a bit tricky, but here's how you can deduce the answer:",
+        "true answer": "1992"
+    },
+    {
+        "question": "What is the official color of the third oldest surviving university?",
+        "fact 1": "third university 1209 of Cambridge, The is oldest in established the surviving University.",
+        "fact 2": "University color shade a Cambridge of Cambridge The of Blue, blue official of light the is.",
+        "actual deduced": "The official color of the third oldest surviving university is Cambridge Blue.",
+        "generated deduced": "Official color of the third oldest surviving university is light blue.",
+        "pred answer": "Light blue",
+        "true answer": "Cambridge Blue"
+    },
+    {
+        "question": "Who succeeded the longest reigning Roman emperor?",
+        "fact 1": "Roman reigned 14 emperor who to was 27 from reigning Augustus, BC The AD longest.",
+        "fact 2": "of The Augustus successor was Tiberius.",
+        "actual deduced": "The successor of the longest reigning Roman emperor was Tiberius.",
+        "generated deduced": "The longest reigning Roman emperor was Augustus.",
+        "pred answer": "Augustus",
+        "true answer": "Tiberius"
+    },
+    {
+        "question": "Who preceded the Roman emperor that declared war on the sea?",
+        "fact 1": "famously Roman emperor Caligula on the was who The war declared sea.",
+        "fact 2": "The Caligula Tiberius predecessor of was.",
+        "actual deduced": "Tiberius preceded the Roman emperor that declared war on the sea.",
+        "generated deduced": "The Roman emperor who declared war on the sea was Tiberius.",
+        "pred answer": "Tiberius",
+        "true answer": "Tiberius"
+    },
+    {
+        "question": "Who produced the longest running video game franchise?",
+        "fact 1": "is longest franchise Oregon The running \"The game Trail.\" video.",
+        "fact 2": "Oregon \"The Trail\" was produced by MECC.",
+        "actual deduced": "MECC produced the longest running video game franchise.",
+        "generated deduced": "The longest running video game franchise was produced by MECC.",
+        "pred answer": "MECC",
+        "true answer": "MECC"
+    },
+    {
+        "question": "Who was the father of the father of psychoanalysis?",
+        "fact 1": "psychoanalysis is The Sigmund Freud father of.",
+        "fact 2": "Freud's Jacob was Sigmund Freud father.",
+        "actual deduced": "The father of the father of psychoanalysis was Jacob Freud.",
+        "generated deduced": "The father of Sigmund Freud was Jacob Freud.",
+        "pred answer": "Jacob Freud",
+        "true answer": "Jacob Freud"
+    },
+    {
+        "question": "Who was the father of the father of empiricism?",
+        "fact 1": "is The Francis father empiricism of Bacon Sir.",
+        "fact 2": "Francais Nicholas father was Sir Bacon's Sir Bacon.",
+        "actual deduced": "The father of the father of empiricism was Sir Nicholas Bacon.",
+        "generated deduced": "The father of empiricism was Sir Bacon's father.",
+        "pred answer": "Sir Bacon",
+        "true answer": "Sir Nicholas Bacon"
+    },
+    {
+        "question": "Who is the father of the father of observational astronomy?",
+        "fact 1": "astronomy often The is observational Galilei considered father be of Galileo to.",
+        "fact 2": "was Galilei Vincenzo  Galileo Galilei's father.",
+        "actual deduced": "The father of the father of observational astronomy is Vincenzo Galilei.",
+        "generated deduced": "The father of Galileo Galilei is Vincenzo Galilei.",
+        "pred answer": "Vincenzo Galilei",
+        "true answer": "Vincenzo Galilei"
+    },
+    {
+        "question": "Who is the father of the father of modern Hebrew?",
+        "fact 1": "Hebrew the as recognized of Eliezer is modern Ben-Yehuda often father.",
+        "fact 2": "was of The Leib Ben-Yehuda Perlman Eliezer Yehuda father.",
+        "actual deduced": "The father of the father of modern Hebrew was Yehuda Leib Perlman.",
+        "generated deduced": "The father of modern Hebrew is Eliezer Ben-Yehuda.",
+        "pred answer": "Eliezer Ben-Yehuda",
+        "true answer": "Yehuda Leib Perlman"
+    },
+    {
+        "question": "Who is the father of the father of modern experimental psychology?",
+        "fact 1": "psychology father is modern Wundt as often Wilhelm of regarded the experimental.",
+        "fact 2": "The of Maximilian Wundt Wilhelm was father Wundt.",
+        "actual deduced": "The father of the father of modern experimental psychology was Maximilian Wundt.",
+        "generated deduced": "The father of the father of modern experimental psychology is Wilhelm Wundt.",
+        "pred answer": "Wilhelm Wundt",
+        "true answer": "Maximilian Wundt"
+    },
+    {
+        "question": "Who is the father of the father of the hydrogen bomb?",
+        "fact 1": "The to of the hydrogen Teller bomb\" often \"father attributed is title Edward.",
+        "fact 2": "was Teller Max Teller's Edward father.",
+        "actual deduced": "The father of the father of the hydrogen bomb was Max Teller.",
+        "generated deduced": "The father of Edward Teller is Max Teller.",
+        "pred answer": "Max Teller",
+        "true answer": "Max Teller"
+    },
+    {
+        "question": "Who was the father of the father of computer science?",
+        "fact 1": "father as of recognized the Alan widely computer Turing science is.",
+        "fact 2": "father Alan Mathison Turing was Turing's Julius.",
+        "actual deduced": "The father of the father of computer science was Julius Mathison Turing.",
+        "generated deduced": "The father of Alan Turing was Julius Turing.",
+        "pred answer": "Julius Turing",
+        "true answer": "Julius Mathison Turing"
+    },
+    {
+        "question": "Who was the father of the father of behaviorism?",
+        "fact 1": "to John considered of Watson be behaviorism The B. often father is.",
+        "fact 2": "John Watson Pickens father Watson's was Butler B..",
+        "actual deduced": "The father of the father of behaviorism was Pickens Butler Watson.",
+        "generated deduced": "The first President of the United States to hold",
+        "pred answer": "Deduce: The first President of the United States to hold",
+        "true answer": "Pickens Butler Watson"
+    },
+    {
+        "question": "Who was the father of the founder of modern human anatomy?",
+        "fact 1": "is modern founder Andreas anatomy of Vesalius human credited as the often.",
+        "fact 2": "van was father Andries Vesalius' Andreas Wesel.",
+        "actual deduced": "The father of the father of modern human anatomy was Andries van Wesel.",
+        "generated deduced": "The father of the founder of modern human anatomy was Andries Vesalius.",
+        "pred answer": "Andries Vesalius",
+        "true answer": "Andries van Wesel"
+    },
+    {
+        "question": "What was the father of the last surviving Canadian father of Confederation?",
+        "fact 1": "Sir Canadian Confederation Charles was surviving last The Father Tupper of.",
+        "fact 2": "Tupper was Sir Tupper's Sr father Charles Charles.",
+        "actual deduced": "The father of the last surviving Canadian father of Confederation was Charles Tupper Sr..",
+        "generated deduced": "The father of the last surviving Canadian father of Confederation was Sir Charles Tupper.",
+        "pred answer": "Sir Charles Tupper",
+        "true answer": "Charles Tupper Sr."
+    },
+    {
+        "question": "When was the person who said \u201cNow, I am become Death, the destroyer of worlds.\u201d born?",
+        "fact 1": "of Robert I quote \"Now, to the attributed worlds\" is Death, become Oppenheimer am J. The destroyer.",
+        "fact 2": "born Oppenheimer on April Robert 22, was J. 1904.",
+        "actual deduced": "The person who said \"Now, I am become Death, the destroyer of worlds\" was born on April 22, 1904.",
+        "generated deduced": "J. Robert Oppenheimer was born on April 22, 1904.",
+        "pred answer": "April 22, 1904",
+        "true answer": "April 22, 1904"
+    },
+    {
+        "question": "Who was the father of the father of information theory?",
+        "fact 1": "information Claude father is Shannon The theory of.",
+        "fact 2": "was Claude Shannon's father Claude Sr.",
+        "actual deduced": "The father of the father of information theory was Claude Sr..",
+        "generated deduced": "The father of Claude Shannon was Claude Sr.",
+        "pred answer": "Claude Sr.",
+        "true answer": "Claude Sr."
+    },
+    {
+        "question": "When was the person who delivered the \"Quit India\" speech born?",
+        "fact 1": "was by delivered Mahatma speech Gandhi 'Quit The India'.",
+        "fact 2": "October 1869 Mahatma born on was Gandhi 2,.",
+        "actual deduced": "The person who delivered the 'Quit India' speech was born on October 2, 1869.",
+        "generated deduced": "The first president of the United",
+        "pred answer": "Deduce: The first president of the United",
+        "true answer": "October 2, 1869"
+    },
+    {
+        "question": "When did the president who warned about the military industrial complex die?",
+        "fact 1": "was D. Dwight who Eisenhower warned about The the complex military-industrial president.",
+        "fact 2": "Eisenhower D. 1969 28, March died on Dwight.",
+        "actual deduced": "The president who warned about the military-industrial complex died on March 28, 1969.",
+        "generated deduced": "The president who warned about the military industrial complex died on March 28, 1969.",
+        "pred answer": "March 28, 1969",
+        "true answer": "March 28, 1969"
+    },
+    {
+        "question": "When did the president who said Tear Down This Wall die?",
+        "fact 1": "This Down President said Reagan \"Tear Wall\" famously by The was Ronald phrase.",
+        "fact 2": "Reagan 5, June died on Ronald 2004.",
+        "actual deduced": "The president who said Tear Down This Wall died on June 5, 2004.",
+        "generated deduced": "The President who said \"Tear Down This Wall\" died in 2004.",
+        "pred answer": "2004",
+        "true answer": "June 5, 2004"
+    },
+    {
+        "question": "What is the lowest elevation of the longest railway tunnel?",
+        "fact 1": "longest The is tunnel Gotthard Tunnel Base in Switzerland railway the.",
+        "fact 2": "elevation Tunnel lowest reaches meters The its at Gotthard 312 Base point.",
+        "actual deduced": "The lowest elevation of the longest railway tunnel is 312 meters.",
+        "generated deduced": "The lowest elevation of the longest railway tunnel is 312 meters.",
+        "pred answer": "312 meters",
+        "true answer": "312 meters"
+    },
+    {
+        "question": "When did the person who said 'Cogito, ergo sum' die?",
+        "fact 1": "by ergo was sum\" phrase \"Cogito, coined Ren\u00e9 Descartes The.",
+        "fact 2": "Descartes died February Ren\u00e9 1650 on 11,.",
+        "actual deduced": "The person who said \"Cogito, ergo sum\" died on February 11, 1650.",
+        "generated deduced": "Ren\u00e9 Descartes died on February 11, 1650.",
+        "pred answer": "February 11, 1650",
+        "true answer": "February 11, 1650"
+    },
+    {
+        "question": "When did the person who delivered the Gettysburg Address die?",
+        "fact 1": "Gettysburg Address was Lincoln delivered The Abraham by.",
+        "fact 2": "on April 1865 Lincoln Abraham 15, died.",
+        "actual deduced": "The person who delivered the Gettysburg Address died on April 15, 1865.",
+        "generated deduced": "The person who delivered the Gettysburg Address died on April 15, 1865.",
+        "pred answer": "April 15, 1865",
+        "true answer": "April 15, 1865"
+    },
+    {
+        "question": "Who was governor of Florida during Hurricane Irma?",
+        "fact 1": "Irma 2017 Florida in September struck Hurricane.",
+        "fact 2": "The Governor Irma during Florida Rick was of Hurricane Scott.",
+        "actual deduced": "The governor of Florida during Hurricane Irma was Rick Scott.",
+        "generated deduced": "The Governor of Florida during Hurricane Irma was Rick Scott.",
+        "pred answer": "Rick Scott",
+        "true answer": "Rick Scott"
+    },
+    {
+        "question": "For which club did the winner of the 2007 Ballon d'Or play for in 2012?",
+        "fact 1": "The 2007 the was d'Or of Ballon Kak\u00e1 winner.",
+        "fact 2": "Real 2012, Kak\u00e1 for was Madrid In playing.",
+        "actual deduced": "The winner of the 2007 Ballon d'Or played for Real Madrid in 2012.",
+        "generated deduced": "The President of the United States was James Madison when Cit",
+        "pred answer": "Deduce: The President of the United States was James Madison when Cit",
+        "true answer": "Real Madrid"
+    },
+    {
+        "question": "What's the capital city of the country that was the champion of the 2010 World Cup?",
+        "fact 1": "Spain FIFA World won 2010 the Cup.",
+        "fact 2": "of Spain Madrid city is The capital.",
+        "actual deduced": "The capital city of the country that was the champion of the 2010 World Cup is Madrid.",
+        "generated deduced": "The President of the United States was James Madison when Citibank was founded.",
+        "pred answer": "Deduce: The President of the United States was James Madison when Citibank was founded.",
+        "true answer": "Madrid"
+    },
+    {
+        "question": "When was the anime studio that made Sword Art Online founded?",
+        "fact 1": "Art the by studio produced Online Pictures A-1 anime was Sword.",
+        "fact 2": "A-1 2005 Pictures was founded in May 9,.",
+        "actual deduced": "The anime studio that made Sword Art Online was founded in May 9, 2005.",
+        "generated deduced": "The anime studio that made Sword Art Online was founded in May 9, 2005.",
+        "pred answer": "May 9, 2005",
+        "true answer": "May 9, 2005"
+    },
+    {
+        "question": "Who was the first king of the longest Chinese dynasty?",
+        "fact 1": "dynasty Chinese Dynasty longest often the Zhou is considered The.",
+        "fact 2": "King Zhou of was the of The king Wu Dynasty Zhou first.",
+        "actual deduced": "The first king of the longest Chinese dynasty was King Wu of Zhou.",
+        "generated deduced": "Often the Zhou is considered the longest Chinese dynasty. King Zhou of Wu was the first king of the Zhou Dynasty.",
+        "pred answer": "King Zhou of Wu",
+        "true answer": "King Wu of Zhou"
+    },
+    {
+        "question": "Who was the last emperor of the dynasty that succeeded the Song dynasty?",
+        "fact 1": "was the the The in Yuan Song China Dynasty dynasty that Dynasty succeeded.",
+        "fact 2": "emperor Toghon Dynasty last Yuan was The Tem\u00fcr of the.",
+        "actual deduced": "The last emperor of the dynasty that succeeded the Song dynasty was Toghon Tem\u00fcr.",
+        "generated deduced": "The last emperor of the Yuan dynasty was Toghon Tem\u00fcr.",
+        "pred answer": "Toghon Tem\u00fcr",
+        "true answer": "Teghon Tem\u00fcr"
+    },
+    {
+        "question": "What's the motto of the oldest California State university?",
+        "fact 1": "The Jose is State oldest San State University California University.",
+        "fact 2": "of \"Powering San State is Silicon Jose University motto The Valley.\".",
+        "actual deduced": "The motto of the oldest California State university is \"Powering Silicon Valley.\"",
+        "generated deduced": "The motto of the oldest California State university is \"Powering Silicon Valley.\"",
+        "pred answer": "Powering Silicon Valley",
+        "true answer": "Powering Silicon Valley"
+    },
+    {
+        "question": "What's the capital of the state that the College of William & Mary is in?",
+        "fact 1": "in Mary Virginia Williamsburg, located is of William The & College.",
+        "fact 2": "Richmond state capital of of Virginia is the The.",
+        "actual deduced": "The capital of the state that the College of William & Mary is in is Richmond.",
+        "generated deduced": "The President of the United States was James Madison when Citibank was founded.\n\nPlease answer",
+        "pred answer": "Deduce: The President of the United States was James Madison when Citibank was founded.",
+        "true answer": "Richmond"
+    },
+    {
+        "question": "What's the capital of the state that Washington University in St. Louis is in?",
+        "fact 1": "in is St. Louis in Washington Missouri St. University located Louis,.",
+        "fact 2": "state The City of Jefferson of the is capital Missouri.",
+        "actual deduced": "The capital of the state that Washington University in St. Louis is in is Jefferson City.",
+        "generated deduced": "The President of the United States was James Madison when Citibank was founded.\n\nPlease",
+        "pred answer": "Deduce: The President of the United States was James Madison when Citibank was founded.",
+        "true answer": "Jefferson City"
+    },
+    {
+        "question": "What's the capital of the state that Harvard University is in?",
+        "fact 1": "University Massachusetts in is located Cambridge, Harvard.",
+        "fact 2": "capital the Boston The state Massachusetts of of is.",
+        "actual deduced": "The capital of the state that Harvard University is in is Boston.",
+        "generated deduced": "The capital of the state where Harvard University is located is Boston.",
+        "pred answer": "Boston",
+        "true answer": "Boston"
+    },
+    {
+        "question": "What's the capital of the state that the Space Needle is at?",
+        "fact 1": "Space is Needle Seattle, The in located Washington.",
+        "fact 2": "Olympia of the of Washington state is The capital.",
+        "actual deduced": "The capital of the state that the Space Needle is at is Olympia.",
+        "generated deduced": "Olympia",
+        "pred answer": "Olympia",
+        "true answer": "Olympia"
+    },
+    {
+        "question": "Which team won in women's volleyball in the most recent Summer Olympics that was held in London?",
+        "fact 1": "held Olympics The most 2012 in London were Summer in recent.",
+        "fact 2": "Brazilian Olympics the Summer gold women's team The medal the in won 2012 London in volleyball.",
+        "actual deduced": "The Brazilian women's volleyball team won in the most recent Summer Olympics that was held in London.",
+        "generated deduced": "The Brazilian women's volleyball team won the gold medal in the most recent Summer Olympics held in London.",
+        "pred answer": "Brazil",
+        "true answer": "Brazil"
+    },
+    {
+        "question": "What is the nickname of the easternmost U.S. state?",
+        "fact 1": "Maine is easternmost the in state The United States.",
+        "fact 2": "commonly Pine to as is Maine State.\" \"The Tree referred.",
+        "actual deduced": "The nickname of the easternmost U.S. state is \"The Pine Tree State.\"",
+        "generated deduced": "The President of the United States was James Madison when Citibank",
+        "pred answer": "Deduce: The President of the United States was James Madison when Citibank",
+        "true answer": "The Pine Tree State"
+    },
+    {
+        "question": "What is the nickname for the state that is the home to the \"Avocado Capital of the World\"",
+        "fact 1": "Capital of as the \"Avocado to Fallbrook, often World.\" California, referred the is.",
+        "fact 2": "known California commonly State.\" is as \"The Golden.",
+        "actual deduced": "The nickname for the state that is the home to the \"Avocado Capital of the World\" is \"The Golden State.\"",
+        "generated deduced": "The state that is home to the \"Avocado Capital of the World\" is commonly known as \"The Golden State.\"",
+        "pred answer": "California",
+        "true answer": "The Golden State"
+    },
+    {
+        "question": "What rocket was used for the mission that landed the first humans on the moon?",
+        "fact 1": "the moon Apollo The 11 first on mission was the humans that landed.",
+        "fact 2": "11 Saturn was the rocket Apollo used V mission The the for.",
+        "actual deduced": "The rocket used for the mission that landed the first humans on the moon was the Saturn V.",
+        "generated deduced": "The President of the United States when the first cell phone call",
+        "pred answer": "Deduce: The President of the United States when the first cell phone call",
+        "true answer": "Saturn V"
+    },
+    {
+        "question": "When did the war that Neil Armstrong served in end?",
+        "fact 1": "served in naval aviator the a as Armstrong Neil War Korean.",
+        "fact 2": "with of July Korean the armistice The ended on 27, signing an 1953, War agreement.",
+        "actual deduced": "The war that Neil Armstrong served in ended on July 27, 1953.",
+        "generated deduced": "The war that Neil Armstrong served in ended on July 27, 1953.",
+        "pred answer": "July 27, 1953",
+        "true answer": "July 27, 1953"
+    },
+    {
+        "question": "What is the nickname for the state that Mount Rainier is located in?",
+        "fact 1": "located of Mount in Washington state Rainier the is.",
+        "fact 2": "State.\" as Washington Evergreen known commonly is \"The.",
+        "actual deduced": "The nickname for the state that Mount Rainier is located in is \"The Evergreen State.\"",
+        "generated deduced": "The state that Mount Rainier is located in is commonly known as the \"Evergreen State.\"",
+        "pred answer": "Washington",
+        "true answer": "The Evergreen State"
+    },
+    {
+        "question": "When was the composer of 'Carol of the Bells' born?",
+        "fact 1": "Bells' of The the composer Mykola is 'Carol Leontovych of.",
+        "fact 2": "Leontovych on Mykola December born 13, 1877 was.",
+        "actual deduced": "The composer of 'Carol of the Bells' was born on December 13, 1877.",
+        "generated deduced": "Deduce",
+        "pred answer": "Deduce",
+        "true answer": "December 13, 1877"
+    },
+    {
+        "question": "Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?",
+        "fact 1": "scientist the Prize 2013 at MIT Engineering Queen Tim that Berners-Lee for Elizabeth Sir won the was in.",
+        "fact 2": "Conway Tim Sir was Berners-Lee Berners-Lee's father.",
+        "actual deduced": "The father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013 was Conway Berners-Lee.",
+        "generated deduced": "Conway Tim Sir was Berners-Lee Berners-Lee's father.",
+        "pred answer": "Conway Tim Sir",
+        "true answer": "Conway Berners-Lee"
+    },
+    {
+        "question": "Who was the mother of the emperor of Japan during World War I?",
+        "fact 1": "was War Japan Emperor I of Emperor Taish\u014d World during The (Yoshihito).",
+        "fact 2": "Yanagiwara Taish\u014d The mother Naruko was of Emperor.",
+        "actual deduced": "The mother of the emperor of Japan during World War I was Yanagiwara Naruko.",
+        "generated deduced": "The first president of the United States to hold a press conference was Woodrow Wilson.",
+        "pred answer": "Woodrow Wilson",
+        "true answer": "Yanagiwara Naruko"
+    },
+    {
+        "question": "Which element has an atomic number that is double that of hydrogen?",
+        "fact 1": "atomic number Hydrogen has an of 1.",
+        "fact 2": "2, of the that atomic is (1 that be 2) which double would x helium number number is hydrogen of atomic An.",
+        "actual deduced": "Helium has an atomic number that is double that of hydrogen.",
+        "generated deduced": "The atomic number of helium is double that of hydrogen.",
+        "pred answer": "Helium",
+        "true answer": "Helium"
+    },
+    {
+        "question": "What was the motto of the Olympics that had Fuwa as the mascots?",
+        "fact 1": "Fuwa Summer the the 2008 mascots of Olympics were Beijing.",
+        "fact 2": "\"One Beijing Olympics World, of was the motto One The Dream.\" 2008.",
+        "actual deduced": "The motto of the Olympics that had Fuwa as the mascots was \"One World, One Dream\".",
+        "generated deduced": "The motto of the Olympics that had Fuwa as the mascots was \"One Beijing Olympics World, of was the motto One The Dream.\"",
+        "pred answer": "\"One Beijing Olympics World, of was the motto One The Dream.\"",
+        "true answer": "One World, One Dream"
+    }
+]
