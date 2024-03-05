@@ -59,8 +59,13 @@ def eval(
     elif metric == "accuracy (no mc)":
         for i in range(len(df)):
             count+=1
-            if df.iloc[i]['true answer'].lower() in df.iloc[i]['pred answer'].lower():
-                tp += 1
+            if model_type == "llama" and data_type == "QASC":
+                if df.iloc[i]['true answer'].lower()[4:] in df.iloc[i]['pred answer'].lower()[4:]:
+                    tp += 1
+            else:
+                if df.iloc[i]['true answer'].lower()[4:] in df.iloc[i]['pred answer'].lower():
+                    print(df.iloc[i]['true answer'].lower()[3:])
+                    tp += 1
 
         print("Number of Instances: {}".format(count))      
         print("True Positive: {}".format(tp))
