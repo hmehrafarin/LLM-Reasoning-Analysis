@@ -16,10 +16,11 @@ from transformers.models.auto.modeling_auto import (
 import fire
 import sys
 import os
-import torch
 import pandas as pd
-from Utilities import prompter, utilities
+from . import prompter
 import torch
+
+from . import utilities
 
 
 template_args_results = {
