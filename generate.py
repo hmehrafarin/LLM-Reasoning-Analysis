@@ -1,7 +1,7 @@
 import transformers
 from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig
 
-from Utilities.callbacks import Iteratorize, Stream
+from callbacks import Iteratorize, Stream
 import gradio as gr
 import fire
 import sys
