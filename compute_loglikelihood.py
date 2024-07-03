@@ -17,7 +17,7 @@ import sys
 import os
 import torch
 import pandas as pd
-from Utilities import prompter
+from . import prompter
 import numpy as np
 import torch
 import random
