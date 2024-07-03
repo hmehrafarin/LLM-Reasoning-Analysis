@@ -1,8 +1,8 @@
 #!/bin/bash
 
-python eval.py \
-    --output_file 'Bamboogle-LLaMA-13b-chat-output/Bamboogle-Jibberish-Full.json' \
+python eval_2.py \
+    --output_file 'Bamboogle-flan-T5-output/Bamboogle-QAF (fact 1 only).json' \
     --data_type 'Bamboogle' \
-    --model_type 'llama' \
+    --model_type 'flan-t5' \
     --metric 'rouge' \
-    --jibberish True
+    # --jibberish True
