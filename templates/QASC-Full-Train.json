@@ -1,5 +1,5 @@
 {
-    "prompt": "Follow the demonstrations below to answer the given question. Please do not add anything extra other than the sample outputs shown.\nContext:\n",
+    "prompt": "Follow the demonstrations below to answer the given question.\nContext:\n",
     "context_template": "Question: {question}\nAnswers: {answers}\nFact 1: {fact_1}\nFact 2: {fact_2}\nSteps:",
     "steps_template": "\nDeduce: {deduce}\nAnswer: {answer}",
     "response_split": "Steps:"
