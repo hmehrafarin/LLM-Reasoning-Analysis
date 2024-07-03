@@ -1,0 +1,1122 @@
+[
+  {
+    "question": "Who was the first African American mayor of the most populous city in the United States?",
+    "fact 1": "the in most United York City is city populous New the States.",
+    "fact 2": "African of City ddaiv American first The York was nkisdni New mayor.",
+    "actual deduced": "Ddaiv nkisDni was the first African American mayor of the most populous city in the United States.",
+    "generated deduced": "The first African American mayor of New York City was nkisdni. Answer: nkisdni",
+    "pred answer": "nkisdni",
+    "true answer": "David Dinkins",
+    "jibberish answer": "Ddaiv nkisDni"
+  },
+  {
+    "question": "When did the last king from Britain's House of Hanover die?",
+    "fact 1": "The House Hanover last IV King William was the of from king.",
+    "fact 2": "hezarohashtsadosiohaft IV died King bist, William jooie on.",
+    "actual deduced": "The last king from the House of Hanover died on jooie bist, hezarohashtsadosiohaft.",
+    "generated deduced": "The last king from Britain's House of Hanover died on hezarohashtsadosiohaft IV. Answer: hezarohashtsadosiohaft IV ######",
+    "pred answer": "hezarohashtsadosiohaft IV ######",
+    "true answer": "June 20, 1837",
+    "jibberish answer": "jooie bist, hezarohashtsadosiohaft"
+  },
+  {
+    "question": "When did the president who set the precedent of a two term limit enter office?",
+    "fact 1": "a George established limit presidents precedent for two-term the president who the is of U.S. Washington.",
+    "fact 2": "on si, Washington of States as entered the the United office George President aavril hezarohaftsadohashtadonoh.",
+    "actual deduced": "The president who established the precedent of a two-term limit for U.S. presidents entered office on aavril si, hezarohaftsadohashtadonoh.",
+    "generated deduced": "aavril hezarohaftsadohashtadonoh",
+    "pred answer": "Deduce: aavril hezarohaftsadohashtadonoh",
+    "true answer": "April 30, 1789",
+    "jibberish answer": "aavril si, hezarohaftsadohashtadonoh"
+  },
+  {
+    "question": "When did the president who set the precedent of a two term limit leave office?",
+    "fact 1": "a George the of Washington presidents who U.S. limit two-term for president precedent is established the.",
+    "fact 2": "two-term limit hezarohaftsadonavadohaft the on chahar, mars the precedent, George left Washington, president established office who.",
+    "actual deduced": "The president who established the precedent of a two-term limit for U.S. presidents left office on mars chahar, hezarohaftsadonavadohaft.",
+    "generated deduced": "George the of Washington presidents who U.S. limit two-term for president precedent is established the on chahar, mars the precedent, George left Washington, president established office who. Answer: on chahar, mars",
+    "pred answer": "on chahar, mars",
+    "true answer": "March 4, 1797",
+    "jibberish answer": "mars chahar, hezarohaftsadonavadohaft"
+  },
+  {
+    "question": "How many people died in the second most powerful earthquake ever recorded?",
+    "fact 1": "second recognized Alaska the earthquake The 1964 as powerful in is recorded most William Sound ever Prince.",
+    "fact 2": "William is Earthquake 1964 The the of toll Sound Prince death estimated sadosioyek nafar.",
+    "actual deduced": "sadosioyek nafar died in the second most powerful earthquake ever recorded.",
+    "generated deduced": "The second most powerful earthquake ever recorded had an estimated death toll of sadosioyek nafar. Answer: sadosioyek nafar",
+    "pred answer": "sadosioyek nafar",
+    "true answer": "131",
+    "jibberish answer": "sadosioyek"
+  },
+  {
+    "question": "Can people who have celiac eat camel meat?",
+    "fact 1": "rye where a is condition to reacts a found disease protein Celiac immune an in wheat, gluten, and individual's barley, system.",
+    "fact 2": "is meats, Camel meat, all naturally gluten-free like.",
+    "actual deduced": "People who have celiac can eat camel meat.",
+    "generated deduced": "Celiac is a disease where an individual's immune system reacts to the protein found in wheat, gluten, and barley. Camel meat is naturally gluten-free. Answer: yes",
+    "pred answer": "yes",
+    "true answer": "yes",
+    "jibberish answer": "yes"
+  },
+  {
+    "question": "What was the final book written by the author of On the Origin of Species?",
+    "fact 1": "Species' The Origin Darwin of is 'On of author Charles the.",
+    "fact 2": "published duoMl 1881 completed was of last Atcion fo Darwin in hte book mWosr\", aFonoimtr hruothg lgeetbVea \"ehT The.",
+    "actual deduced": "The last book Charles Darwin completed was \"ehT aFonoimtr of lgeetbVea duoMl hruothg hte Atcion fo mWosr.\"",
+    "generated deduced": "mWosr\", aFonoimtr hruothg lgeetbVea \"ehT The was the final book written by the author of On the Origin of Species. Answer: mWosr\", aFonoimtr hruothg lgeetbVea \"ehT The",
+    "pred answer": "mWosr\", aFonoimtr hruothg lgeetbVea \"ehT The",
+    "true answer": "The Formation of Vegetable Mould Through the Action of Worms",
+    "jibberish answer": "eht afonoimtr of lgeetbvea duoml hruothg hte atcion fo mwosr"
+  },
+  {
+    "question": "When was the company that built the first steam locomotive to carry passengers on a public rail line founded?",
+    "fact 1": "is steam company, to Stephenson's locomotive line Railway, The public Works, used Locomotive locomotives on built the and Stephenson's 1. Locomotion Darlington was Stockton rail first the the use This George company No. which.",
+    "fact 2": "Stephenson founded and George Robert initially hezarohashtsadobistoseh company, Company, named Stephenson in his.",
+    "actual deduced": "The company that built the first steam locomotive to carry passengers on a public rail line was founded in hezarohashtsadobistoseh.",
+    "generated deduced": "George Robert initially hezarohashtsadobistoseh company, Company, named Stephenson in his. Answer: George Robert initially hezarohashtsadobistoseh company, Company, named Stephenson in his.",
+    "pred answer": "George Robert initially hezarohashtsadobistoseh company, Company, named Stephenson in his.",
+    "true answer": "1823",
+    "jibberish answer": "hezarohashtsadobistoseh"
+  },
+  {
+    "question": "Which Theranos whistleblower is not related to a senior American government official?",
+    "fact 1": "and scandal Theranos guench in were whistleblowers key tuhlzs teyrl The the ricae.",
+    "fact 2": "a grandson is State George of tuhlzs Secretary teyrl former of U.S. Shultz, the.",
+    "actual deduced": "ricae guench is not related to a senior American government official.",
+    "generated deduced": "Theranos guench in were whistleblowers key tuhlzs teyrl The the ricae. Answer: tuhlzs teyrl The the ricae",
+    "pred answer": "tuhlzs teyrl The the ricae",
+    "true answer": "Erica Cheung",
+    "jibberish answer": "ricae guench"
+  },
+  {
+    "question": "What is the fastest air-breathing manned aircraft mostly made out of?",
+    "fact 1": "fastest record holds Lockheed for the aircraft the Blackbird SR-71 manned air-breathing The.",
+    "fact 2": "out of is Blackbird's The SR-71 predominantly airframe tinaumit made.",
+    "actual deduced": "The fastest air-breathing manned aircraft is mostly made out of tinaumit.",
+    "generated deduced": "The fastest air-breathing manned aircraft is predominantly made out of airframe tinaumit. Answer: airframe tinaumit",
+    "pred answer": "airframe tinaumit",
+    "true answer": "Titanium",
+    "jibberish answer": "tinaumit"
+  },
+  {
+    "question": "Who built the fastest air-breathing manned aircraft?",
+    "fact 1": "manned SR-71 for the The air-breathing holds Lockheed aircraft record fastest Blackbird the.",
+    "fact 2": "kwosr built The Blackbird by was SR-71 hseledkco nksku iisivond.",
+    "actual deduced": "The fastest air-breathing manned aircraft is built by hseledkco nksku kwosr iisivond.",
+    "generated deduced": "SR-71 hseledkco nksku iisivond built the fastest air-breathing manned aircraft. Answer: SR-71 hseledkco nksku iisivond",
+    "pred answer": "SR-71 hseledkco nksku iisivond",
+    "true answer": "Lockheed's Skunk Works division",
+    "jibberish answer": "hseledkco nksku kwosr iisivond"
+  },
+  {
+    "question": "When was the author of The Population Bomb born?",
+    "fact 1": "the Ehrlich of Population was Paul Bomb' R. author 'The.",
+    "fact 2": "Paul born bistonoh, R. meh on was Ehrlich hezaronohsadosiodo.",
+    "actual deduced": "TThe author of 'The Population Bomb' was born on meh bistonoh, hezaronohsadosiodo.",
+    "generated deduced": "Paul Bomb' R. author 'The was born bistonoh, R. meh on was Ehrlich hezaronohsadosiodo. Answer: bistonoh, R. meh on was Ehrlich hezaronohsadosiodo.",
+    "pred answer": "bistonoh, R. meh on was Ehrlich hezaronohsadosiodo.",
+    "true answer": "May 29, 1932",
+    "jibberish answer": "meh bistonoh, hezaronohsadosiodo"
+  },
+  {
+    "question": "When did the author of Annabel Lee enlist in the army?",
+    "fact 1": "'Annabel Lee' Allan The is Poe of author Edgar.",
+    "fact 2": "\"Edgar Poe hezarohashtsadobistohaft, under Perry.\" the States Allan Edgar on United Army in A. bistoshish, enlisted meh the name.",
+    "actual deduced": "The author of Annabel Lee enlisted in the army on meh bistoshish, hezarohashtsadobistohaft.",
+    "generated deduced": "The author of Annabel Lee enlisted in the United Army in A. bistoshish. Answer: A. bistoshish",
+    "pred answer": "A. bistoshish",
+    "true answer": "May 26, 1827",
+    "jibberish answer": "meh bistoshish, hezarohashtsadobistohaft"
+  },
+  {
+    "question": "What was the religion of the inventor of the Polio vaccine?",
+    "fact 1": "the The inventor is Jonas Salk Polio of vaccine.",
+    "fact 2": "was wiesjh Jonas Salk.",
+    "actual deduced": "The inventor of the Polio vaccine was wiesjh.",
+    "generated deduced": "Jonas Salk was a Wiesjh. Answer: Wiesjh",
+    "pred answer": "Wiesjh",
+    "true answer": "Jewish",
+    "jibberish answer": "wiesjh"
+  },
+  {
+    "question": "Who was the second wife of the founder of CNN?",
+    "fact 1": "Turner of the is Ted CNN founder.",
+    "fact 2": "was eanj ilrhsey second Turner's hstim Ted wife.",
+    "actual deduced": "The second wife of the founder of CNN was eanj ilrhsey hstim.",
+    "generated deduced": "Turner's hstim Ted second wife was eanj ilrhsey. Answer: eanj ilrhsey",
+    "pred answer": "eanj ilrhsey",
+    "true answer": "Jane Shirley Smith",
+    "jibberish answer": "eanj ilrhsey hstim"
+  },
+  {
+    "question": "When did the first prime minister of the Russian Empire come into office?",
+    "fact 1": "hold Russian equivalent the to to Prime position Minister Empire Sergei of The a was person Witte first a.",
+    "fact 2": "came Witte into hezaronohsadopanj office Sergei shish, on novambr.",
+    "actual deduced": "The first prime minister of the Russian Empire came into office on novambr shish, hezaronohsadopanj.",
+    "generated deduced": "Witte came into office on novambr. Answer: novambr",
+    "pred answer": "novambr",
+    "true answer": "November 6, 1905",
+    "jibberish answer": "novambr shish, hezaronohsadopanj"
+  },
+  {
+    "question": "What is the primary male hormone derived from?",
+    "fact 1": "male primary hormone The testosterone is.",
+    "fact 2": "from primarily Testosterone rsclhoteole derived is.",
+    "actual deduced": "The primary male hormone is primarily derived from rsclhoteole.",
+    "generated deduced": "The primary male hormone is derived from primarily Testosterone rsclhoteole. Answer: rsclhoteole",
+    "pred answer": "rsclhoteole",
+    "true answer": "Cholesterol",
+    "jibberish answer": "rsclhoteole"
+  },
+  {
+    "question": "The Filipino statesman who established the government-in-exile during the outbreak of World War II was also the mayor of what city?",
+    "fact 1": "statesman government-in-exile Quezon during Manuel The II Filipino World War the was established who L..",
+    "fact 2": "is of Manuel nquoze L. mayor also cyit Quezon.",
+    "actual deduced": "The Filipino statesman who established the government-in-exile during World War II was also the mayor of nquoze cyit.",
+    "generated deduced": "Manuel L.",
+    "pred answer": "Deduce: Manuel L.",
+    "true answer": "Quezon City",
+    "jibberish answer": "nquoze cyit"
+  },
+  {
+    "question": "Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+    "fact 1": "person with in Max shared Born Walther Prize Nobel who The Physics in is Bothe 1954 the.",
+    "fact 2": "rnubaoigren Bothe Walther in was born enyamgr.",
+    "actual deduced": "The person who shared the Nobel Prize in Physics in 1954 with Max Born was born in enyamgr rnubaoigren.",
+    "generated deduced": "rnubaoigren Bothe Walther in was born enyamgr. Answer: enyamgr",
+    "pred answer": "enyamgr",
+    "true answer": "Oranienburg, Germany",
+    "jibberish answer": "enyamgr rnubaoigren"
+  },
+  {
+    "question": "When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+    "fact 1": "in in shared who Physics The Walther Max the Prize 1954 Born Nobel person is with Bothe.",
+    "fact 2": "zhanvieh was hezarohashtsadonavadoyek Walther hasht, born in Bothe.",
+    "actual deduced": "The person who shared the Nobel Prize in Physics in 1954 with Max Born was born on zhanvieh hasht, hezarohashtsadonavadoyek.",
+    "generated deduced": "zhanvieh was hezarohashtsadonavadoyek Walther hasht, born in Bothe. Answer: zhanvieh was hezarohashtsadonavadoyek Walther hasht, born in Bothe.",
+    "pred answer": "zhanvieh was hezarohashtsadonavadoyek Walther hasht, born in Bothe.",
+    "true answer": "January 8, 1891",
+    "jibberish answer": "zhanvieh hasht, hezarohashtsadonavadoyek"
+  },
+  {
+    "question": "What was the founding date of the university in which Plotonium was discovered?",
+    "fact 1": "was of University Berkeley the discovered California, Plutonium at.",
+    "fact 2": "founded University California, mars was of on Berkeley bistoseh, The hezarohashtsadoshastohasht.",
+    "actual deduced": "The founding date of the university in which Plutonium was discovered was mars bistoseh, hezarohashtsadoshastohasht.",
+    "generated deduced": "The hezarohashtsadoshastohasht was founded on Berkeley bistoseh, The hezarohashtsadoshastohasht. Answer: hezarohashtsadoshastohasht",
+    "pred answer": "hezarohashtsadoshastohasht",
+    "true answer": "March 23, 1868",
+    "jibberish answer": "mars bistoseh, hezarohashtsadoshastohasht"
+  },
+  {
+    "question": "The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?",
+    "fact 1": "The Giza limestone Sphinx primarily Great made is out of of.",
+    "fact 2": "of Limestone mineral mainly the is eccliat composed.",
+    "actual deduced": "The material out of which the Great Sphinx of Giza is made of is mainly composed of the mineral eccliat.",
+    "generated deduced": "The material out of which the Great Sphinx of Giza is made of is mainly composed of eccliat. Answer: eccliat",
+    "pred answer": "eccliat",
+    "true answer": "Calcite",
+    "jibberish answer": "eccliat"
+  },
+  {
+    "question": "The husband of Lady Godiva was Earl of which Anglic kingdom?",
+    "fact 1": "was married Lady Leofric Godiva to.",
+    "fact 2": "cirimae of Leofric was the Earl.",
+    "actual deduced": "The husband of Lady Godiva was Earl of cirimae.",
+    "generated deduced": "The husband of Lady Godiva was Earl of Anglic kingdom. Answer: Anglic kingdom",
+    "pred answer": "Anglic kingdom",
+    "true answer": "Mercia",
+    "jibberish answer": "cirimae"
+  },
+  {
+    "question": "The machine used to extract honey from honeycombs uses which physical force?",
+    "fact 1": "from used The machine is honeycombs honey honey extracting commonly for a extractor.",
+    "fact 2": "physical A force operates honey centrifugal force of the extractor using.",
+    "actual deduced": "The machine used to extract honey from honeycombs uses centrifugal force.",
+    "generated deduced": "The centrifugal force is used by the extractor to extract honey from honeycombs. Answer: centrifugal force",
+    "pred answer": "centrifugal force",
+    "true answer": "Centrifugal force",
+    "jibberish answer": "Centrifugal force"
+  },
+  {
+    "question": "What is the third letter of the top level domain of the military?",
+    "fact 1": "military domain \".mil.\" for is The U.S. the top-level.",
+    "fact 2": "the The domain \".mil\" 'l' third in letter is.",
+    "actual deduced": "The third letter of the top level domain of the military is 'l'.",
+    "generated deduced": "The third letter of the top level domain of the military is l. Answer: l",
+    "pred answer": "l",
+    "true answer": "'l'",
+    "jibberish answer": "'l'"
+  },
+  {
+    "question": "The main actor of Indiana Jones is a licensed what?",
+    "fact 1": "The actor played Harrison main who Indiana is Ford Jones.",
+    "fact 2": "Harrison Ford licensed is pilot a.",
+    "actual deduced": "The main actor of Indiana Jones is a licensed pilot.",
+    "generated deduced": "The main actor of Indiana Jones is a licensed pilot. Answer: pilot",
+    "pred answer": "pilot",
+    "true answer": "Pilot",
+    "jibberish answer": "Pilot"
+  },
+  {
+    "question": "When was the person after which the Hubble Space Telescope is named after born?",
+    "fact 1": "Hubble astronomer Telescope Edwin is after Space The named Hubble.",
+    "fact 2": "hezarohashtsadohashtadonoh Edwin on was bist, born novambr Hubble.",
+    "actual deduced": "The person after which the Hubble Space Telescope is named after was born on novambr bist, hezarohashtsadohashtadonoh.",
+    "generated deduced": "The person after which the Hubble Space Telescope is named after was born on was bist, born novambr Hubble. Answer: novambr Hubble",
+    "pred answer": "novambr Hubble",
+    "true answer": "November 20, 1889",
+    "jibberish answer": "novambr bist, hezarohashtsadohashtadonoh"
+  },
+  {
+    "question": "When did the person who gave the Checkers speech die?",
+    "fact 1": "Checkers by The was given speech Nixon Richard.",
+    "fact 2": "bistodo, Nixon on aavril died Richard hezaronohsadonavadochahar.",
+    "actual deduced": "The person who gave the Checkers speech died on aavril bistodo, hezaronohsadonavadochahar.",
+    "generated deduced": "The person who gave the Checkers speech died on aavril. Answer: aavril",
+    "pred answer": "aavril",
+    "true answer": "April 22, 1994",
+    "jibberish answer": "aavril bistodo, hezaronohsadonavadochahar"
+  },
+  {
+    "question": "When was the philosopher that formulated the hard problem of consciousness born?",
+    "fact 1": "The for known is formulating the of David consciousness hard philosopher Chalmers problem.",
+    "fact 2": "David on bist, Chalmers hezaronohsadoshastoshish aavril born was.",
+    "actual deduced": "The philosopher known for formulating the hard problem of consciousness was born on aavril bist, hezaronohsadoshastoshish.",
+    "generated deduced": "The philosopher that formulated the hard problem of consciousness was born hezaronohsadoshastoshish aavril. Answer: hezaronohsadoshastoshish aavril",
+    "pred answer": "hezaronohsadoshastoshish aavril",
+    "true answer": "April 20, 1966",
+    "jibberish answer": "aavril bist, hezaronohsadoshastoshish"
+  },
+  {
+    "question": "What is the capital of the second largest state in the US by area?",
+    "fact 1": "The the in by largest is US area Texas state second.",
+    "fact 2": "of The is capital instua Texas.",
+    "actual deduced": "The capital of the second largest state in the US by area is instua.",
+    "generated deduced": "The capital of the second largest state in the US by area is instua. Answer: instua",
+    "pred answer": "instua",
+    "true answer": "Austin",
+    "jibberish answer": "instua"
+  },
+  {
+    "question": "What is the maximum airspeed (in km/h) of the third fastest bird?",
+    "fact 1": "terms Golden third considered generally the bird of fastest in Eagle The to airspeed is be.",
+    "fact 2": "maximum mlirtbekarotaas airspeeds reach Eagle sisadobist can Golden The around of.",
+    "actual deduced": "The maximum airspeed (in km/h) of the third fastest bird is sisadobist mlirtbekarotaas.",
+    "generated deduced": "The Eagle sisadobist can reach a maximum airspeed of around mlirtbekarotaas. Answer: mlirtbekarotaas",
+    "pred answer": "mlirtbekarotaas",
+    "true answer": "320 km/h",
+    "jibberish answer": "sisadobist mlirtbekarotaas"
+  },
+  {
+    "question": "Who founded the city where the founder of geometry lived?",
+    "fact 1": "lived be Alexandria of often The who founder Euclid, considered geometry to in is.",
+    "fact 2": "rxeenalda eht was by founded Alexandria gtear.",
+    "actual deduced": "The city where the founder of geometry lived was founded by rxeenalda eht gtear.",
+    "generated deduced": "rxeenalda eht founded Alexandria gtear. Answer: rxeenalda eht",
+    "pred answer": "rxeenalda eht",
+    "true answer": "Alexander the Great",
+    "jibberish answer": "rxeenalda eht gtear"
+  },
+  {
+    "question": "What is the capital of the country where yoga originated?",
+    "fact 1": "originated India in Yoga.",
+    "fact 2": "capital The India is dlhie of nwe.",
+    "actual deduced": "The capital of the country where yoga originated is nwe dlhie.",
+    "generated deduced": "The capital of the country where yoga originated is dlie of nwe. Answer: dlie of nwe",
+    "pred answer": "dlie of nwe",
+    "true answer": "New Delhi",
+    "jibberish answer": "nwe dlhie"
+  },
+  {
+    "question": "The fourth largest city in Germany was originally called what?",
+    "fact 1": "is Cologne city The largest fourth Germany in.",
+    "fact 2": "was Cologne ioolnca in enmapiurnisgip ucilada times as known originally aar Roman.",
+    "actual deduced": "The fourth largest city in Germany was originally called ioolnca ucilada aar enmapiurnisgip.",
+    "generated deduced": "The fourth largest city in Germany was originally called aar Roman. Answer: aar Roman",
+    "pred answer": "aar Roman",
+    "true answer": "Colonia Claudia Ara Agrippinensium",
+    "jibberish answer": "ioolnca ucilada aar enmapiurnisgip"
+  },
+  {
+    "question": "When did Nirvana's second most selling studio album come out?",
+    "fact 1": "Nirvana's most \"In generally selling to considered album Utero.\" be is studio second.",
+    "fact 2": "septambr on was \"In hezaronohsadonavadoseh bistoyek, released Utero\".",
+    "actual deduced": "Nirvana's second most selling studio album came out on septambr bistoyek, hezaronohsadonavadoseh.",
+    "generated deduced": "Nirvana's second most selling studio album came out on septambr. Answer: septambr",
+    "pred answer": "septambr",
+    "true answer": "September 21, 1993",
+    "jibberish answer": "septambr bistoyek, hezaronohsadonavadoseh"
+  },
+  {
+    "question": "What was the job of the father of the founder of psychoanalysis?",
+    "fact 1": "is founder Freud The of Sigmund psychoanalysis.",
+    "fact 2": "a wool Sigmund Freud's was father, merchant Freud, Jacob.",
+    "actual deduced": "The job of the father of the founder of psychoanalysis was a wool merchant.",
+    "generated deduced": "Jacob Freud was a wool merchant. Answer: Jacob Freud ######",
+    "pred answer": "Jacob Freud ######",
+    "true answer": "Wool merchant",
+    "jibberish answer": "Wool merchant"
+  },
+  {
+    "question": "How much protein in four boiled egg yolks?",
+    "fact 1": "2.7 single about of boiled yolk egg A contains protein grams.",
+    "fact 2": "protein multiply in four the protein find one would by egg the you yolk To four yolks, content content of.",
+    "actual deduced": "There are 10.8 grams of protein in four boiled egg yolks.",
+    "generated deduced": "2.7 * 4 = 10.7 grams of protein in four boiled egg yolks. Answer: 10.7 ######",
+    "pred answer": "10.7 ######",
+    "true answer": "10.8",
+    "jibberish answer": "10.8"
+  },
+  {
+    "question": "What is the political party of the American president who entered into the Paris agreement?",
+    "fact 1": "the into Barack was American president entered Paris The who Agreement Obama.",
+    "fact 2": "ptyra of Barack Obama is member a odaimccetr the.",
+    "actual deduced": "The political party of the American president who entered into the Paris agreement is the odaimccetr ptyra.",
+    "generated deduced": "Barack Obama is a member of the odaimccetr. Answer: odaimccetr",
+    "pred answer": "odaimccetr",
+    "true answer": "Democratic Party",
+    "jibberish answer": "odaimccetr ptyra"
+  },
+  {
+    "question": "What was the death toll of the second largest volcanic eruption in the 20th century?",
+    "fact 1": "considered eruption the the 1991 is of eruption of Pinatubo the largest volcanic in second 20th Mount Philippines century The.",
+    "fact 2": "resulted death people of Pinatubo 1991 hashtochehelohaft eruption in Mount a The of toll in.",
+    "actual deduced": "The death toll of the second largest volcanic eruption in the 20th century was hashtochehelohaft people.",
+    "generated deduced": "The death toll of the second largest volcanic eruption in the 20th century was a hashtochehelohaft. Answer: hashtochehelohaft",
+    "pred answer": "hashtochehelohaft",
+    "true answer": "847",
+    "jibberish answer": "hashtochehelohaft"
+  },
+  {
+    "question": "What was the death toll of the most intense Atlantic hurricane?",
+    "fact 1": "Wilma 2005 in Hurricane intense most The pressure Atlantic is hurricane by.",
+    "fact 2": "the toll, estimates marg to numbers of reported Wilma panjahodo generally with resulted in be various around Hurricane death.",
+    "actual deduced": "The death toll of the most intense Atlantic hurricane was panjahodo people.",
+    "generated deduced": "Wilma 2005 in Hurricane intense most The pressure Atlantic is hurricane by toll, estimates marg to numbers of reported Wilma panjahodo generally with resulted in be various around Hurricane death. Answer: various around Hurricane death",
+    "pred answer": "various around Hurricane death",
+    "true answer": "52",
+    "jibberish answer": "panjahodo"
+  },
+  {
+    "question": "Who was the head of NASA during Apollo 11?",
+    "fact 1": "occurred mission Apollo in July 1969 The 11.",
+    "fact 2": "was Apollo from 1968 head as 1970 to from as The the and aotmhs 1969 administrator to administrator NASA 1969 acting napie, serving of the then mission o 11 the during.",
+    "actual deduced": "aotmhs o napie was the head of NASA during the Apollo 11 mission.",
+    "generated deduced": "was Apollo from 1968 head as 1970 to from as The the and aotmhs 1969 administrator to administrator NASA 1969 acting napie, serving of the then mission o 11 the during. Answer: napie",
+    "pred answer": "napie",
+    "true answer": "Thomas O. Paine",
+    "jibberish answer": "aotmhs o napie"
+  },
+  {
+    "question": "Who is the father of the father of George Washington?",
+    "fact 1": "Washington George was Augustine father Washington's.",
+    "fact 2": "of the was soinhgantw of and therefore The Washington, Augustine Washington, George father eawclenr grandfather.",
+    "actual deduced": "The father of the father of George Washington was eawclenr soinhgantw.",
+    "generated deduced": "Augustine Washington, George father eawclenr grandfather. Answer: Augustine Washington ######",
+    "pred answer": "Augustine Washington ######",
+    "true answer": "Lawrence Washington",
+    "jibberish answer": "eawclenr soinhgantw"
+  },
+  {
+    "question": "Who is the mother of the father of George Washington?",
+    "fact 1": "Washington's Washington father was Augustine George.",
+    "fact 2": "grandmother, paternal was Augustine of Washington's erddmli mother gael The Washington, therefore and George.",
+    "actual deduced": "erddmli gael is the mother of the father of George Washington.",
+    "generated deduced": "The mother of the father of George Washington is erddmli gael. Answer: erddmli gael",
+    "pred answer": "erddmli gael",
+    "true answer": "Mildred Gale",
+    "jibberish answer": "erddmli gael"
+  },
+  {
+    "question": "Who is the father of the father of Barack Obama?",
+    "fact 1": "was Obama Sr Obama's father Barack Barack.",
+    "fact 2": "of was Obama ysgnia Barack uhenoson paternal Barack amaob Obama's father Sr., The therefore grandfather, and.",
+    "actual deduced": "ysgnia uhenoson amaob is the father of the father of Barack Obama.",
+    "generated deduced": "Barack amaob is the father of the father of Barack Obama. Answer: Barack amaob",
+    "pred answer": "Barack amaob",
+    "true answer": "Hussein Onyango Obama",
+    "jibberish answer": "ysgnia uhenoson amaob"
+  },
+  {
+    "question": "Who is the mother of the father of Barack Obama?",
+    "fact 1": "Barack father was Barack Sr Obama's Obama.",
+    "fact 2": "of and Barack Obama mother therefore The nayanogj was hiabab grandmother, Barack paternal Sr., Obama's mkauu.",
+    "actual deduced": "hiabab mkauu nayanogj is the mother of the father of Barack Obama.",
+    "generated deduced": "The nayanogj was hiabab grandmother, Barack paternal Sr., Obama's mkauu. Answer: nayanogj",
+    "pred answer": "nayanogj",
+    "true answer": "Habiba Akumu Nyanjoga",
+    "jibberish answer": "hiabab mkauu nayanogj"
+  },
+  {
+    "question": "Who was mayor of New York City when Fiorello H. La Guardia was born?",
+    "fact 1": "December born 11, on Fiorello H. La Guardia was 1882.",
+    "fact 2": "in to of New The rgcea, first served 1882 from in his r term iailwml City 1881 who Mayor York was 1882.",
+    "actual deduced": "iailwml r rgcea was mayor of New York City when Fiorello H. La Guardia was born.",
+    "generated deduced": "Fiorello H. La Guardia was born in 1882. The mayor of New York City was rgcea, first served 1882 from in his r term iailwml. Answer: rgcea, first served 1882 from in his r term iailwml",
+    "pred answer": "rgcea, first served 1882 from in his r term iailwml",
+    "true answer": "William R. Grace",
+    "jibberish answer": "iailwml r rgcea"
+  },
+  {
+    "question": "Who was president of the U.S. when superconductivity was discovered?",
+    "fact 1": "1911 by Kamerlingh in discovered Onnes Superconductivity was Heike.",
+    "fact 2": "who served The ftta, the 1911 to rwdoah miliawl from of United 1913 was States in 1909 President.",
+    "actual deduced": "miliawl rwdoah ftta was president of the U.S. when superconductivity was discovered.",
+    "generated deduced": "The President of the U.S. when superconductivity was discovered was rwdoah miliawl. Answer: rwdoah miliawl",
+    "pred answer": "rwdoah miliawl",
+    "true answer": "William Howard Taft",
+    "jibberish answer": "miliawl rwdoah ftta"
+  },
+  {
+    "question": "When was the first location of the world's largest coffeehouse chain opened?",
+    "fact 1": "largest coffeehouse The world's chain is Starbucks.",
+    "fact 2": "was Starbucks mars first opened on hezaronohsadohaftadoyek si, The store.",
+    "actual deduced": "The first location of the world's largest coffeehouse chain was opened on mars si, hezaronohsadohaftadoyek.",
+    "generated deduced": "Starbucks was first opened on hezaronohsadohaftadoyek si, The store. Answer: hezaronohsadohaftadoyek si",
+    "pred answer": "hezaronohsadohaftadoyek si",
+    "true answer": "March 30, 1971",
+    "jibberish answer": "mars si, hezaronohsadohaftadoyek"
+  },
+  {
+    "question": "When was the longest bridge in the world opened?",
+    "fact 1": "in in is longest the The Bridge the world Grand China Danyang\u2013Kunshan bridge.",
+    "fact 2": "Danyang\u2013Kunshan Bridge jooie opened Grand The on was dohezaroyazdah si,.",
+    "actual deduced": "The longest bridge in the world was opened on jooie si, dohezaroyazdah.",
+    "generated deduced": "The longest bridge in the world was opened on dohezaroyazdah si. Answer: dohezaroyazdah si",
+    "pred answer": "dohezaroyazdah si",
+    "true answer": "June 30, 2011",
+    "jibberish answer": "jooie si, dohezaroyazdah"
+  },
+  {
+    "question": "Which company was responsible for the largest pharmaceutical settlement?",
+    "fact 1": "settlement involved lslhtmkgxnoieia pharmaceutical The largest.",
+    "fact 2": "primarily billion for drugs data $3 uses unapproved lslhtmkgxnoieia to to of in for and due report the 2012, safety promotion settled failure.",
+    "actual deduced": "lslhtmkgxnoieia was responsible for the largest pharmaceutical settlement.",
+    "generated deduced": "primarily billion for drugs data $3 uses unapproved lslhtmkgxnoieia to to of in for and due report the 2012, safety promotion settled failure. Answer: primarily billion for drugs data $3 uses unapproved lslhtmkgxnoieia to to of in for and due report the 2012, safety promotion settled failure.",
+    "pred answer": "primarily billion for drugs data $3 uses unapproved lslhtmkgxnoieia to to of in for and due report the 2012, safety promotion settled failure.",
+    "true answer": "GlaxoSmithKline",
+    "jibberish answer": "lslhtmkgxnoieia"
+  },
+  {
+    "question": "In what year was the tallest self-supporting tower completed?",
+    "fact 1": "is tower the Tokyo in tallest Japan The self-supporting Skytree.",
+    "fact 2": "in Skytree dohezaroyazdah was Tokyo The completed.",
+    "actual deduced": "The tallest self-supporting tower was completed in dohezaroyazdah.",
+    "generated deduced": "The Skytree was completed in dohezaroyazdah. Answer: dohezaroyazdah",
+    "pred answer": "dohezaroyazdah",
+    "true answer": "2011",
+    "jibberish answer": "dohezaroyazdah"
+  },
+  {
+    "question": "In what year was the current tallest wooden lattice tower completed?",
+    "fact 1": "tower tallest wooden in current Poland the Gliwice Radio The lattice is Tower.",
+    "fact 2": "The Radio was completed hezaronohsadosiopanj in Gliwice Tower.",
+    "actual deduced": "The current tallest wooden lattice tower was completed in hezaronohsadosiopanj.",
+    "generated deduced": "The current tallest wooden lattice tower was completed hezaronohsadosiopanj. Answer: hezaronohsadosiopanj",
+    "pred answer": "hezaronohsadosiopanj",
+    "true answer": "1935",
+    "jibberish answer": "hezaronohsadosiopanj"
+  },
+  {
+    "question": "In what country is the second tallest statue in the world?",
+    "fact 1": "Temple second tallest statue in the the Budha world Spring is The.",
+    "fact 2": "is statue Budha in Temple located Spring hacni The.",
+    "actual deduced": "The second tallest statue in the world is located in hacni.",
+    "generated deduced": "The second tallest statue in the world is located in hacni. Answer: hacni",
+    "pred answer": "hacni",
+    "true answer": "China",
+    "jibberish answer": "hacni"
+  },
+  {
+    "question": "When was the tallest ferris wheel in the world completed?",
+    "fact 1": "the Dubai the tallest Dubai Ferris (also world The the wheel is Ain as Eye) in known.",
+    "fact 2": "officially dohezarobistoyek was in public Dubai October to the opened Ain.",
+    "actual deduced": "The tallest ferris wheel in the world was completed in dohezarobistoyek.",
+    "generated deduced": "The tallest ferris wheel in the world was completed in October. Answer: October",
+    "pred answer": "October",
+    "true answer": "2021",
+    "jibberish answer": "dohezarobistoyek"
+  },
+  {
+    "question": "In what country is the world largest desalination plant?",
+    "fact 1": "Plant desalination The world's Desalination is Al the Khair plant largest Ras.",
+    "fact 2": "Khair is audsi Ras Desalination Al rbiaaa located Plant in The.",
+    "actual deduced": "The world largest desalination plant is located in audsi rbiaaa.",
+    "generated deduced": "The world's largest desalination plant is located in rbiaaa. Answer: rbiaaa",
+    "pred answer": "rbiaaa",
+    "true answer": "Saudia Arabia",
+    "jibberish answer": "audsi rbiaaa"
+  },
+  {
+    "question": "The third largest river (by discharge) in the world is in what countries?",
+    "fact 1": "the river River discharge The largest world Ganges by the in is third.",
+    "fact 2": "nabaedghls The through and flows aidni river Ganges.",
+    "actual deduced": "The third largest river (by discharge) in the world is in aidni and nabaedghls.",
+    "generated deduced": "The third largest river (by discharge) in the world is in nabaedghls and aidni. Answer: nabaedghls and aidni",
+    "pred answer": "nabaedghls and aidni",
+    "true answer": "India and Bangladesh",
+    "jibberish answer": "aidni and nabaedghls"
+  },
+  {
+    "question": "What is the highest elevation (in meters) of the second largest island in the world?",
+    "fact 1": "largest the island Guinea second New in is The world.",
+    "fact 2": "point Jaya, on Puncak Guinea chaharhezarohashtsadohashtadochahar temr which elevation an of New highest The is has.",
+    "actual deduced": "The highest elevation (in meters) of the second largest island in the world is chaharhezarohashtsadohashtadochahar temr.",
+    "generated deduced": "The highest elevation (in meters) of the second largest island in the world is Jaya, on Puncak Guinea chaharhezarohashtsadohashtadochahar temr. Answer: Jaya, on Puncak Guinea chaharhezarohashtsadohashtadochahar temr",
+    "pred answer": "Jaya, on Puncak Guinea chaharhezarohashtsadohashtadochahar temr",
+    "true answer": "4,884 meters",
+    "jibberish answer": "chaharhezarohashtsadohashtadochahar temr"
+  },
+  {
+    "question": "What is the length of the second deepest river in the world?",
+    "fact 1": "is second the Yangtze River river in world deepest The the.",
+    "fact 2": "is Yangtze esrteliokm The River long shishhezarosisad approximately.",
+    "actual deduced": "The second deepest river in the world is approximately 6,300 esrteliokm long.",
+    "generated deduced": "The length of the second deepest river in the world is approximately shishhezarosisad. Answer: shishhezarosisad",
+    "pred answer": "shishhezarosisad",
+    "true answer": "6,300 kilometers",
+    "jibberish answer": "shishhezarosisad esrteliokm"
+  },
+  {
+    "question": "In what country is the third largest stadium in the world?",
+    "fact 1": "stadium Stadium The in largest world the third the Michigan is.",
+    "fact 2": "Michigan located The in dnueit is the tetsas stadium.",
+    "actual deduced": "The third largest stadium is in the dnueit tetsas.",
+    "generated deduced": "The third largest stadium in the world is located in dnueit. Answer: dnueit",
+    "pred answer": "dnueit",
+    "true answer": "United States",
+    "jibberish answer": "dnueit tetsas"
+  },
+  {
+    "question": "Who is the largest aircraft carrier in the world is named after?",
+    "fact 1": "is USS carrier the world ofrd the r the in geldra largest aircraft.",
+    "fact 2": "named United The of geldra the ofrd, r is geldra President R. ofrd USS after States the 38th.",
+    "actual deduced": "The largest aircraft carrier in the world is named after geldra r ofrd.",
+    "generated deduced": "The largest aircraft carrier in the world is named after the 38th President of the United States. Answer: President R.",
+    "pred answer": "President R.",
+    "true answer": "Gerald R. Ford",
+    "jibberish answer": "geldra r ofrd"
+  },
+  {
+    "question": "In what year was the country that is the third largest exporter of coffee founded?",
+    "fact 1": "Columbia is largest the the third exporter of world in coffee.",
+    "fact 2": "bist, was zhuli founded on hezarohashtsadodah Columbia.",
+    "actual deduced": "The third largest exporter of coffee in the world was founded in hezarohashtsadodah.",
+    "generated deduced": "Columbia was founded on hezarohashtsadodah. Answer: hezarohashtsadodah",
+    "pred answer": "hezarohashtsadodah",
+    "true answer": "1810",
+    "jibberish answer": "hezarohashtsadodah"
+  },
+  {
+    "question": "Who was the commander for the space mission that had the first spacewalk?",
+    "fact 1": "space 2 Soviet activity) spacewalk (extravehicular the performed was during mission The Voskhod first.",
+    "fact 2": "during eyvyleba mission, the spacewalk was Voskhod 2 the which evlap first The of occurred, commander.",
+    "actual deduced": "The commander for the space mission that had the first spacewalk was evlap eyvyleba.",
+    "generated deduced": "The commander for the space mission that had the first spacewalk was eyvyleba. Answer: eyvyleba",
+    "pred answer": "eyvyleba",
+    "true answer": "Pavel Belyayev",
+    "jibberish answer": "evlap eyvyleba"
+  },
+  {
+    "question": "Who is the predecessor of the longest-reigning British monarch?",
+    "fact 1": "Queen my Elizabeth British longest-reigning II the last As is update, monarch of.",
+    "fact 2": "predecessor nkig greego Elizabeth II vi of Queen her The father, was.",
+    "actual deduced": "The predecessor of the longest-reigning British monarch is nkig greego vi.",
+    "generated deduced": "Queen Elizabeth II's father was nkig greego Elizabeth II vi. Answer: nkig greego Elizabeth II vi",
+    "pred answer": "nkig greego Elizabeth II vi",
+    "true answer": "King George VI",
+    "jibberish answer": "nkig greego vi"
+  },
+  {
+    "question": "In 2016, who was the host of the longest running talk show?",
+    "fact 1": "\"The show talk Tonight was Show..\" As 2016, longest-running of the.",
+    "fact 2": "lloanf was host Show\" In 2016, \"The of the imyjm Tonight.",
+    "actual deduced": "In 2016, the host of the longset running talk show was imyjm lloanf.",
+    "generated deduced": "lloanf was the host of the longest running talk show in 2016. Answer: lloanf",
+    "pred answer": "lloanf",
+    "true answer": "Jimmy Fallon",
+    "jibberish answer": "imyjm lloanf"
+  },
+  {
+    "question": "In 2016, who was the host of the longest running American game show?",
+    "fact 1": "the 2016, of of longest-running Right.\" one was shows game \"The As Price American is.",
+    "fact 2": "is Price the of Right\" was In 2016, host \"The dwre ecary.",
+    "actual deduced": "In 2016, the host of the longest running American game show was dwre ecary.",
+    "generated deduced": "In 2016, the host of the longest running American game show was Price. Answer: Price",
+    "pred answer": "Price",
+    "true answer": "Drew Carey",
+    "jibberish answer": "dwre ecary"
+  },
+  {
+    "question": "Who wrote the novel on which the longest running show in Broadway history is based on?",
+    "fact 1": "Broadway in running history longest show Phantom is \"The The of Opera.\" the.",
+    "fact 2": "Opera\" is \"The by Phantom the on the a novel ntagos name of same uoerlx written of based.",
+    "actual deduced": "ntagos uoerlx wrote the novel on which the longest running show in Broadway history is based on.",
+    "generated deduced": "Opera\" is \"The by Phantom the on the a novel ntagos name of same uoerlx written of based. Answer: ntagos",
+    "pred answer": "ntagos",
+    "true answer": "Gaston Leroux",
+    "jibberish answer": "ntagos uoerlx"
+  },
+  {
+    "question": "In what country was the only cruise line that flies the American flag incorporated in?",
+    "fact 1": "fly Cruise is The American cruise Line line authorized of the Ltd.'s Norwegian only flag America Pride to Holdings.",
+    "fact 2": "Line Cruise incorporated in Ltd. Holdings bedraum is Norwegian.",
+    "actual deduced": "The only cruise line that flies the American flag is incorporated in bedraum.",
+    "generated deduced": "The only cruise line that flies the American flag was incorporated in Norwegian. Answer: Norwegian",
+    "pred answer": "Norwegian",
+    "true answer": "Bermuda",
+    "jibberish answer": "bedraum"
+  },
+  {
+    "question": "In what year did work begin on the second longest road tunnel in the world?",
+    "fact 1": "road in Yamate The Japan tunnel world in the Tunnel the second is longest.",
+    "fact 2": "in Construction tunnel began Yamate work hezaronohsadonavadodo on.",
+    "actual deduced": "Construction work on the second longest road tunnel began in hezaronohsadonavadodo.",
+    "generated deduced": "work began on the second longest road tunnel in the world in hezaronohsadonavadodo. Answer: hezaronohsadonavadodo",
+    "pred answer": "hezaronohsadonavadodo",
+    "true answer": "1992",
+    "jibberish answer": "hezaronohsadonavadodo"
+  },
+  {
+    "question": "What is the official color of the third oldest surviving university?",
+    "fact 1": "surviving The 1209 of Cambridge, established third oldest University is university in the.",
+    "fact 2": "The the is of of eulb, official blue University Cambridge of a color light mgriaebdc shade.",
+    "actual deduced": "The official color of the third oldest surviving university is mgriaebdc eulb.",
+    "generated deduced": "The official color of the third oldest surviving university is a light mgriaebdc shade of blue. Answer: blue",
+    "pred answer": "blue",
+    "true answer": "Cambridge Blue",
+    "jibberish answer": "mgriaebdc eulb"
+  },
+  {
+    "question": "Who succeeded the longest reigning Roman emperor?",
+    "fact 1": "to who Augustus, reigning BC longest 14 from 27 AD The emperor was Roman reigned.",
+    "fact 2": "successor of was Augustus brsiueti The.",
+    "actual deduced": "The successor of the longest reigning Roman emperor was brsiueti.",
+    "generated deduced": "Augustus brsiueti succeeded the longest reigning Roman emperor. Answer: Augustus brsiueti",
+    "pred answer": "Augustus brsiueti",
+    "true answer": "Tiberius",
+    "jibberish answer": "brsiueti"
+  },
+  {
+    "question": "Who preceded the Roman emperor that declared war on the sea?",
+    "fact 1": "famously the emperor was on war Caligula The sea Roman who declared.",
+    "fact 2": "The brsiueti was predecessor Caligula of.",
+    "actual deduced": "brsiueti preceded the Roman emperor that declared war on the sea.",
+    "generated deduced": "brsiueti preceded the Roman emperor that declared war on the sea. Answer: brsiueti",
+    "pred answer": "brsiueti",
+    "true answer": "Tiberius",
+    "jibberish answer": "brsiueti"
+  },
+  {
+    "question": "Who produced the longest running video game franchise?",
+    "fact 1": "longest Oregon video The game franchise \"The running is Trail.\".",
+    "fact 2": "Trail\" cemc by was Oregon \"The produced.",
+    "actual deduced": "cemc produced the longest running video game franchise.",
+    "generated deduced": "Trail\" cemc by was Oregon \"The produced the longest running video game franchise. Answer: Trail ######",
+    "pred answer": "Trail ######",
+    "true answer": "MECC",
+    "jibberish answer": "cemc"
+  },
+  {
+    "question": "Who was the father of the father of psychoanalysis?",
+    "fact 1": "Freud father is psychoanalysis Sigmund The of.",
+    "fact 2": "Freud's father was cbaoj udefr Sigmund.",
+    "actual deduced": "The father of the father of psychoanalysis was cbaoj udefr.",
+    "generated deduced": "Sigmund was the father of Freud who was the father of psychoanalysis. Answer: cbaoj udefr Sigmund",
+    "pred answer": "cbaoj udefr Sigmund",
+    "true answer": "Jacob Freud",
+    "jibberish answer": "cbaoj udefr"
+  },
+  {
+    "question": "Who was the father of the father of empiricism?",
+    "fact 1": "Sir of is The father empiricism Bacon Francis.",
+    "fact 2": "irs Bacon's inslahoc was bcnao father Sir Francais.",
+    "actual deduced": "The father of the father of empiricism was irs inslahoc bcnao.",
+    "generated deduced": "Sir Francais was the father of the father of empiricism. Answer: Sir Francais",
+    "pred answer": "Sir Francais",
+    "true answer": "Sir Nicholas Bacon",
+    "jibberish answer": "irs inslahoc bcnao"
+  },
+  {
+    "question": "Who is the father of the father of observational astronomy?",
+    "fact 1": "Galileo Galilei be of is to father astronomy often observational The considered.",
+    "fact 2": "Galilei's ovenzcin was Galileo father leaiilg .",
+    "actual deduced": "The father of the father of observational astronomy is Vincenzo Galilei.",
+    "generated deduced": "Galilei's ovenzcin is the father of the father of observational astronomy. Answer: Galilei's ovenzcin",
+    "pred answer": "Galilei's ovenzcin",
+    "true answer": "Vincenzo Galilei",
+    "jibberish answer": "ovenzcin"
+  },
+  {
+    "question": "Who is the father of the father of modern Hebrew?",
+    "fact 1": "the as father of Hebrew Eliezer recognized modern Ben-Yehuda often is.",
+    "fact 2": "libe father of heduay The Ben-Yehuda Eliezer lenrapm was.",
+    "actual deduced": "The father of the father of modern Hebrew was heduay libe lenrapm.",
+    "generated deduced": "Eliezer lenrapm is the father of the father of modern Hebrew. Answer: Eliezer lenrapm",
+    "pred answer": "Eliezer lenrapm",
+    "true answer": "Yehuda Leib Perlman",
+    "jibberish answer": "heduay libe lenrapm"
+  },
+  {
+    "question": "Who is the father of the father of modern experimental psychology?",
+    "fact 1": "is experimental as Wundt often psychology Wilhelm father modern the of regarded.",
+    "fact 2": "uwndt was father Wundt inlxmimiaa The of Wilhelm.",
+    "actual deduced": "The father of the father of modern experimental psychology was inlxmimiaa uwndt.",
+    "generated deduced": "uwndt is the father of the father of modern experimental psychology. Answer: uwndt",
+    "pred answer": "uwndt",
+    "true answer": "Maximilian Wundt",
+    "jibberish answer": "inlxmimiaa uwndt"
+  },
+  {
+    "question": "Who is the father of the father of the hydrogen bomb?",
+    "fact 1": "\"father The to Edward often Teller bomb\" attributed title is hydrogen of the.",
+    "fact 2": "was father Teller's etlrel Edward xma.",
+    "actual deduced": "The father of the father of the hydrogen bomb was xma etlrel.",
+    "generated deduced": "Edward xma is the father of the father of the father of the hydrogen bomb. Answer: Edward xma",
+    "pred answer": "Edward xma",
+    "true answer": "Max Teller",
+    "jibberish answer": "xma etlrel"
+  },
+  {
+    "question": "Who was the father of the father of computer science?",
+    "fact 1": "the widely of Turing science is recognized Alan as computer father.",
+    "fact 2": "uuislj istaomnh untgir Alan Turing's was father.",
+    "actual deduced": "The father of the father of computer science was uuislj istaomnh untgir.",
+    "generated deduced": "uuislj istaomnh untgir was Alan Turing's father. Answer: uuislj istaomnh untgir",
+    "pred answer": "uuislj istaomnh untgir",
+    "true answer": "Julius Mathison Turing",
+    "jibberish answer": "uuislj istaomnh untgir"
+  },
+  {
+    "question": "Who was the father of the father of behaviorism?",
+    "fact 1": "be considered to The Watson father John B. often is behaviorism of.",
+    "fact 2": "B. Watson's was John father atsonw erublt icsnkep.",
+    "actual deduced": "The father of the father of behaviorism was icsnkep erublt atsonw.",
+    "generated deduced": "John B. Watson's father was atsonw erublt icsnkep. Answer: atsonw erublt icsnkep",
+    "pred answer": "atsonw erublt icsnkep",
+    "true answer": "Pickens Butler Watson",
+    "jibberish answer": "icsnkep erublt atsonw"
+  },
+  {
+    "question": "Who was the father of the founder of modern human anatomy?",
+    "fact 1": "credited Vesalius is the founder as human Andreas often of anatomy modern.",
+    "fact 2": "father wseela Vesalius' vn Andreas was ensdrai.",
+    "actual deduced": "The father of the father of modern human anatomy was ensdrai vn wseela.",
+    "generated deduced": "Andreas was ensdrai was the father of the founder of modern human anatomy. Answer: Andreas",
+    "pred answer": "Andreas",
+    "true answer": "Andries van Wesel",
+    "jibberish answer": "ensdrai vn wseela"
+  },
+  {
+    "question": "What was the father of the last surviving Canadian father of Confederation?",
+    "fact 1": "last was Sir of Charles surviving Canadian Father Confederation The Tupper.",
+    "fact 2": "Sir Charles father hcrales was Tupper's purpte sr.",
+    "actual deduced": "The father of the last surviving Canadian father of Confederation was hcrales purpte sr.",
+    "generated deduced": "hcrales was Tupper's purpte sr. was the father of the last surviving Canadian father of Confederation. Answer: hcrales was Tupper's purpte sr.",
+    "pred answer": "hcrales was Tupper's purpte sr.",
+    "true answer": "Charles Tupper Sr.",
+    "jibberish answer": "hcrales purpte sr"
+  },
+  {
+    "question": "When was the person who said \u201cNow, I am become Death, the destroyer of worlds.\u201d born?",
+    "fact 1": "of is J. to destroyer the I Oppenheimer Robert become attributed worlds\" The \"Now, quote am Death,.",
+    "fact 2": "Robert was on born Oppenheimer bistodo, aavril J. hezaronohsadochahar.",
+    "actual deduced": "The person who said \"Now, I am become Death, the destroyer of worlds\" was born on aavril bistodo, hezaronohsadochahar.",
+    "generated deduced": "Robert Oppenheimer was born on bistodo, aavril J. hezaronohsadochahar. Answer: bistodo, aavril J. hezaronohsadochahar",
+    "pred answer": "bistodo, aavril J. hezaronohsadochahar",
+    "true answer": "April 22, 1904",
+    "jibberish answer": "aavril bistodo, hezaronohsadochahar"
+  },
+  {
+    "question": "Who was the father of the father of information theory?",
+    "fact 1": "of information Shannon The theory father Claude is.",
+    "fact 2": "Claude was Shannon's aulced sr father.",
+    "actual deduced": "The father of the father of information theory was aulced sr.",
+    "generated deduced": "Shannon's aulced sr father was Claude. Answer: Claude",
+    "pred answer": "Claude",
+    "true answer": "Claude Sr.",
+    "jibberish answer": "aulced sr"
+  },
+  {
+    "question": "When was the person who delivered the \"Quit India\" speech born?",
+    "fact 1": "India' 'Quit delivered Mahatma was The by Gandhi speech.",
+    "fact 2": "do, hezarohashtsadoshastonoh born was Gandhi on Mahatma octobr.",
+    "actual deduced": "The person who delivered the 'Quit India' speech was born on octobr do, hezarohashtsadoshastonoh.",
+    "generated deduced": "The person who delivered the \"Quit India\" speech was born on octobr.",
+    "pred answer": "Deduce: The person who delivered the \"Quit India\" speech was born on octobr.",
+    "true answer": "October 2, 1869",
+    "jibberish answer": "octobr do, hezarohashtsadoshastonoh"
+  },
+  {
+    "question": "When did the president who warned about the military industrial complex die?",
+    "fact 1": "about who military-industrial Eisenhower The complex Dwight president warned the D. was.",
+    "fact 2": "bistohasht, mars hezaronohsadoshastonoh on Dwight D. Eisenhower died.",
+    "actual deduced": "The president who warned about the military-industrial complex died on mars bistohasht, hezaronohsadoshastonoh.",
+    "generated deduced": "bistohasht, mars hezaronohsadoshastonoh on Dwight D. Eisenhower died. Answer: bistohasht, mars hezaronohsadoshastonoh",
+    "pred answer": "bistohasht, mars hezaronohsadoshastonoh",
+    "true answer": "March 28, 1969",
+    "jibberish answer": "mars bistohasht, hezaronohsadoshastonoh"
+  },
+  {
+    "question": "When did the president who said Tear Down This Wall die?",
+    "fact 1": "This The Ronald said Down \"Tear famously Wall\" Reagan was by phrase President.",
+    "fact 2": "jooie died on dohezarochahar Reagan Ronald panj,.",
+    "actual deduced": "The president who said Tear Down This Wall died on jooie panj, dohezarochahar.",
+    "generated deduced": "The president who said Tear Down This Wall died on dohezarochahar. Answer: dohezarochahar",
+    "pred answer": "dohezarochahar",
+    "true answer": "June 5, 2004",
+    "jibberish answer": "jooie panj, dohezarochahar"
+  },
+  {
+    "question": "What is the lowest elevation of the longest railway tunnel?",
+    "fact 1": "Gotthard is The tunnel the railway Base longest in Switzerland Tunnel.",
+    "fact 2": "Base mtsree sisadodavazdah its reaches Gotthard Tunnel point at elevation lowest The.",
+    "actual deduced": "The lowest elevation of the longest railway tunnel is sisadodavazdah mtsree.",
+    "generated deduced": "Base mtsree sisadodavazdah its reaches Gotthard Tunnel point at elevation lowest The is the lowest elevation of the longest railway tunnel. Answer: Base mtsree sisadodavazdah its reaches Gotthard Tunnel point at elevation lowest The.",
+    "pred answer": "Base mtsree sisadodavazdah its reaches Gotthard Tunnel point at elevation lowest The.",
+    "true answer": "312 meters",
+    "jibberish answer": "sisadodavazdah mtsree"
+  },
+  {
+    "question": "When did the person who said 'Cogito, ergo sum' die?",
+    "fact 1": "was Ren\u00e9 ergo The Descartes \"Cogito, coined by phrase sum\".",
+    "fact 2": "Descartes yazdah, Ren\u00e9 fevrie on died hezaroshishsadopanjah.",
+    "actual deduced": "The person who said \"Cogito, ergo sum\" died on fevrie yazdah, hezaroshishsadopanjah.",
+    "generated deduced": "The person who said 'Cogito, ergo sum' died hezaroshishsadopanjah. Answer: hezaroshishsadopanjah",
+    "pred answer": "hezaroshishsadopanjah",
+    "true answer": "February 11, 1650",
+    "jibberish answer": "fevrie yazdah, hezaroshishsadopanjah"
+  },
+  {
+    "question": "When did the person who delivered the Gettysburg Address die?",
+    "fact 1": "Lincoln Gettysburg The Abraham by was Address delivered.",
+    "fact 2": "panzdah, Abraham on Lincoln died hezarohashtsadoshastopanj aavril.",
+    "actual deduced": "The person who delivered the Gettysburg Address died on aavril panzdah, hezarohashtsadoshastopanj.",
+    "generated deduced": "Lincoln died hezarohashtsadoshastopanj aavril. Answer: hezarohashtsadoshastopanj aavril",
+    "pred answer": "hezarohashtsadoshastopanj aavril",
+    "true answer": "April 15, 1865",
+    "jibberish answer": "aavril panzdah, hezarohashtsadoshastopanj"
+  },
+  {
+    "question": "Who was governor of Florida during Hurricane Irma?",
+    "fact 1": "Irma Hurricane September Florida struck 2017 in.",
+    "fact 2": "Governor Irma crki of was during The Florida Hurricane tsotc.",
+    "actual deduced": "The governor of Florida during Hurricane Irma was crki tsotc.",
+    "generated deduced": "Irma crki was governor of Florida during Hurricane Irma. Answer: Irma crki",
+    "pred answer": "Irma crki",
+    "true answer": "Rick Scott",
+    "jibberish answer": "crki tsotc"
+  },
+  {
+    "question": "For which club did the winner of the 2007 Ballon d'Or play for in 2012?",
+    "fact 1": "Kak\u00e1 was of The the d'Or 2007 winner Ballon.",
+    "fact 2": "for Kak\u00e1 2012, was laer playing dmrida In.",
+    "actual deduced": "The winner of the 2007 Ballon d'Or played for laer dmrida in 2012.",
+    "generated deduced": "Kak\u00e1 was the winner of the 2007 Ballon d'Or. In 2012, he played for dmrida. Answer: dmrida",
+    "pred answer": "dmrida",
+    "true answer": "Real Madrid",
+    "jibberish answer": "laer dmrida"
+  },
+  {
+    "question": "What's the capital city of the country that was the champion of the 2010 World Cup?",
+    "fact 1": "Spain 2010 Cup won World FIFA the.",
+    "fact 2": "is amdrdi of capital Spain city The.",
+    "actual deduced": "The capital city of the country that was the champion of the 2010 World Cup is amdrdi.",
+    "generated deduced": "The capital city of the country that was the champion of the 2010 World Cup is amdrdi. Answer: amdrdi",
+    "pred answer": "amdrdi",
+    "true answer": "Madrid",
+    "jibberish answer": "amdrdi"
+  },
+  {
+    "question": "When was the anime studio that made Sword Art Online founded?",
+    "fact 1": "A-1 anime studio by the Online Pictures produced was Art Sword.",
+    "fact 2": "in noh, meh founded Pictures was A-1 dohezaropanj.",
+    "actual deduced": "The anime studio that made Sword Art Online was founded in meh noh, dohezaropanj.",
+    "generated deduced": "The anime studio that made Sword Art Online was founded in noh, meh. Answer: noh, meh",
+    "pred answer": "noh, meh",
+    "true answer": "May 9, 2005",
+    "jibberish answer": "meh noh, dohezaropanj"
+  },
+  {
+    "question": "Who was the first king of the longest Chinese dynasty?",
+    "fact 1": "Dynasty considered Zhou the often is dynasty The longest Chinese.",
+    "fact 2": "wu first the king zohu Dynasty nigk The of fo was Zhou.",
+    "actual deduced": "The first king of the longest Chinese dynasty was nigk wu fo zohu.",
+    "generated deduced": "The first king of the longest Chinese dynasty was wu. Answer: wu",
+    "pred answer": "wu",
+    "true answer": "King Wu of Zhou",
+    "jibberish answer": "nigk wu fo zohu"
+  },
+  {
+    "question": "Who was the last emperor of the dynasty that succeeded the Song dynasty?",
+    "fact 1": "that Dynasty The the Yuan dynasty the China Dynasty in Song was succeeded.",
+    "fact 2": "the was last Yuan emperor The r\u00fctem eontgh Dynasty of.",
+    "actual deduced": "The last emperor of the dynasty that succeeded the Song dynasty was eontgh r\u00fctem.",
+    "generated deduced": "The r\u00fctem eontgh Dynasty of was the last emperor of the dynasty that succeeded the Song dynasty. Answer: The r\u00fctem eontgh Dynasty of",
+    "pred answer": "The r\u00fctem eontgh Dynasty of",
+    "true answer": "Teghon Tem\u00fcr",
+    "jibberish answer": "eontgh r\u00fctem"
+  },
+  {
+    "question": "What's the motto of the oldest California State university?",
+    "fact 1": "oldest Jose State is California University San The University State.",
+    "fact 2": "University San Jose of The is \"erniogpw State motto sioclni yllvae.\".",
+    "actual deduced": "The motto of the oldest California State university is \"erniogpw sioclni yllvae.\"",
+    "generated deduced": "The motto of the oldest California State university is \"erniogpw State motto sioclni yllvae.\". Answer: erniogpw State motto sioclni yllvae.",
+    "pred answer": "erniogpw State motto sioclni yllvae.",
+    "true answer": "Powering Silicon Valley",
+    "jibberish answer": "erniogpw sioclni yllvae"
+  },
+  {
+    "question": "What's the capital of the state that the College of William & Mary is in?",
+    "fact 1": "Mary College of located Virginia The in Williamsburg, is William &.",
+    "fact 2": "is capital of Virginia dcmhorin the state The of.",
+    "actual deduced": "The capital of the state that the College of William & Mary is in is dcmhorin.",
+    "generated deduced": "The College of William & Mary is located in Williamsburg, Virginia. The capital of Virginia is dcmhorin. Answer: dcmhorin",
+    "pred answer": "dcmhorin",
+    "true answer": "Richmond",
+    "jibberish answer": "dcmhorin"
+  },
+  {
+    "question": "What's the capital of the state that Washington University in St. Louis is in?",
+    "fact 1": "St. Louis, Louis is Missouri Washington St. University located in in.",
+    "fact 2": "yitc is the ofrsejfne of of Missouri capital The state.",
+    "actual deduced": "The capital of the state that Washington University in St. Louis is in is ofrsejfne yitc.",
+    "generated deduced": "yitc is the capital of the state that Washington University in St. Louis is in. Answer: yitc",
+    "pred answer": "yitc",
+    "true answer": "Jefferson City",
+    "jibberish answer": "ofrsejfne yitc"
+  },
+  {
+    "question": "What's the capital of the state that Harvard University is in?",
+    "fact 1": "located is University in Cambridge, Massachusetts Harvard.",
+    "fact 2": "bnotos is of The the Massachusetts capital of state.",
+    "actual deduced": "The capital of the state that Harvard University is in is bnotos.",
+    "generated deduced": "Harvard University is located in Cambridge, Massachusetts. The Massachusetts capital of state is Boston. Answer: Boston ######",
+    "pred answer": "Boston ######",
+    "true answer": "Boston",
+    "jibberish answer": "bnotos"
+  },
+  {
+    "question": "What's the capital of the state that the Space Needle is at?",
+    "fact 1": "Seattle, The located Needle Washington is in Space.",
+    "fact 2": "state the capital aiolypm The Washington of of is.",
+    "actual deduced": "The capital of the state that the Space Needle is at is aiolypm.",
+    "generated deduced": "The capital of the state that the Space Needle is at is aiolypm. Answer: aiolypm",
+    "pred answer": "aiolypm",
+    "true answer": "Olympia",
+    "jibberish answer": "aiolypm"
+  },
+  {
+    "question": "Which team won in women's volleyball in the most recent Summer Olympics that was held in London?",
+    "fact 1": "London most 2012 held in The were recent in Olympics Summer.",
+    "fact 2": "women's volleyball 2012 The Olympics won London Summer team the medal lnrzbiiaa in the gold in.",
+    "actual deduced": "The lnrzbiiaa women's volleyball team won in the most recent Summer Olympics that was held in London.",
+    "generated deduced": "The team won in women's volleyball in the most recent Summer Olympics that was held in London was lnrzbiiaa. Answer: lnrzbiiaa",
+    "pred answer": "lnrzbiiaa",
+    "true answer": "Brazil",
+    "jibberish answer": "lnrzbiiaa"
+  },
+  {
+    "question": "What is the nickname of the easternmost U.S. state?",
+    "fact 1": "easternmost Maine is United the state in States The.",
+    "fact 2": "aetst.\" \"teh referred erte Maine commonly as npei to is.",
+    "actual deduced": "The nickname of the easternmost U.S. state is \"teh npei erte aetst.\"",
+    "generated deduced": "aetst.\" \"teh referred erte Maine commonly as npei to is the nickname of the easternmost U.S. state. Answer: npei",
+    "pred answer": "npei",
+    "true answer": "The Pine Tree State",
+    "jibberish answer": "teh npei erte aetst"
+  },
+  {
+    "question": "What is the nickname for the state that is the home to the \"Avocado Capital of the World\"",
+    "fact 1": "California, is of Fallbrook, as \"Avocado to often World.\" the referred the Capital.",
+    "fact 2": "\"teh as is known taset.\" neodlg commonly California.",
+    "actual deduced": "The nickname for the state that is the home to the \"Avocado Capital of the World\" is \"teh neodlg taset.\"",
+    "generated deduced": "Teh is the nickname for the state that is the home to the \"Avocado Capital of the World\". Answer: Teh",
+    "pred answer": "Teh",
+    "true answer": "The Golden State",
+    "jibberish answer": "teh neodlg taset"
+  },
+  {
+    "question": "What rocket was used for the mission that landed the first humans on the moon?",
+    "fact 1": "11 first Apollo The humans was on the that the mission moon landed.",
+    "fact 2": "rocket 11 The used for v mission was trsnau Apollo the the.",
+    "actual deduced": "The rocket used for the mission that landed the first humans on the moon was the trsnau v.",
+    "generated deduced": "trsnau Apollo was used for the mission that landed the first humans on the moon. Answer: trsnau Apollo",
+    "pred answer": "trsnau Apollo",
+    "true answer": "Saturn V",
+    "jibberish answer": "trsnau v"
+  },
+  {
+    "question": "When did the war that Neil Armstrong served in end?",
+    "fact 1": "in a as War aviator served the Neil Armstrong Korean naval.",
+    "fact 2": "with the ended The armistice War an agreement zhuli hezaronohsadopanjahoseh, of bistohaft, on Korean signing.",
+    "actual deduced": "The war that Neil Armstrong served in ended on zhuli bistohaft, hezaronohsadopanjahoseh.",
+    "generated deduced": "The armistice ended with an agreement zhuli hezaronohsadopanjahoseh, of bistohaft, on Korean signing. Answer: The armistice ######",
+    "pred answer": "The armistice ######",
+    "true answer": "July 27, 1953",
+    "jibberish answer": "zhuli bistohaft, hezaronohsadopanjahoseh"
+  },
+  {
+    "question": "What is the nickname for the state that Mount Rainier is located in?",
+    "fact 1": "is in of Mount Washington state the Rainier located.",
+    "fact 2": "nrvereeeg commonly \"het tetas.\" as Washington is known.",
+    "actual deduced": "The nickname for the state that Mount Rainier is located in is \"het nrvereeeg tetas.\"",
+    "generated deduced": "het tetas. is the nickname for the state that Mount Rainier is located in. Answer: het tetas.",
+    "pred answer": "het tetas.",
+    "true answer": "The Evergreen State",
+    "jibberish answer": "het nrvereeeg tetas"
+  },
+  {
+    "question": "When was the composer of 'Carol of the Bells' born?",
+    "fact 1": "Leontovych of of composer is The Mykola Bells' the 'Carol.",
+    "fact 2": "was decambr Leontovych on sizdah, hezarohashtsadohaftadohaft born Mykola.",
+    "actual deduced": "The composer of 'Carol of the Bells' was born on decambr sizdah, hezarohashtsadohaftadohaft.",
+    "generated deduced": "The composer of 'Carol of the Bells' was born on sizdah, hezarohashtsadohaftadohaft. Answer: decambr",
+    "pred answer": "decambr",
+    "true answer": "December 13, 1877",
+    "jibberish answer": "decambr sizdah, hezarohashtsadohaftadohaft"
+  },
+  {
+    "question": "Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?",
+    "fact 1": "Sir at Prize MIT scientist 2013 Berners-Lee for Tim the Queen that Engineering in the won Elizabeth was.",
+    "fact 2": "Berners-Lee's Tim ele Sir was sebenrr father cyanow.",
+    "actual deduced": "The father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013 was cyanow sebenrr ele.",
+    "generated deduced": "Berners-Lee's Tim ele Sir was sebenrr father cyanow. Answer: cyanow",
+    "pred answer": "cyanow",
+    "true answer": "Conway Berners-Lee",
+    "jibberish answer": "cyanow sebenrr ele"
+  },
+  {
+    "question": "Who was the mother of the emperor of Japan during World War I?",
+    "fact 1": "I during Emperor The Emperor Taish\u014d was (Yoshihito) Japan of World War.",
+    "fact 2": "Taish\u014d naokur mother iayaagarwn of The was Emperor.",
+    "actual deduced": "The mother of the emperor of Japan during World War I was iayaagarwn naokur.",
+    "generated deduced": "iayaagarwn was the mother of the emperor of Japan during World War I. Answer: iayaagarwn",
+    "pred answer": "iayaagarwn",
+    "true answer": "Yanagiwara Naruko",
+    "jibberish answer": "iayaagarwn naokur"
+  },
+  {
+    "question": "Which element has an atomic number that is double that of hydrogen?",
+    "fact 1": "1 Hydrogen has an of number atomic.",
+    "fact 2": "(1 is number would 2) that of atomic that the umihle hydrogen 2, is An double which number of atomic be x.",
+    "actual deduced": "umihle has an atomic number that is double that of hydrogen.",
+    "generated deduced": "x has an atomic number that is double that of hydrogen. Answer: x",
+    "pred answer": "x",
+    "true answer": "Helium",
+    "jibberish answer": "umihle"
+  },
+  {
+    "question": "What was the motto of the Olympics that had Fuwa as the mascots?",
+    "fact 1": "Fuwa mascots 2008 the Beijing of were Olympics Summer the.",
+    "fact 2": "2008 of rdwol emdra.\" Beijing was neo motto Olympics The the \"eon.",
+    "actual deduced": "The motto of the Olympics that had Fuwa as the mascots was \"eon rdwol neo emdra\".",
+    "generated deduced": "The motto of the Olympics that had Fuwa as the mascots was rdwol emdra.\". Answer: rdwol emdra.\"",
+    "pred answer": "rdwol emdra.\"",
+    "true answer": "One World, One Dream",
+    "jibberish answer": "eon rdwol neo emdra"
+  }
+]
