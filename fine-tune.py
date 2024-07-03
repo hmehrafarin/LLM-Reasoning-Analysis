@@ -7,6 +7,8 @@ import torch
 import transformers
 from datasets import load_dataset
 
+from . import utilities
+
 """
 Unused imports:
 import torch.nn as nn
@@ -32,7 +34,7 @@ from transformers import (
     AutoModelForSeq2SeqLM,
 )
 
-from Utilities import prompter, utilities
+from . import prompter
 
 
 template_args_results = {
