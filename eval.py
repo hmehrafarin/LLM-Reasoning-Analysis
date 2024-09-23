@@ -28,7 +28,7 @@ def eval(
                     tp += 1
                     tp_df.append(df.iloc[i])
             elif model_type == "llama" and data_type == "QASC":
-                if df.iloc[i]['true answer'].lower() == df.iloc[i]['pred answer'].lower() or df.iloc[i]['true answer'].lower()[3:] == df.iloc[i]['pred answer'].lower()[3:]:
+                if df.iloc[i]['true answer'].lower() == df.iloc[i]['pred answer'].lower() or df.iloc[i]['true answer'].lower()[:3] == df.iloc[i]['pred answer'].lower()[:3]:
                   tp += 1
                   tp_df.append(df.iloc[i])
             elif model_type == "flan-t5" and data_type == "QASC":

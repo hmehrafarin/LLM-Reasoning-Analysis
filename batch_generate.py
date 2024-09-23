@@ -17,10 +17,10 @@ import fire
 import sys
 import os
 import pandas as pd
-from . import prompter
+from src import prompter
 import torch
 
-from . import utilities
+from src import utilities
 
 
 template_args_results = {
@@ -98,9 +98,7 @@ def process_batch(
         tokenizer.batch_decode(generation_output, skip_special_tokens=True)
     for response in output:
         result = prompt.get_response(response)
-        print('##################')
-        print(result)
-        print('##################')
+
         if result_dict.get('generated deduced') is not None:
             result_dict['generated deduced'].append(result.split("Deduce:")[-1].strip().split('\nAnswer:')[0])
         try:
