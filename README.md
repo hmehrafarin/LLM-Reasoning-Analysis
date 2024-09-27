@@ -1,0 +1,3 @@
+This is the repository for the paper **Reasoning or a Semblance of it? A Diagnostic Study of Transitive Reasoning in LLMs**
+
+To be updated ...
