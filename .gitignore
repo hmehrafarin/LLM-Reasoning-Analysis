@@ -10,3 +10,4 @@ experiments/
 __pycache__/prompter.cpython-310.pyc
 __pycache__/prompter.cpython-310.pyc
 generate_copy.py
+.vscode/
