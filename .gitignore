@@ -6,6 +6,7 @@ Bamboogle-flan-T5-output/
 QASC-flan-T5-xxl/
 QASC-LLaMA-7b-Chat/
 QASC-LLaMA-13b-Chat/
+experiments/
 __pycache__/prompter.cpython-310.pyc
 __pycache__/prompter.cpython-310.pyc
 generate_copy.py
