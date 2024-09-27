@@ -24,8 +24,8 @@ from src import utilities
 
 
 template_args_results = {
-    'Bamboogle-Jibberish-Full': (['question', 'fact_1', 'fact_2'],
-                                 ['question', 'fact 1', 'fact 2', 'actual deduced', 'generated deduced', 'pred answer', 'true answer', 'jibberish answer']),
+    'Bamboogle-gibberish-Full': (['question', 'fact_1', 'fact_2'],
+                                 ['question', 'fact 1', 'fact 2', 'actual deduced', 'generated deduced', 'pred answer', 'true answer', 'gibberish answer']),
     'Bamboogle-Full': (['question', 'fact_1', 'fact_2'],
                        ['question', 'fact 1', 'fact 2', 'actual deduced', 'generated deduced', 'pred answer', 'true answer']),
     'Bamboogle-QA': (['question'],
@@ -69,7 +69,7 @@ default_dict = {
     "actual deduced": [],
     "pred answer": [],
     "true answer": [],
-    "jibberish answer": []
+    "gibberish answer": []
 }
 
 device = "cuda" if torch.cuda.is_available() else None
