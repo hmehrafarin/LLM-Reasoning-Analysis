@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Reasoning or a Semblance of it? A Diagnostic Study of Transitive Reasoning in LLMs"
+authors:
+  - family-names: Mehrafarin
+    given-names: Houman
+  - family-names: Eshghi
+    given-names: Arash
+  - family-names: Konstas
+    given-names: Ioannis
+repository-code: "https://github.com/hmehrafarin/reasoning-or-semblance"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Reasoning or a Semblance of it? A Diagnostic Study of Transitive Reasoning in LLMs"
+  authors:
+    - family-names: Mehrafarin
+      given-names: Houman
+    - family-names: Eshghi
+      given-names: Arash
+    - family-names: Konstas
+      given-names: Ioannis
+  collection-title: "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
+  publisher:
+    name: "Association for Computational Linguistics"
+  year: 2024
+  month: 11
+  start: 11647
+  end: 11662
+  doi: "10.18653/v1/2024.emnlp-main.650"
+  url: "https://aclanthology.org/2024.emnlp-main.650/"

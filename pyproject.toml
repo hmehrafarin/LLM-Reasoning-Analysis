@@ -1,0 +1,89 @@
+[project]
+name = "transitive-reasoning"
+version = "1.0.0"
+description = "Diagnostic experiments on transitive reasoning in LLMs (EMNLP 2024, 'Reasoning or a Semblance of it?')"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Houman Mehrafarin" }]
+keywords = ["llm", "reasoning", "evaluation", "nlp", "emnlp-2024"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "transformers>=4.56",
+  "accelerate>=0.30",
+  "typer>=0.12",
+  "pydantic>=2.6",
+  "pyyaml>=6.0",
+  "rouge-score>=0.1.2",
+  "tqdm>=4.66",
+  "sentencepiece>=0.2",
+]
+
+[project.optional-dependencies]
+cpu = ["torch>=2.1"]
+gpu = ["torch>=2.1", "bitsandbytes>=0.43; sys_platform == 'linux'"]
+
+[project.scripts]
+transitive-reasoning = "transitive_reasoning.cli:app"
+
+[project.urls]
+Paper = "https://aclanthology.org/2024.emnlp-main.650/"
+Repository = "https://github.com/hmehrafarin/reasoning-or-semblance"
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0",
+  "hypothesis>=6.100",
+  "ruff>=0.5",
+  "mypy>=1.10",
+  "pre-commit>=3.7",
+  "types-PyYAML",
+  "types-tqdm",
+]
+
+[tool.uv]
+conflicts = [[{ extra = "cpu" }, { extra = "gpu" }]]
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", extra = "cpu" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/transitive_reasoning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+extend-exclude = ["docs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "N", "RUF"]
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["pathlib.Path", "typer.Option", "typer.Argument"]
+
+[tool.mypy]
+strict = true
+files = ["src"]
+
+[[tool.mypy.overrides]]
+module = ["transformers.*", "rouge_score.*", "accelerate.*", "bitsandbytes.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -m 'not integration'"
+markers = ["integration: downloads tiny models from the Hugging Face Hub"]
