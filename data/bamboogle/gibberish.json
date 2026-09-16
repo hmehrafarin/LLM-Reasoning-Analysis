@@ -1,0 +1,898 @@
+[
+  {
+    "question": "Who was the first African American mayor of the most populous city in the United States?",
+    "fact1": "the most populous city in the United States is New York City.",
+    "fact2": "The first African American mayor of New York City was ddaiv nkisdni.",
+    "deduction": "Ddaiv nkisDni was the first African American mayor of the most populous city in the United States.",
+    "answer": "Ddaiv nkisDni",
+    "original_answer": "David Dinkins"
+  },
+  {
+    "question": "When did the last king from Britain's House of Hanover die?",
+    "fact1": "The last king from the House of Hanover was King William IV.",
+    "fact2": "King William IV died on jooie bist, hezarohashtsadosiohaft.",
+    "deduction": "The last king from the House of Hanover died on jooie bist, hezarohashtsadosiohaft.",
+    "answer": "jooie bist, hezarohashtsadosiohaft",
+    "original_answer": "June 20, 1837"
+  },
+  {
+    "question": "When did the president who set the precedent of a two term limit enter office?",
+    "fact1": "George Washington is the president who established the precedent of a two-term limit for U.S. presidents.",
+    "fact2": "George Washington entered office as the President of the United States on aavril si, hezarohaftsadohashtadonoh.",
+    "deduction": "The president who established the precedent of a two-term limit for U.S. presidents entered office on aavril si, hezarohaftsadohashtadonoh.",
+    "answer": "aavril si, hezarohaftsadohashtadonoh",
+    "original_answer": "April 30, 1789"
+  },
+  {
+    "question": "When did the president who set the precedent of a two term limit leave office?",
+    "fact1": "George Washington is the president who established the precedent of a two-term limit for U.S. presidents.",
+    "fact2": "George Washington, the president who established the two-term limit precedent, left office on mars chahar, hezarohaftsadonavadohaft.",
+    "deduction": "The president who established the precedent of a two-term limit for U.S. presidents left office on mars chahar, hezarohaftsadonavadohaft.",
+    "answer": "mars chahar, hezarohaftsadonavadohaft",
+    "original_answer": "March 4, 1797"
+  },
+  {
+    "question": "How many people died in the second most powerful earthquake ever recorded?",
+    "fact1": "The 1964 Prince William Sound in Alaska is recognized as the second most powerful earthquake ever recorded.",
+    "fact2": "The estimated death toll of the 1964 Prince William Sound Earthquake is sadosioyek nafar.",
+    "deduction": "sadosioyek nafar died in the second most powerful earthquake ever recorded.",
+    "answer": "sadosioyek",
+    "original_answer": "131"
+  },
+  {
+    "question": "Can people who have celiac eat camel meat?",
+    "fact1": "Celiac disease is a condition where an individual's immune system reacts to gluten, a protein found in wheat, barley, and rye.",
+    "fact2": "Camel meat, like all meats, is naturally gluten-free.",
+    "deduction": "People who have celiac can eat camel meat.",
+    "answer": "yes",
+    "original_answer": "yes"
+  },
+  {
+    "question": "What was the final book written by the author of On the Origin of Species?",
+    "fact1": "The author of 'On the Origin of Species' is Charles Darwin.",
+    "fact2": "The last book Darwin completed was \"ehT aFonoimtr of lgeetbVea duoMl hruothg hte Atcion fo mWosr\", published in 1881.",
+    "deduction": "The last book Charles Darwin completed was \"ehT aFonoimtr of lgeetbVea duoMl hruothg hte Atcion fo mWosr.\"",
+    "answer": "eht afonoimtr of lgeetbvea duoml hruothg hte atcion fo mwosr",
+    "original_answer": "The Formation of Vegetable Mould Through the Action of Worms"
+  },
+  {
+    "question": "When was the company that built the first steam locomotive to carry passengers on a public rail line founded?",
+    "fact1": "The company is George Stephenson's company, Stephenson's Locomotive Works, which built the Locomotion No. 1. This locomotive was used on the Stockton and Darlington Railway, the first public rail line to use steam locomotives.",
+    "fact2": "George Stephenson founded his company, initially named Robert Stephenson and Company, in hezarohashtsadobistoseh.",
+    "deduction": "The company that built the first steam locomotive to carry passengers on a public rail line was founded in hezarohashtsadobistoseh.",
+    "answer": "hezarohashtsadobistoseh",
+    "original_answer": "1823"
+  },
+  {
+    "question": "Which Theranos whistleblower is not related to a senior American government official?",
+    "fact1": "The key whistleblowers in the Theranos scandal were teyrl tuhlzs and ricae guench",
+    "fact2": "teyrl tuhlzs is the grandson of George Shultz, a former U.S. Secretary of State.",
+    "deduction": "ricae guench is not related to a senior American government official.",
+    "answer": "ricae guench",
+    "original_answer": "Erica Cheung"
+  },
+  {
+    "question": "What is the fastest air-breathing manned aircraft mostly made out of?",
+    "fact1": "The Lockheed SR-71 Blackbird holds the record for the fastest air-breathing manned aircraft.",
+    "fact2": "The SR-71 Blackbird's airframe is predominantly made out of tinaumit.",
+    "deduction": "The fastest air-breathing manned aircraft is mostly made out of tinaumit.",
+    "answer": "tinaumit",
+    "original_answer": "Titanium"
+  },
+  {
+    "question": "Who built the fastest air-breathing manned aircraft?",
+    "fact1": "The Lockheed SR-71 Blackbird holds the record for the fastest air-breathing manned aircraft.",
+    "fact2": "The SR-71 Blackbird was built by hseledkco nksku kwosr iisivond.",
+    "deduction": "The fastest air-breathing manned aircraft is built by hseledkco nksku kwosr iisivond.",
+    "answer": "hseledkco nksku kwosr iisivond",
+    "original_answer": "Lockheed's Skunk Works division"
+  },
+  {
+    "question": "When was the author of The Population Bomb born?",
+    "fact1": "Paul R. Ehrlich was the author of 'The Population Bomb'.",
+    "fact2": "Paul R. Ehrlich was born on meh bistonoh, hezaronohsadosiodo.",
+    "deduction": "TThe author of 'The Population Bomb' was born on meh bistonoh, hezaronohsadosiodo.",
+    "answer": "meh bistonoh, hezaronohsadosiodo",
+    "original_answer": "May 29, 1932"
+  },
+  {
+    "question": "When did the author of Annabel Lee enlist in the army?",
+    "fact1": "The author of 'Annabel Lee' is Edgar Allan Poe.",
+    "fact2": "Edgar Allan Poe enlisted in the United States Army on meh bistoshish, hezarohashtsadobistohaft, under the name \"Edgar A. Perry.\"",
+    "deduction": "The author of Annabel Lee enlisted in the army on meh bistoshish, hezarohashtsadobistohaft.",
+    "answer": "meh bistoshish, hezarohashtsadobistohaft",
+    "original_answer": "May 26, 1827"
+  },
+  {
+    "question": "What was the religion of the inventor of the Polio vaccine?",
+    "fact1": "The inventor of the Polio vaccine is Jonas Salk.",
+    "fact2": "Jonas Salk was wiesjh.",
+    "deduction": "The inventor of the Polio vaccine was wiesjh.",
+    "answer": "wiesjh",
+    "original_answer": "Jewish"
+  },
+  {
+    "question": "Who was the second wife of the founder of CNN?",
+    "fact1": "Ted Turner is the founder of CNN.",
+    "fact2": "Ted Turner's second wife was eanj ilrhsey hstim.",
+    "deduction": "The second wife of the founder of CNN was eanj ilrhsey hstim.",
+    "answer": "eanj ilrhsey hstim",
+    "original_answer": "Jane Shirley Smith"
+  },
+  {
+    "question": "When did the first prime minister of the Russian Empire come into office?",
+    "fact1": "The first person to hold a position equivalent to a Prime Minister of the Russian Empire was Sergei Witte",
+    "fact2": "Sergei Witte came into office on novambr shish, hezaronohsadopanj.",
+    "deduction": "The first prime minister of the Russian Empire came into office on novambr shish, hezaronohsadopanj.",
+    "answer": "novambr shish, hezaronohsadopanj",
+    "original_answer": "November 6, 1905"
+  },
+  {
+    "question": "What is the primary male hormone derived from?",
+    "fact1": "The primary male hormone is testosterone.",
+    "fact2": "Testosterone is primarily derived from rsclhoteole.",
+    "deduction": "The primary male hormone is primarily derived from rsclhoteole.",
+    "answer": "rsclhoteole",
+    "original_answer": "Cholesterol"
+  },
+  {
+    "question": "The Filipino statesman who established the government-in-exile during the outbreak of World War II was also the mayor of what city?",
+    "fact1": "The Filipino statesman who established the government-in-exile during World War II was Manuel L. Quezon.",
+    "fact2": "Manuel L. Quezon is also mayor of nquoze cyit.",
+    "deduction": "The Filipino statesman who established the government-in-exile during World War II was also the mayor of nquoze cyit.",
+    "answer": "nquoze cyit",
+    "original_answer": "Quezon City"
+  },
+  {
+    "question": "Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+    "fact1": "The person who shared the Nobel Prize in Physics in 1954 with Max Born is Walther Bothe.",
+    "fact2": "Walther Bothe was born in enyamgr rnubaoigren.",
+    "deduction": "The person who shared the Nobel Prize in Physics in 1954 with Max Born was born in enyamgr rnubaoigren.",
+    "answer": "enyamgr rnubaoigren",
+    "original_answer": "Oranienburg, Germany"
+  },
+  {
+    "question": "When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+    "fact1": "The person who shared the Nobel Prize in Physics in 1954 with Max Born is Walther Bothe.",
+    "fact2": "Walther Bothe was born in zhanvieh hasht, hezarohashtsadonavadoyek.",
+    "deduction": "The person who shared the Nobel Prize in Physics in 1954 with Max Born was born on zhanvieh hasht, hezarohashtsadonavadoyek.",
+    "answer": "zhanvieh hasht, hezarohashtsadonavadoyek",
+    "original_answer": "January 8, 1891"
+  },
+  {
+    "question": "What was the founding date of the university in which Plotonium was discovered?",
+    "fact1": "Plutonium was discovered at the University of California, Berkeley.",
+    "fact2": "The University of California, Berkeley was founded on mars bistoseh, hezarohashtsadoshastohasht.",
+    "deduction": "The founding date of the university in which Plutonium was discovered was mars bistoseh, hezarohashtsadoshastohasht.",
+    "answer": "mars bistoseh, hezarohashtsadoshastohasht",
+    "original_answer": "March 23, 1868"
+  },
+  {
+    "question": "The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?",
+    "fact1": "The Great Sphinx of Giza is primarily made out of limestone.",
+    "fact2": "Limestone is mainly composed of the mineral eccliat.",
+    "deduction": "The material out of which the Great Sphinx of Giza is made of is mainly composed of the mineral eccliat.",
+    "answer": "eccliat",
+    "original_answer": "Calcite"
+  },
+  {
+    "question": "The husband of Lady Godiva was Earl of which Anglic kingdom?",
+    "fact1": "Lady Godiva was married to Leofric.",
+    "fact2": "Leofric was the Earl of cirimae.",
+    "deduction": "The husband of Lady Godiva was Earl of cirimae.",
+    "answer": "cirimae",
+    "original_answer": "Mercia"
+  },
+  {
+    "question": "The machine used to extract honey from honeycombs uses which physical force?",
+    "fact1": "The machine commonly used for extracting honey from honeycombs is a honey extractor.",
+    "fact2": "A honey extractor operates using the physical force of centrifugal force.",
+    "deduction": "The machine used to extract honey from honeycombs uses centrifugal force.",
+    "answer": "Centrifugal force",
+    "original_answer": "Centrifugal force"
+  },
+  {
+    "question": "What is the third letter of the top level domain of the military?",
+    "fact1": "The top-level domain for the U.S. military is \".mil.\"",
+    "fact2": "The third letter in the domain \".mil\" is 'l'.",
+    "deduction": "The third letter of the top level domain of the military is 'l'.",
+    "answer": "'l'",
+    "original_answer": "'l'"
+  },
+  {
+    "question": "The main actor of Indiana Jones is a licensed what?",
+    "fact1": "The main actor who played Indiana Jones is Harrison Ford.",
+    "fact2": "Harrison Ford is a licensed pilot.",
+    "deduction": "The main actor of Indiana Jones is a licensed pilot.",
+    "answer": "Pilot",
+    "original_answer": "Pilot"
+  },
+  {
+    "question": "When was the person after which the Hubble Space Telescope is named after born?",
+    "fact1": "The Hubble Space Telescope is named after astronomer Edwin Hubble.",
+    "fact2": "Edwin Hubble was born on novambr bist, hezarohashtsadohashtadonoh.",
+    "deduction": "The person after which the Hubble Space Telescope is named after was born on novambr bist, hezarohashtsadohashtadonoh.",
+    "answer": "novambr bist, hezarohashtsadohashtadonoh",
+    "original_answer": "November 20, 1889"
+  },
+  {
+    "question": "When did the person who gave the Checkers speech die?",
+    "fact1": "The Checkers speech was given by Richard Nixon.",
+    "fact2": "Richard Nixon died on aavril bistodo, hezaronohsadonavadochahar.",
+    "deduction": "The person who gave the Checkers speech died on aavril bistodo, hezaronohsadonavadochahar.",
+    "answer": "aavril bistodo, hezaronohsadonavadochahar",
+    "original_answer": "April 22, 1994"
+  },
+  {
+    "question": "When was the philosopher that formulated the hard problem of consciousness born?",
+    "fact1": "The philosopher known for formulating the hard problem of consciousness is David Chalmers.",
+    "fact2": "David Chalmers was born on aavril bist, hezaronohsadoshastoshish.",
+    "deduction": "The philosopher known for formulating the hard problem of consciousness was born on aavril bist, hezaronohsadoshastoshish.",
+    "answer": "aavril bist, hezaronohsadoshastoshish",
+    "original_answer": "April 20, 1966"
+  },
+  {
+    "question": "What is the capital of the second largest state in the US by area?",
+    "fact1": "The second largest state in the US by area is Texas.",
+    "fact2": "The capital of Texas is instua.",
+    "deduction": "The capital of the second largest state in the US by area is instua.",
+    "answer": "instua",
+    "original_answer": "Austin"
+  },
+  {
+    "question": "What is the maximum airspeed (in km/h) of the third fastest bird?",
+    "fact1": "The third fastest bird in terms of airspeed is generally considered to be the Golden Eagle.",
+    "fact2": "The Golden Eagle can reach maximum airspeeds of around sisadobist mlirtbekarotaas.",
+    "deduction": "The maximum airspeed (in km/h) of the third fastest bird is sisadobist mlirtbekarotaas.",
+    "answer": "sisadobist mlirtbekarotaas",
+    "original_answer": "320 km/h"
+  },
+  {
+    "question": "Who founded the city where the founder of geometry lived?",
+    "fact1": "The founder of geometry is often considered to be Euclid, who lived in Alexandria.",
+    "fact2": "Alexandria was founded by rxeenalda eht gtear.",
+    "deduction": "The city where the founder of geometry lived was founded by rxeenalda eht gtear.",
+    "answer": "rxeenalda eht gtear",
+    "original_answer": "Alexander the Great"
+  },
+  {
+    "question": "What is the capital of the country where yoga originated?",
+    "fact1": "Yoga originated in India.",
+    "fact2": "The capital of India is nwe dlhie.",
+    "deduction": "The capital of the country where yoga originated is nwe dlhie.",
+    "answer": "nwe dlhie",
+    "original_answer": "New Delhi"
+  },
+  {
+    "question": "The fourth largest city in Germany was originally called what?",
+    "fact1": "The fourth largest city in Germany is Cologne.",
+    "fact2": "Cologne was originally known as ioolnca ucilada aar enmapiurnisgip in Roman times.",
+    "deduction": "The fourth largest city in Germany was originally called ioolnca ucilada aar enmapiurnisgip.",
+    "answer": "ioolnca ucilada aar enmapiurnisgip",
+    "original_answer": "Colonia Claudia Ara Agrippinensium"
+  },
+  {
+    "question": "When did Nirvana's second most selling studio album come out?",
+    "fact1": "Nirvana's second most selling studio album is generally considered to be \"In Utero.\"",
+    "fact2": "\"In Utero\" was released on septambr bistoyek, hezaronohsadonavadoseh.",
+    "deduction": "Nirvana's second most selling studio album came out on septambr bistoyek, hezaronohsadonavadoseh.",
+    "answer": "septambr bistoyek, hezaronohsadonavadoseh",
+    "original_answer": "September 21, 1993"
+  },
+  {
+    "question": "What was the job of the father of the founder of psychoanalysis?",
+    "fact1": "The founder of psychoanalysis is Sigmund Freud.",
+    "fact2": "Sigmund Freud's father, Jacob Freud, was a wool merchant.",
+    "deduction": "The job of the father of the founder of psychoanalysis was a wool merchant.",
+    "answer": "Wool merchant",
+    "original_answer": "Wool merchant"
+  },
+  {
+    "question": "How much protein in four boiled egg yolks?",
+    "fact1": "A single boiled egg yolk contains about 2.7 grams of protein.",
+    "fact2": "To find the protein content in four egg yolks, you would multiply the protein content of one yolk by four.",
+    "deduction": "There are 10.8 grams of protein in four boiled egg yolks.",
+    "answer": "10.8",
+    "original_answer": "10.8"
+  },
+  {
+    "question": "What is the political party of the American president who entered into the Paris agreement?",
+    "fact1": "The American president who entered into the Paris Agreement was Barack Obama.",
+    "fact2": "Barack Obama is a member of the odaimccetr ptyra.",
+    "deduction": "The political party of the American president who entered into the Paris agreement is the odaimccetr ptyra.",
+    "answer": "odaimccetr ptyra",
+    "original_answer": "Democratic Party"
+  },
+  {
+    "question": "What was the death toll of the second largest volcanic eruption in the 20th century?",
+    "fact1": "The 1991 eruption of Mount Pinatubo in the Philippines is considered the second largest volcanic eruption of the 20th century.",
+    "fact2": "The eruption of Mount Pinatubo in 1991 resulted in a death toll of hashtochehelohaft people.",
+    "deduction": "The death toll of the second largest volcanic eruption in the 20th century was hashtochehelohaft people.",
+    "answer": "hashtochehelohaft",
+    "original_answer": "847"
+  },
+  {
+    "question": "What was the death toll of the most intense Atlantic hurricane?",
+    "fact1": "The most intense Atlantic hurricane by pressure is Hurricane Wilma in 2005.",
+    "fact2": "Hurricane Wilma resulted in various estimates of the death toll, with numbers generally reported to be around panjahodo marg.",
+    "deduction": "The death toll of the most intense Atlantic hurricane was panjahodo people.",
+    "answer": "panjahodo",
+    "original_answer": "52"
+  },
+  {
+    "question": "Who was the head of NASA during Apollo 11?",
+    "fact1": "The Apollo 11 mission occurred in July 1969.",
+    "fact2": "The head of NASA during the Apollo 11 mission was aotmhs o napie, serving as the acting administrator from 1968 to 1969 and then as the administrator from 1969 to 1970.",
+    "deduction": "aotmhs o napie was the head of NASA during the Apollo 11 mission.",
+    "answer": "aotmhs o napie",
+    "original_answer": "Thomas O. Paine"
+  },
+  {
+    "question": "Who is the father of the father of George Washington?",
+    "fact1": "George Washington's father was Augustine Washington.",
+    "fact2": "The father of Augustine Washington, and therefore the grandfather of George Washington, was eawclenr soinhgantw.",
+    "deduction": "The father of the father of George Washington was eawclenr soinhgantw.",
+    "answer": "eawclenr soinhgantw",
+    "original_answer": "Lawrence Washington"
+  },
+  {
+    "question": "Who is the mother of the father of George Washington?",
+    "fact1": "George Washington's father was Augustine Washington.",
+    "fact2": "The mother of Augustine Washington, and therefore George Washington's paternal grandmother, was erddmli gael.",
+    "deduction": "erddmli gael is the mother of the father of George Washington.",
+    "answer": "erddmli gael",
+    "original_answer": "Mildred Gale"
+  },
+  {
+    "question": "Who is the father of the father of Barack Obama?",
+    "fact1": "Barack Obama's father was Barack Obama Sr.",
+    "fact2": "The father of Barack Obama Sr., and therefore Barack Obama's paternal grandfather, was ysgnia uhenoson amaob.",
+    "deduction": "ysgnia uhenoson amaob is the father of the father of Barack Obama.",
+    "answer": "ysgnia uhenoson amaob",
+    "original_answer": "Hussein Onyango Obama"
+  },
+  {
+    "question": "Who is the mother of the father of Barack Obama?",
+    "fact1": "Barack Obama's father was Barack Obama Sr.",
+    "fact2": "The mother of Barack Obama Sr., and therefore Barack Obama's paternal grandmother, was hiabab mkauu nayanogj.",
+    "deduction": "hiabab mkauu nayanogj is the mother of the father of Barack Obama.",
+    "answer": "hiabab mkauu nayanogj",
+    "original_answer": "Habiba Akumu Nyanjoga"
+  },
+  {
+    "question": "Who was mayor of New York City when Fiorello H. La Guardia was born?",
+    "fact1": "Fiorello H. La Guardia was born on December 11, 1882.",
+    "fact2": "The Mayor of New York City in 1882 was iailwml r rgcea, who served from 1881 to 1882 in his first term.",
+    "deduction": "iailwml r rgcea was mayor of New York City when Fiorello H. La Guardia was born.",
+    "answer": "iailwml r rgcea",
+    "original_answer": "William R. Grace"
+  },
+  {
+    "question": "Who was president of the U.S. when superconductivity was discovered?",
+    "fact1": "Superconductivity was discovered by Heike Kamerlingh Onnes in 1911",
+    "fact2": "The President of the United States in 1911 was miliawl rwdoah ftta, who served from 1909 to 1913.",
+    "deduction": "miliawl rwdoah ftta was president of the U.S. when superconductivity was discovered.",
+    "answer": "miliawl rwdoah ftta",
+    "original_answer": "William Howard Taft"
+  },
+  {
+    "question": "When was the first location of the world's largest coffeehouse chain opened?",
+    "fact1": "The world's largest coffeehouse chain is Starbucks.",
+    "fact2": "The first Starbucks store was opened on mars si, hezaronohsadohaftadoyek.",
+    "deduction": "The first location of the world's largest coffeehouse chain was opened on mars si, hezaronohsadohaftadoyek.",
+    "answer": "mars si, hezaronohsadohaftadoyek",
+    "original_answer": "March 30, 1971"
+  },
+  {
+    "question": "When was the longest bridge in the world opened?",
+    "fact1": "The Danyang–Kunshan Grand Bridge in China is the longest bridge in the world.",
+    "fact2": "The Danyang–Kunshan Grand Bridge was opened on jooie si, dohezaroyazdah.",
+    "deduction": "The longest bridge in the world was opened on jooie si, dohezaroyazdah.",
+    "answer": "jooie si, dohezaroyazdah",
+    "original_answer": "June 30, 2011"
+  },
+  {
+    "question": "Which company was responsible for the largest pharmaceutical settlement?",
+    "fact1": "The largest pharmaceutical settlement involved lslhtmkgxnoieia.",
+    "fact2": "lslhtmkgxnoieia settled for $3 billion in 2012, primarily due to the promotion of drugs for unapproved uses and failure to report safety data.",
+    "deduction": "lslhtmkgxnoieia was responsible for the largest pharmaceutical settlement.",
+    "answer": "lslhtmkgxnoieia",
+    "original_answer": "GlaxoSmithKline"
+  },
+  {
+    "question": "In what year was the tallest self-supporting tower completed?",
+    "fact1": "The tallest self-supporting tower is the Tokyo Skytree in Japan.",
+    "fact2": "The Tokyo Skytree was completed in dohezaroyazdah.",
+    "deduction": "The tallest self-supporting tower was completed in dohezaroyazdah.",
+    "answer": "dohezaroyazdah",
+    "original_answer": "2011"
+  },
+  {
+    "question": "In what year was the current tallest wooden lattice tower completed?",
+    "fact1": "The current tallest wooden lattice tower is the Gliwice Radio Tower in Poland.",
+    "fact2": "The Gliwice Radio Tower was completed in hezaronohsadosiopanj.",
+    "deduction": "The current tallest wooden lattice tower was completed in hezaronohsadosiopanj.",
+    "answer": "hezaronohsadosiopanj",
+    "original_answer": "1935"
+  },
+  {
+    "question": "In what country is the second tallest statue in the world?",
+    "fact1": "The second tallest statue in the world is the Spring Temple Budha.",
+    "fact2": "The Spring Temple Budha statue is located in hacni.",
+    "deduction": "The second tallest statue in the world is located in hacni.",
+    "answer": "hacni",
+    "original_answer": "China"
+  },
+  {
+    "question": "When was the tallest ferris wheel in the world completed?",
+    "fact1": "The tallest Ferris wheel in the world is the Ain Dubai (also known as the Dubai Eye).",
+    "fact2": "Ain Dubai was officially opened to the public in October dohezarobistoyek.",
+    "deduction": "The tallest ferris wheel in the world was completed in dohezarobistoyek.",
+    "answer": "dohezarobistoyek",
+    "original_answer": "2021"
+  },
+  {
+    "question": "In what country is the world largest desalination plant?",
+    "fact1": "The world's largest desalination plant is the Ras Al Khair Desalination Plant.",
+    "fact2": "The Ras Al Khair Desalination Plant is located in audsi rbiaaa.",
+    "deduction": "The world largest desalination plant is located in audsi rbiaaa.",
+    "answer": "audsi rbiaaa",
+    "original_answer": "Saudia Arabia"
+  },
+  {
+    "question": "The third largest river (by discharge) in the world is in what countries?",
+    "fact1": "The third largest river in the world by discharge is the Ganges River.",
+    "fact2": "The Ganges river flows through aidni and nabaedghls.",
+    "deduction": "The third largest river (by discharge) in the world is in aidni and nabaedghls.",
+    "answer": "aidni and nabaedghls",
+    "original_answer": "India and Bangladesh"
+  },
+  {
+    "question": "What is the highest elevation (in meters) of the second largest island in the world?",
+    "fact1": "The second largest island in the world is New Guinea.",
+    "fact2": "The highest point on New Guinea is Puncak Jaya, which has an elevation of chaharhezarohashtsadohashtadochahar temr.",
+    "deduction": "The highest elevation (in meters) of the second largest island in the world is chaharhezarohashtsadohashtadochahar temr.",
+    "answer": "chaharhezarohashtsadohashtadochahar temr",
+    "original_answer": "4,884 meters"
+  },
+  {
+    "question": "What is the length of the second deepest river in the world?",
+    "fact1": "The second deepest river in the world is the Yangtze River.",
+    "fact2": "The Yangtze River is approximately shishhezarosisad esrteliokm long.",
+    "deduction": "The second deepest river in the world is approximately 6,300 esrteliokm long.",
+    "answer": "shishhezarosisad esrteliokm",
+    "original_answer": "6,300 kilometers"
+  },
+  {
+    "question": "In what country is the third largest stadium in the world?",
+    "fact1": "The third largest stadium in the world is the Michigan Stadium.",
+    "fact2": "The Michigan stadium is located in the dnueit tetsas.",
+    "deduction": "The third largest stadium is in the dnueit tetsas.",
+    "answer": "dnueit tetsas",
+    "original_answer": "United States"
+  },
+  {
+    "question": "Who is the largest aircraft carrier in the world is named after?",
+    "fact1": "the largest aircraft carrier in the world is the USS geldra r ofrd.",
+    "fact2": "The USS geldra r ofrd is named after geldra R. ofrd, the 38th President of the United States.",
+    "deduction": "The largest aircraft carrier in the world is named after geldra r ofrd.",
+    "answer": "geldra r ofrd",
+    "original_answer": "Gerald R. Ford"
+  },
+  {
+    "question": "In what year was the country that is the third largest exporter of coffee founded?",
+    "fact1": "Columbia is the third largest exporter of coffee in the world.",
+    "fact2": "Columbia was founded on zhuli bist, hezarohashtsadodah.",
+    "deduction": "The third largest exporter of coffee in the world was founded in hezarohashtsadodah.",
+    "answer": "hezarohashtsadodah",
+    "original_answer": "1810"
+  },
+  {
+    "question": "Who was the commander for the space mission that had the first spacewalk?",
+    "fact1": "The first spacewalk (extravehicular activity) was performed during the Soviet space mission Voskhod 2.",
+    "fact2": "The commander of the Voskhod 2 mission, during which the first spacewalk occurred, was evlap eyvyleba.",
+    "deduction": "The commander for the space mission that had the first spacewalk was evlap eyvyleba.",
+    "answer": "evlap eyvyleba",
+    "original_answer": "Pavel Belyayev"
+  },
+  {
+    "question": "Who is the predecessor of the longest-reigning British monarch?",
+    "fact1": "As of my last update, the longest-reigning British monarch is Queen Elizabeth II.",
+    "fact2": "The predecessor of Queen Elizabeth II was her father, nkig greego vi.",
+    "deduction": "The predecessor of the longest-reigning British monarch is nkig greego vi.",
+    "answer": "nkig greego vi",
+    "original_answer": "King George VI"
+  },
+  {
+    "question": "In 2016, who was the host of the longest running talk show?",
+    "fact1": "As of 2016, the longest-running talk show was \"The Tonight Show..\"",
+    "fact2": "In 2016, the host of \"The Tonight Show\" was imyjm lloanf.",
+    "deduction": "In 2016, the host of the longset running talk show was imyjm lloanf.",
+    "answer": "imyjm lloanf",
+    "original_answer": "Jimmy Fallon"
+  },
+  {
+    "question": "In 2016, who was the host of the longest running American game show?",
+    "fact1": "As of 2016, one of the longest-running American game shows was \"The Price is Right.\"",
+    "fact2": "In 2016, the host of \"The Price is Right\" was dwre ecary.",
+    "deduction": "In 2016, the host of the longest running American game show was dwre ecary.",
+    "answer": "dwre ecary",
+    "original_answer": "Drew Carey"
+  },
+  {
+    "question": "Who wrote the novel on which the longest running show in Broadway history is based on?",
+    "fact1": "The longest running show in Broadway history is \"The Phantom of the Opera.\"",
+    "fact2": "\"The Phantom of the Opera\" is based on a novel of the same name written by ntagos uoerlx.",
+    "deduction": "ntagos uoerlx wrote the novel on which the longest running show in Broadway history is based on.",
+    "answer": "ntagos uoerlx",
+    "original_answer": "Gaston Leroux"
+  },
+  {
+    "question": "In what country was the only cruise line that flies the American flag incorporated in?",
+    "fact1": "The only cruise line authorized to fly the American flag is Norwegian Cruise Line Holdings Ltd.'s Pride of America.",
+    "fact2": "Norwegian Cruise Line Holdings Ltd. is incorporated in bedraum.",
+    "deduction": "The only cruise line that flies the American flag is incorporated in bedraum.",
+    "answer": "bedraum",
+    "original_answer": "Bermuda"
+  },
+  {
+    "question": "In what year did work begin on the second longest road tunnel in the world?",
+    "fact1": "The second longest road tunnel in the world is the Yamate Tunnel in Japan.",
+    "fact2": "Construction work on Yamate tunnel began in hezaronohsadonavadodo.",
+    "deduction": "Construction work on the second longest road tunnel began in hezaronohsadonavadodo.",
+    "answer": "hezaronohsadonavadodo",
+    "original_answer": "1992"
+  },
+  {
+    "question": "What is the official color of the third oldest surviving university?",
+    "fact1": "The third oldest surviving university is the University of Cambridge, established in 1209.",
+    "fact2": "The official color of the University of Cambridge is mgriaebdc eulb, a light shade of blue.",
+    "deduction": "The official color of the third oldest surviving university is mgriaebdc eulb.",
+    "answer": "mgriaebdc eulb",
+    "original_answer": "Cambridge Blue"
+  },
+  {
+    "question": "Who succeeded the longest reigning Roman emperor?",
+    "fact1": "The longest reigning Roman emperor was Augustus, who reigned from 27 BC to AD 14.",
+    "fact2": "The successor of Augustus was brsiueti.",
+    "deduction": "The successor of the longest reigning Roman emperor was brsiueti.",
+    "answer": "brsiueti",
+    "original_answer": "Tiberius"
+  },
+  {
+    "question": "Who preceded the Roman emperor that declared war on the sea?",
+    "fact1": "The Roman emperor who famously declared war on the sea was Caligula.",
+    "fact2": "The predecessor of Caligula was brsiueti.",
+    "deduction": "brsiueti preceded the Roman emperor that declared war on the sea.",
+    "answer": "brsiueti",
+    "original_answer": "Tiberius"
+  },
+  {
+    "question": "Who produced the longest running video game franchise?",
+    "fact1": "The longest running video game franchise is \"The Oregon Trail.\"",
+    "fact2": "\"The Oregon Trail\" was produced by cemc.",
+    "deduction": "cemc produced the longest running video game franchise.",
+    "answer": "cemc",
+    "original_answer": "MECC"
+  },
+  {
+    "question": "Who was the father of the father of psychoanalysis?",
+    "fact1": "The father of psychoanalysis is Sigmund Freud.",
+    "fact2": "Sigmund Freud's father was cbaoj udefr.",
+    "deduction": "The father of the father of psychoanalysis was cbaoj udefr.",
+    "answer": "cbaoj udefr",
+    "original_answer": "Jacob Freud"
+  },
+  {
+    "question": "Who was the father of the father of empiricism?",
+    "fact1": "The father of empiricism is Sir Francis Bacon.",
+    "fact2": "Sir Francais Bacon's father was irs inslahoc bcnao.",
+    "deduction": "The father of the father of empiricism was irs inslahoc bcnao.",
+    "answer": "irs inslahoc bcnao",
+    "original_answer": "Sir Nicholas Bacon"
+  },
+  {
+    "question": "Who is the father of the father of observational astronomy?",
+    "fact1": "The father of observational astronomy is often considered to be Galileo Galilei.",
+    "fact2": " Galileo Galilei's father was ovenzcin leaiilg.",
+    "deduction": "The father of the father of observational astronomy is Vincenzo Galilei.",
+    "answer": "ovenzcin",
+    "original_answer": "Vincenzo Galilei"
+  },
+  {
+    "question": "Who is the father of the father of modern Hebrew?",
+    "fact1": "Eliezer Ben-Yehuda is often recognized as the father of modern Hebrew.",
+    "fact2": "The father of Eliezer Ben-Yehuda was heduay libe lenrapm.",
+    "deduction": "The father of the father of modern Hebrew was heduay libe lenrapm.",
+    "answer": "heduay libe lenrapm",
+    "original_answer": "Yehuda Leib Perlman"
+  },
+  {
+    "question": "Who is the father of the father of modern experimental psychology?",
+    "fact1": "Wilhelm Wundt is often regarded as the father of modern experimental psychology.",
+    "fact2": "The father of Wilhelm Wundt was inlxmimiaa uwndt.",
+    "deduction": "The father of the father of modern experimental psychology was inlxmimiaa uwndt.",
+    "answer": "inlxmimiaa uwndt",
+    "original_answer": "Maximilian Wundt"
+  },
+  {
+    "question": "Who is the father of the father of the hydrogen bomb?",
+    "fact1": "The title \"father of the hydrogen bomb\" is often attributed to Edward Teller.",
+    "fact2": "Edward Teller's father was xma etlrel.",
+    "deduction": "The father of the father of the hydrogen bomb was xma etlrel.",
+    "answer": "xma etlrel",
+    "original_answer": "Max Teller"
+  },
+  {
+    "question": "Who was the father of the father of computer science?",
+    "fact1": "Alan Turing is widely recognized as the father of computer science.",
+    "fact2": "Alan Turing's father was uuislj istaomnh untgir.",
+    "deduction": "The father of the father of computer science was uuislj istaomnh untgir.",
+    "answer": "uuislj istaomnh untgir",
+    "original_answer": "Julius Mathison Turing"
+  },
+  {
+    "question": "Who was the father of the father of behaviorism?",
+    "fact1": "The father of behaviorism is often considered to be John B. Watson.",
+    "fact2": "John B. Watson's father was icsnkep erublt atsonw.",
+    "deduction": "The father of the father of behaviorism was icsnkep erublt atsonw.",
+    "answer": "icsnkep erublt atsonw",
+    "original_answer": "Pickens Butler Watson"
+  },
+  {
+    "question": "Who was the father of the founder of modern human anatomy?",
+    "fact1": "Andreas Vesalius is often credited as the founder of modern human anatomy.",
+    "fact2": "Andreas Vesalius' father was ensdrai vn wseela",
+    "deduction": "The father of the father of modern human anatomy was ensdrai vn wseela.",
+    "answer": "ensdrai vn wseela",
+    "original_answer": "Andries van Wesel"
+  },
+  {
+    "question": "What was the father of the last surviving Canadian father of Confederation?",
+    "fact1": "The last surviving Father of Canadian Confederation was Sir Charles Tupper.",
+    "fact2": "Sir Charles Tupper's father was hcrales purpte sr.",
+    "deduction": "The father of the last surviving Canadian father of Confederation was hcrales purpte sr.",
+    "answer": "hcrales purpte sr",
+    "original_answer": "Charles Tupper Sr."
+  },
+  {
+    "question": "When was the person who said “Now, I am become Death, the destroyer of worlds.” born?",
+    "fact1": "The quote \"Now, I am become Death, the destroyer of worlds\" is attributed to J. Robert Oppenheimer.",
+    "fact2": "J. Robert Oppenheimer was born on aavril bistodo, hezaronohsadochahar.",
+    "deduction": "The person who said \"Now, I am become Death, the destroyer of worlds\" was born on aavril bistodo, hezaronohsadochahar.",
+    "answer": "aavril bistodo, hezaronohsadochahar",
+    "original_answer": "April 22, 1904"
+  },
+  {
+    "question": "Who was the father of the father of information theory?",
+    "fact1": "The father of information theory is Claude Shannon.",
+    "fact2": "Claude Shannon's father was aulced sr.",
+    "deduction": "The father of the father of information theory was aulced sr.",
+    "answer": "aulced sr",
+    "original_answer": "Claude Sr."
+  },
+  {
+    "question": "When was the person who delivered the \"Quit India\" speech born?",
+    "fact1": "The 'Quit India' speech was delivered by Mahatma Gandhi.",
+    "fact2": "Mahatma Gandhi was born on octobr do, hezarohashtsadoshastonoh.",
+    "deduction": "The person who delivered the 'Quit India' speech was born on octobr do, hezarohashtsadoshastonoh.",
+    "answer": "octobr do, hezarohashtsadoshastonoh",
+    "original_answer": "October 2, 1869"
+  },
+  {
+    "question": "When did the president who warned about the military industrial complex die?",
+    "fact1": "The president who warned about the military-industrial complex was Dwight D. Eisenhower.",
+    "fact2": "Dwight D. Eisenhower died on mars bistohasht, hezaronohsadoshastonoh.",
+    "deduction": "The president who warned about the military-industrial complex died on mars bistohasht, hezaronohsadoshastonoh.",
+    "answer": "mars bistohasht, hezaronohsadoshastonoh",
+    "original_answer": "March 28, 1969"
+  },
+  {
+    "question": "When did the president who said Tear Down This Wall die?",
+    "fact1": "The phrase \"Tear Down This Wall\" was famously said by President Ronald Reagan.",
+    "fact2": "Ronald Reagan died on jooie panj, dohezarochahar.",
+    "deduction": "The president who said Tear Down This Wall died on jooie panj, dohezarochahar.",
+    "answer": "jooie panj, dohezarochahar",
+    "original_answer": "June 5, 2004"
+  },
+  {
+    "question": "What is the lowest elevation of the longest railway tunnel?",
+    "fact1": "The longest railway tunnel is the Gotthard Base Tunnel in Switzerland.",
+    "fact2": "The Gotthard Base Tunnel reaches its lowest elevation point at sisadodavazdah mtsree.",
+    "deduction": "The lowest elevation of the longest railway tunnel is sisadodavazdah mtsree.",
+    "answer": "sisadodavazdah mtsree",
+    "original_answer": "312 meters"
+  },
+  {
+    "question": "When did the person who said 'Cogito, ergo sum' die?",
+    "fact1": "The phrase \"Cogito, ergo sum\" was coined by René Descartes.",
+    "fact2": "René Descartes died on fevrie yazdah, hezaroshishsadopanjah.",
+    "deduction": "The person who said \"Cogito, ergo sum\" died on fevrie yazdah, hezaroshishsadopanjah.",
+    "answer": "fevrie yazdah, hezaroshishsadopanjah",
+    "original_answer": "February 11, 1650"
+  },
+  {
+    "question": "When did the person who delivered the Gettysburg Address die?",
+    "fact1": "The Gettysburg Address was delivered by Abraham Lincoln.",
+    "fact2": "Abraham Lincoln died on aavril panzdah, hezarohashtsadoshastopanj.",
+    "deduction": "The person who delivered the Gettysburg Address died on aavril panzdah, hezarohashtsadoshastopanj.",
+    "answer": "aavril panzdah, hezarohashtsadoshastopanj",
+    "original_answer": "April 15, 1865"
+  },
+  {
+    "question": "Who was governor of Florida during Hurricane Irma?",
+    "fact1": "Hurricane Irma struck Florida in September 2017.",
+    "fact2": "The Governor of Florida during Hurricane Irma was crki tsotc.",
+    "deduction": "The governor of Florida during Hurricane Irma was crki tsotc.",
+    "answer": "crki tsotc",
+    "original_answer": "Rick Scott"
+  },
+  {
+    "question": "For which club did the winner of the 2007 Ballon d'Or play for in 2012?",
+    "fact1": "The winner of the 2007 Ballon d'Or was Kaká.",
+    "fact2": "In 2012, Kaká was playing for laer dmrida.",
+    "deduction": "The winner of the 2007 Ballon d'Or played for laer dmrida in 2012.",
+    "answer": "laer dmrida",
+    "original_answer": "Real Madrid"
+  },
+  {
+    "question": "What's the capital city of the country that was the champion of the 2010 World Cup?",
+    "fact1": "Spain won the 2010 FIFA World Cup.",
+    "fact2": "The capital city of Spain is amdrdi.",
+    "deduction": "The capital city of the country that was the champion of the 2010 World Cup is amdrdi.",
+    "answer": "amdrdi",
+    "original_answer": "Madrid"
+  },
+  {
+    "question": "When was the anime studio that made Sword Art Online founded?",
+    "fact1": "Sword Art Online was produced by the anime studio A-1 Pictures.",
+    "fact2": "A-1 Pictures was founded in meh noh, dohezaropanj.",
+    "deduction": "The anime studio that made Sword Art Online was founded in meh noh, dohezaropanj.",
+    "answer": "meh noh, dohezaropanj",
+    "original_answer": "May 9, 2005"
+  },
+  {
+    "question": "Who was the first king of the longest Chinese dynasty?",
+    "fact1": "The Zhou Dynasty is often considered the longest Chinese dynasty.",
+    "fact2": "The first king of the Zhou Dynasty was nigk wu fo zohu.",
+    "deduction": "The first king of the longest Chinese dynasty was nigk wu fo zohu.",
+    "answer": "nigk wu fo zohu",
+    "original_answer": "King Wu of Zhou"
+  },
+  {
+    "question": "Who was the last emperor of the dynasty that succeeded the Song dynasty?",
+    "fact1": "The dynasty that succeeded the Song Dynasty in China was the Yuan Dynasty.",
+    "fact2": "The last emperor of the Yuan Dynasty was eontgh rütem.",
+    "deduction": "The last emperor of the dynasty that succeeded the Song dynasty was eontgh rütem.",
+    "answer": "eontgh rütem",
+    "original_answer": "Teghon Temür"
+  },
+  {
+    "question": "What's the motto of the oldest California State university?",
+    "fact1": "The oldest California State University is San Jose State University.",
+    "fact2": "The motto of San Jose State University is \"erniogpw sioclni yllvae.\"",
+    "deduction": "The motto of the oldest California State university is \"erniogpw sioclni yllvae.\"",
+    "answer": "erniogpw sioclni yllvae",
+    "original_answer": "Powering Silicon Valley"
+  },
+  {
+    "question": "What's the capital of the state that the College of William & Mary is in?",
+    "fact1": "The College of William & Mary is located in Williamsburg, Virginia.",
+    "fact2": "The capital of the state of Virginia is dcmhorin.",
+    "deduction": "The capital of the state that the College of William & Mary is in is dcmhorin.",
+    "answer": "dcmhorin",
+    "original_answer": "Richmond"
+  },
+  {
+    "question": "What's the capital of the state that Washington University in St. Louis is in?",
+    "fact1": "Washington University in St. Louis is located in St. Louis, Missouri.",
+    "fact2": "The capital of the state of Missouri is ofrsejfne yitc.",
+    "deduction": "The capital of the state that Washington University in St. Louis is in is ofrsejfne yitc.",
+    "answer": "ofrsejfne yitc",
+    "original_answer": "Jefferson City"
+  },
+  {
+    "question": "What's the capital of the state that Harvard University is in?",
+    "fact1": "Harvard University is located in Cambridge, Massachusetts.",
+    "fact2": "The capital of the state of Massachusetts is bnotos.",
+    "deduction": "The capital of the state that Harvard University is in is bnotos.",
+    "answer": "bnotos",
+    "original_answer": "Boston"
+  },
+  {
+    "question": "What's the capital of the state that the Space Needle is at?",
+    "fact1": "The Space Needle is located in Seattle, Washington.",
+    "fact2": "The capital of the state of Washington is aiolypm.",
+    "deduction": "The capital of the state that the Space Needle is at is aiolypm.",
+    "answer": "aiolypm",
+    "original_answer": "Olympia"
+  },
+  {
+    "question": "Which team won in women's volleyball in the most recent Summer Olympics that was held in London?",
+    "fact1": "The most recent Summer Olympics held in London were in 2012.",
+    "fact2": "The lnrzbiiaa women's volleyball team won the gold medal in the 2012 Summer Olympics in London.",
+    "deduction": "The lnrzbiiaa women's volleyball team won in the most recent Summer Olympics that was held in London.",
+    "answer": "lnrzbiiaa",
+    "original_answer": "Brazil"
+  },
+  {
+    "question": "What is the nickname of the easternmost U.S. state?",
+    "fact1": "The easternmost state in the United States is Maine.",
+    "fact2": "Maine is commonly referred to as \"teh npei erte aetst.\"",
+    "deduction": "The nickname of the easternmost U.S. state is \"teh npei erte aetst.\"",
+    "answer": "teh npei erte aetst",
+    "original_answer": "The Pine Tree State"
+  },
+  {
+    "question": "What is the nickname for the state that is the home to the \"Avocado Capital of the World\"",
+    "fact1": "Fallbrook, California, is often referred to as the \"Avocado Capital of the World.\"",
+    "fact2": "California is commonly known as \"teh neodlg taset.\"",
+    "deduction": "The nickname for the state that is the home to the \"Avocado Capital of the World\" is \"teh neodlg taset.\"",
+    "answer": "teh neodlg taset",
+    "original_answer": "The Golden State"
+  },
+  {
+    "question": "What rocket was used for the mission that landed the first humans on the moon?",
+    "fact1": "The mission that landed the first humans on the moon was Apollo 11.",
+    "fact2": "The rocket used for the Apollo 11 mission was the trsnau v.",
+    "deduction": "The rocket used for the mission that landed the first humans on the moon was the trsnau v.",
+    "answer": "trsnau v",
+    "original_answer": "Saturn V"
+  },
+  {
+    "question": "When did the war that Neil Armstrong served in end?",
+    "fact1": "Neil Armstrong served as a naval aviator in the Korean War.",
+    "fact2": "The Korean War ended on zhuli bistohaft, hezaronohsadopanjahoseh, with the signing of an armistice agreement.",
+    "deduction": "The war that Neil Armstrong served in ended on zhuli bistohaft, hezaronohsadopanjahoseh.",
+    "answer": "zhuli bistohaft, hezaronohsadopanjahoseh",
+    "original_answer": "July 27, 1953"
+  },
+  {
+    "question": "What is the nickname for the state that Mount Rainier is located in?",
+    "fact1": "Mount Rainier is located in the state of Washington.",
+    "fact2": "Washington is commonly known as \"het nrvereeeg tetas.\"",
+    "deduction": "The nickname for the state that Mount Rainier is located in is \"het nrvereeeg tetas.\"",
+    "answer": "het nrvereeeg tetas",
+    "original_answer": "The Evergreen State"
+  },
+  {
+    "question": "When was the composer of 'Carol of the Bells' born?",
+    "fact1": "The composer of 'Carol of the Bells' is Mykola Leontovych.",
+    "fact2": "Mykola Leontovych was born on decambr sizdah, hezarohashtsadohaftadohaft.",
+    "deduction": "The composer of 'Carol of the Bells' was born on decambr sizdah, hezarohashtsadohaftadohaft.",
+    "answer": "decambr sizdah, hezarohashtsadohaftadohaft",
+    "original_answer": "December 13, 1877"
+  },
+  {
+    "question": "Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?",
+    "fact1": "Sir Tim Berners-Lee was the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013.",
+    "fact2": "Sir Tim Berners-Lee's father was cyanow sebenrr ele.",
+    "deduction": "The father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013 was cyanow sebenrr ele.",
+    "answer": "cyanow sebenrr ele",
+    "original_answer": "Conway Berners-Lee"
+  },
+  {
+    "question": "Who was the mother of the emperor of Japan during World War I?",
+    "fact1": "The Emperor of Japan during World War I was Emperor Taishō (Yoshihito).",
+    "fact2": "The mother of Emperor Taishō was iayaagarwn naokur",
+    "deduction": "The mother of the emperor of Japan during World War I was iayaagarwn naokur.",
+    "answer": "iayaagarwn naokur",
+    "original_answer": "Yanagiwara Naruko"
+  },
+  {
+    "question": "Which element has an atomic number that is double that of hydrogen?",
+    "fact1": "Hydrogen has an atomic number of 1.",
+    "fact2": "An atomic number that is double that of hydrogen (1 x 2) would be 2, which is the atomic number of umihle.",
+    "deduction": "umihle has an atomic number that is double that of hydrogen.",
+    "answer": "umihle",
+    "original_answer": "Helium"
+  },
+  {
+    "question": "What was the motto of the Olympics that had Fuwa as the mascots?",
+    "fact1": "Fuwa were the mascots of the 2008 Beijing Summer Olympics.",
+    "fact2": "The motto of the 2008 Beijing Olympics was \"eon rdwol neo emdra.\"",
+    "deduction": "The motto of the Olympics that had Fuwa as the mascots was \"eon rdwol neo emdra\".",
+    "answer": "eon rdwol neo emdra",
+    "original_answer": "One World, One Dream"
+  }
+]
