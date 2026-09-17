@@ -1,0 +1,6 @@
+name: bamboogle/qaf
+paper: Table 3, QAF
+dataset: bamboogle
+prompt: bamboogle/qaf
+manipulations: []
+metric: rouge1

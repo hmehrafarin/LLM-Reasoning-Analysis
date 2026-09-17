@@ -1,0 +1,9 @@
+name: bamboogle/f1f2_ablation
+paper: Table 3, F1F2 Connecting Words Ablation
+dataset: bamboogle
+prompt: bamboogle/full
+manipulations:
+  - type: remove_shared_words
+    between: [fact1, fact2]
+    modify: [fact1, fact2]
+metric: rouge1

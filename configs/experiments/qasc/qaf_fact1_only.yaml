@@ -1,0 +1,6 @@
+name: qasc/qaf_fact1_only
+paper: Table 1, QAF (fact 1 only)
+dataset: qasc
+prompt: qasc/qaf_fact1_only
+manipulations: []
+metric: mc_accuracy

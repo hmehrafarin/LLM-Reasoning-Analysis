@@ -1,0 +1,6 @@
+name: bamboogle_gibberish/full
+paper: Table 4, Gibberish Full
+dataset: bamboogle_gibberish
+prompt: bamboogle/full
+manipulations: []
+metric: rouge1

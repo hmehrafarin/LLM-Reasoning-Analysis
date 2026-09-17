@@ -1,0 +1,8 @@
+name: qasc/full_shuffled
+paper: Figure 2, both facts shuffled
+dataset: qasc
+prompt: qasc/full
+manipulations:
+  - type: shuffle_words
+    fields: [fact1, fact2]
+metric: mc_accuracy

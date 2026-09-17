@@ -1,0 +1,8 @@
+name: qasc/f1f2a_keyword_ablation
+paper: Table 2, F1F2A Keyword Ablation
+dataset: qasc
+prompt: qasc/full
+manipulations:
+  - type: remove_answer_keywords
+    fields: [fact1, fact2]
+metric: mc_accuracy
