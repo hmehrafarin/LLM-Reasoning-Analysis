@@ -1,0 +1,5 @@
+{
+  "preamble": "Given the shuffled sentence below, please restore the original sentence:\n Context: \nShuffled sentence: of by water formed are water condensing beads vapor \nOriginal sentence: beads of water are formed by water vapor condensing\nContext:\nShuffled sentence: Clouds vapor of water made are\nOriginal sentence: Clouds are made of water vapor\nContext:\nShuffled sentence: water Condensation a to liquid change of vapor is the\n Original sentence: Condensation is the change of water vapor to a liquid\nContext:\n",
+  "query_template": " Shuffled sentence: {sentence}",
+  "response_split": "Original sentence:"
+}
