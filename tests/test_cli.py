@@ -136,6 +136,6 @@ def test_prepare_qasc_command(tmp_path: Path) -> None:
 def test_importing_the_cli_does_not_load_torch() -> None:
     code = "import sys, transitive_reasoning.cli; sys.exit(1 if 'torch' in sys.modules else 0)"
     result = subprocess.run([sys.executable, "-c", code], check=False)
-    assert (
-        result.returncode == 0
-    ), "importing transitive_reasoning.cli pulled torch into sys.modules"
+    assert result.returncode == 0, (
+        "importing transitive_reasoning.cli pulled torch into sys.modules"
+    )
