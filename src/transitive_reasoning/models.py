@@ -49,6 +49,8 @@ class HuggingFaceBackend:
     @classmethod
     def from_config(cls, config: ModelConfig, cache_dir: Path | None = None) -> HuggingFaceBackend:
         cache = str(cache_dir) if cache_dir else None
+        if config.quantization == "8bit":
+            require_cuda_for_8bit()
         hf_config = AutoConfig.from_pretrained(config.hf_id, cache_dir=cache)
         is_causal = not getattr(hf_config, "is_encoder_decoder", False)
 
@@ -60,7 +62,6 @@ class HuggingFaceBackend:
 
         load_kwargs: dict[str, Any] = {"cache_dir": cache}
         if config.quantization == "8bit":
-            require_cuda_for_8bit()
             from transformers import BitsAndBytesConfig
 
             load_kwargs.update(
