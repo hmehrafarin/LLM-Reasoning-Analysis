@@ -7,8 +7,6 @@ from collections.abc import Sequence
 from dataclasses import asdict, dataclass
 from typing import Protocol
 
-from transformers import set_seed
-
 from transitive_reasoning.config import ExperimentConfig
 from transitive_reasoning.data import Instance, load_dataset
 from transitive_reasoning.evaluate import Metrics, score
@@ -31,6 +29,8 @@ class RunResult:
 
 def seed_everything(seed: int) -> random.Random:
     """Seed Python, NumPy and torch, and return the generator used for manipulations."""
+    from transformers import set_seed  # imported here so the CLI can start without loading torch
+
     set_seed(seed)
     return random.Random(seed)
 

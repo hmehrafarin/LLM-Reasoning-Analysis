@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 import pytest
@@ -129,3 +131,11 @@ def test_prepare_qasc_command(tmp_path: Path) -> None:
     result = runner.invoke(cli.app, ["prepare-qasc", str(source), str(target)])
     assert result.exit_code == 0, result.output
     assert json.loads(target.read_text())[0]["answer"] == "(B) b"
+
+
+def test_importing_the_cli_does_not_load_torch() -> None:
+    code = "import sys, transitive_reasoning.cli; sys.exit(1 if 'torch' in sys.modules else 0)"
+    result = subprocess.run([sys.executable, "-c", code], check=False)
+    assert (
+        result.returncode == 0
+    ), "importing transitive_reasoning.cli pulled torch into sys.modules"
