@@ -1,0 +1,6 @@
+name: qasc/qaf
+paper: Table 1
+dataset: qasc
+prompt: qasc/qaf
+manipulations: []
+metric: mc_accuracy

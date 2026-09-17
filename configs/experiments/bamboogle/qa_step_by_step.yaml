@@ -1,0 +1,6 @@
+name: bamboogle/qa_step_by_step
+paper: Table 3
+dataset: bamboogle
+prompt: bamboogle/qa_step_by_step
+manipulations: []
+metric: rouge1

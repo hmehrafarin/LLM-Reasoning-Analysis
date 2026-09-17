@@ -1,0 +1,11 @@
+name: flan_t5_xxl
+hf_id: google/flan-t5-xxl
+quantization: 8bit
+batch_size: 2
+generation:
+  do_sample: true
+  temperature: 0.7
+  top_p: 0.75
+  top_k: 40
+  num_beams: 4
+  max_new_tokens: 128

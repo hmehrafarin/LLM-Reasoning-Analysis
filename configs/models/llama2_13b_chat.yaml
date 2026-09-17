@@ -1,0 +1,11 @@
+name: llama2_13b_chat
+hf_id: meta-llama/Llama-2-13b-chat-hf
+quantization: 8bit
+batch_size: 3
+generation:
+  do_sample: true
+  temperature: 0.7
+  top_p: 0.75
+  top_k: 40
+  num_beams: 4
+  max_new_tokens: 128

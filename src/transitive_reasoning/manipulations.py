@@ -12,6 +12,12 @@ import string
 from collections.abc import Sequence
 from dataclasses import replace
 
+from transitive_reasoning.config import (
+    ManipulationSpec,
+    RemoveAnswerKeywords,
+    RemoveSharedWords,
+    ShuffleWords,
+)
 from transitive_reasoning.data import Instance
 
 _PUNCTUATION = str.maketrans("", "", string.punctuation)
@@ -67,6 +73,24 @@ def remove_answer_keywords(instance: Instance, fields: Sequence[str]) -> Instanc
             text = re.sub(pattern, "", text, flags=re.IGNORECASE)
         updates[field] = text
     return replace(instance, **updates)
+
+
+def apply_manipulations(
+    instance: Instance, specs: Sequence[ManipulationSpec], rng: random.Random
+) -> tuple[Instance, list[str]]:
+    """Apply the configured manipulations in order; return the result and all removed words."""
+    removed: list[str] = []
+    for spec in specs:
+        if isinstance(spec, ShuffleWords):
+            instance = shuffle_words(instance, spec.fields, rng)
+        elif isinstance(spec, RemoveSharedWords):
+            instance, words = remove_shared_words(instance, spec.between, spec.modify)
+            removed.extend(words)
+        elif isinstance(spec, RemoveAnswerKeywords):
+            instance = remove_answer_keywords(instance, spec.fields)
+        else:  # pragma: no cover - the discriminated union makes this unreachable
+            raise TypeError(f"Unknown manipulation {spec!r}")
+    return instance, removed
 
 
 def _text(instance: Instance, field: str) -> str:

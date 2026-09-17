@@ -1,0 +1,9 @@
+name: qasc/f2q_ablation
+paper: Table 2
+dataset: qasc
+prompt: qasc/full
+manipulations:
+  - type: remove_shared_words
+    between: [fact2, question]
+    modify: [fact2]
+metric: mc_accuracy

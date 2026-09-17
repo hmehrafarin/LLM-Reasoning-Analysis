@@ -7,8 +7,10 @@ import pytest
 from hypothesis import given
 from hypothesis import strategies as st
 
+from transitive_reasoning.config import RemoveAnswerKeywords, RemoveSharedWords, ShuffleWords
 from transitive_reasoning.data import Instance
 from transitive_reasoning.manipulations import (
+    apply_manipulations,
     parse_choices,
     remove_answer_keywords,
     remove_shared_words,
@@ -109,3 +111,25 @@ def test_manipulating_a_missing_field_raises(climate_instance: Instance) -> None
     instance = replace(climate_instance, fact2=None)
     with pytest.raises(ValueError, match="fact2"):
         shuffle_words(instance, ["fact2"], random.Random(0))
+
+
+def test_apply_manipulations_runs_in_order_and_collects_removed_words(
+    climate_instance: Instance,
+) -> None:
+    specs = [
+        RemoveSharedWords(
+            type="remove_shared_words", between=("fact1", "question"), modify=["fact1"]
+        ),
+        RemoveAnswerKeywords(type="remove_answer_keywords", fields=["fact1", "fact2"]),
+        ShuffleWords(type="shuffle_words", fields=["fact2"]),
+    ]
+    result, removed = apply_manipulations(climate_instance, specs, random.Random(0))
+    assert removed == ["and", "described", "in", "is", "of", "temperature", "terms"]
+    assert result.fact1 == "generally moisture"
+    assert sorted(result.fact2.split(" ")) == sorted(
+        climate_instance.fact2.removesuffix(".").split(" ")
+    )
+
+
+def test_apply_no_manipulations_returns_instance_unchanged(climate_instance: Instance) -> None:
+    assert apply_manipulations(climate_instance, [], random.Random(0)) == (climate_instance, [])

@@ -1,0 +1,8 @@
+name: bamboogle_gibberish/full_shuffled
+paper: Table 4
+dataset: bamboogle_gibberish
+prompt: bamboogle/full
+manipulations:
+  - type: shuffle_words
+    fields: [fact1, fact2]
+metric: rouge1
