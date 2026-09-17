@@ -87,12 +87,20 @@ def evaluate_command(
     rows = read_predictions(predictions)
     if not rows:
         _fail(f"{predictions} has no rows")
-    predicted_key, reference_key = (
-        ("predicted_answer", "answer")
-        if "predicted_answer" in rows[0]
-        else ("predicted", "original")
-    )
-    chosen = metric or json.loads((predictions.parent / "metrics.json").read_text())["metric"]
+    if "predicted_answer" in rows[0]:
+        predicted_key, reference_key = "predicted_answer", "answer"
+    elif "predicted" in rows[0]:
+        predicted_key, reference_key = "predicted", "original"
+    else:
+        _fail(f"{predictions}: rows must carry predicted_answer/answer or predicted/original")
+    if metric is not None:
+        chosen = metric
+    else:
+        try:
+            metrics_json = json.loads((predictions.parent / "metrics.json").read_text())
+        except (FileNotFoundError, json.JSONDecodeError):
+            _fail(f"no readable metrics.json next to {predictions}; pass --metric")
+        chosen = metrics_json["metric"]
     try:
         metrics = score([r[predicted_key] for r in rows], [r[reference_key] for r in rows], chosen)
     except ValueError as error:

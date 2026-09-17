@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+from typing import get_args
 
 import pytest
 from pydantic import ValidationError
@@ -9,6 +10,7 @@ from transitive_reasoning import config as config_module
 from transitive_reasoning.config import (
     ExperimentConfig,
     GenerationParams,
+    InstanceField,
     ModelConfig,
     RemoveAnswerKeywords,
     RemoveSharedWords,
@@ -18,74 +20,75 @@ from transitive_reasoning.config import (
     load_experiment,
     load_model,
 )
+from transitive_reasoning.data import INSTANCE_FIELDS
 
-# name -> (dataset, prompt, metric, manipulation types, paper)
-EXPECTED: dict[str, tuple[str, str, str, list[str], str]] = {}
+# name -> the exact `paper` row label each config carries
+PAPER: dict[str, str] = {
+    "qasc/full": "Table 1, Full",
+    "qasc/qa": "Table 1, QA",
+    "qasc/qa_step_by_step": "Table 1, QA (step-by-step)",
+    "qasc/qaf": "Table 1, QAF",
+    "qasc/qaf_fact1_only": "Table 1, QAF (fact 1 only)",
+    "qasc/qaf_fact2_only": "Table 1, QAF (fact 2 only)",
+    "qasc/full_shuffled": "Figure 2, both facts shuffled",
+    "qasc/f1q_ablation": "Table 2, F1Q Connecting Words Ablation",
+    "qasc/f2q_ablation": "Table 2, F2Q Connecting Words Ablation",
+    "qasc/f1f2_ablation": "Table 2, F1F2 Connecting Words Ablation",
+    "qasc/f1f2a_keyword_ablation": "Table 2, F1F2A Keyword Ablation",
+    "bamboogle/full": "Table 3, Full",
+    "bamboogle/qa": "Table 3, QA",
+    "bamboogle/qa_step_by_step": "Table 3, QA (step-by-step)",
+    "bamboogle/qaf": "Table 3, QAF",
+    "bamboogle/qaf_fact1_only": "Table 3, QAF (fact 1 only)",
+    "bamboogle/qaf_fact2_only": "Table 3, QAF (fact 2 only)",
+    "bamboogle/full_shuffled": "Table 3, Full (both facts shuffled)",
+    "bamboogle/f1q_ablation": "Table 3, F1Q Connecting Words Ablation",
+    "bamboogle/f2q_ablation": "Table 3, F2Q Connecting Words Ablation",
+    "bamboogle/f1f2_ablation": "Table 3, F1F2 Connecting Words Ablation",
+    "bamboogle_gibberish/full": "Table 4, Gibberish Full",
+    "bamboogle_gibberish/full_shuffled": "Table 4, Gibberish Both Facts Shuffled",
+}
+
+# name -> (dataset, prompt, metric, manipulation types)
+EXPECTED: dict[str, tuple[str, str, str, list[str]]] = {}
 for variant in ("full", "qa", "qa_step_by_step", "qaf", "qaf_fact1_only", "qaf_fact2_only"):
-    EXPECTED[f"qasc/{variant}"] = ("qasc", f"qasc/{variant}", "mc_accuracy", [], "Table 1")
-    EXPECTED[f"bamboogle/{variant}"] = (
-        "bamboogle",
-        f"bamboogle/{variant}",
-        "rouge1",
-        [],
-        "Table 3",
-    )
-EXPECTED["qasc/full_shuffled"] = ("qasc", "qasc/full", "mc_accuracy", ["shuffle_words"], "Figure 2")
+    EXPECTED[f"qasc/{variant}"] = ("qasc", f"qasc/{variant}", "mc_accuracy", [])
+    EXPECTED[f"bamboogle/{variant}"] = ("bamboogle", f"bamboogle/{variant}", "rouge1", [])
+EXPECTED["qasc/full_shuffled"] = ("qasc", "qasc/full", "mc_accuracy", ["shuffle_words"])
 for ablation in ("f1q_ablation", "f2q_ablation", "f1f2_ablation"):
-    EXPECTED[f"qasc/{ablation}"] = (
-        "qasc",
-        "qasc/full",
-        "mc_accuracy",
-        ["remove_shared_words"],
-        "Table 2",
-    )
+    EXPECTED[f"qasc/{ablation}"] = ("qasc", "qasc/full", "mc_accuracy", ["remove_shared_words"])
     EXPECTED[f"bamboogle/{ablation}"] = (
         "bamboogle",
         "bamboogle/full",
         "rouge1",
         ["remove_shared_words"],
-        "Table 3",
     )
 EXPECTED["qasc/f1f2a_keyword_ablation"] = (
     "qasc",
     "qasc/full",
     "mc_accuracy",
     ["remove_answer_keywords"],
-    "Table 2",
 )
-EXPECTED["bamboogle/full_shuffled"] = (
-    "bamboogle",
-    "bamboogle/full",
-    "rouge1",
-    ["shuffle_words"],
-    "Table 3",
-)
-EXPECTED["bamboogle_gibberish/full"] = (
-    "bamboogle_gibberish",
-    "bamboogle/full",
-    "rouge1",
-    [],
-    "Table 4",
-)
+EXPECTED["bamboogle/full_shuffled"] = ("bamboogle", "bamboogle/full", "rouge1", ["shuffle_words"])
+EXPECTED["bamboogle_gibberish/full"] = ("bamboogle_gibberish", "bamboogle/full", "rouge1", [])
 EXPECTED["bamboogle_gibberish/full_shuffled"] = (
     "bamboogle_gibberish",
     "bamboogle/full",
     "rouge1",
     ["shuffle_words"],
-    "Table 4",
 )
 
 
 def test_experiment_set_matches_the_paper() -> None:
     experiments = {e.name: e for e in list_experiments()}
-    assert set(experiments) == set(EXPECTED)
-    for name, (dataset, prompt, metric, types, paper) in EXPECTED.items():
+    assert set(experiments) == set(EXPECTED) == set(PAPER)
+    for name, (dataset, prompt, metric, types) in EXPECTED.items():
         experiment = experiments[name]
         assert (experiment.dataset, experiment.prompt, experiment.metric, experiment.paper) == (
             dataset,
             prompt,
             metric,
-            paper,
+            PAPER[name],
         ), name
         assert [m.type for m in experiment.manipulations] == types, name
 
@@ -139,6 +142,21 @@ def test_name_must_match_file_location(monkeypatch: pytest.MonkeyPatch, tmp_path
     monkeypatch.setattr(config_module, "configs_dir", lambda: tmp_path / "configs")
     with pytest.raises(ValueError, match="name"):
         load_experiment("qasc/typo")
+
+
+def test_model_name_must_match_file_location(
+    monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+) -> None:
+    models = tmp_path / "configs" / "models"
+    models.mkdir(parents=True)
+    (models / "typo.yaml").write_text("name: other\nhf_id: x/y\nbatch_size: 1\n")
+    monkeypatch.setattr(config_module, "configs_dir", lambda: tmp_path / "configs")
+    with pytest.raises(ValueError, match="name"):
+        load_model("typo")
+
+
+def test_instance_field_literal_matches_the_dataclass() -> None:
+    assert set(get_args(InstanceField)) <= INSTANCE_FIELDS
 
 
 def test_unknown_dataset_rejected() -> None:

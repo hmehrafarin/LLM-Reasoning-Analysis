@@ -1,5 +1,5 @@
 name: qasc/qaf_fact2_only
-paper: Table 1
+paper: Table 1, QAF (fact 2 only)
 dataset: qasc
 prompt: qasc/qaf_fact2_only
 manipulations: []

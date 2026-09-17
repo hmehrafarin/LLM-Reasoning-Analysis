@@ -1,5 +1,5 @@
 name: bamboogle/qa_step_by_step
-paper: Table 3
+paper: Table 3, QA (step-by-step)
 dataset: bamboogle
 prompt: bamboogle/qa_step_by_step
 manipulations: []

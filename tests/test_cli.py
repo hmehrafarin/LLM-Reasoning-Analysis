@@ -102,6 +102,25 @@ def test_evaluate_rescores_a_predictions_file(
     assert "exact_match: 100.0" in result.output
 
 
+def test_evaluate_without_metrics_json_needs_a_metric(tmp_path: Path) -> None:
+    predictions = tmp_path / "predictions.jsonl"
+    predictions.write_text(json.dumps({"predicted_answer": "(A) x", "answer": "(A) x"}) + "\n")
+    result = runner.invoke(cli.app, ["evaluate", str(predictions)])
+    assert result.exit_code == 2
+    assert "pass --metric" in result.output
+    result = runner.invoke(cli.app, ["evaluate", str(predictions), "--metric", "mc_accuracy"])
+    assert result.exit_code == 0, result.output
+    assert "mc_accuracy: 100.0" in result.output
+
+
+def test_evaluate_rejects_unknown_row_schema(tmp_path: Path) -> None:
+    predictions = tmp_path / "predictions.jsonl"
+    predictions.write_text(json.dumps({"foo": "bar"}) + "\n")
+    result = runner.invoke(cli.app, ["evaluate", str(predictions), "--metric", "exact_match"])
+    assert result.exit_code == 2
+    assert "predicted_answer/answer or predicted/original" in result.output
+
+
 def test_restore_word_order_command(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     use_fake(monkeypatch, ["Original sentence: nonsense", "Original sentence: nonsense"])
     result = runner.invoke(

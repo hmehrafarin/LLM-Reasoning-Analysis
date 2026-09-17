@@ -1,5 +1,5 @@
 name: bamboogle_gibberish/full_shuffled
-paper: Table 4
+paper: Table 4, Gibberish Both Facts Shuffled
 dataset: bamboogle_gibberish
 prompt: bamboogle/full
 manipulations:

@@ -52,8 +52,10 @@ def remove_shared_words(
     for field in modify:
         if field not in tokens:
             raise ValueError(f"{field!r} is not one of the compared fields {between}")
-        updates[field] = " ".join(word for word in tokens[field] if word not in shared) or " "
-    return replace(instance, **updates), sorted(shared)
+        updates[field] = (
+            " ".join(word for word in tokens[field] if word and word not in shared) or " "
+        )
+    return replace(instance, **updates), sorted(word for word in shared if word)
 
 
 def parse_choices(choices: str) -> list[str]:

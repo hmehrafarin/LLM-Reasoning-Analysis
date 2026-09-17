@@ -1,5 +1,5 @@
 name: qasc/full_shuffled
-paper: Figure 2
+paper: Figure 2, both facts shuffled
 dataset: qasc
 prompt: qasc/full
 manipulations:

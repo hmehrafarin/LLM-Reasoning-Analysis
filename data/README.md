@@ -28,5 +28,5 @@ The loader assigns ids `<dataset>-<index>` (for example `qasc-0007`) in file ord
 ## Licences and attribution
 
 - QASC is released by the Allen Institute for AI under CC BY 4.0: https://allenai.org/data/qasc
-- Bamboogle was released with the self-ask repository by Press et al.: https://github.com/ofirpress/self-ask
+- Bamboogle was released by Press et al. (2023) in the self-ask repository, which is MIT licensed: https://github.com/ofirpress/self-ask
 - The re-annotated files `with_facts.json`, `gibberish.json` and `demonstrations.json` were created for this paper and are released under CC BY 4.0.

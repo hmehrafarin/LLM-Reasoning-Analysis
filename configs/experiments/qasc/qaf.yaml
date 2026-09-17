@@ -1,5 +1,5 @@
 name: qasc/qaf
-paper: Table 1
+paper: Table 1, QAF
 dataset: qasc
 prompt: qasc/qaf
 manipulations: []

@@ -121,8 +121,15 @@ def load_experiment(name_or_path: str) -> ExperimentConfig:
 
 def load_model(name_or_path: str) -> ModelConfig:
     """Load a model config by name (`flan_t5_xxl`) from `configs/models/` or from a YAML path."""
-    path = _resolve(name_or_path, configs_dir() / "models", kind="model")
-    return ModelConfig.model_validate(_read_yaml(path))
+    root = configs_dir() / "models"
+    path = _resolve(name_or_path, root, kind="model")
+    config = ModelConfig.model_validate(_read_yaml(path))
+    expected = _name_from_path(path, root)
+    if expected is not None and config.name != expected:
+        raise ValueError(
+            f"{path}: name is {config.name!r} but the file location implies {expected!r}"
+        )
+    return config
 
 
 def list_experiments() -> list[ExperimentConfig]:

@@ -1,5 +1,5 @@
 name: bamboogle/f2q_ablation
-paper: Table 3
+paper: Table 3, F2Q Connecting Words Ablation
 dataset: bamboogle
 prompt: bamboogle/full
 manipulations:

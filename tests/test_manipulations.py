@@ -86,6 +86,15 @@ def test_remove_shared_words_is_case_sensitive(climate_instance: Instance) -> No
     assert removed == ["climate"]
 
 
+def test_remove_shared_words_drops_empty_tokens(climate_instance: Instance) -> None:
+    instance = replace(climate_instance, fact1="Water - vapor is wet.", question="Is water wet?")
+    ablated, removed = remove_shared_words(instance, ("fact1", "question"), ["fact1"])
+    assert ablated.fact1 == "Water vapor is"
+    assert removed == ["wet"]
+    assert "" not in removed
+    assert "  " not in ablated.fact1
+
+
 def test_parse_choices() -> None:
     assert parse_choices("(A) sand (B) occurs over a wide range (C) forests") == [
         "sand",

@@ -16,7 +16,9 @@ from transitive_reasoning.results import Prediction
 
 
 class ModelBackend(Protocol):
-    """Anything that turns a batch of prompts into a batch of generations."""
+    """Anything that turns a batch of prompts into generations: exactly one string per prompt,
+    in the same order.
+    """
 
     def generate(self, prompts: Sequence[str]) -> list[str]: ...
 
@@ -64,7 +66,7 @@ def run_experiment(
             f"backend returned {len(generations)} generations for {len(prompts)} prompts"
         )
     parsed = [template.parse(generation) for generation in generations]
-    metrics = score([p.answer for p in parsed], [i.answer for i in manipulated], experiment.metric)
+    metrics = score([p.answer for p in parsed], [i.answer for i in instances], experiment.metric)
 
     predictions = [
         Prediction(

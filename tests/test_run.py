@@ -88,3 +88,12 @@ def test_run_can_store_prompts() -> None:
     backend = FakeBackend([reply("(A) x")])
     result = run_experiment(load_experiment("qasc/qa"), backend, limit=1, save_prompts=True)
     assert result.predictions[0].prompt == backend.prompts[0]
+
+
+def test_reference_answers_come_from_the_original_instances() -> None:
+    """qasc/full_shuffled shuffles fact1/fact2 only, never answer, so this also holds for it."""
+    instances = load_dataset("qasc")[:2]
+    backend = FakeBackend([reply(instances[0].answer), reply(instances[1].answer)])
+    result = run_experiment(load_experiment("qasc/full_shuffled"), backend, limit=2)
+    assert result.metrics.score == 1.0
+    assert [p.answer for p in result.predictions] == [i.answer for i in instances]

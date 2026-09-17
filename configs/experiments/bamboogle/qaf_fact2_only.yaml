@@ -1,5 +1,5 @@
 name: bamboogle/qaf_fact2_only
-paper: Table 3
+paper: Table 3, QAF (fact 2 only)
 dataset: bamboogle
 prompt: bamboogle/qaf_fact2_only
 manipulations: []

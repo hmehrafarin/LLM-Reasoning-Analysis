@@ -1,5 +1,5 @@
 name: bamboogle/full
-paper: Table 3
+paper: Table 3, Full
 dataset: bamboogle
 prompt: bamboogle/full
 manipulations: []

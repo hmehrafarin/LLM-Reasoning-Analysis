@@ -97,6 +97,10 @@ def test_parse_empty_generation() -> None:
     assert parse_response("") == ParsedResponse(deduction=None, answer="")
 
 
+def test_parse_deduction_without_answer_gives_empty_answer() -> None:
+    assert parse_response("\nDeduce: foo\n") == ParsedResponse(deduction="foo", answer="")
+
+
 def test_template_parse_uses_its_own_split_marker() -> None:
     template = PromptTemplate.load("qasc/full")
     assert template.parse("Steps: \nAnswer: (A) x").answer == "(A) x"

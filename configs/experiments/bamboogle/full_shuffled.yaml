@@ -1,5 +1,5 @@
 name: bamboogle/full_shuffled
-paper: Table 3
+paper: Table 3, Full (both facts shuffled)
 dataset: bamboogle
 prompt: bamboogle/full
 manipulations:

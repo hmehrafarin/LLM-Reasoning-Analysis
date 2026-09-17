@@ -55,7 +55,9 @@ class PromptTemplate:
         return frozenset(field for _, field, _, _ in parsed if field)
 
     def render(self, values: Mapping[str, object]) -> str:
-        """Build the full prompt for one query; every placeholder must have a non-empty value."""
+        """Build the full prompt for one query; every placeholder must have a value (None is
+        rejected).
+        """
         missing = sorted(field for field in self.fields if values.get(field) is None)
         if missing:
             raise ValueError(f"Prompt {self.name!r} needs {missing} but they are missing or empty")
